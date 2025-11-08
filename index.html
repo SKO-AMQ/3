@@ -278,7 +278,9 @@
         "Gen J Part 1": "Gen J Part 1.txt",
         "AFI C Part 1": "AFI C Part 1.txt",
       },
-      diploma: {}
+      diploma: {
+        "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt"
+      }
     };
 
     let currentTrack = null;
@@ -376,8 +378,8 @@
       }
     }
 
-    // تقسيم النص بحسب =
     function parseTextToQuestions(txt) {
+      // يفصل بين الأسئلة بـ سطر = مثل ما تسوي
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
       for (const block of blocks) {
@@ -440,23 +442,19 @@
       return { correct, wrong, unanswered: questions.length - correct - wrong };
     }
 
-    // هنا التعديل اللي تبيه: كل 10 أسئلة
+    // هنا pager 10-10
     function renderPager(visible) {
       const total = visible.length;
       const current = state.current; // 0-based
       jumpMenu.innerHTML = "";
 
-      // عنوان صغير فوق الأزرار
       const label = document.createElement("div");
       label.className = "pager-label";
       label.textContent = `PAGE ${current + 1} OF ${total}`;
       jumpMenu.appendChild(label);
 
-      // حجم المجموعة
       const groupSize = 10;
-      // رقم السؤال الحالي (1-based)
-      const currentQ = current + 1;
-      // بداية المجموعة
+      const currentQ = current + 1; // 1-based
       const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
       const end = Math.min(start + groupSize - 1, total);
 
@@ -471,18 +469,14 @@
         jumpMenu.appendChild(b);
       };
 
-      // أزرار الأرقام من start إلى end
       for (let n = start; n <= end; n++) {
         makeBtn(n, n - 1, n === currentQ);
       }
 
-      // لو فيه أسئلة بعد هذا النطاق
       if (end < total) {
-        // ... يوديك لأول سؤال في النطاق اللي بعده
         makeBtn("...", end, false);
       }
 
-      // زر LAST PAGE
       makeBtn("LAST PAGE", total - 1, false);
     }
 
