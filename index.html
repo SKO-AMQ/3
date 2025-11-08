@@ -32,7 +32,6 @@
     .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .9rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
-    /* ===== header fixed ===== */
     .top-brand {
       display: flex;
       flex-direction: column;
@@ -52,7 +51,6 @@
     .breadcrumb span { cursor: pointer; }
     .breadcrumb .active { color: #fff; font-weight: 600; }
 
-    /* home / subject */
     .select-title { font-size: 1.2rem; margin-bottom: 1rem; }
     .option-btn, .subject-btn {
       width: 100%; background: #0f172a; border: 1px solid rgba(255,255,255,.025); color: #fff;
@@ -61,7 +59,6 @@
     }
     .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
 
-    /* quiz */
     #quiz-screen { display: none; }
 
     .quiz-title-block {
@@ -95,7 +92,6 @@
       text-align: center;
     }
 
-    /* question header row */
     .q-header-row {
       display: flex;
       gap: .6rem;
@@ -151,7 +147,6 @@
     .choice-btn.correct { color: var(--correct); border-bottom-color: var(--correct); }
     .choice-btn.wrong { color: var(--wrong); border-bottom-color: var(--wrong); }
 
-    /* nav */
     .nav-area {
       margin-top: 2.2rem;
       display: flex;
@@ -176,7 +171,6 @@
     }
     .big-nav:disabled { opacity: .4; cursor: not-allowed; }
 
-    /* pager */
     .pager {
       display: flex;
       gap: .4rem;
@@ -204,9 +198,7 @@
     }
 
     .summary { font-size: .75rem; color: var(--muted); }
-    .summary.done { color: var(--correct); }
 
-    /* mobile tweaks */
     @media (max-width: 640px) {
       .shell { padding-inline: 1rem; }
       .q-header-row { flex-wrap: wrap; }
@@ -221,7 +213,6 @@
   <div class="shell">
     <div class="progress-line"><span id="progressBar"></span></div>
 
-    <!-- fixed brand -->
     <div class="top-brand">
       <div class="name">Alqhtani.</div>
       <div class="sub">دعواتكم ❤️</div>
@@ -233,20 +224,17 @@
       <span data-level="quiz">Quiz</span>
     </div>
 
-    <!-- HOME -->
     <div id="home-screen">
       <div class="select-title">Select what you want</div>
       <button class="option-btn" data-track="associate">Associate diploma</button>
       <button class="option-btn" data-track="diploma">Diploma</button>
     </div>
 
-    <!-- SUBJECTS -->
     <div id="subject-screen" style="display:none">
       <div class="select-title" id="subjectTitleText">Select course</div>
       <div id="subjectList"></div>
     </div>
 
-    <!-- QUIZ -->
     <div id="quiz-screen" style="display:none">
       <div class="quiz-title-block">
         <h1 id="quizTitle">Gen I&K Part 1</h1>
@@ -280,14 +268,15 @@
     </div>
   </div>
 
-  <!-- modal restart -->
-  <div class="modal-overlay" id="restartModal" style="display:none"></div>
-
   <script>
-    // ملفات المواد (HTML ما يقدر يقرأ ملفات الجهاز، هذا مجرد مثال لو كانت الملفات مستضافة جنب الصفحة)
     const SUBJECT_FILES = {
       associate: {
-        "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt"
+        "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt",
+        "Gen I&K Part 2 brightspace 1": "Gen I&K Part 2 brightspace 1.txt",
+        "Gen I&K Part 3 out": "Gen I&K Part 3 out.txt",
+        "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
+        "Gen J Part 1": "Gen J Part 1.txt",
+        "AFI C Part 1": "AFI C Part 1.txt",
       },
       diploma: {}
     };
@@ -387,17 +376,18 @@
       }
     }
 
-    // نفس الطريقة اللي تعودنا عليها: سؤال، بعده 3 اختيارات، وحدة فيها ✅
+    // <-- هنا التصليح
     function parseTextToQuestions(txt) {
-      const blocks = txt.split("=\n").map(b => b.trim()).filter(Boolean);
+      // يقسم على أي سطر فيه = لوحده سواء \n أو \r\n
+      const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
       for (const block of blocks) {
-        const lines = block.split("\n").filter(l => l.trim() !== "");
+        const lines = block.split(/\r?\n/).map(l => l.trim()).filter(l => l !== "" && l !== "=");
         if (lines.length < 2) continue;
-        const questionLine = lines[0].replace(/^\d+[\).-\s]*/, "").trim();
+        const questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
         const choices = [];
         for (let i = 1; i < lines.length; i++) {
-          const raw = lines[i].trim();
+          const raw = lines[i];
           const isCorrect = raw.includes("✅");
           const clean = raw.replace("✅", "").replace(/^[A-C][\).]\s*/, "").trim();
           choices.push({ text: clean, correct: isCorrect });
@@ -410,6 +400,7 @@
       }
       return qs;
     }
+    // -->
 
     function startQuiz(label) {
       state = {
@@ -454,46 +445,33 @@
     function renderPager(visible) {
       const total = visible.length;
       const current = state.current;
-      const container = jumpMenu;
-      container.innerHTML = "";
+      jumpMenu.innerHTML = "";
 
       const label = document.createElement("div");
       label.className = "pager-label";
       label.textContent = `PAGE ${current + 1} OF ${total}`;
-      container.appendChild(label);
+      jumpMenu.appendChild(label);
 
       function addBtn(text, handler, active=false) {
         const b = document.createElement("button");
         b.textContent = text;
         if (active) b.classList.add("active");
         b.addEventListener("click", handler);
-        container.appendChild(b);
+        jumpMenu.appendChild(b);
       }
 
       const showRange = 4;
       for (let i = 0; i < Math.min(showRange, total); i++) {
         addBtn(i+1, () => { state.current = i; render(); }, i === current);
       }
-
       if (total > 10) {
-        addBtn("...", () => {
-          const jumpTo = 9;
-          if (jumpTo < total) { state.current = jumpTo-1; render(); }
-        });
+        addBtn("...", () => { state.current = 9 < total ? 9 : total-1; render(); });
         addBtn("10", () => { state.current = 9; render(); }, current === 9);
-        addBtn("20", () => { if (total > 19) { state.current = 19; render(); } });
-        addBtn("...", () => {
-          const mid = Math.floor(total/2);
-          state.current = mid; render();
-        });
+        addBtn("20", () => { if (total > 19) { state.current = 19; render(); }});
+        addBtn("...", () => { state.current = Math.floor(total/2); render(); });
       }
-
-      addBtn(">", () => {
-        if (state.current < total - 1) { state.current++; render(); }
-      });
-      addBtn("LAST PAGE", () => {
-        state.current = total - 1; render();
-      });
+      addBtn(">", () => { if (state.current < total-1) { state.current++; render(); }});
+      addBtn("LAST PAGE", () => { state.current = total-1; render(); });
     }
 
     function render() {
@@ -512,8 +490,7 @@
         <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
         <div class="chip">Correct: ${correct}</div>
       `;
-      const answeredCount = questions.length - unanswered;
-      progressBar.style.width = Math.round((answeredCount / questions.length) * 100) + "%";
+      progressBar.style.width = Math.round(((questions.length - unanswered) / questions.length) * 100) + "%";
 
       choicesEl.innerHTML = "";
       const saved = state.answers[realIndex] || {};
@@ -525,8 +502,7 @@
         if (saved[i] === "wrong") btn.classList.add("wrong");
         btn.addEventListener("click", () => {
           if (!state.answers[realIndex]) state.answers[realIndex] = {};
-          if (choice.correct) state.answers[realIndex][i] = "correct";
-          else state.answers[realIndex][i] = "wrong";
+          state.answers[realIndex][i] = choice.correct ? "correct" : "wrong";
           render();
         });
         choicesEl.appendChild(btn);
@@ -543,42 +519,34 @@
 
       if (unanswered === 0) {
         summaryBox.textContent = `Done: ${correct} correct, ${wrong} wrong`;
-        summaryBox.classList.add("done");
       } else {
         summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
-        summaryBox.classList.remove("done");
       }
     }
 
     prevBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      if (state.current > 0) {
-        state.current--;
-        render();
-      }
+      if (state.current > 0) { state.current--; render(); }
     });
     nextBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      if (state.current < visible.length - 1) {
-        state.current++;
-        render();
-      }
+      if (state.current < visible.length - 1) { state.current++; render(); }
     });
 
     bookmarkBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
       const realIndex = visible[state.current];
-      const pos = state.bookmarks.indexOf(realIndex);
-      if (pos === -1) state.bookmarks.push(realIndex);
-      else state.bookmarks.splice(pos, 1);
+      const idx = state.bookmarks.indexOf(realIndex);
+      if (idx === -1) state.bookmarks.push(realIndex);
+      else state.bookmarks.splice(idx, 1);
       render();
     });
 
     filterBtn.addEventListener("click", () => {
       if (state.view === "bookmarked") state.view = "all";
       else {
-        const filtered = state.order.filter(i => state.bookmarks.includes(i));
-        if (!filtered.length) { alert("No bookmarked questions."); return; }
+        const has = state.order.filter(i => state.bookmarks.includes(i));
+        if (!has.length) { alert("No bookmarked questions."); return; }
         state.view = "bookmarked";
         state.current = 0;
       }
@@ -586,25 +554,23 @@
     });
 
     reviewBtn.addEventListener("click", () => {
-      const wrongOnes = state.order.filter(i => {
-        const ans = state.answers[i];
-        return ans && Object.values(ans).includes("wrong");
+      const wrongs = state.order.filter(i => {
+        const r = state.answers[i];
+        return r && Object.values(r).includes("wrong");
       });
-      if (!wrongOnes.length) { alert("No wrong answers to review."); return; }
+      if (!wrongs.length) { alert("No wrong answers."); return; }
       if (state.view === "wrong") state.view = "all";
       else { state.view = "wrong"; state.current = 0; }
       render();
     });
 
     restartBtn.addEventListener("click", () => {
-      if (!questions.length) return;
       state.answers = {};
       state.view = "all";
       state.current = 0;
       render();
     });
 
-    // start
     showHome();
   </script>
 </body>
