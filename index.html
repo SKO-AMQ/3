@@ -43,7 +43,6 @@
       margin-bottom: 0.3rem;
       text-align: left;
     }
-    /* سطر واحد */
     .logo-sub {
       color: #f0f0f0;
       font-size: .9rem;
@@ -68,7 +67,6 @@
 
     #subject-screen, #quiz-screen { display: none; }
 
-    /* quiz top */
     .quiz-top {
       display: flex;
       justify-content: space-between;
@@ -101,6 +99,13 @@
       border-radius: 999px;
       font-size: .65rem;
       color: var(--muted);
+    }
+    /* السطرين تحت الدوائر */
+    .fixed-names {
+      margin-top: 1rem;
+      text-align: left;
+      font-size: .8rem;
+      line-height: 1.15;
     }
     .tools {
       display: flex;
@@ -166,7 +171,6 @@
     .choice-btn.correct { color: var(--correct); border-color: var(--correct); }
     .choice-btn.wrong { color: var(--wrong); border-color: var(--wrong); }
 
-    /* nav */
     .nav-area {
       margin-top: 2.6rem;
       display: flex;
@@ -190,7 +194,6 @@
     }
     .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
 
-    /* pagination style */
     .jump-menu {
       display: flex;
       gap: .5rem;
@@ -206,10 +209,7 @@
       font-size: .7rem;
       cursor: pointer;
     }
-    .jump-sm.active {
-      background: #fff;
-      color: #000;
-    }
+    .jump-sm.active { background: #fff; color: #000; }
     .summary { font-size: .75rem; color: var(--muted); }
 
     @media (max-width: 700px) {
@@ -217,6 +217,7 @@
       .q-text { font-size: 1.15rem; }
       .nav-btns { gap: 1.5rem; }
       .nav-btn { width: 140px; text-align: center; }
+      .fixed-names { text-align: left; }
     }
   </style>
 </head>
@@ -254,6 +255,11 @@
         <div class="center-title">
           <div class="quiz-title" id="quizTitle">Quiz</div>
           <div class="info-chips" id="infoChips"></div>
+          <!-- السطرين هنا -->
+          <div class="fixed-names">
+            ابو مسفر<br/>
+            ابوزهره
+          </div>
         </div>
         <div class="tools">
           <div class="icon-btn" id="bookmarkBtn">🔖</div>
@@ -284,7 +290,6 @@
   </div>
 
   <script>
-    // تعريف المواد - كلها داخل associate
     const DATA = {
       associate: {
         label: "Associate diploma",
@@ -299,7 +304,7 @@
       },
       diploma: {
         label: "Diploma",
-        subjects: [] // فاضي حالياً
+        subjects: []
       }
     };
 
@@ -309,7 +314,7 @@
     let currentIndex = 0;
     let answers = {};
     let bookmarks = [];
-    let viewMode = "all"; // all/bookmarked/wrong
+    let viewMode = "all";
 
     const homeScreen = document.getElementById("home-screen");
     const subjectScreen = document.getElementById("subject-screen");
@@ -333,13 +338,11 @@
     const filterBtn = document.getElementById("filterBtn");
     const progressBar = document.getElementById("progressBar");
 
-    // --------------- navigation helpers ---------------
     function showHome() {
       homeScreen.style.display = "block";
       subjectScreen.style.display = "none";
       quizScreen.style.display = "none";
       setBreadcrumb("home");
-      // خروج من اختبار -> مسح التقدم
       questions = [];
       answers = {};
       bookmarks = [];
@@ -379,7 +382,6 @@
       }
     }
 
-    // --------------- text loader ---------------
     async function loadSubjectFromText(sub) {
       try {
         const res = await fetch(encodeURI(sub.file));
@@ -396,7 +398,6 @@
       }
     }
 
-    // parser: يفصل بالعلامة =
     function parseTxtToQuestions(txt) {
       const blocks = txt.split("=").map(b => b.trim()).filter(Boolean);
       const out = [];
@@ -425,7 +426,6 @@
       return out;
     }
 
-    // --------------- render ---------------
     function getVisibleOrder() {
       const order = [...questions.keys()];
       if (viewMode === "all") return order;
@@ -506,11 +506,9 @@
         choicesEl.appendChild(btn);
       });
 
-      // nav buttons
       prevBtn.disabled = currentIndex === 0;
       nextBtn.disabled = currentIndex === visible.length - 1;
 
-      // pager
       buildPagination(visible.length, currentIndex);
 
       if (unanswered === 0) {
@@ -519,7 +517,6 @@
         summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
       }
 
-      // bookmark toggle
       bookmarkBtn.classList.toggle("active", bookmarks.includes(realIndex));
       filterBtn.classList.toggle("active", viewMode === "bookmarked");
       reviewBtn.classList.toggle("active", viewMode === "wrong");
@@ -532,7 +529,6 @@
       pageLabel.textContent = `PAGE ${current + 1} OF ${total}`;
       jumpMenu.appendChild(pageLabel);
 
-      // نعرض 1..4 ثم كل 10 ثم > ثم last
       for (let i = 0; i < Math.min(4, total); i++) {
         const b = document.createElement("button");
         b.className = "jump-sm" + (i === current ? " active" : "");
@@ -541,7 +537,6 @@
         jumpMenu.appendChild(b);
       }
 
-      // نقطة
       if (total > 10) {
         const dots1 = document.createElement("button");
         dots1.className = "jump-sm";
@@ -549,7 +544,6 @@
         dots1.disabled = true;
         jumpMenu.appendChild(dots1);
 
-        // 10 و 20
         const ten = document.createElement("button");
         ten.className = "jump-sm" + (9 === current ? " active" : "");
         ten.textContent = "10";
@@ -569,7 +563,6 @@
         jumpMenu.appendChild(dots2);
       }
 
-      // زر > 
       if (current < total - 1) {
         const nextPage = document.createElement("button");
         nextPage.className = "jump-sm";
@@ -578,7 +571,6 @@
         jumpMenu.appendChild(nextPage);
       }
 
-      // last
       if (total > 1) {
         const last = document.createElement("button");
         last.className = "jump-sm";
@@ -588,7 +580,6 @@
       }
     }
 
-    // --------------- events ---------------
     document.querySelectorAll(".option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
         currentTrack = btn.dataset.track;
@@ -643,7 +634,6 @@
       render();
     });
     restartBtn.addEventListener("click", () => {
-      // reset current quiz only
       answers = {};
       bookmarks = [];
       currentIndex = 0;
@@ -651,7 +641,6 @@
       render();
     });
 
-    // start
     showHome();
   </script>
 </body>
