@@ -379,7 +379,6 @@
     }
 
     function parseTextToQuestions(txt) {
-      // يفصل بين الأسئلة بـ سطر = مثل ما تسوي
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
       for (const block of blocks) {
@@ -442,10 +441,10 @@
       return { correct, wrong, unanswered: questions.length - correct - wrong };
     }
 
-    // هنا pager 10-10
+    // pager 10-10
     function renderPager(visible) {
       const total = visible.length;
-      const current = state.current; // 0-based
+      const current = state.current;
       jumpMenu.innerHTML = "";
 
       const label = document.createElement("div");
@@ -454,7 +453,7 @@
       jumpMenu.appendChild(label);
 
       const groupSize = 10;
-      const currentQ = current + 1; // 1-based
+      const currentQ = current + 1;
       const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
       const end = Math.min(start + groupSize - 1, total);
 
@@ -570,10 +569,22 @@
       render();
     });
 
+    // دالة خلط بسيطة
+    function shuffleArray(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    // زر الإعادة ↩
     restartBtn.addEventListener("click", () => {
       state.answers = {};
+      state.bookmarks = [];
       state.view = "all";
       state.current = 0;
+      state.order = shuffleArray([...questions.keys()]);
       render();
     });
 
