@@ -1,0 +1,71 @@
+ Characteristics of MIL-H-7644 hydraulic fluid are
+red color, petroleum base, will burn, synthetic rubber seals.
+light purple color, phosphate ester base, fire resistant, butyl rubber seals.
+blue color, vegetable base, will burn, natural rubber seals. ✅
+
+=
+ Characteristics of MIL-H-8446 (Skydrol 500 A & B) hydraulic fluid are
+blue color, phosphate ester base, fire resistant, butyl rubber seals.
+light purple color, phosphate ester base, fire resistant, butyl rubber seals. ✅
+light green color, phosphate ester base, fire resistant, butyl rubber seals.
+
+=
+ The component in the hydraulic system that is used to direct the flow of fluid is the
+check valve.
+orifice check valve.
+selector valve. ✅
+
+=
+What type of valve in an aircraft hydraulic system permits fluid to flow freely in one direction, but restricts the rate at which fluid is allowed to flow in the other direction?
+Check valve.
+Orifice restrictor.
+Orifice check valve. ✅
+=
+
+Characteristics of MIL-H-5606 hydraulic fluid are
+light purple color, phosphate ester base, fire resistant, uses butyl rubber seals.
+blue color, will burn, uses natural rubber seals.
+red color, petroleum base, will burn, uses synthetic rubber seals. ✅
+=
+
+ The unit which causes one hydraulic operation to follow another in a definite order is called a
+selector valve.
+sequence valve. ✅
+shuttle valve.
+=
+
+ Pneumatic systems utilize
+return lines.
+relief valves. ✅
+diluter valves.
+=
+
+ Petroleum base hydraulic fluid is which color?
+Purple.
+Blue.
+Red. ✅
+=
+
+ Which allows free fluid flow in one direction and no fluid flow in the other direction?
+Check valve. ✅
+Metering piston.
+Shutoff valve.
+
+=
+ The hydraulic component that automatically directs fluid from either the normal source or an emergency source to an actuating cylinder is called a
+bypass valve.
+shuttle valve. ✅
+crossflow valve.
+=
+
+ What is commonly used to connect an emergency source of power, and at the same time disconnect the normal hydraulic source from critical parts of a landing gear or wheel braking system for operation (usually when the normal source system fails)?
+Selector valve.
+Shuttle valve. ✅
+Sequence valve.
+=
+
+ Select the valve used in a hydraulic system that directs pressurized fluid to one end of an actuating cylinder and simultaneously directs return fluid to the reservoir from the other end.
+Sequence.
+Shuttle.
+Selector. ✅
+=
