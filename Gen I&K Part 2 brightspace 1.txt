@@ -1,0 +1,202 @@
+What are the primary regulations, "The BIG three" that govern airworthiness of aircraft?
+14CFR part 21, 14CFR part 43, 14 CFR part 91 ✅
+14CFR part 1, 14CFR part 45, 14 CFR part 91
+14CFR part 1, 14CFR part 143, 14 CFR part 91
+
+=
+
+Which of the following is an acceptable data?
+AD Notes, STCs, TCDS's
+Manufacturers maintenance manuals, AC 43.13 1 ✅
+None of the above
+
+=
+
+What does CFR stand for?
+Code of Federal Rights
+Certification of Federal Regulations
+Code of Federal Regulations ✅
+
+=
+
+Which of the following must be addressed in a maintenance entry?
+Both A & B ✅
+A description of the work performed
+Date the work was completed
+
+=
+
+Choose the correct statement regarding the repair or alteration that does not have previously approved data.
+Technician may request that the FAA accomplish a Field Approval.
+Technician completes the front side of Form 337
+Both A & B ✅
+
+=
+
+Which part of 14CFR identifies the requirements for Repair stations?
+Part 147
+Part 33
+Part 145 ✅
+
+=
+
+State True or False: Special Federal Aviation Regulations (SFAR) are frequently focused very specifically on a unique situation, and are usually given a limited length of time for effectiveness
+True ✅
+False
+
+=
+
+Under what circumstance is an AD issued?
+When an existing part is modified and it requires approval by the FAA
+Both A& B.
+Wear or failure represents an unsafe condition, and that the condition is likely to exist in other product of the same type of design ✅
+
+=
+
+State true or false: Preventive maintenance work may be accomplished by the holder of at least a private pilot certificate provided he or she is the owner or operator of that aircraft, and it is not operated under part 121, 129, or 135.
+True ✅
+False
+
+=
+
+Which part of 14CFR identifies the requirements for Aircraft registration?
+Part 33
+Part 27
+Part 47 ✅
+
+=
+
+Which of the following is contained in 14CFR part 21?
+Certification of Airmen
+Certification Procedures for Products and Parts ✅
+General operating flight rules
+
+=
+
+How many regulations fall under Title 14, Aeronautics and Space?
+30
+68 ✅
+5
+
+=
+
+What is the time interval to carry out Altimeter System Test and Inspection?
+• 12 months
+• 6 months
+• 24 months ✅
+
+=
+
+State True or False Returning an aircraft component of an aircraft to service after maintenance, preventive maintenance, rebuilding or alteration must be done by creating an appropriate maintenance record entry as required
+True ✅
+False
+
+=
+
+State true or false A rebuilt item must be tested to the same tolerances and limits as a new item
+True ✅
+False
+
+=
+
+Which of the following information's are included in an AD?
+Both A & B ✅
+A compliance time
+The AD effective date
+
+=
+
+State true or false Airworthy means the aircraft conforms to its type design and is in a condition for safe operation.
+True
+False
+
+=
+
+How long the records of maintenance activity from repair station must be kept?
+
+Minimum 2 years ✅
+Minimum 5 years
+Minimum 10 years
+
+=
+
+Which of the form must be used if the maintenance action was a major repair or a major alteration.
+
+•FAA form 337 ✅
+• FAA form 45
+• FAA form 33
+
+=
+
+State true or false A major repair/alteration is typically one that might appreciably affect weight, balance, structural strength, performance, powerplant operation, flight characteristics.
+True ✅
+False
+
+=
+
+Which part of 14CFR identifies the requirements for Aviation Maintenance Technician Schools?
+Part 147 ✅
+Part 33
+Part 145
+
+=
+
+Which of the following listed persons may sign return to service?
+
+Holder of a repair station certificate.
+Both A & B ✅
+Manufacturer
+
+=
+
+What is the time interval to carry out ATC Transponder Tests and Inspections?
+12 months
+6 months
+24 months ✅
+
+=
+
+Which of the following is an approved data?
+
+Manufacturers' maintenance manuals, AC 43.13 1
+None of the above
+AD Notes, STCs, TCDS's ✅
+
+=
+
+Which of the following steps should be understood by a technician when maintenance action is being planned?
+What type of documentation will be required to support this activity
+Both A & B ✅
+How that work is classified by the FAA
+
+=
+
+Who issues an Airworthiness Directive?
+
+Aircraft Manufacturer
+Aircraft Operator
+FAA ✅
+
+=
+
+To whom should you send the original FAA form 337?
+Aircraft manufacturer
+Aircraft Owner ✅
+Aircraft Mechanic
+
+=
+
+Which part of 14CFR identifies the requirements for Certification of Airmen Other Than Flight Crewmembers?
+
+Part 65 ✅
+Part 38
+Part 47
+
+=
+
+How many copies of FAA form 337 must be made?
+2 ✅
+6
+5
+
+=

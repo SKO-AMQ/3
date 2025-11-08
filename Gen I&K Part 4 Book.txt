@@ -1,0 +1,229 @@
+1) The Federal Aviation Administration (FAA) regulations that govern today’s aircraft are found where?
+A) found in Title 13 of the Civil Aviation Rules.
+B) found in Title 14 of the Code of Federal Regulations (14 CFR). ✅
+C) found in Title 12 of the National Aviation Policies.
+=
+2) The purpose of an Airworthiness Directive (AD) is to?
+A) notify aircraft owners of unsafe conditions and prescribe corrective action. ✅
+B) approve design data for supplemental type certificates.
+C) provide general maintenance recommendations.
+=
+3) The Type Certificate Data Sheet (TCDS) contains?
+A) a list of ADs and maintenance intervals.
+B) information on the type design, limitations, and specifications. ✅
+C) airworthiness inspection records only.
+=
+4) What does an FAA Form 337 record?
+A) major repairs and major alterations. ✅
+B) preventive maintenance tasks only.
+C) weight and balance recalculations.
+=
+5) The holder of a mechanic certificate may not exercise the privileges unless?
+A) he or she has completed at least 6 months of employment in the preceding 24 months. ✅
+B) the certificate has been renewed by the local FSDO every year.
+C) he or she has attended a recurrent training seminar each month.
+=
+6) Which part of 14 CFR deals with maintenance, preventive maintenance, rebuilding, and alteration?
+A) Part 65.
+B) Part 43. ✅
+C) Part 21.
+=
+7) Which part of 14 CFR deals with certification of aircraft and products?
+A) Part 21. ✅
+B) Part 145.
+C) Part 91.
+=
+8) A supplemental type certificate (STC) authorizes?
+A) a design change to an aircraft, engine, or propeller. ✅
+B) a change in ownership or registration.
+C) a temporary exemption from airworthiness standards.
+=
+9) Who is primarily responsible for maintaining an aircraft in an airworthy condition?
+A) the pilot in command.
+B) the owner or operator. ✅
+C) the certificated mechanic only.
+=
+10) When must a maintenance record entry be made for preventive maintenance?
+A) after the work has been completed. ✅
+B) before the next scheduled flight.
+C) at the next annual inspection.
+=
+11) Which regulation prescribes the requirements for maintenance record entries?
+A) 14 CFR Part 91.
+B) 14 CFR Part 43. ✅
+C) 14 CFR Part 65.
+=
+12) A major alteration must be performed in accordance with?
+A) technical data approved by the Administrator. ✅
+B) any data provided by the manufacturer.
+C) advisory circular recommendations only.
+=
+13) What maintenance record entry is required when an appliance is removed and replaced?
+A) a record of removal, replacement, and the total time in service. ✅
+B) a weight and balance entry only.
+C) an airworthiness certificate renewal.
+=
+14) What is the maximum duration of an aircraft’s airworthiness certificate?
+A) It remains valid as long as the aircraft meets its approved type design and condition. ✅
+B) Five years after issuance.
+C) Until the aircraft reaches 10,000 hours total time.
+=
+15) Which records must be transferred with the aircraft when sold?
+A) only the current engine logbook.
+B) the maintenance records showing the current status of ADs and major repairs. ✅
+C) weight and balance forms only.
+=
+16) What is preventive maintenance?
+A) simple or minor preservation operations not involving complex assembly operations. ✅
+B) any work performed under a type certificate.
+C) major repairs and major alterations.
+=
+17) Who can perform preventive maintenance?
+A) a pilot-owner for aircraft operated under Part 91. ✅
+B) only a certificated mechanic.
+C) any person supervised by a repairman.
+=
+18) Which part of 14 CFR deals with certification of airmen other than flight crew members?
+A) Part 65. ✅
+B) Part 147.
+C) Part 43.
+=
+19) When may a person perform maintenance on an aircraft they own?
+A) only if they hold an appropriate mechanic certificate. ✅
+B) with the approval of the local FSDO.
+C) if the aircraft is operated under Part 145.
+=
+20) How long must maintenance records be retained for work performed on an aircraft?
+A) until the work is repeated or superseded by other work. ✅
+B) for the lifetime of the aircraft.
+C) for 12 months after completion.
+=
+21) When is a 100-hour inspection required?
+A) when the aircraft is operated for hire or flight instruction. ✅
+B) on all aircraft operated under Part 91.
+C) only during annual inspections.
+=
+22) What is the difference between a 100-hour inspection and an annual inspection?
+A) the person authorized to return the aircraft to service. ✅
+B) the inspection checklist used.
+C) the inspection items covered.
+=
+23) Who can approve an aircraft for return to service after an annual inspection?
+A) a certificated mechanic with inspection authorization. ✅
+B) any certificated mechanic.
+C) the pilot-owner.
+=
+24) Who can approve an aircraft for return to service after a 100-hour inspection?
+A) a certificated mechanic. ✅
+B) a repairman under supervision.
+C) a pilot-owner holding a private certificate.
+=
+25) When a mechanic signs the maintenance record for work performed, what is the mechanic certifying?
+A) that the work was performed in accordance with applicable data and is approved for return to service. ✅
+B) that the aircraft is safe for flight.
+C) that the aircraft’s airworthiness certificate is renewed.
+=
+26) When must a mechanic display their certificate?
+A) upon request by the Administrator or authorized representative. ✅
+B) only during employment interviews.
+C) whenever performing preventive maintenance.
+=
+27) When can the FAA issue a repairman certificate?
+A) to a person employed and recommended by a certificated repair station. ✅
+B) to any person with 18 months of general aviation experience.
+C) to a student mechanic upon graduation.
+=
+28) What is the duration of a mechanic certificate?
+A) it is effective until surrendered, suspended, or revoked. ✅
+B) five years from the date of issue.
+C) until re-examination is required.
+=
+29) What part of 14 CFR contains the rules for issuing Airworthiness Certificates?
+A) Part 21. ✅
+B) Part 65.
+C) Part 43.
+=
+30) Which document defines the equipment and operating limitations of a certificated aircraft?
+A) the Type Certificate Data Sheet (TCDS). ✅
+B) the maintenance manual.
+C) the aircraft flight log.
+=
+31) What document must be carried in an aircraft during flight?
+A) airworthiness certificate and registration certificate. ✅
+B) weight and balance data only.
+C) maintenance logbooks.
+=
+32) What is the purpose of a Supplemental Type Certificate (STC)?
+A) to approve a major design change not covered under the original type certificate. ✅
+B) to renew the airworthiness certificate.
+C) to authorize aircraft ownership transfer.
+=
+33) What information is found in the aircraft maintenance records?
+A) details of maintenance, preventive maintenance, and alterations. ✅
+B) fuel consumption logs.
+C) flight time summaries.
+=
+34) What does a mechanic’s certificate with both airframe and powerplant ratings allow?
+A) the performance of maintenance, preventive maintenance, and alterations on airframes and powerplants. ✅
+B) inspection authorization for annual inspections.
+C) issuing of airworthiness directives.
+=
+35) When must an aircraft’s registration certificate be renewed?
+A) every three years. ✅
+B) annually.
+C) every five years.
+=
+36) How long is a temporary airworthiness certificate valid?
+A) 120 days. ✅
+B) 30 days.
+C) 180 days.
+=
+37) What is the purpose of a Technical Standard Order (TSO)?
+A) it prescribes the minimum performance standards for specified materials, parts, and appliances. ✅
+B) it authorizes the operation of aircraft under experimental category.
+C) it specifies requirements for maintenance facilities.
+=
+38) When is a special flight permit required?
+A) when an aircraft is not airworthy but capable of safe flight to a repair location. ✅
+B) when operating under visual flight rules.
+C) for ferrying an aircraft after overhaul only.
+=
+39) What is a repair station certificate issued for?
+A) for the maintenance and alteration of aircraft or components. ✅
+B) to approve pilot training programs.
+C) to authorize airworthiness inspections only.
+=
+40) When must an aircraft mechanic report a change of permanent mailing address to the FAA?
+A) within 30 days after the change. ✅
+B) within 90 days after the change.
+C) before performing any further maintenance work.
+=
+41) Who may perform maintenance on an instrument installed in a certificated aircraft?
+A) a certificated repair station appropriately rated for that instrument. ✅
+B) a pilot-owner.
+C) any certificated mechanic with airframe rating.
+=
+42) What must a mechanic do if a discrepancy is found during inspection and not corrected?
+A) make a maintenance record entry describing the discrepancy. ✅
+B) submit a report to the local FSDO.
+C) issue a temporary airworthiness certificate.
+=
+43) What is an Airworthiness Directive (AD) considered to be?
+A) a regulation issued by the FAA to correct unsafe conditions. ✅
+B) a manufacturer’s recommendation.
+C) a maintenance advisory circular.
+=
+44) When may a mechanic perform a return-to-service inspection on a propeller?
+A) when rated for powerplant or propeller and authorized by the manufacturer. ✅
+B) when holding only an airframe rating.
+C) with approval from the owner or operator.
+=
+45) What must be done before returning an aircraft to service after a major repair?
+A) the repair must be inspected and approved by a mechanic with IA. ✅
+B) the repair station must issue a new airworthiness certificate.
+C) a new registration must be obtained.
+=
+46) What is the minimum age requirement for a mechanic certificate?
+A) 18 years. ✅
+B) 21 years.
+C) 17 years.

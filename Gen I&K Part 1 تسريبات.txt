@@ -1,0 +1,360 @@
+An FAA Form 337 is used to record and document
+reventive and unscheduled maintenance and special inspections.
+major and minor repairs, and major and minor alterations.
+major repairs and major alterations. ✅
+
+=
+
+When is a mechanic responsible for checking AD compliance?
+
+Never, the owner or operator is solely responsible.
+When performing an inspection required under part 91, 125, or 135. ✅
+Anytime an aircraft or portion thereof is returned to service.
+
+=
+
+14 CFR Part 65 contains regulations regarding the certification of
+pilots, flight Instructors, and ground instructors.
+airmen other than flight crewmembers. ✅
+flight crewmembers other than pilots.
+
+=
+
+If more space is needed for a work description entered on FAA Form 337, what information should be included on the attached sheets), in addition to the rest of the work description?
+Make, model, and serial number of the aircraft.
+Aircraft nationality and registration mark, and the date the work was accomplished. ✅
+Name, date, and office designator of the FAA inspector from the supervising office
+
+=
+
+Under the Federal Aviation Regulations, an aviation maintenance technician is required to perform maintenance on an aircraft so that it
+always meets its original type design.
+is at least equal to its original or properly altered condition. ✅
+exceeds minimum standards with regard to aerodynamic function, structural strength, resistance to vibration, and other qualities affecting airworthiness.
+
+=
+
+An aircraft mechanic is privileged to perform major alterations on U.S. certificated aircraft; however, the work must be done in accordance with FAA✅approved technical data before the aircraft can be returned to service. Which is NOT approved data?
+
+Airworthiness Directives.
+AC 43.13✅2A. ✅
+Supplemental Type Certificates.
+
+=
+
+Type Certificate Data Sheets are issued for which of the following products?
+Aircraft, engines, and propellers. ✅
+Aircraft, engines, and appliances.
+Aircraft, engines, propellers, and appliances
+
+=
+
+The Air Transport Association of America (ATA) Specification No. 100 (1) establishes a standard for the presentation of technical data in maintenance manuals. (2) divides the aircraft into numbered systems and subsystems in order to simplify locating maintenance instructions. Regarding the above statements,
+both 1 and 2 are true. ✅
+neither 1 nor 2 is true.
+only 1 is true.
+
+=
+
+What is the means by which the FAA notifies aircraft owners and other interested persons of unsafe conditions and prescribes the condition under which the product may continue to be operated?
+Airworthiness Directives. ✅
+Aviation Maintenance Alerts
+Aviation Safety Data
+
+=
+
+When approving for return to service after maintenance or alteration, the approving person must enter in the maintenance record of the aircraft
+the date the maintenance or alteration was begun, a description (or reference to acceptable data) of work performed, the name of the person performing the work (if someone else), signature, and certificate number.
+a description (or reference to acceptable data) of work performed. date of completion, the name of the person performing the work (if someone else), signature, and certificate number.
+a description (or reference to acceptable datal of work performed date of completion, the name of the person performing the work (if someone else), sionature, certificate number and kind of certificate held. ✅
+
+=
+
+What is the maintenance recording responsibility of the person who complies with an Airworthiness Directive?
+Advise the aircraft owner/operator of the work performed.
+Make an entry in the maintenance record of that equipment. ✅
+Advise the FAA office of the work performed, by submitting an FAA Form 337.
+
+=
+
+Which statement is true regarding the use of FAA Form 337?
+FAA Fom 337 is authorized for use with both U.S. and wreign registered aircraft.
+FAA Form 337 is authorized for use with U.S. registered aircraft, and foreign registered aircraft when located in the United States.
+FAA Fomm 337 is not authorized for use with other than U.S. registered aircraft. ✅
+
+=
+
+When an airworthy (at the time of sale) aircraft is sold, the Airworthiness Certificate
+becomes invalid until the aircraft is reinspected and approved for return to service
+is voided and a new certificate is issued upon application by the new owner ✅
+is on board and displayed at the cabin or cockpit entrance and is transferred with the aircraft
+
+=
+
+
+With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
+. LSA Repairman
+. A&P
+. Repair Station
+
+1 and 2 only
+1 only
+1, 2 and 3 ✅
+
+=
+
+For aircraft operated under part 91, what difference is there, if any, between the record entry requirements for maintenance (e.g., repair or alteration) and the record entry requirements for inspections (beyond the description of the work performed and the type and extent of inspection)? For aircraft operated under part 91, what difference is there, if any, between the record entry requirements for maintenance (e.g., repair or alteration) and the record entry requirements for inspections (beyond the description of the work performed and the type and extent of inspection)?
+
+There is no difference
+Aircraft total time is required to be included only in the inspection entry ✅
+Aircraft total time is required to be included only in the maintenance entry.
+
+=
+
+What is the means by which the FAA notifies aircraft owners and other interested persons of unsafe conditions and prescribes the condition under which the product may continue to be operated?
+
+Airworthiness Alerts
+Aviation Safety Data
+Airworthiness Directives ✅
+
+=
+
+Type Certificate Data Sheets are issued for which of the following products?
+Aircraft, engines, propellers, and appliances.
+Aircraft, engines, and appliances.
+Aircraft, engines, and propellers ✅
+
+=
+
+e Air Transport Association of America (ATA) Specificati
+(1) establishes a standard for the presentation of technical 
+(2) divides the aircraft into numbered systems and subsyst maintenance instructions.
+Regarding the above statements,
+
+only No. 1 is true.
+neither No. 1 nor No. 2 is true. ✅
+both No. 1 and No. 2 are true.
+
+=
+
+
+(1) Manufacturer's data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data.
+(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,
+
+both No. 1 and No. 2 are true
+only N. 1 is true
+only No. 2 is true. ✅
+
+=
+
+A person installing a product, part, or appliance on a type certificated product must make certain that the item's records document what type of statement?
+
+The product, part, or material meets FAA airworthiness.standards ✅
+A product produced by an owner or operator does not need a statement
+The product or material was not produced under an FAA production approval.
+
+=
+
+ 
+Who is responsible for making the entry in the maintenance records after an annual, 100 hour, or proaressive inspection?
+
+The person approving or disapproving for return to service ✅
+The designee or inspector representing the FAA Administrator.
+The owner or operator of the aircraft
+
+=
+
+Where is the record of compliance with Airworthiness Directives or manufacturers' service bulletins normally indicated?
+FAA FOorm 337.
+Aircraft maintenance records ✅
+Flight manual.
+
+=
+
+
+Where should you find this entry? 'Removed right wing from aircraft and removed skin from outer 6 feet. Repaired buckled spar 49 inches from tip in accordance with figure 8 in the manufacturer's structural repair manual
+
+Aircraft engine maintenance record.
+Aircraft minor repair and alteration record.
+FAA Form 337 ✅
+
+=
+
+
+What is/are the appropriate action(s) concerning minor repairs performed on a certificated aircraft?
+
+1. FAA Form 337 must be completed.
+2. Entries must be made in the aircraft's maintenance record.
+3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+
+2✅
+1and2
+2and3
+
+=
+
+ 
+Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service?
+1. A 100 hour inspection.
+2. An annual inspection, under specified circumstances.
+3. A progressive inspection, under specified circumstances
+
+1.2
+1.3 ✅
+1.2and3
+
+=
+
+Which is an appliance major repair?
+Overhaul of a hydraulic pressure pump ✅
+Repairs to a propeller governor or its control.
+Troubleshooting and repairing broken circuits in landing light circuits
+
+=
+ 
+Which statement is true regarding the use of FAA Form 337?
+
+FAA Form 337 is authorized for use with U.S. registered aircraft, and foreign registered aircraft when located in the United States.
+FAA Fom 337 is authorized for use with both U.S. and wreign registered aircraft.
+FAA Fomm 337 is not authorized for use with other than U.S. registered aircraft. ✅
+
+=
+ 
+When an airworthy (at the time of sale) aircraft is sold, the Airworthiness Certificate
+
+becomes invalid until the aircraft is reinspected and approved for return to service
+is voided and a new certificate is issued upon application by the new owner ✅
+is on board and displayed at the cabin or cockpit entrance and is transferred with the aircraft
+
+=
+ 
+With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
+1. LSA Repairman
+2. A&P
+3. Repair Station.
+
+1 and 2 only
+1 only
+1, 2 and 3 ✅
+
+=
+
+For aircraft operated under part 91, what difference is there, if any, between the record entry requirements for maintenance (e.g., repair or alteration) and the record entry requirements for inspections (beyond the description of the work performed and the type and extent of inspection)? For aircraft operated under part 91, what difference is there, if any, between the record entry requirements for maintenance (e.g., repair or alteration) and the record entry requirements for inspections (beyond the description of the work performed and the type and extent of inspection)?
+
+There is no difference
+Aircraft total time is required to be included only in the inspection entry ✅
+Aircraft total time is required to be included only in the maintenance entry.
+
+=
+
+What is the means by which the FAA notifies aircraft owners and other interested persons of unsafe conditions and prescribes the condition under which the product may continue to be operated?
+
+Airworthiness Alerts
+Aviation Safety Data
+Airworthiness Directives ✅
+
+=
+
+Type Certificate Data Sheets are issued for which of the following products?
+
+Aircraft, engines, propellers, and appliances.
+Aircraft, engines, and appliances.
+Aircraft, engines, and propellers ✅ 
+
+=
+
+ 
+Who did the FAA look to develop a comprehensive list of standards for the Light Sport Aircraft (LSA)industry?
+
+The American Society for Testing and Materials (ASTM) ✅
+The Light Sport Aircraft Association of America (LSAAA)
+The American Recreational Aircraft Association (ARAA)
+
+=
+
+The Air Transport Association of America (ATA) Specificati (1) establishes a standard for the presentation of technical (2) divides the aircraft into numbered systems and subsyst maintenance instructions.
+only No. 1 is true.
+neither No. 1 nor No. 2 is true.
+both No. 1 and No. 2 are true. ✅
+
+=
+
+
+(1) Manufacturer's data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data.
+(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,
+
+both No. 1 and No. 2 are true
+only N. 1 is true
+only No. 2 is true. ✅
+
+=
+
+A person installing a product, part, or appliance on a type certificated product must make certain that the item's records document what type of statement?
+The product, part, or material meets FAA airworthiness.standards ✅
+A product produced by an owner or operator does not need a statement
+The product or material was not produced under an FAA production approval.
+
+=
+
+
+Who is responsible for making the entry in the maintenance records after an annual, 100 hour, or proaressive inspection?
+The person approving or disapproving for return to service ✅
+The designee or inspector representing the FAA Administrator.
+The owner or operator of the aircraft
+
+=
+
+Where is the record of compliance with Airworthiness Directives or manufacturers' service bulletins normally indicated?
+FAA FOorm 337.
+Aircraft maintenance records ✅
+Flight manual.
+
+=
+
+ 
+Where should you find this entry?'Removed right wing from aircraft and removed skin from outer 6 feet. Repaired buckled spar 49 inches from tip in accordance with figure 8 in the manufacturer's structural repair manual No. 28✅1.'
+
+Aircraft engine maintenance record.
+Aircraft minor repair and alteration record.
+FAA Form 337. ✅
+
+=
+
+ 
+What is/are the appropriate action(s) concerning minor repairs performed on a certificated aircraft?
+1. FAA Form 337 must be completed.
+2. Entries must be made in the aircraft's maintenance record.
+3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+
+2 ✅
+1and2
+2and3
+
+=
+
+An aircraft was not approved for return to service after an annual inspection and the owner wanted to fly the aircraft to another maintenance base. Which statement is correct?
+
+The owner must obtain a special flight permit. ✅
+The owner may fly without restriction up to 10 hours.
+The owner may fly in the restricted category up to 10 hours.
+
+=
+
+
+Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service?
+1. A 100-hour inspection.
+2. An annual inspection, under specified circumstances.
+3. A progressive inspection, under specified circumstances.
+
+1.2
+1.3 ✅
+1.2and3
+
+=
+
+Which is an appliance major repair?
+
+Overhaul of a hydraulic pressure pump ✅
+Repairs to a propeller governor or its control.
+Troubleshooting and repairing broken circuits in landing light circuits
+=

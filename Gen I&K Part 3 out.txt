@@ -1,0 +1,77 @@
+=
+    1- What dose (14 CFR) mean✅    P1
+    A- Title 14 of the Civil of Federal Regulations.
+    B- Title 14 of the Code of Federal Regulations. ✅
+    C- Title 14 of the Code of Flight Regulations.
+=
+    2- Regulation 14 CFR Part 43 is✅
+    A- Certification Procedures for Products and Parts
+    B- General Operating and Flight Rules
+    C- Maintenance, Preventive Maintenance, Rebuilding, and Alterations ✅
+=
+    3- Aircraft certificated under part 23 represent the greatest portion of what the industry refers to as (general aviation). (True or false)
+    A- True ✅
+    B- False 
+=
+    4- What is the regulation representing the heart of aviation maintenance✅
+    A- 14 CFR Part 91—General Operating and Flight Rules
+    B- 14 CFR Part 43 — Maintenance, Preventive Maintenance, Rebuilding, and Alterations ✅
+    C- 14 CFR Part 25—Airworthiness Standards: Transport Category Airplanes
+=
+    5-  In requirements for obtaining a maintenance training certificate, who many curriculum hours required for both airframe and powerplant ratings✅
+    A- 1,150 hours
+    B- 1,900 hours. ✅
+    C- 2,300 hours
+=
+    6- If the maintenance accomplished was a major repair or alteration (both of which require supporting approved data), the work must be documented on✅
+    A- FAA Form 8130-6.
+    B- FAA Form 8100-2.
+    C- FAA Form 337. ✅
+=
+    7- The FAA issues advisory circulars to inform the aviation public in a systematic way of regulatory material. (true or false)
+    A- True.
+    B- False. ✅
+    8-  When Airworthiness Directives (ADs) are issued✅
+    A- When a document contains the specifications and data for certificated aircraft when the number of registered aircraft is 50 or fewer.
+    B- When a supplemental type certificate (STC) is a document issued by the FAA approving a product (aircraft, engine, or propeller) modification.
+    C- the FAA issues airworthiness directives in response to deficiencies and/or unsafe conditions found in aircraft, engines, propellers, or other aircraft parts. ✅
+=
+    9- The TCDS is a formal description of the aircraft, engine, or propeller. It lists limitations and information required for type certification including airspeed limits, weight limits, thrust limitations. (TRUE OR FALSE)
+    A- True. ✅
+    B- False.
+=
+    10- When the FAA issues a type certificate✅
+    A- when a new aircraft, engine, propeller, and so forth, is found to meet safety standards set forth by the FAA. -
+    B- When the specifications, conditions, and limitations under which airworthiness requirements were met for the specified product.
+    C- When a monthly electronic publication of the FAA that provides information concerning malfunction or defects observed by technicians throughout the aviation industry.
+    11- To standardize the technical data and maintenance activities on large and therefore complex aircraft, the ATA has established a classification of maintenance related actions. These are not arranged with sequential numbers assigned to ATA chapters. (true or false)
+    A- True.
+    B- False. ✅
+=
+    12- The original equipment manufacturer (OEM) is usually the best source of information for the operation of and maintenance on a particular product. (true or false)
+    A- True ✅
+    B- False
+=
+    13- What is Structural Repair Manual (SRM)✅
+    A- Manual that provides information concerning the maintenance (including troubleshooting and repair) of the aircraft and systems on the aircraft.
+    B- manual that carries detail information for the technician concerning an aircraft’s primary and secondary structure, criteria for evaluating the severity of the detected damage, determining the feasibility of a repair, and alignment/inspection information. ✅
+    C- Manual that focus on a specific item or component such as hydraulic pump, generator, or thrust reverser.
+=
+    14- Temporary Records, These are records that must be kept by the owner until the work is repeated, superseded, or 1 year has transpired since the work was performed. (true or false).
+    A- True. ✅
+    B- False.
+=
+  
+
+
+
+
+   
+
+
+
+
+ 
+
+    
+

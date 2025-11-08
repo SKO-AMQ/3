@@ -1,0 +1,493 @@
+An increase in the speed at which an aerofoil passes through the air, increases lift because:
+A. the increasea speed of the airflow creates a greater pressure differential between the upper and lower surfaces. ✅
+B. the increased speed of the airflow creates a lesser pressure differential between the upper and lower surfaces.
+C. the increased velocity of the relative wind increases the angle of attack.
+
+=
+The elevator attached to the horizontal stabilizer is a type of flight control or directional control for the:
+A. vertical axis.
+B. lateral axis. ✅
+C. longitudinal axis.
+=
+
+The ailerons or the spoilers on a jet transport are types of flight controls or lateral control for the:
+A. Vertical axis.
+B. Lateral axis.
+C. Longitudinal axis. ✅
+
+=
+
+The type of stress that can cause an object to become distorted or change its shape is:
+A. Torsion ✅
+B. Strain
+C. Bending
+=
+
+The term that best describes the approach of the boundary layer to the centre of the wing that begins to lose speed due to skin friction and becomes thicker and turbulent is:
+A. transition point. ✅
+B. turbulent layer.
+C. laminar layer.
+
+=
+In physics, which of the following factors are necessary to determine power?
+1 Force exerted
+2 Distance moved
+3 Time required
+A. 1 and 2.
+B. 2 and 3.
+C. 1,2 and 3. ✅
+
+=
+The purpose of an aircraft wind dihedral is to:
+A. increase lateral stability. ✅
+B. increase longitudinal stability
+C. increase lift coefficient of the wing.
+=
+
+Which statement concerning Bernoulli's principle is true?
+A. The pressure of a fluid increases at points where the velocity of the fluid increases.
+B. The pressure of a fluid decreases at pointes where the velocity of the fluid increases. ✅
+C. It applies only to gases.
+=
+
+
+Which type of tabs move in the opposite direction of the trailing edge?
+1.Anti✅servo tab.
+2.Servo tab.
+3.Balance tab.
+A. 1 & 2.
+B. 1 & 3.
+C. 2 & 3. ✅
+=
+
+
+Aspect ratio of a wing is defined as the ratio of the:
+A. wingspan to the wing root.
+B. square of the chord to the wingspan.
+C. wingspan to the mean chord. ✅ 
+=
+
+If a double✅acting actuating cylinder in a 3,000 PSI system has a piston with a surface area of three square inches on the extension side, and a rod with a cross✅section area of one square inch attached to the piston on the other side, approximately how much force will the actuator be able to produce when retracting
+A. 9000 lbs.
+B. 6000 lbs. ✅
+c. 3000 Ibs.
+=
+
+
+_______is the type of stress that triesto pull the object apart?
+
+A. Compression
+B. Shear
+C. Tension ✅
+
+=
+
+Identify which anti✅torque system of a helicopter presents the least amount of risk to personnel on the ground and creates less drag in flight.
+A. NOTAR. ✅
+B. Fenestron
+C. Tail rotor
+
+=
+
+Which of the following is not a kind of friction?
+A. Rolling friction
+B. Static friction
+C. Resisting friction. ✅
+
+=
+Which atmospheric conditions will cause the true landing speed of an aircraft to be the greatest?
+A. Low temperature with low humidity.
+B. High temperature with low humidity.
+C. High temperature with high humidity. ✅
+=
+
+
+Which of the following is not a characteristic of matter?
+A. Porosity
+B. Impenetrability
+C. Energy ✅
+
+=
+Which type of wave is not a shock wave?
+A. Expansion. ✅
+B. Oblique
+C. Normal
+=
+
+Decibels are a form of measurement for:
+A. Mach numbers
+B. Sound intensity ✅
+C. Wave motion 
+=
+
+The amount of force applied to rope A to lift the weight is:
+
+A 12lb
+B 15lb ✅
+C 20lb
+
+=
+
+What type of stability for an airplane involves the tendency for the nose to pitch up or pitch down, rotating around the lateral axis?
+A. Lateral stability.
+B. Directional stability.
+C. Longitudinal stability. ✅
+
+=
+
+If the volume of a confined gas is double (without the addition of more gas), assuming the temperature remains constant, the pressure will:
+A. increase in direct proportion to the volume increase.
+B. remain the same.
+C. be reduced to one✅half it original value. ✅
+=
+
+The rudder is a type of flight control or directional control for the:
+A. vertical axis. ✅
+B. lateral axis.
+C. longitudinal axis.
+
+=
+
+Potential energy is:
+A. energy in motion.
+B. stored energy. ✅
+C. one half mass times velocity squared.
+
+=
+How much work input is required to lower (not drop) a 120✅pound weight from the top of a 3✅foot table to the floor?
+A. 120 pounds of force.
+B. 360 foot✅pounds. ✅
+C. 40 foot✅pounds
+=
+
+Thermal expansion is very slight in:
+• A. gases
+• B. liquids
+• C. solids ✅
+
+=
+
+Name four of the seven main components of a helicopter?
+A. Landing gear, transmission, tail rotor, stabilator.
+B. Cabin, tail boom, transmission, powerplant. ✅
+C. Blades, tail rotor, landing gear, tail boom.
+=
+
+All are methods of controlling boundary layer except:
+A. air suction through small holes on the wing's upper surface.
+B. wing leading edge slots.
+C. wing tip generators. ✅
+
+=
+Which term below is best described by: 'as the velocity of a fluid increases, the static pressure of that fluid will decrease, provided there is no energy added or energy taken away'?
+A. Bernoulli's Principle. ✅
+B. Newton's Third Law.
+C. Pascal's Law.
+
+=
+The rotor system on a helicopter that has blades which are rigidly attached to the hub with the blades and a hub able to teeter like a seesaw is the:
+A. rigid rotor system.
+B. fully articulated rotor system
+C. semi✅rigid rotor system ✅
+
+=
+Which statement concerning heat and/or temperature is true?
+A. There is an inverse relationship between temperature and heat.
+B. Temperature is a measure of the kinetic energy of the molecules of any substance. ✅
+C. Temperature is a measure of the potential energy of the molecules of any substance.
+=
+
+Which of the following is Newton's First Law of Motion, generally termed the Law of Inertia?
+A. Every action has an equal and opposite reaction.
+B. Force is proportion alto the product of mass and acceleration.
+C. Objects at rest tend to remain at rest and objects in motion tend to remain in motion at the same speed and direction, unless acted on by an external force. ✅
+ 
+=
+
+The speed of sound in the atmosphere is affected by variations in which effect the following:
+A. Sound frequency (cps).
+B. Ambient temperature. ✅
+C. Barometric pressure.
+
+=
+Which stability term represents a small amount of oscillation around both the longitudinal and vertical axes?
+A. Static stability.
+B. Dutch Roll. ✅
+C. Dynamic stability.
+
+=
+The description below is describing which property of sound energy?
+'When two pieces of matter have the same natural frequency, and one starts to vibrate, that wave energy can be transferred to the other one and cause it to vibrate.
+A. Resonance. ✅
+B. Frequency of sound.
+C. Doppler effect.
+=
+
+Which of the following is NOT considered a method of heat transfer?
+A. Convection
+B. Conduction
+C. Diffusion ✅
+=
+
+The speed of sound in the atmosphere
+A. varies according to the frequency of the sound
+B. changes with a change in temperature. ✅
+C. changes with a change in pressure
+
+=
+
+What is a hydrometer used for?
+A. For measuring specific gravity for both liquids, and gases
+B. For measuring specific gravity of gases.
+C. For measuring speafic gravity of liquids ✅
+=
+
+What is standard day atmospheric pressure equal to in pounds per squre inch (psi) and
+A Equal to 145 psi, and 29 28 inches of mercury
+B. Equal to 14.3 ps, and 25 92 inches of mercury
+C. Equal to 14.7 psi, and 29.92 inches of mercury ✅
+
+=
+What is the heat energy unt that is equal to the amount of heat required to ch degree Fahrenheit?
+A. Brush thermal unit (BTU) ✅
+B. One Kelvin
+C. One calone
+=
+
+What is the centripetal force if a 50✅pound weight was moving in a 5✅ft radius circular path at a velocity of 1,000 fps?
+A 310,559 lb ✅
+B 10,000,000 lb
+C 310lb
+=
+
+To change the mass of an object:
+A. Change the state of the object 
+B. Add or take away arors from the object ✅
+C. Remove gravity from acting on the object
+
+=
+What is atmospheric pressure?
+A. 14.7 PSI ✅
+B. 14.5 PSI
+C 14.3 PSI
+=
+
+Which of the following is NOT considered a method of heat transfer?
+• A. Convection
+• B. Conduction
+• C. Diffusion ✅
+
+=
+We need to calculate the acceleration of an airplane traveling at 300 mph. The pilot pushes the throttle to a speed of 600 mph in 30 seconds. What is the airplane’s average acceleration in mph/s?”
+• A) 20 mph/s
+• B) 300 mph/s
+• C) 10 mph/s ✅
+
+=
+
+The speed of sound in the atmosphere is most affected by variations in which of the following?”
+    1.    Sound frequency (cps)
+    2.    Ambient temperature
+    3.    Barometric pressure
+
+A 1
+B 2 ✅
+D 3
+=
+
+
+What is the unit for measuring force in the English system of measurement?
+A. Newton✅ meters
+B. Pounds (Ibs) ✅
+C, Newton✅pounds
+=
+
+
+What is a sound source?
+A. The disturbances in matter that the human ear cannot detect
+B. Anything, which moves back and forth (vibrates) and disturbs the medium around it may be ✅
+C. Anything which does not vibrate and does not distrub the medium around it may be conside
+=
+
+What is the Doppler effect?
+• A. It is a type of radar used in aircraft operations.
+• B. It is when sound is coming from a stationary object, the object’s forward motion adds to the frequency and takes away from the frequency as sensed from the rear.
+• C. It is when sound is coming from a moving object, the object’s forward motion adds to the frequency and takes away from the frequency as sensed from the rear. ✅
+=
+
+Which is the standard that physicats have chosen to use when comparing the densities of al bquics?
+A Air
+B Oil
+C Water ✅
+=
+
+Name four of the seven main components of a helicopter?
+A Landing gear, transmission, tail rotor, turrets
+B. Cabin, tail boorn, transmission, powerplant. ✅
+C Fowler flaps, tail rotor, landing gear, tail boor
+=
+
+Newton's Third Law of motion is often called?
+A Momentum.
+B. Objects at rest tend to stay at rest and objects in motion tend to stay "
+C The law of action and reaction. ✅
+=
+
+What are some examples of chemical energy?
+A. Frequencies produce heat when they are absorbed by the bodies they surke
+B. Heat energy from current flowing through any form of resistance
+C. Explosive effects of gunpowder, the burning of oil or wood ✅
+
+=
+What formula is used to calculate power?
+A. Power = Time X Distance divided by Force
+B. Power = Force X Distance divided by Time. ✅
+C. Power = Force divided by Distance X Time
+
+=
+Which atmosphene conditions will cause the true landing speed of an aircraft to be the greatest?
+A. Low temperature with low hurridity
+B. High temperature with low hurridity
+C. High temperature with high hurradiry ✅
+=
+
+both the volume and the absolute temperature of a confined gas are doubled, the pressure wit
+A, not change ✅
+B. be halved
+C become four times as great
+=
+
+Aspect ratio of a wing is defined as the ratio of the
+A wingspan to the wing root
+B. square of the chord to the wingspan.
+C wingspan to the mean chord ✅
+
+=
+What are the four forces of tlight?
+A Power, Lift, Gravity: and Drag
+B Lift, Weight. Thrust, and Drag ✅
+C Engine, Gravy, Power, and Lift
+
+=
+What is torque?
+A. The time rate of doing work.
+B. A force that pulls you towards the earth
+C. A twisting force that tries to make something rotate ✅
+
+=
+What are wingtip vortices?
+• A. An airflow that is ahead of the wingtip.
+• B. A spiral or vortex that trails behind the wingtip anytime lift is being produced. ✅
+• C. The air on top of the wing, which is at the higher pressure.
+=
+
+What is standard day atmospheric pressure equal to in pounds per squre inch
+A Equalto 145 psi, and 2928 inches of mercury
+B. Equal to 14.3 psi, and 25.92 inches of mercury
+C Equal to 14.7 ps, and 2992 inches of mercury ✅
+
+=
+Based on Newton's second law of motion, the formula to calculate the
+• A. F = W (Vf _ Vi) / Gt
+• B. F = MA ✅
+• C. F = (Vf _ Vi) / G
+
+=
+The Law of Conservation states:
+A. Mass cannor be created or destroyed, bue it not possible to change its physical stan O
+B. Matter can be created or destroyed, but it is not possible to change its physical stace
+C. Matter cannot be created or destroyed, but it is possible to change is physical state ✅
+=
+
+What is force?
+The intensity of an impetus, or the intensity of an input ✅
+The speed of an object in motion
+The volume of a space
+
+=
+What is matter?
+Matter is a substance that exists only in space
+Matter is a form of energy that powers machines
+Matter is what all things are made of. It's the foundation for any discussion of physics ✅
+
+=
+  What is mass?    
+a measure of the object's weight
+a measure of the object's volume
+a measure of the quantity of matter in an object ✅
+=
+
+What is density?   
+the volume of a substance per unit of mass
+the weight of a substance per unit of volume ✅
+the pressure of a substance per unit of area
+=
+
+ 
+Which is the ratio of the water vapor actually present in the atmosphere to the amount that would be present if the air were saturated at the prevailing temperature and pressure?
+Absolute humidity.
+Relative humidity. ✅
+Dewpoint.
+
+=
+ Which condition is the actual amount of water vapor in a mixture of air and water?
+Relative humidity.
+Dewpoint.
+Absolute humidity. ✅
+=
+
+ If the fluid pressure is 800 PSI in a 1/2✅inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
+4,000 pounds.
+8,000 pounds. ✅
+800 pounds.
+
+=
+ The boiling point of a given liquid varies
+directly with pressure. ✅
+inversely with pressure.
+directly with density.
+
+=
+ An engine that weighs 350 pounds is removed from an aircraft by means of a mobile hoist. The engine is raised 3 feet above its attachment mount, and the entire assembly is then moved forward 12 feet. A constant force of 70 pounds is required to move the loaded hoist. What is the total work input required to move the hoist?
+840 foot✅pounds. ✅
+1,890 foot✅pounds.
+1,050 foot✅pounds.
+=
+Which formula is used to find the specific gravity of gases?
+
+A. Specific Gravity = Weight of the gas divided by the weight of an equal volume of air or hydrogen ✅
+B. Specific Gravity = Weight of the gas divided by the weight of an equal volume of water
+C. Specific Gravity = Density of the gas divided by the density of nitrogen
+
+=
+If temperature changes, what changes with it?
+Gravity
+None
+Speed of sound ✅
+=
+
+The angle related to the atmosphere is:
+90 ✅
+60
+40
+=
+What determines the pitch of sound?
+By the frequency of the sound waves ✅
+By the amplitude of the sound waves
+By the distance from the sounding source
+=
+How is weight mathematically stated?
+Weight=mass x gravity ✅
+Torque= Force x Distance
+Work=Force x Distance
+=
+What is torque as applied to physics?   
+Torque is described as a force acting along a distance. Torque is something that creates twisting and tries to make something rotate. ✅
+Torque is a force acting vertically. Torque creates linear motion.
+Torque is a force acting in opposition to motion. Torque prevents rotation.
+=
+What is pressure?
+the amount of energy exerted over time
+the force applied to an object's mass
+the amount of force acting on a specific amount of surface area ✅
+=

@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alqhtani Quiz</title>
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --text: #fff;
+      --muted: #bcbcbc;
+      --accent: #1d4ed8;
+      --correct: #22c55e;
+      --wrong: #ef4444;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, sans-serif;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .shell { width: min(1100px, 100%); padding: 2rem 1.5rem 4rem; }
+
+    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: 1rem; }
+    .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
+
+    .breadcrumb { text-align: center; font-size: .8rem; color: #d4d4d4; margin-bottom: 1.2rem; }
+    .breadcrumb span { cursor: pointer; }
+    .breadcrumb .active { color: #fff; font-weight: 600; }
+
+    .logo-name { font-size: 2.4rem; font-weight: 700; color: #ff4d4d; margin-bottom: 0.2rem; text-align: left; }
+    .logo-sub { color: #f0f0f0; font-size: .9rem; }
+    .logo-lines { margin-top: .4rem; font-size: .75rem; line-height: 1.2; }
+
+    .select-title { font-size: 1.2rem; margin: 1.2rem 0 1rem; }
+    .option-btn, .subject-btn {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid rgba(255,255,255,.025);
+      color: #fff;
+      padding: .75rem .9rem;
+      border-radius: .5rem;
+      font-size: 1.05rem;
+      text-align: left;
+      cursor: pointer;
+      margin-bottom: .75rem;
+      transition: .15s;
+    }
+    .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+    #quiz-screen { display: none; }
+
+    .quiz-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4rem; }
+    .brand { font-size: 2.3rem; font-weight: 700; color: #ff4d4d; }
+    .brand-sub { color: #f0f0f0; font-size: .75rem; }
+    .center-title { text-align: center; flex: 1; }
+    .quiz-title { font-size: 2rem; font-weight: 600; }
+    .info-chips { margin-top: .4rem; display: flex; gap: .5rem; justify-content: center; }
+    .chip { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.03); padding: .2rem .5rem; border-radius: 999px; font-size: .65rem; color: var(--muted); }
+    .tools { display: flex; gap: .5rem; align-items: center; }
+    .qn-box { background: var(--accent); padding: .35rem .8rem; border-radius: .3rem; font-size: .7rem; }
+    .icon-btn { width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem; display: grid; place-items: center; cursor: pointer; font-size: .8rem; }
+
+    .badge-pill { display: inline-block; background: #1d4ed8; padding: .35rem 1rem; border-radius: .3rem; font-size: .75rem; margin-bottom: 1rem; }
+    .q-wrap { max-width: 820px; }
+    .q-text { font-size: 1.6rem; margin-bottom: 1rem; display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
+    .result { font-size: .75rem; font-weight: 600; }
+    .result.correct { color: var(--correct); }
+    .result.wrong { color: var(--wrong); }
+
+    .choices { display: flex; flex-direction: column; gap: .85rem; }
+    .choice-btn {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255,255,255,.04);
+      padding: .45rem 0;
+      display: flex;
+      gap: .75rem;
+      align-items: center;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      text-align: left;
+    }
+    .choice-btn.correct { color: var(--correct); border-color: var(--correct); }
+    .choice-btn.wrong { color: var(--wrong); border-color: var(--wrong); }
+
+    .nav-area { margin-top: 2.1rem; display: flex; flex-direction: column; gap: 1rem; align-items: center; }
+    .nav-btns { display: flex; gap: 3rem; font-size: .8rem; }
+    .nav-btn { background: none; border: none; color: #fff; cursor: pointer; }
+    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .jump-menu { display: flex; gap: .5rem; }
+    .jump { width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem; color: #fff; cursor: pointer; }
+    .jump.active { background: #101b30; outline: 1px solid rgba(255,255,255,.06); }
+    .summary { font-size: .75rem; color: var(--muted); }
+    .summary.done { color: var(--correct); }
+
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.55); display: none; justify-content: center; align-items: center; z-index: 999; }
+    .modal { background: #0e0e0e; border: 1px solid #1f1f1f; border-radius: .6rem; padding: 1rem 1.2rem; width: min(380px, 90%); }
+    .modal-title { font-size: 1rem; margin-bottom: .4rem; }
+    .modal-text { font-size: .75rem; color: var(--muted); margin-bottom: .8rem; }
+    .modal-actions { display: flex; justify-content: flex-end; gap: .5rem; }
+    .btn { background: #0f172a; border: 1px solid #1f2937; color: #fff; padding: .35rem .8rem; border-radius: .25rem; cursor: pointer; font-size: .7rem; }
+    .btn.primary { background: var(--accent); border-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="progress-line"><span id="progressBar"></span></div>
+    <div class="breadcrumb" id="breadcrumb">
+      <span data-level="home" class="active">Home</span> /
+      <span data-level="track">Program</span> /
+      <span data-level="quiz">Quiz</span>
+    </div>
+
+    <!-- HOME -->
+    <div id="home-screen">
+      <div class="logo-name">Alqhtani</div>
+      <div class="logo-sub">دعواتكم لي ❤️</div>
+      <div class="logo-lines">أبو مسفر<br>أبوزهره</div>
+      <div class="select-title">Select what you want</div>
+      <button class="option-btn" data-track="associate">Associate diploma</button>
+      <button class="option-btn" data-track="diploma" disabled style="opacity:.2;cursor:not-allowed">Diploma (coming)</button>
+    </div>
+
+    <!-- SUBJECTS -->
+    <div id="subject-screen" style="display:none">
+      <div class="select-title" id="subjectTitleText">Select course</div>
+      <div id="subjectList"></div>
+    </div>
+
+    <!-- QUIZ -->
+    <div id="quiz-screen" style="display:none">
+      <div class="quiz-top">
+        <div>
+          <div class="brand">Alqhtani</div>
+          <div class="brand-sub">دعواتكم لي ❤️</div>
+        </div>
+        <div class="center-title">
+          <div class="quiz-title" id="quizTitle">...</div>
+          <div class="info-chips" id="infoChips"></div>
+        </div>
+        <div class="tools">
+          <div class="qn-box" id="questionNumber">1 of 1</div>
+          <div class="icon-btn" id="bookmarkBtn">🔖</div>
+          <div class="icon-btn" id="restartBtn">↩</div>
+          <div class="icon-btn" id="reviewBtn">📁</div>
+          <div class="icon-btn" id="filterBtn">📄</div>
+        </div>
+      </div>
+
+      <div class="q-wrap">
+        <div class="badge-pill" id="qPill">Question 1 of 1</div>
+        <div class="q-text">
+          <span id="questionText"></span>
+          <span id="resultBox" class="result"></span>
+        </div>
+        <div class="choices" id="choices"></div>
+      </div>
+
+      <div class="nav-area">
+        <div class="nav-btns">
+          <button class="nav-btn" id="prevBtn">Previous</button>
+          <button class="nav-btn" id="nextBtn">Next</button>
+        </div>
+        <div class="jump-menu" id="jumpMenu"></div>
+        <div class="summary" id="summaryBox"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div class="modal-overlay" id="restartModal">
+    <div class="modal">
+      <div class="modal-title">Do you wish to restart?</div>
+      <div class="modal-text">Are you sure you want to restart the quiz?</div>
+      <div class="modal-actions">
+        <button class="btn" id="sameOrderBtn">Restart With Same Order</button>
+        <button class="btn primary" id="shuffleBtn">Restart (Shuffle)</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 1) المواد اللي عندك كملفات
+    const DATA = {
+      associate: {
+        label: "Associate diploma",
+        subjects: {
+          "Gen I&K Part 1 تسريبات": { name: "Gen I&K Part 1 تسريبات", file: "Gen I&K Part 1 تسريبات.txt" },
+          "Gen I&K Part 2 brightspace 1": { name: "Gen I&K Part 2 brightspace 1", file: "Gen I&K Part 2 brightspace 1.txt" },
+          "Gen I&K Part 3 out": { name: "Gen I&K Part 3 out", file: "Gen I&K Part 3 out.txt" },
+          "Gen I&K Part 4 Book": { name: "Gen I&K Part 4 Book", file: "Gen I&K Part 4 Book.txt" },
+          "Gen J Part 1": { name: "Gen J Part 1", file: "Gen J Part 1.txt" },
+          "AFI C Part 1": { name: "AFI C Part 1", file: "AFI C Part 1.txt" },
+        }
+      },
+      diploma: {
+        label: "Diploma",
+        subjects: {}
+      }
+    };
+
+    // الحالة
+    let currentTrack = null;
+    let currentSubjectKey = null;
+    let questions = [];
+    let state = {
+      current: 0,
+      order: [],
+      answers: {},
+      bookmarks: [],
+      view: "all",
+    };
+
+    // عناصر
+    const homeScreen = document.getElementById("home-screen");
+    const subjectScreen = document.getElementById("subject-screen");
+    const quizScreen = document.getElementById("quiz-screen");
+    const subjectList = document.getElementById("subjectList");
+    const subjectTitleText = document.getElementById("subjectTitleText");
+    const breadcrumb = document.getElementById("breadcrumb");
+    const quizTitle = document.getElementById("quizTitle");
+    const infoChips = document.getElementById("infoChips");
+    const questionText = document.getElementById("questionText");
+    const questionNumber = document.getElementById("questionNumber");
+    const qPill = document.getElementById("qPill");
+    const resultBox = document.getElementById("resultBox");
+    const choicesEl = document.getElementById("choices");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const jumpMenu = document.getElementById("jumpMenu");
+    const summaryBox = document.getElementById("summaryBox");
+    const bookmarkBtn = document.getElementById("bookmarkBtn");
+    const restartBtn = document.getElementById("restartBtn");
+    const reviewBtn = document.getElementById("reviewBtn");
+    const filterBtn = document.getElementById("filterBtn");
+    const restartModal = document.getElementById("restartModal");
+    const sameOrderBtn = document.getElementById("sameOrderBtn");
+    const shuffleBtn = document.getElementById("shuffleBtn");
+    const progressBar = document.getElementById("progressBar");
+
+    // تنقل
+    document.querySelectorAll(".option-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const t = btn.dataset.track;
+        if (t === "diploma") return; // مقفل
+        currentTrack = t;
+        showSubjects();
+      });
+    });
+
+    breadcrumb.addEventListener("click", e => {
+      const level = e.target.dataset.level;
+      if (!level) return;
+      if (level === "home") showHome();
+      else if (level === "track" && currentTrack) showSubjects();
+    });
+
+    function setBreadcrumb(level) {
+      const spans = breadcrumb.querySelectorAll("span[data-level]");
+      spans.forEach(s => s.classList.remove("active"));
+      breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
+      if (currentTrack) {
+        breadcrumb.querySelector('[data-level="track"]').textContent = DATA[currentTrack].label;
+      }
+    }
+
+    function showHome() {
+      homeScreen.style.display = "block";
+      subjectScreen.style.display = "none";
+      quizScreen.style.display = "none";
+      setBreadcrumb("home");
+    }
+
+    function showSubjects() {
+      homeScreen.style.display = "none";
+      subjectScreen.style.display = "block";
+      quizScreen.style.display = "none";
+      setBreadcrumb("track");
+      subjectTitleText.textContent = `Select course (${DATA[currentTrack].label})`;
+      subjectList.innerHTML = "";
+      const subs = DATA[currentTrack].subjects;
+      Object.keys(subs).forEach(key => {
+        const b = document.createElement("button");
+        b.className = "subject-btn";
+        b.textContent = subs[key].name;
+        b.addEventListener("click", () => {
+          currentSubjectKey = key;
+          loadSubjectFromFile(subs[key]);
+        });
+        subjectList.appendChild(b);
+      });
+    }
+
+    // تحميل ملف وتحويله لأسئلة
+    function loadSubjectFromFile(subj) {
+      const fileUrl = encodeURI(subj.file);
+      fetch(fileUrl)
+        .then(r => {
+          if (!r.ok) throw new Error("file not found: " + fileUrl);
+          return r.text();
+        })
+        .then(txt => {
+          questions = parseQuestionsFromText(subj.name, txt);
+          startQuiz(subj.name);
+        })
+        .catch(err => {
+          alert("Can't load file: " + subj.file);
+          console.error(err);
+        });
+    }
+
+    // يحول النص إلى مصفوفة أسئلة
+    function parseQuestionsFromText(title, txt) {
+      // يفصل بالعلامة =
+      const blocks = txt.split("=").map(b => b.trim()).filter(b => b.length > 0);
+      const out = [];
+      for (const block of blocks) {
+        const lines = block.split("\n").map(l => l.trim()).filter(l => l.length > 0);
+        if (!lines.length) continue;
+        const qText = lines[0];
+        const choices = [];
+        for (let i = 1; i < lines.length; i++) {
+          let line = lines[i];
+          let correct = false;
+          if (line.includes("✅")) {
+            correct = true;
+            line = line.replace("✅", "").trim();
+          }
+          // شيل A- و B- لو فيه
+          line = line.replace(/^([A-C]\)|[A-C]-|\d+\.)\s*/i, "");
+          choices.push({ text: line, correct });
+        }
+        // لو أقل من 3 خيارات نطنش
+        if (choices.length >= 2) {
+          out.push({
+            title,
+            text: qText,
+            choices
+          });
+        }
+      }
+      return out;
+    }
+
+    function startQuiz(title) {
+      state.current = 0;
+      state.order = [...questions.keys()];
+      state.answers = {};
+      state.bookmarks = [];
+      state.view = "all";
+      quizTitle.textContent = title;
+
+      homeScreen.style.display = "none";
+      subjectScreen.style.display = "none";
+      quizScreen.style.display = "block";
+      setBreadcrumb("quiz");
+      render();
+    }
+
+    function getVisibleOrder() {
+      if (state.view === "all") return state.order;
+      if (state.view === "bookmarked") return state.order.filter(i => state.bookmarks.includes(i));
+      if (state.view === "wrong") {
+        return state.order.filter(i => {
+          const ans = state.answers[i];
+          return ans && Object.values(ans).includes("wrong");
+        });
+      }
+      return state.order;
+    }
+
+    function calcSummary() {
+      let correct = 0, wrong = 0;
+      for (let i = 0; i < questions.length; i++) {
+        const ans = state.answers[i];
+        if (!ans) continue;
+        const vals = Object.values(ans);
+        if (vals.includes("correct")) correct++;
+        else if (vals.includes("wrong")) wrong++;
+      }
+      const unanswered = questions.length - correct - wrong;
+      return { correct, wrong, unanswered };
+    }
+
+    function render() {
+      const visible = getVisibleOrder();
+      if (!visible.length) {
+        questionText.textContent = "No questions";
+        choicesEl.innerHTML = "";
+        return;
+      }
+      if (state.current >= visible.length) state.current = 0;
+      const realIndex = visible[state.current];
+      const q = questions[realIndex];
+
+      questionText.textContent = q.text;
+      questionNumber.textContent = `${state.current + 1} of ${visible.length}`;
+      qPill.textContent = `Question ${state.current + 1} of ${visible.length}`;
+
+      const { correct, wrong, unanswered } = calcSummary();
+      infoChips.innerHTML = `
+        <div class="chip">Total: ${questions.length}</div>
+        <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
+        <div class="chip">Correct: ${correct}</div>
+      `;
+      const answeredCount = questions.length - unanswered;
+      const percent = questions.length ? Math.round((answeredCount / questions.length) * 100) : 0;
+      progressBar.style.width = percent + "%";
+
+      choicesEl.innerHTML = "";
+      resultBox.textContent = "";
+      resultBox.className = "result";
+      const saved = state.answers[realIndex] || {};
+      q.choices.forEach((choice, i) => {
+        const btn = document.createElement("button");
+        btn.className = "choice-btn";
+        btn.innerHTML = `<strong>${i + 1}</strong> ${choice.text}`;
+        if (saved[i] === "correct") btn.classList.add("correct");
+        if (saved[i] === "wrong") btn.classList.add("wrong");
+        btn.addEventListener("click", () => {
+          if (!state.answers[realIndex]) state.answers[realIndex] = {};
+          if (choice.correct) {
+            state.answers[realIndex][i] = "correct";
+            resultBox.textContent = "Correct ✔";
+            resultBox.classList.add("correct");
+          } else {
+            state.answers[realIndex][i] = "wrong";
+            resultBox.textContent = "Wrong ✘";
+            resultBox.classList.add("wrong");
+          }
+          render();
+        });
+        choicesEl.appendChild(btn);
+      });
+
+      bookmarkBtn.classList.toggle("active", state.bookmarks.includes(realIndex));
+      filterBtn.classList.toggle("active", state.view === "bookmarked");
+      reviewBtn.classList.toggle("active", state.view === "wrong");
+
+      prevBtn.disabled = state.current === 0;
+      nextBtn.disabled = state.current === visible.length - 1;
+
+      jumpMenu.innerHTML = "";
+      visible.forEach((idx, i) => {
+        const b = document.createElement("button");
+        b.className = "jump";
+        b.textContent = i + 1;
+        if (i === state.current) b.classList.add("active");
+        if (state.bookmarks.includes(idx)) b.style.borderColor = "#1d4ed8";
+        b.addEventListener("click", () => {
+          state.current = i;
+          render();
+        });
+        jumpMenu.appendChild(b);
+      });
+
+      if (unanswered === 0) {
+        summaryBox.textContent = `Done: ${correct} correct, ${wrong} wrong`;
+        summaryBox.classList.add("done");
+      } else {
+        summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
+        summaryBox.classList.remove("done");
+      }
+    }
+
+    prevBtn.addEventListener("click", () => {
+      const visible = getVisibleOrder();
+      if (state.current > 0) {
+        state.current--;
+        render();
+      }
+    });
+    nextBtn.addEventListener("click", () => {
+      const visible = getVisibleOrder();
+      if (state.current < visible.length - 1) {
+        state.current++;
+        render();
+      }
+    });
+
+    bookmarkBtn.addEventListener("click", () => {
+      const visible = getVisibleOrder();
+      const realIndex = visible[state.current];
+      const pos = state.bookmarks.indexOf(realIndex);
+      if (pos === -1) state.bookmarks.push(realIndex);
+      else state.bookmarks.splice(pos, 1);
+      render();
+    });
+
+    filterBtn.addEventListener("click", () => {
+      if (state.view === "bookmarked") {
+        state.view = "all";
+      } else {
+        const filtered = state.order.filter(i => state.bookmarks.includes(i));
+        if (!filtered.length) {
+          alert("No bookmarked questions.");
+          return;
+        }
+        state.view = "bookmarked";
+        state.current = 0;
+      }
+      render();
+    });
+
+    reviewBtn.addEventListener("click", () => {
+      const wrongOnes = state.order.filter(i => {
+        const ans = state.answers[i];
+        return ans && Object.values(ans).includes("wrong");
+      });
+      if (!wrongOnes.length) {
+        alert("No wrong answers to review.");
+        return;
+      }
+      if (state.view === "wrong") state.view = "all";
+      else {
+        state.view = "wrong";
+        state.current = 0;
+      }
+      render();
+    });
+
+    restartBtn.addEventListener("click", () => {
+      restartModal.style.display = "flex";
+    });
+    restartModal.addEventListener("click", e => {
+      if (e.target === restartModal) restartModal.style.display = "none";
+    });
+    sameOrderBtn.addEventListener("click", () => {
+      state.answers = {};
+      state.view = "all";
+      state.order = [...questions.keys()];
+      state.current = 0;
+      restartModal.style.display = "none";
+      render();
+    });
+    shuffleBtn.addEventListener("click", () => {
+      state.answers = {};
+      state.view = "all";
+      state.order = [...questions.keys()];
+      for (let i = state.order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [state.order[i], state.order[j]] = [state.order[j], state.order[i]];
+      }
+      state.current = 0;
+      restartModal.style.display = "none";
+      render();
+    });
+
+    // بداية الصفحة
+    showHome();
+  </script>
+</body>
+</html>
