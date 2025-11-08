@@ -93,9 +93,9 @@ is on board and displayed at the cabin or cockpit entrance and is transferred wi
 
 
 With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
-. LSA Repairman
-. A&P
-. Repair Station
+LSA Repairman?
+A&P?
+Repair Station?
 
 1 and 2 only
 1 only
@@ -183,9 +183,9 @@ FAA Form 337 ✅
 
 What is/are the appropriate action(s) concerning minor repairs performed on a certificated aircraft?
 
-1. FAA Form 337 must be completed.
-2. Entries must be made in the aircraft's maintenance record.
-3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+ FAA Form 337 must be completed.
+ Entries must be made in the aircraft's maintenance record.
+ The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
 
 2✅
 1and2
@@ -195,9 +195,9 @@ What is/are the appropriate action(s) concerning minor repairs performed on a ce
 
  
 Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service?
-1. A 100 hour inspection.
-2. An annual inspection, under specified circumstances.
-3. A progressive inspection, under specified circumstances
+A 100 hour inspection.
+An annual inspection, under specified circumstances.
+A progressive inspection, under specified circumstances
 
 1.2
 1.3 ✅
@@ -229,9 +229,9 @@ is on board and displayed at the cabin or cockpit entrance and is transferred wi
 =
  
 With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
-1. LSA Repairman
-2. A&P
-3. Repair Station.
+LSA Repairman
+A&P
+Repair Station.
 
 1 and 2 only
 1 only
@@ -322,9 +322,9 @@ FAA Form 337. ✅
 
  
 What is/are the appropriate action(s) concerning minor repairs performed on a certificated aircraft?
-1. FAA Form 337 must be completed.
-2. Entries must be made in the aircraft's maintenance record.
-3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+FAA Form 337 must be completed.
+Entries must be made in the aircraft's maintenance record.
+The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
 
 2 ✅
 1and2
@@ -342,9 +342,9 @@ The owner may fly in the restricted category up to 10 hours.
 
 
 Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service?
-1. A 100-hour inspection.
-2. An annual inspection, under specified circumstances.
-3. A progressive inspection, under specified circumstances.
+A 100-hour inspection.
+An annual inspection, under specified circumstances.
+A progressive inspection, under specified circumstances.
 
 1.2
 1.3 ✅
@@ -357,4 +357,5 @@ Which is an appliance major repair?
 Overhaul of a hydraulic pressure pump ✅
 Repairs to a propeller governor or its control.
 Troubleshooting and repairing broken circuits in landing light circuits
+
 =
