@@ -13,149 +13,124 @@
       --border: #1e2937;
       --correct: #22c55e;
       --wrong: #ef4444;
-      --chip-bg: rgba(255,255,255,.02);
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: system-ui, sans-serif;
       display: flex;
       justify-content: center;
       min-height: 100vh;
     }
     .shell {
       width: min(1100px, 100%);
-      padding: 1.5rem .9rem 4rem;
+      padding: 2.5rem 1.5rem 4rem;
     }
 
-    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: 1rem; }
+    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .9rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
-    /* top bar */
-    .topbar {
+    .top-brand {
       display: flex;
-      align-items: center;
-      gap: 1.3rem;
-      margin-bottom: 1.2rem;
+      flex-direction: column;
+      gap: .25rem;
+      margin-bottom: .4rem;
     }
-    .site-brand {
-      font-size: 1.6rem;
+    .top-brand .name {
+      font-size: 1.9rem;
       font-weight: 700;
       color: #ff4d4d;
-      white-space: nowrap;
     }
-    .site-sub {
-      font-size: .72rem;
-      margin-top: .15rem;
+    .top-brand .sub {
+      font-size: .78rem;
     }
-    .breadcrumb { font-size: .8rem; color: #d4d4d4; }
+
+    .breadcrumb { font-size: .8rem; color: #d4d4d4; margin-bottom: 1.2rem; }
     .breadcrumb span { cursor: pointer; }
     .breadcrumb .active { color: #fff; font-weight: 600; }
 
-    /* home + subject buttons */
-    .logo-name {
-      font-size: 2.4rem;
-      font-weight: 700;
-      color: #ff4d4d;
-      margin-bottom: 0.3rem;
-      text-align: left;
-    }
-    .logo-sub {
-      color: #f0f0f0;
-      font-size: .9rem;
-      margin-bottom: 1.2rem;
-    }
     .select-title { font-size: 1.2rem; margin-bottom: 1rem; }
     .option-btn, .subject-btn {
-      background: #0f172a; border: 1px solid rgba(255,255,255,.025); color: #fff;
-      padding: .65rem .9rem; border-radius: .5rem; font-size: .9rem; text-align: left;
-      cursor: pointer; margin-bottom: .5rem; transition: .15s;
-      display: inline-block;
+      width: 100%; background: #0f172a; border: 1px solid rgba(255,255,255,.025); color: #fff;
+      padding: .75rem .9rem; border-radius: .5rem; font-size: 1.05rem; text-align: left;
+      cursor: pointer; margin-bottom: .75rem; transition: .15s;
     }
-    .option-btn:hover, .subject-btn:hover { border-color: var(--accent); }
+    .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
 
     #quiz-screen { display: none; }
 
-    /* quiz header */
-    .quiz-header {
+    .quiz-title-block {
       text-align: center;
-      margin-bottom: 1.4rem;
+      margin-bottom: 1.1rem;
     }
-    .quiz-title {
-      font-size: 2.3rem;
-      font-weight: 650;
-      margin-bottom: .3rem;
-    }
-    .quiz-subtitle {
-      font-size: 1.5rem;
+    .quiz-title-block h1 {
+      margin: 0;
+      font-size: 2.1rem;
       font-weight: 600;
-      margin-bottom: .7rem;
     }
-    .chips-row {
+    .quiz-title-block h2 {
+      margin: .15rem 0 0;
+      font-size: 1.7rem;
+      font-weight: 700;
+    }
+    .info-chips {
+      margin-top: .7rem;
       display: flex;
+      gap: .8rem;
       justify-content: center;
-      gap: .7rem;
-      margin-bottom: .7rem;
     }
     .chip {
-      background: var(--chip-bg);
-      border: 1px solid rgba(255,255,255,.02);
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.03);
+      padding: .45rem .9rem;
       border-radius: 999px;
-      padding: .25rem .8rem;
       font-size: .68rem;
-      min-width: 78px;
+      color: var(--muted);
+      min-width: 95px;
+      text-align: center;
     }
 
-    /* left info (ابو مسفر…) + question actions */
-    .question-topline {
+    .q-header-row {
       display: flex;
-      justify-content: space-between;
+      gap: .6rem;
       align-items: center;
-      gap: .75rem;
-      margin-bottom: .8rem;
+      margin-bottom: 1.1rem;
     }
-    .fixed-names {
-      font-size: .7rem;
-      line-height: 1.25;
-    }
-    .question-actions {
-      display: flex;
-      gap: .45rem;
-      flex-wrap: nowrap;
-    }
-    .question-btn {
-      background: #0f172a;
-      border: 1px solid #1d4ed8;
+    .badge-pill {
+      background: #1d4ed8;
+      padding: .5rem 1.1rem;
       border-radius: .4rem;
-      font-size: .75rem;
-      padding: .4rem .95rem;
+      font-size: .78rem;
       white-space: nowrap;
-      cursor: pointer;
     }
-    .icon-btn {
-      width: 34px;
-      height: 34px;
+    .inline-tools {
+      display: flex;
+      gap: .5rem;
+    }
+    .inline-tools .icon-btn {
+      width: 36px;
+      height: 36px;
       background: #0f172a;
       border: 1px solid #1e293b;
       border-radius: .4rem;
       display: grid;
       place-items: center;
       cursor: pointer;
-      font-size: .8rem;
+      font-size: .85rem;
     }
-    .icon-btn.active { background: var(--accent); }
+    .inline-tools .icon-btn.active { background: var(--accent); }
 
-    /* question area */
     .q-text {
-      font-size: 1.1rem;         /* أصغر 20٪ تقريبا */
+      font-size: 1.35rem;
       margin-bottom: 1rem;
     }
+
     .choices {
       display: flex;
       flex-direction: column;
-      gap: .75rem;
+      gap: .85rem;
     }
     .choice-btn {
       background: transparent;
@@ -166,135 +141,110 @@
       gap: .75rem;
       align-items: center;
       color: #fff;
-      font-size: .93rem;
+      font-size: 1rem;
       cursor: pointer;
     }
-    .choice-btn.correct { color: var(--correct); border-color: var(--correct); }
-    .choice-btn.wrong { color: var(--wrong); border-color: var(--wrong); }
+    .choice-btn.correct { color: var(--correct); border-bottom-color: var(--correct); }
+    .choice-btn.wrong { color: var(--wrong); border-bottom-color: var(--wrong); }
 
-    /* nav */
     .nav-area {
-      margin-top: 2.3rem;
+      margin-top: 2.2rem;
       display: flex;
       flex-direction: column;
-      gap: .9rem;
+      gap: 1.2rem;
       align-items: center;
     }
     .nav-btns {
       display: flex;
-      gap: 2.5rem;
+      gap: 1.6rem;
     }
-    .nav-btn {
+    .big-nav {
+      min-width: 140px;
       background: #0f172a;
-      border: 1px solid rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.05);
+      border-radius: .7rem;
+      padding: .5rem 1rem;
+      font-size: 1rem;
       color: #fff;
-      font-size: .9rem;
-      padding: .6rem 2.4rem;
-      border-radius: .6rem;
       cursor: pointer;
+      text-align: center;
     }
-    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .big-nav:disabled { opacity: .4; cursor: not-allowed; }
 
-    /* pager */
-    .pager-bar {
-      display: flex;
-      gap: .6rem;
-      align-items: center;
-      margin-top: 1.1rem;
-    }
-    .pager-info {
-      background: #0f172a;
-      border: 1px solid rgba(255,255,255,.03);
-      border-radius: .4rem;
-      padding: .4rem .8rem;
-      font-size: .7rem;
-    }
-    .pager-list {
+    .pager {
       display: flex;
       gap: .4rem;
       flex-wrap: wrap;
+      justify-content: center;
     }
-    .pager-btn {
-      min-width: 34px;
-      height: 32px;
+    .pager-label {
       background: #0f172a;
-      border: 1px solid rgba(255,255,255,.03);
+      padding: .35rem .8rem;
       border-radius: .4rem;
+      font-size: .65rem;
+    }
+    .pager button {
+      background: #0f172a;
+      border: 1px solid #0f172a;
       color: #fff;
-      font-size: .75rem;
-      display: grid;
-      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: .4rem;
       cursor: pointer;
     }
-    .pager-btn.active {
-      background: #fff;
-      color: #000;
-      font-weight: 600;
-    }
-    .summary {
-      font-size: .7rem;
-      color: var(--muted);
-      margin-top: .6rem;
-      text-align: center;
+    .pager button.active {
+      background: transparent;
+      border: 1px solid #fff;
     }
 
+    .summary { font-size: .75rem; color: var(--muted); }
+
     @media (max-width: 640px) {
-      .question-topline {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-      }
-      .question-actions { flex-wrap: wrap; }
-      .nav-btn { width: 140px; text-align: center; }
-      .pager-bar { flex-wrap: wrap; justify-content: center; }
+      .shell { padding-inline: 1rem; }
+      .q-header-row { flex-wrap: wrap; }
+      .inline-tools { order: 2; }
+      .badge-pill { order: 1; }
+      .q-text { font-size: 1.2rem; }
+      .big-nav { min-width: 120px; }
     }
   </style>
 </head>
 <body>
   <div class="shell">
-    <!-- top fixed bar -->
-    <div class="topbar">
-      <div>
-        <div class="site-brand">Alqhtani.</div>
-        <div class="site-sub">دعواتكم ❤️</div>
-      </div>
-      <div class="breadcrumb" id="breadcrumb">
-        <span data-level="home" class="active">Home</span> /
-        <span data-level="track">Associate diploma</span> /
-        <span data-level="quiz">Quiz</span>
-      </div>
-    </div>
-
     <div class="progress-line"><span id="progressBar"></span></div>
 
-    <!-- HOME SCREEN -->
+    <div class="top-brand">
+      <div class="name">Alqhtani.</div>
+      <div class="sub">دعواتكم ❤️</div>
+    </div>
+
+    <div class="breadcrumb" id="breadcrumb">
+      <span data-level="home" class="active">Home</span> /
+      <span data-level="track">Program</span> /
+      <span data-level="quiz">Quiz</span>
+    </div>
+
     <div id="home-screen">
       <div class="select-title">Select what you want</div>
       <button class="option-btn" data-track="associate">Associate diploma</button>
       <button class="option-btn" data-track="diploma">Diploma</button>
     </div>
 
-    <!-- SUBJECTS -->
     <div id="subject-screen" style="display:none">
       <div class="select-title" id="subjectTitleText">Select course</div>
       <div id="subjectList"></div>
     </div>
 
-    <!-- QUIZ SCREEN -->
     <div id="quiz-screen" style="display:none">
-      <div class="quiz-header">
-        <div class="quiz-title" id="quizTitle">Gen I&amp;K Part 1</div>
-        <div class="quiz-subtitle" id="quizSubtitle">تسريبات</div>
-        <div class="chips-row">
-          <div class="chip" id="chipTotal">Total: 0</div>
-          <div class="chip" id="chipBookmarked">Bookmarked: 0</div>
-          <div class="chip" id="chipCorrect">Correct: 0</div>
-        </div>
+      <div class="quiz-title-block">
+        <h1 id="quizTitle">Gen I&K Part 1</h1>
+        <h2 id="quizSubtitle">تسريبات</h2>
+        <div class="info-chips" id="infoChips"></div>
       </div>
 
-      <div class="question-topline">
-        <div class="fixed-names">ابو مسفر<br>ابوزهره</div>
-        <div class="question-actions">
-          <button class="question-btn" id="qPill">Question 1 of 1</button>
+      <div class="q-header-row">
+        <div class="badge-pill" id="qPill">Question 1 of 1</div>
+        <div class="inline-tools">
           <div class="icon-btn" id="bookmarkBtn">🔖</div>
           <div class="icon-btn" id="restartBtn">↩</div>
           <div class="icon-btn" id="reviewBtn">📁</div>
@@ -309,133 +259,82 @@
 
       <div class="nav-area">
         <div class="nav-btns">
-          <button class="nav-btn" id="prevBtn">Previous</button>
-          <button class="nav-btn" id="nextBtn">Next</button>
+          <button class="big-nav" id="prevBtn">Previous</button>
+          <button class="big-nav" id="nextBtn">Next</button>
         </div>
-        <div class="pager-bar">
-          <div class="pager-info" id="pagerInfo">PAGE 1 OF 1</div>
-          <div class="pager-list" id="pagerList"></div>
-        </div>
+        <div class="pager" id="jumpMenu"></div>
         <div class="summary" id="summaryBox"></div>
       </div>
     </div>
   </div>
 
-  <!-- modal (restart) -->
-  <div class="modal-overlay" id="restartModal" style="display:none"></div>
-
   <script>
-    /* === DATA skeleton ===
-       بتبدله بملفاتك txt أو توسّعه براحه
-    */
-    const DATA = {
+    const SUBJECT_FILES = {
       associate: {
-        label: "Associate diploma",
-        subjects: {
-          "Gen I&K Part 1 تسريبات": {
-            name: "Gen I&K Part 1 تسريبات",
-            subtitle: "تسريبات",
-            // حاط لك 3 أسئلة بس مثال – انت استبدلها اللي فوقها من ملفاتك
-            questions: [
-              {
-                text: "An FAA Form 337 is used to record and document",
-                choices: [
-                  { text: "preventive and unscheduled maintenance and special inspections.", correct: false },
-                  { text: "major and minor repairs, and major and minor alterations.", correct: false },
-                  { text: "major repairs and major alterations.", correct: true },
-                ]
-              },
-              {
-                text: "When is a mechanic responsible for checking AD compliance?",
-                choices: [
-                  { text: "Never, the owner or operator is solely responsible.", correct: false },
-                  { text: "When performing an inspection required under part 91, 125, or 135.", correct: true },
-                  { text: "Anytime an aircraft or portion thereof is returned to service.", correct: false },
-                ]
-              },
-              {
-                text: "14 CFR Part 65 contains regulations regarding the certification of",
-                choices: [
-                  { text: "pilots, flight Instructors, and ground instructors.", correct: false },
-                  { text: "airmen other than flight crewmembers.", correct: true },
-                  { text: "flight crewmembers other than pilots.", correct: false },
-                ]
-              }
-            ]
-          }
-        }
+        "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt",
+        "Gen I&K Part 2 brightspace 1": "Gen I&K Part 2 brightspace 1.txt",
+        "Gen I&K Part 3 out": "Gen I&K Part 3 out.txt",
+        "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
+        "Gen J Part 1": "Gen J Part 1.txt",
+        "AFI C Part 1": "AFI C Part 1.txt",
       },
-      diploma: {
-        label: "Diploma",
-        subjects: {}
-      }
+      diploma: {}
     };
 
     let currentTrack = null;
-    let currentSubjectKey = null;
+    let currentSubject = null;
     let questions = [];
     let state = {
       current: 0,
       order: [],
       answers: {},
       bookmarks: [],
-      view: "all",
-      subjectKey: ""
+      view: "all"
     };
 
-    const STORAGE_KEY = "alq-quiz-state-v4";
-
-    // elements
     const homeScreen = document.getElementById("home-screen");
     const subjectScreen = document.getElementById("subject-screen");
     const quizScreen = document.getElementById("quiz-screen");
     const subjectList = document.getElementById("subjectList");
     const subjectTitleText = document.getElementById("subjectTitleText");
     const breadcrumb = document.getElementById("breadcrumb");
+
     const quizTitle = document.getElementById("quizTitle");
     const quizSubtitle = document.getElementById("quizSubtitle");
+    const infoChips = document.getElementById("infoChips");
+    const qPill = document.getElementById("qPill");
     const questionText = document.getElementById("questionText");
     const choicesEl = document.getElementById("choices");
-    const qPill = document.getElementById("qPill");
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
-    const pagerInfo = document.getElementById("pagerInfo");
-    const pagerList = document.getElementById("pagerList");
+    const jumpMenu = document.getElementById("jumpMenu");
     const summaryBox = document.getElementById("summaryBox");
     const bookmarkBtn = document.getElementById("bookmarkBtn");
     const restartBtn = document.getElementById("restartBtn");
     const reviewBtn = document.getElementById("reviewBtn");
     const filterBtn = document.getElementById("filterBtn");
     const progressBar = document.getElementById("progressBar");
-    const chipTotal = document.getElementById("chipTotal");
-    const chipBookmarked = document.getElementById("chipBookmarked");
-    const chipCorrect = document.getElementById("chipCorrect");
 
-    // events home
     document.querySelectorAll(".option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
         currentTrack = btn.dataset.track;
         showSubjects();
-        saveState();
       });
     });
 
     breadcrumb.addEventListener("click", e => {
       const level = e.target.dataset.level;
       if (!level) return;
-      if (level === "home") {
-        showHome();
-      } else if (level === "track" && currentTrack) {
-        showSubjects();
-      }
+      if (level === "home") showHome();
+      else if (level === "track" && currentTrack) showSubjects();
     });
 
     function setBreadcrumb(level) {
-      const spans = breadcrumb.querySelectorAll("span[data-level]");
-      spans.forEach(s => s.classList.remove("active"));
+      breadcrumb.querySelectorAll("span[data-level]").forEach(s => s.classList.remove("active"));
       breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
       if (currentTrack) {
-        breadcrumb.querySelector('[data-level="track"]').textContent = DATA[currentTrack].label;
+        breadcrumb.querySelector('[data-level="track"]').textContent =
+          currentTrack === "associate" ? "Associate diploma" : "Diploma";
       }
     }
 
@@ -444,7 +343,6 @@
       subjectScreen.style.display = "none";
       quizScreen.style.display = "none";
       setBreadcrumb("home");
-      saveState();
     }
 
     function showSubjects() {
@@ -452,51 +350,80 @@
       subjectScreen.style.display = "block";
       quizScreen.style.display = "none";
       setBreadcrumb("track");
-      subjectTitleText.textContent = `Select course (${DATA[currentTrack].label})`;
+      subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"})`;
       subjectList.innerHTML = "";
-      const subs = DATA[currentTrack].subjects;
-      Object.keys(subs).forEach(key => {
+      const subs = SUBJECT_FILES[currentTrack];
+      Object.keys(subs).forEach(name => {
         const b = document.createElement("button");
         b.className = "subject-btn";
-        b.textContent = subs[key].name;
+        b.textContent = name;
         b.addEventListener("click", () => {
-          currentSubjectKey = key;
-          startQuiz();
-          saveState();
+          currentSubject = name;
+          loadSubjectFromText(subs[name], name);
         });
         subjectList.appendChild(b);
       });
     }
 
-    function startQuiz() {
-      const subject = DATA[currentTrack].subjects[currentSubjectKey];
-      questions = subject.questions;
-      state.current = 0;
-      state.order = [...questions.keys()];
-      state.answers = {};
-      state.view = "all";
-      state.subjectKey = currentSubjectKey;
-      quizTitle.textContent = subject.name;
-      quizSubtitle.textContent = subject.subtitle || "";
-      chipTotal.textContent = `Total: ${questions.length}`;
+    async function loadSubjectFromText(fileName, label) {
+      try {
+        const res = await fetch(fileName);
+        const txt = await res.text();
+        questions = parseTextToQuestions(txt);
+        startQuiz(label);
+      } catch (e) {
+        alert("Cannot load file: " + fileName);
+      }
+    }
+
+    // تقسيم النص بحسب =
+    function parseTextToQuestions(txt) {
+      const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
+      const qs = [];
+      for (const block of blocks) {
+        const lines = block.split(/\r?\n/).map(l => l.trim()).filter(l => l !== "" && l !== "=");
+        if (lines.length < 2) continue;
+        const questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
+        const choices = [];
+        for (let i = 1; i < lines.length; i++) {
+          const raw = lines[i];
+          const isCorrect = raw.includes("✅");
+          const clean = raw.replace("✅", "").replace(/^[A-C][\).]\s*/, "").trim();
+          choices.push({ text: clean, correct: isCorrect });
+        }
+        qs.push({
+          title: currentSubject,
+          text: questionLine,
+          choices
+        });
+      }
+      return qs;
+    }
+
+    function startQuiz(label) {
+      state = {
+        current: 0,
+        order: [...questions.keys()],
+        answers: {},
+        bookmarks: [],
+        view: "all"
+      };
+      quizTitle.textContent = label;
+      quizSubtitle.textContent = "";
       homeScreen.style.display = "none";
       subjectScreen.style.display = "none";
       quizScreen.style.display = "block";
       setBreadcrumb("quiz");
       render();
-      saveState();
     }
 
     function getVisibleOrder() {
       if (state.view === "all") return state.order;
-      if (state.view === "bookmarked") {
-        return state.order.filter(i => state.bookmarks.includes(i));
-      }
+      if (state.view === "bookmarked") return state.order.filter(i => state.bookmarks.includes(i));
       if (state.view === "wrong") {
         return state.order.filter(i => {
-          const ans = state.answers[i];
-          if (!ans) return false;
-          return Object.values(ans).includes("wrong");
+          const a = state.answers[i];
+          return a && Object.values(a).includes("wrong");
         });
       }
       return state.order;
@@ -507,106 +434,87 @@
       for (let i = 0; i < questions.length; i++) {
         const ans = state.answers[i];
         if (!ans) continue;
-        const vals = Object.values(ans);
-        if (vals.includes("correct")) correct++;
-        else if (vals.includes("wrong")) wrong++;
+        if (Object.values(ans).includes("correct")) correct++;
+        else if (Object.values(ans).includes("wrong")) wrong++;
       }
-      const unanswered = questions.length - correct - wrong;
-      return { correct, wrong, unanswered };
+      return { correct, wrong, unanswered: questions.length - correct - wrong };
     }
 
-    function renderPager(total, current) {
-      // current is index (0-based)
-      const currentQuestion = current + 1;
-      const blockSize = 10;
-      const currentBlock = Math.floor(currentQuestion / blockSize);
-      const start = currentBlock * blockSize + 1;
-      const end = Math.min(start + blockSize - 1, total);
+    // هنا التعديل اللي تبيه: كل 10 أسئلة
+    function renderPager(visible) {
+      const total = visible.length;
+      const current = state.current; // 0-based
+      jumpMenu.innerHTML = "";
 
-      pagerInfo.textContent = `PAGE ${currentQuestion} OF ${total}`;
-      pagerList.innerHTML = "";
+      // عنوان صغير فوق الأزرار
+      const label = document.createElement("div");
+      label.className = "pager-label";
+      label.textContent = `PAGE ${current + 1} OF ${total}`;
+      jumpMenu.appendChild(label);
 
-      // show 1 always
-      const makeBtn = (label, idx, active=false) => {
+      // حجم المجموعة
+      const groupSize = 10;
+      // رقم السؤال الحالي (1-based)
+      const currentQ = current + 1;
+      // بداية المجموعة
+      const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
+      const end = Math.min(start + groupSize - 1, total);
+
+      const makeBtn = (text, targetIndex, active = false) => {
         const b = document.createElement("button");
-        b.className = "pager-btn";
+        b.textContent = text;
         if (active) b.classList.add("active");
-        b.textContent = label;
         b.addEventListener("click", () => {
-          state.current = idx;
+          state.current = targetIndex;
           render();
-          saveState();
         });
-        return b;
+        jumpMenu.appendChild(b);
       };
 
-      // numbers for this block
-      for (let i = start; i <= end; i++) {
-        pagerList.appendChild(makeBtn(i, i-1, i === currentQuestion));
+      // أزرار الأرقام من start إلى end
+      for (let n = start; n <= end; n++) {
+        makeBtn(n, n - 1, n === currentQ);
       }
 
-      // next block button if there is
+      // لو فيه أسئلة بعد هذا النطاق
       if (end < total) {
-        const nextBlockStart = end + 1;
-        const nextBtn = document.createElement("button");
-        nextBtn.className = "pager-btn";
-        nextBtn.textContent = ">";
-        nextBtn.addEventListener("click", () => {
-          state.current = nextBlockStart - 1;
-          render();
-          saveState();
-        });
-        pagerList.appendChild(nextBtn);
-
-        const lastBtn = document.createElement("button");
-        lastBtn.className = "pager-btn";
-        lastBtn.textContent = "LAST";
-        lastBtn.addEventListener("click", () => {
-          state.current = total - 1;
-          render();
-          saveState();
-        });
-        pagerList.appendChild(lastBtn);
+        // ... يوديك لأول سؤال في النطاق اللي بعده
+        makeBtn("...", end, false);
       }
+
+      // زر LAST PAGE
+      makeBtn("LAST PAGE", total - 1, false);
     }
 
     function render() {
       const visible = getVisibleOrder();
-      if (!visible.length) {
-        state.view = "all";
-        return render();
-      }
+      if (!visible.length) return;
       if (state.current >= visible.length) state.current = 0;
       const realIndex = visible[state.current];
       const q = questions[realIndex];
 
-      questionText.textContent = q.text;
       qPill.textContent = `Question ${state.current + 1} of ${visible.length}`;
+      questionText.textContent = q.text;
 
       const { correct, wrong, unanswered } = calcSummary();
-      chipTotal.textContent = `Total: ${questions.length}`;
-      chipBookmarked.textContent = `Bookmarked: ${state.bookmarks.length}`;
-      chipCorrect.textContent = `Correct: ${correct}`;
-      const answeredCount = questions.length - unanswered;
-      const percent = Math.round((answeredCount / questions.length) * 100);
-      progressBar.style.width = percent + "%";
+      infoChips.innerHTML = `
+        <div class="chip">Total: ${questions.length}</div>
+        <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
+        <div class="chip">Correct: ${correct}</div>
+      `;
+      progressBar.style.width = Math.round(((questions.length - unanswered) / questions.length) * 100) + "%";
 
       choicesEl.innerHTML = "";
       const saved = state.answers[realIndex] || {};
       q.choices.forEach((choice, i) => {
         const btn = document.createElement("button");
         btn.className = "choice-btn";
-        btn.innerHTML = `<strong>${i + 1}</strong> ${choice.text}`;
+        btn.innerHTML = `<strong>${i+1}</strong> ${choice.text}`;
         if (saved[i] === "correct") btn.classList.add("correct");
         if (saved[i] === "wrong") btn.classList.add("wrong");
         btn.addEventListener("click", () => {
           if (!state.answers[realIndex]) state.answers[realIndex] = {};
-          if (choice.correct) {
-            state.answers[realIndex][i] = "correct";
-          } else {
-            state.answers[realIndex][i] = "wrong";
-          }
-          saveState();
+          state.answers[realIndex][i] = choice.correct ? "correct" : "wrong";
           render();
         });
         choicesEl.appendChild(btn);
@@ -619,7 +527,7 @@
       prevBtn.disabled = state.current === 0;
       nextBtn.disabled = state.current === visible.length - 1;
 
-      renderPager(visible.length, state.current);
+      renderPager(visible);
 
       if (unanswered === 0) {
         summaryBox.textContent = `Done: ${correct} correct, ${wrong} wrong`;
@@ -630,97 +538,52 @@
 
     prevBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      if (state.current > 0) {
-        state.current--;
-        render();
-        saveState();
-      }
+      if (state.current > 0) { state.current--; render(); }
     });
     nextBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      if (state.current < visible.length - 1) {
-        state.current++;
-        render();
-        saveState();
-      }
+      if (state.current < visible.length - 1) { state.current++; render(); }
     });
 
     bookmarkBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
       const realIndex = visible[state.current];
-      const pos = state.bookmarks.indexOf(realIndex);
-      if (pos === -1) state.bookmarks.push(realIndex);
-      else state.bookmarks.splice(pos, 1);
+      const idx = state.bookmarks.indexOf(realIndex);
+      if (idx === -1) state.bookmarks.push(realIndex);
+      else state.bookmarks.splice(idx, 1);
       render();
-      saveState();
     });
 
     filterBtn.addEventListener("click", () => {
-      if (state.view === "bookmarked") {
-        state.view = "all";
-      } else {
-        const filtered = state.order.filter(i => state.bookmarks.includes(i));
-        if (!filtered.length) {
-          alert("No bookmarked questions.");
-          return;
-        }
+      if (state.view === "bookmarked") state.view = "all";
+      else {
+        const has = state.order.filter(i => state.bookmarks.includes(i));
+        if (!has.length) { alert("No bookmarked questions."); return; }
         state.view = "bookmarked";
         state.current = 0;
       }
       render();
-      saveState();
     });
 
     reviewBtn.addEventListener("click", () => {
-      const wrongOnes = state.order.filter(i => {
-        const ans = state.answers[i];
-        return ans && Object.values(ans).includes("wrong");
+      const wrongs = state.order.filter(i => {
+        const r = state.answers[i];
+        return r && Object.values(r).includes("wrong");
       });
-      if (!wrongOnes.length) {
-        alert("No wrong answers to review.");
-        return;
-      }
+      if (!wrongs.length) { alert("No wrong answers."); return; }
       if (state.view === "wrong") state.view = "all";
-      else {
-        state.view = "wrong";
-        state.current = 0;
-      }
+      else { state.view = "wrong"; state.current = 0; }
       render();
-      saveState();
     });
 
-    function saveState() {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        currentTrack,
-        currentSubjectKey,
-        state
-      }));
-    }
-    function loadState() {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return false;
-      try {
-        const data = JSON.parse(raw);
-        currentTrack = data.currentTrack;
-        currentSubjectKey = data.currentSubjectKey;
-        state = data.state;
-        return true;
-      } catch(e) {
-        return false;
-      }
-    }
-
-    const hasPrev = loadState();
-    if (hasPrev && currentTrack && currentSubjectKey) {
-      questions = DATA[currentTrack].subjects[currentSubjectKey].questions;
-      homeScreen.style.display = "none";
-      subjectScreen.style.display = "none";
-      quizScreen.style.display = "block";
-      setBreadcrumb("quiz");
+    restartBtn.addEventListener("click", () => {
+      state.answers = {};
+      state.view = "all";
+      state.current = 0;
       render();
-    } else {
-      showHome();
-    }
+    });
+
+    showHome();
   </script>
 </body>
 </html>
