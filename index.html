@@ -26,134 +26,115 @@
     }
     .shell {
       width: min(1100px, 100%);
-      padding: 2rem 1.5rem 4rem;
+      padding: 2.5rem 1.5rem 4rem;
     }
 
-    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: 1rem; }
+    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .9rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
-    .breadcrumb { text-align: center; font-size: .8rem; color: #d4d4d4; margin-bottom: 1.2rem; }
+    /* ===== header fixed ===== */
+    .top-brand {
+      display: flex;
+      flex-direction: column;
+      gap: .25rem;
+      margin-bottom: .4rem;
+    }
+    .top-brand .name {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #ff4d4d;
+    }
+    .top-brand .sub {
+      font-size: .78rem;
+    }
+
+    .breadcrumb { font-size: .8rem; color: #d4d4d4; margin-bottom: 1.2rem; }
     .breadcrumb span { cursor: pointer; }
     .breadcrumb .active { color: #fff; font-weight: 600; }
 
-    .logo-name {
-      font-size: 2.4rem;
-      font-weight: 700;
-      color: #ff4d4d;
-      margin-bottom: 0.3rem;
-      text-align: left;
-    }
-    .logo-sub {
-      color: #f0f0f0;
-      font-size: .9rem;
-      margin-bottom: 1.2rem;
-    }
-
+    /* home / subject */
     .select-title { font-size: 1.2rem; margin-bottom: 1rem; }
     .option-btn, .subject-btn {
-      width: 100%;
-      background: #0f172a;
-      border: 1px solid rgba(255,255,255,.04);
-      color: #fff;
-      padding: .75rem .9rem;
-      border-radius: .6rem;
-      font-size: 1.05rem;
-      text-align: left;
-      cursor: pointer;
-      margin-bottom: .75rem;
-      transition: .15s;
+      width: 100%; background: #0f172a; border: 1px solid rgba(255,255,255,.025); color: #fff;
+      padding: .75rem .9rem; border-radius: .5rem; font-size: 1.05rem; text-align: left;
+      cursor: pointer; margin-bottom: .75rem; transition: .15s;
     }
     .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
 
-    #subject-screen, #quiz-screen { display: none; }
+    /* quiz */
+    #quiz-screen { display: none; }
 
-    .quiz-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1.4rem;
+    .quiz-title-block {
+      text-align: center;
+      margin-bottom: 1.1rem;
     }
-    .brand {
-      font-size: 2.3rem;
+    .quiz-title-block h1 {
+      margin: 0;
+      font-size: 2.1rem;
+      font-weight: 600;
+    }
+    .quiz-title-block h2 {
+      margin: .15rem 0 0;
+      font-size: 1.7rem;
       font-weight: 700;
-      color: #ff4d4d;
-      line-height: 1.1;
     }
-    .brand-sub {
-      color: #f0f0f0;
-      font-size: .75rem;
-      margin-top: .25rem;
-    }
-    .center-title { text-align: center; flex: 1; }
-    .quiz-title { font-size: 2rem; font-weight: 600; }
     .info-chips {
-      margin-top: .4rem;
+      margin-top: .7rem;
       display: flex;
-      gap: .5rem;
+      gap: .8rem;
       justify-content: center;
     }
     .chip {
       background: rgba(255,255,255,.03);
       border: 1px solid rgba(255,255,255,.03);
-      padding: .2rem .5rem;
+      padding: .45rem .9rem;
       border-radius: 999px;
-      font-size: .65rem;
+      font-size: .68rem;
       color: var(--muted);
+      min-width: 95px;
+      text-align: center;
     }
-    /* السطرين تحت الدوائر */
-    .fixed-names {
-      margin-top: 1rem;
-      text-align: left;
-      font-size: .8rem;
-      line-height: 1.15;
+
+    /* question header row */
+    .q-header-row {
+      display: flex;
+      gap: .6rem;
+      align-items: center;
+      margin-bottom: 1.1rem;
     }
-    .tools {
+    .badge-pill {
+      background: #1d4ed8;
+      padding: .5rem 1.1rem;
+      border-radius: .4rem;
+      font-size: .78rem;
+      white-space: nowrap;
+    }
+    .inline-tools {
       display: flex;
       gap: .5rem;
-      align-items: center;
-      justify-content: center;
     }
-    .icon-btn {
-      width: 38px;
-      height: 38px;
+    .inline-tools .icon-btn {
+      width: 36px;
+      height: 36px;
       background: #0f172a;
       border: 1px solid #1e293b;
-      border-radius: .5rem;
+      border-radius: .4rem;
       display: grid;
       place-items: center;
       cursor: pointer;
-      font-size: .9rem;
+      font-size: .85rem;
     }
-    .icon-btn.active { background: var(--accent); }
+    .inline-tools .icon-btn.active { background: var(--accent); }
 
-    .badge-pill {
-      display: inline-block;
-      background: #1d4ed8;
-      padding: .35rem 1rem;
-      border-radius: .3rem;
-      font-size: .75rem;
-      margin-bottom: 1rem;
-    }
-    .q-wrap { max-width: 820px; }
     .q-text {
       font-size: 1.35rem;
       margin-bottom: 1rem;
-      display: flex;
-      justify-content: space-between;
-      gap: 1rem;
-      align-items: center;
     }
-    .result {
-      font-size: .75rem;
-      font-weight: 600;
-    }
-    .result.correct { color: var(--correct); }
-    .result.wrong { color: var(--wrong); }
 
     .choices {
       display: flex;
       flex-direction: column;
-      gap: .75rem;
+      gap: .85rem;
     }
     .choice-btn {
       background: transparent;
@@ -164,15 +145,15 @@
       gap: .75rem;
       align-items: center;
       color: #fff;
-      font-size: .95rem;
+      font-size: 1rem;
       cursor: pointer;
     }
-    .choice-btn:hover { background: rgba(255,255,255,.015); }
-    .choice-btn.correct { color: var(--correct); border-color: var(--correct); }
-    .choice-btn.wrong { color: var(--wrong); border-color: var(--wrong); }
+    .choice-btn.correct { color: var(--correct); border-bottom-color: var(--correct); }
+    .choice-btn.wrong { color: var(--wrong); border-bottom-color: var(--wrong); }
 
+    /* nav */
     .nav-area {
-      margin-top: 2.6rem;
+      margin-top: 2.2rem;
       display: flex;
       flex-direction: column;
       gap: 1.2rem;
@@ -180,50 +161,72 @@
     }
     .nav-btns {
       display: flex;
-      gap: 3rem;
+      gap: 1.6rem;
     }
-    .nav-btn {
+    .big-nav {
+      min-width: 140px;
       background: #0f172a;
-      border: 1px solid #1e293b;
+      border: 1px solid rgba(255,255,255,.05);
+      border-radius: .7rem;
+      padding: .5rem 1rem;
+      font-size: 1rem;
       color: #fff;
       cursor: pointer;
-      padding: .65rem 3.4rem;
-      border-radius: .6rem;
-      font-size: .95rem;
-      font-weight: 500;
+      text-align: center;
     }
-    .nav-btn:disabled { opacity: .35; cursor: not-allowed; }
+    .big-nav:disabled { opacity: .4; cursor: not-allowed; }
 
-    .jump-menu {
+    /* pager */
+    .pager {
       display: flex;
-      gap: .5rem;
+      gap: .4rem;
       flex-wrap: wrap;
       justify-content: center;
     }
-    .jump-sm {
+    .pager-label {
       background: #0f172a;
-      border: 1px solid #1e293b;
+      padding: .35rem .8rem;
+      border-radius: .4rem;
+      font-size: .65rem;
+    }
+    .pager button {
+      background: #0f172a;
+      border: 1px solid #0f172a;
       color: #fff;
-      padding: .35rem .9rem;
-      border-radius: .5rem;
-      font-size: .7rem;
+      width: 38px;
+      height: 38px;
+      border-radius: .4rem;
       cursor: pointer;
     }
-    .jump-sm.active { background: #fff; color: #000; }
-    .summary { font-size: .75rem; color: var(--muted); }
+    .pager button.active {
+      background: transparent;
+      border: 1px solid #fff;
+    }
 
-    @media (max-width: 700px) {
-      .quiz-top { flex-direction: column; gap: 1rem; }
-      .q-text { font-size: 1.15rem; }
-      .nav-btns { gap: 1.5rem; }
-      .nav-btn { width: 140px; text-align: center; }
-      .fixed-names { text-align: left; }
+    .summary { font-size: .75rem; color: var(--muted); }
+    .summary.done { color: var(--correct); }
+
+    /* mobile tweaks */
+    @media (max-width: 640px) {
+      .shell { padding-inline: 1rem; }
+      .q-header-row { flex-wrap: wrap; }
+      .inline-tools { order: 2; }
+      .badge-pill { order: 1; }
+      .q-text { font-size: 1.2rem; }
+      .big-nav { min-width: 120px; }
     }
   </style>
 </head>
 <body>
   <div class="shell">
     <div class="progress-line"><span id="progressBar"></span></div>
+
+    <!-- fixed brand -->
+    <div class="top-brand">
+      <div class="name">Alqhtani.</div>
+      <div class="sub">دعواتكم ❤️</div>
+    </div>
+
     <div class="breadcrumb" id="breadcrumb">
       <span data-level="home" class="active">Home</span> /
       <span data-level="track">Program</span> /
@@ -232,36 +235,28 @@
 
     <!-- HOME -->
     <div id="home-screen">
-      <div class="logo-name">Alqhtani.</div>
-      <div class="logo-sub">دعواتكم ❤️</div>
       <div class="select-title">Select what you want</div>
       <button class="option-btn" data-track="associate">Associate diploma</button>
       <button class="option-btn" data-track="diploma">Diploma</button>
     </div>
 
     <!-- SUBJECTS -->
-    <div id="subject-screen">
+    <div id="subject-screen" style="display:none">
       <div class="select-title" id="subjectTitleText">Select course</div>
       <div id="subjectList"></div>
     </div>
 
     <!-- QUIZ -->
-    <div id="quiz-screen">
-      <div class="quiz-top">
-        <div>
-          <div class="brand">Alqhtani.</div>
-          <div class="brand-sub">دعواتكم ❤️</div>
-        </div>
-        <div class="center-title">
-          <div class="quiz-title" id="quizTitle">Quiz</div>
-          <div class="info-chips" id="infoChips"></div>
-          <!-- السطرين هنا -->
-          <div class="fixed-names">
-            ابو مسفر<br/>
-            ابوزهره
-          </div>
-        </div>
-        <div class="tools">
+    <div id="quiz-screen" style="display:none">
+      <div class="quiz-title-block">
+        <h1 id="quizTitle">Gen I&K Part 1</h1>
+        <h2 id="quizSubtitle">تسريبات</h2>
+        <div class="info-chips" id="infoChips"></div>
+      </div>
+
+      <div class="q-header-row">
+        <div class="badge-pill" id="qPill">Question 1 of 1</div>
+        <div class="inline-tools">
           <div class="icon-btn" id="bookmarkBtn">🔖</div>
           <div class="icon-btn" id="restartBtn">↩</div>
           <div class="icon-btn" id="reviewBtn">📁</div>
@@ -270,51 +265,43 @@
       </div>
 
       <div class="q-wrap">
-        <div class="badge-pill" id="qPill">Question 1 of 1</div>
-        <div class="q-text">
-          <span id="questionText"></span>
-          <span id="resultBox" class="result"></span>
-        </div>
+        <div class="q-text" id="questionText"></div>
         <div class="choices" id="choices"></div>
       </div>
 
       <div class="nav-area">
         <div class="nav-btns">
-          <button class="nav-btn" id="prevBtn">Previous</button>
-          <button class="nav-btn" id="nextBtn">Next</button>
+          <button class="big-nav" id="prevBtn">Previous</button>
+          <button class="big-nav" id="nextBtn">Next</button>
         </div>
-        <div class="jump-menu" id="jumpMenu"></div>
+        <div class="pager" id="jumpMenu"></div>
         <div class="summary" id="summaryBox"></div>
       </div>
     </div>
   </div>
 
+  <!-- modal restart -->
+  <div class="modal-overlay" id="restartModal" style="display:none"></div>
+
   <script>
-    const DATA = {
+    // ملفات المواد (HTML ما يقدر يقرأ ملفات الجهاز، هذا مجرد مثال لو كانت الملفات مستضافة جنب الصفحة)
+    const SUBJECT_FILES = {
       associate: {
-        label: "Associate diploma",
-        subjects: [
-          { name: "Gen I&K Part 1 تسريبات", file: "Gen I&K Part 1 تسريبات.txt" },
-          { name: "Gen I&K Part 2 brightspace 1", file: "Gen I&K Part 2 brightspace 1.txt" },
-          { name: "Gen I&K Part 3 out", file: "Gen I&K Part 3 out.txt" },
-          { name: "Gen I&K Part 4 Book", file: "Gen I&K Part 4 Book.txt" },
-          { name: "Gen J Part 1", file: "Gen J Part 1.txt" },
-          { name: "AFI C Part 1", file: "AFI C Part 1.txt" },
-        ]
+        "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt"
       },
-      diploma: {
-        label: "Diploma",
-        subjects: []
-      }
+      diploma: {}
     };
 
     let currentTrack = null;
     let currentSubject = null;
     let questions = [];
-    let currentIndex = 0;
-    let answers = {};
-    let bookmarks = [];
-    let viewMode = "all";
+    let state = {
+      current: 0,
+      order: [],
+      answers: {},
+      bookmarks: [],
+      view: "all"
+    };
 
     const homeScreen = document.getElementById("home-screen");
     const subjectScreen = document.getElementById("subject-screen");
@@ -322,12 +309,13 @@
     const subjectList = document.getElementById("subjectList");
     const subjectTitleText = document.getElementById("subjectTitleText");
     const breadcrumb = document.getElementById("breadcrumb");
+
     const quizTitle = document.getElementById("quizTitle");
+    const quizSubtitle = document.getElementById("quizSubtitle");
     const infoChips = document.getElementById("infoChips");
     const qPill = document.getElementById("qPill");
     const questionText = document.getElementById("questionText");
     const choicesEl = document.getElementById("choices");
-    const resultBox = document.getElementById("resultBox");
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
     const jumpMenu = document.getElementById("jumpMenu");
@@ -337,248 +325,6 @@
     const reviewBtn = document.getElementById("reviewBtn");
     const filterBtn = document.getElementById("filterBtn");
     const progressBar = document.getElementById("progressBar");
-
-    function showHome() {
-      homeScreen.style.display = "block";
-      subjectScreen.style.display = "none";
-      quizScreen.style.display = "none";
-      setBreadcrumb("home");
-      questions = [];
-      answers = {};
-      bookmarks = [];
-      currentIndex = 0;
-    }
-    function showSubjects() {
-      homeScreen.style.display = "none";
-      subjectScreen.style.display = "block";
-      quizScreen.style.display = "none";
-      setBreadcrumb("track");
-      subjectTitleText.textContent = `Select course (${DATA[currentTrack].label})`;
-      subjectList.innerHTML = "";
-      DATA[currentTrack].subjects.forEach(sub => {
-        const btn = document.createElement("button");
-        btn.className = "subject-btn";
-        btn.textContent = sub.name;
-        btn.addEventListener("click", () => {
-          currentSubject = sub;
-          loadSubjectFromText(sub);
-        });
-        subjectList.appendChild(btn);
-      });
-    }
-    function showQuiz() {
-      homeScreen.style.display = "none";
-      subjectScreen.style.display = "none";
-      quizScreen.style.display = "block";
-      setBreadcrumb("quiz");
-      render();
-    }
-    function setBreadcrumb(level) {
-      const spans = breadcrumb.querySelectorAll("span[data-level]");
-      spans.forEach(s => s.classList.remove("active"));
-      breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
-      if (currentTrack) {
-        breadcrumb.querySelector('[data-level="track"]').textContent = DATA[currentTrack].label;
-      }
-    }
-
-    async function loadSubjectFromText(sub) {
-      try {
-        const res = await fetch(encodeURI(sub.file));
-        const txt = await res.text();
-        questions = parseTxtToQuestions(txt);
-        currentIndex = 0;
-        answers = {};
-        bookmarks = [];
-        viewMode = "all";
-        quizTitle.textContent = sub.name;
-        showQuiz();
-      } catch (e) {
-        alert("Cannot load file: " + sub.file);
-      }
-    }
-
-    function parseTxtToQuestions(txt) {
-      const blocks = txt.split("=").map(b => b.trim()).filter(Boolean);
-      const out = [];
-      for (const block of blocks) {
-        const lines = block.split("\n").map(l => l.trim()).filter(Boolean);
-        if (!lines.length) continue;
-        const question = lines[0];
-        const choices = [];
-        for (let i = 1; i < lines.length; i++) {
-          let t = lines[i];
-          let correct = false;
-          if (t.includes("✅")) {
-            correct = true;
-            t = t.replace("✅", "").trim();
-          }
-          choices.push({ text: t, correct });
-        }
-        if (choices.length) {
-          out.push({
-            title: currentSubject ? currentSubject.name : "Quiz",
-            text: question,
-            choices
-          });
-        }
-      }
-      return out;
-    }
-
-    function getVisibleOrder() {
-      const order = [...questions.keys()];
-      if (viewMode === "all") return order;
-      if (viewMode === "bookmarked") {
-        return order.filter(i => bookmarks.includes(i));
-      }
-      if (viewMode === "wrong") {
-        return order.filter(i => {
-          const a = answers[i];
-          if (!a) return false;
-          return Object.values(a).includes("wrong");
-        });
-      }
-      return order;
-    }
-
-    function calcSummary() {
-      let correct = 0, wrong = 0;
-      for (let i = 0; i < questions.length; i++) {
-        const a = answers[i];
-        if (!a) continue;
-        const vals = Object.values(a);
-        if (vals.includes("correct")) correct++;
-        else if (vals.includes("wrong")) wrong++;
-      }
-      const unanswered = questions.length - correct - wrong;
-      return { correct, wrong, unanswered };
-    }
-
-    function render() {
-      const visible = getVisibleOrder();
-      if (!visible.length) {
-        questionText.textContent = "No questions.";
-        choicesEl.innerHTML = "";
-        return;
-      }
-      if (currentIndex >= visible.length) currentIndex = 0;
-      const realIndex = visible[currentIndex];
-      const q = questions[realIndex];
-
-      quizTitle.textContent = currentSubject ? currentSubject.name : "Quiz";
-      questionText.textContent = q.text;
-      qPill.textContent = `Question ${currentIndex + 1} of ${visible.length}`;
-
-      const { correct, wrong, unanswered } = calcSummary();
-      infoChips.innerHTML = `
-        <div class="chip">Total: ${questions.length}</div>
-        <div class="chip">Bookmarked: ${bookmarks.length}</div>
-        <div class="chip">Correct: ${correct}</div>
-      `;
-      const answeredCount = questions.length - unanswered;
-      progressBar.style.width = Math.round((answeredCount / questions.length) * 100) + "%";
-
-      choicesEl.innerHTML = "";
-      resultBox.textContent = "";
-      resultBox.className = "result";
-
-      const saved = answers[realIndex] || {};
-      q.choices.forEach((c, idx) => {
-        const btn = document.createElement("button");
-        btn.className = "choice-btn";
-        btn.innerHTML = `<strong>${idx + 1}</strong> ${c.text}`;
-        if (saved[idx] === "correct") btn.classList.add("correct");
-        if (saved[idx] === "wrong") btn.classList.add("wrong");
-        btn.addEventListener("click", () => {
-          if (!answers[realIndex]) answers[realIndex] = {};
-          if (c.correct) {
-            answers[realIndex][idx] = "correct";
-            resultBox.textContent = "Correct ✔";
-            resultBox.classList.add("correct");
-          } else {
-            answers[realIndex][idx] = "wrong";
-            resultBox.textContent = "Wrong ✘";
-            resultBox.classList.add("wrong");
-          }
-          render();
-        });
-        choicesEl.appendChild(btn);
-      });
-
-      prevBtn.disabled = currentIndex === 0;
-      nextBtn.disabled = currentIndex === visible.length - 1;
-
-      buildPagination(visible.length, currentIndex);
-
-      if (unanswered === 0) {
-        summaryBox.textContent = `Done: ${correct} correct, ${wrong} wrong`;
-      } else {
-        summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
-      }
-
-      bookmarkBtn.classList.toggle("active", bookmarks.includes(realIndex));
-      filterBtn.classList.toggle("active", viewMode === "bookmarked");
-      reviewBtn.classList.toggle("active", viewMode === "wrong");
-    }
-
-    function buildPagination(total, current) {
-      jumpMenu.innerHTML = "";
-      const pageLabel = document.createElement("div");
-      pageLabel.className = "jump-sm";
-      pageLabel.textContent = `PAGE ${current + 1} OF ${total}`;
-      jumpMenu.appendChild(pageLabel);
-
-      for (let i = 0; i < Math.min(4, total); i++) {
-        const b = document.createElement("button");
-        b.className = "jump-sm" + (i === current ? " active" : "");
-        b.textContent = i + 1;
-        b.addEventListener("click", () => { currentIndex = i; render(); });
-        jumpMenu.appendChild(b);
-      }
-
-      if (total > 10) {
-        const dots1 = document.createElement("button");
-        dots1.className = "jump-sm";
-        dots1.textContent = "...";
-        dots1.disabled = true;
-        jumpMenu.appendChild(dots1);
-
-        const ten = document.createElement("button");
-        ten.className = "jump-sm" + (9 === current ? " active" : "");
-        ten.textContent = "10";
-        ten.addEventListener("click", () => { currentIndex = 9; render(); });
-        jumpMenu.appendChild(ten);
-
-        const twenty = document.createElement("button");
-        twenty.className = "jump-sm" + (19 === current ? " active" : "");
-        twenty.textContent = "20";
-        twenty.addEventListener("click", () => { currentIndex = 19; render(); });
-        if (total >= 20) jumpMenu.appendChild(twenty);
-
-        const dots2 = document.createElement("button");
-        dots2.className = "jump-sm";
-        dots2.textContent = "...";
-        dots2.disabled = true;
-        jumpMenu.appendChild(dots2);
-      }
-
-      if (current < total - 1) {
-        const nextPage = document.createElement("button");
-        nextPage.className = "jump-sm";
-        nextPage.textContent = ">";
-        nextPage.addEventListener("click", () => { currentIndex = current + 1; render(); });
-        jumpMenu.appendChild(nextPage);
-      }
-
-      if (total > 1) {
-        const last = document.createElement("button");
-        last.className = "jump-sm";
-        last.textContent = "LAST PAGE";
-        last.addEventListener("click", () => { currentIndex = total - 1; render(); });
-        jumpMenu.appendChild(last);
-      }
-    }
 
     document.querySelectorAll(".option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -591,56 +337,274 @@
       const level = e.target.dataset.level;
       if (!level) return;
       if (level === "home") showHome();
-      if (level === "track" && currentTrack) showSubjects();
+      else if (level === "track" && currentTrack) showSubjects();
     });
+
+    function setBreadcrumb(level) {
+      breadcrumb.querySelectorAll("span[data-level]").forEach(s => s.classList.remove("active"));
+      breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
+      if (currentTrack) {
+        breadcrumb.querySelector('[data-level="track"]').textContent =
+          currentTrack === "associate" ? "Associate diploma" : "Diploma";
+      }
+    }
+
+    function showHome() {
+      homeScreen.style.display = "block";
+      subjectScreen.style.display = "none";
+      quizScreen.style.display = "none";
+      setBreadcrumb("home");
+    }
+
+    function showSubjects() {
+      homeScreen.style.display = "none";
+      subjectScreen.style.display = "block";
+      quizScreen.style.display = "none";
+      setBreadcrumb("track");
+      subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"})`;
+      subjectList.innerHTML = "";
+      const subs = SUBJECT_FILES[currentTrack];
+      Object.keys(subs).forEach(name => {
+        const b = document.createElement("button");
+        b.className = "subject-btn";
+        b.textContent = name;
+        b.addEventListener("click", () => {
+          currentSubject = name;
+          loadSubjectFromText(subs[name], name);
+        });
+        subjectList.appendChild(b);
+      });
+    }
+
+    async function loadSubjectFromText(fileName, label) {
+      try {
+        const res = await fetch(fileName);
+        const txt = await res.text();
+        questions = parseTextToQuestions(txt);
+        startQuiz(label);
+      } catch (e) {
+        alert("Cannot load file: " + fileName);
+      }
+    }
+
+    // نفس الطريقة اللي تعودنا عليها: سؤال، بعده 3 اختيارات، وحدة فيها ✅
+    function parseTextToQuestions(txt) {
+      const blocks = txt.split("=\n").map(b => b.trim()).filter(Boolean);
+      const qs = [];
+      for (const block of blocks) {
+        const lines = block.split("\n").filter(l => l.trim() !== "");
+        if (lines.length < 2) continue;
+        const questionLine = lines[0].replace(/^\d+[\).-\s]*/, "").trim();
+        const choices = [];
+        for (let i = 1; i < lines.length; i++) {
+          const raw = lines[i].trim();
+          const isCorrect = raw.includes("✅");
+          const clean = raw.replace("✅", "").replace(/^[A-C][\).]\s*/, "").trim();
+          choices.push({ text: clean, correct: isCorrect });
+        }
+        qs.push({
+          title: currentSubject,
+          text: questionLine,
+          choices
+        });
+      }
+      return qs;
+    }
+
+    function startQuiz(label) {
+      state = {
+        current: 0,
+        order: [...questions.keys()],
+        answers: {},
+        bookmarks: [],
+        view: "all"
+      };
+      quizTitle.textContent = label;
+      quizSubtitle.textContent = "";
+      homeScreen.style.display = "none";
+      subjectScreen.style.display = "none";
+      quizScreen.style.display = "block";
+      setBreadcrumb("quiz");
+      render();
+    }
+
+    function getVisibleOrder() {
+      if (state.view === "all") return state.order;
+      if (state.view === "bookmarked") return state.order.filter(i => state.bookmarks.includes(i));
+      if (state.view === "wrong") {
+        return state.order.filter(i => {
+          const a = state.answers[i];
+          return a && Object.values(a).includes("wrong");
+        });
+      }
+      return state.order;
+    }
+
+    function calcSummary() {
+      let correct = 0, wrong = 0;
+      for (let i = 0; i < questions.length; i++) {
+        const ans = state.answers[i];
+        if (!ans) continue;
+        if (Object.values(ans).includes("correct")) correct++;
+        else if (Object.values(ans).includes("wrong")) wrong++;
+      }
+      return { correct, wrong, unanswered: questions.length - correct - wrong };
+    }
+
+    function renderPager(visible) {
+      const total = visible.length;
+      const current = state.current;
+      const container = jumpMenu;
+      container.innerHTML = "";
+
+      const label = document.createElement("div");
+      label.className = "pager-label";
+      label.textContent = `PAGE ${current + 1} OF ${total}`;
+      container.appendChild(label);
+
+      function addBtn(text, handler, active=false) {
+        const b = document.createElement("button");
+        b.textContent = text;
+        if (active) b.classList.add("active");
+        b.addEventListener("click", handler);
+        container.appendChild(b);
+      }
+
+      const showRange = 4;
+      for (let i = 0; i < Math.min(showRange, total); i++) {
+        addBtn(i+1, () => { state.current = i; render(); }, i === current);
+      }
+
+      if (total > 10) {
+        addBtn("...", () => {
+          const jumpTo = 9;
+          if (jumpTo < total) { state.current = jumpTo-1; render(); }
+        });
+        addBtn("10", () => { state.current = 9; render(); }, current === 9);
+        addBtn("20", () => { if (total > 19) { state.current = 19; render(); } });
+        addBtn("...", () => {
+          const mid = Math.floor(total/2);
+          state.current = mid; render();
+        });
+      }
+
+      addBtn(">", () => {
+        if (state.current < total - 1) { state.current++; render(); }
+      });
+      addBtn("LAST PAGE", () => {
+        state.current = total - 1; render();
+      });
+    }
+
+    function render() {
+      const visible = getVisibleOrder();
+      if (!visible.length) return;
+      if (state.current >= visible.length) state.current = 0;
+      const realIndex = visible[state.current];
+      const q = questions[realIndex];
+
+      qPill.textContent = `Question ${state.current + 1} of ${visible.length}`;
+      questionText.textContent = q.text;
+
+      const { correct, wrong, unanswered } = calcSummary();
+      infoChips.innerHTML = `
+        <div class="chip">Total: ${questions.length}</div>
+        <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
+        <div class="chip">Correct: ${correct}</div>
+      `;
+      const answeredCount = questions.length - unanswered;
+      progressBar.style.width = Math.round((answeredCount / questions.length) * 100) + "%";
+
+      choicesEl.innerHTML = "";
+      const saved = state.answers[realIndex] || {};
+      q.choices.forEach((choice, i) => {
+        const btn = document.createElement("button");
+        btn.className = "choice-btn";
+        btn.innerHTML = `<strong>${i+1}</strong> ${choice.text}`;
+        if (saved[i] === "correct") btn.classList.add("correct");
+        if (saved[i] === "wrong") btn.classList.add("wrong");
+        btn.addEventListener("click", () => {
+          if (!state.answers[realIndex]) state.answers[realIndex] = {};
+          if (choice.correct) state.answers[realIndex][i] = "correct";
+          else state.answers[realIndex][i] = "wrong";
+          render();
+        });
+        choicesEl.appendChild(btn);
+      });
+
+      bookmarkBtn.classList.toggle("active", state.bookmarks.includes(realIndex));
+      filterBtn.classList.toggle("active", state.view === "bookmarked");
+      reviewBtn.classList.toggle("active", state.view === "wrong");
+
+      prevBtn.disabled = state.current === 0;
+      nextBtn.disabled = state.current === visible.length - 1;
+
+      renderPager(visible);
+
+      if (unanswered === 0) {
+        summaryBox.textContent = `Done: ${correct} correct, ${wrong} wrong`;
+        summaryBox.classList.add("done");
+      } else {
+        summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
+        summaryBox.classList.remove("done");
+      }
+    }
 
     prevBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      if (currentIndex > 0) {
-        currentIndex--;
+      if (state.current > 0) {
+        state.current--;
         render();
       }
     });
     nextBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      if (currentIndex < visible.length - 1) {
-        currentIndex++;
+      if (state.current < visible.length - 1) {
+        state.current++;
         render();
       }
     });
 
     bookmarkBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
-      const realIndex = visible[currentIndex];
-      const i = bookmarks.indexOf(realIndex);
-      if (i === -1) bookmarks.push(realIndex);
-      else bookmarks.splice(i, 1);
-      render();
-    });
-    filterBtn.addEventListener("click", () => {
-      if (viewMode === "bookmarked") viewMode = "all";
-      else {
-        if (!bookmarks.length) { alert("No bookmarked questions."); return; }
-        viewMode = "bookmarked";
-        currentIndex = 0;
-      }
-      render();
-    });
-    reviewBtn.addEventListener("click", () => {
-      const haveWrong = Object.values(answers).some(a => Object.values(a).includes("wrong"));
-      if (!haveWrong) { alert("No wrong answers to review."); return; }
-      viewMode = viewMode === "wrong" ? "all" : "wrong";
-      currentIndex = 0;
-      render();
-    });
-    restartBtn.addEventListener("click", () => {
-      answers = {};
-      bookmarks = [];
-      currentIndex = 0;
-      viewMode = "all";
+      const realIndex = visible[state.current];
+      const pos = state.bookmarks.indexOf(realIndex);
+      if (pos === -1) state.bookmarks.push(realIndex);
+      else state.bookmarks.splice(pos, 1);
       render();
     });
 
+    filterBtn.addEventListener("click", () => {
+      if (state.view === "bookmarked") state.view = "all";
+      else {
+        const filtered = state.order.filter(i => state.bookmarks.includes(i));
+        if (!filtered.length) { alert("No bookmarked questions."); return; }
+        state.view = "bookmarked";
+        state.current = 0;
+      }
+      render();
+    });
+
+    reviewBtn.addEventListener("click", () => {
+      const wrongOnes = state.order.filter(i => {
+        const ans = state.answers[i];
+        return ans && Object.values(ans).includes("wrong");
+      });
+      if (!wrongOnes.length) { alert("No wrong answers to review."); return; }
+      if (state.view === "wrong") state.view = "all";
+      else { state.view = "wrong"; state.current = 0; }
+      render();
+    });
+
+    restartBtn.addEventListener("click", () => {
+      if (!questions.length) return;
+      state.answers = {};
+      state.view = "all";
+      state.current = 0;
+      render();
+    });
+
+    // start
     showHome();
   </script>
 </body>
