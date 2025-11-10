@@ -24,163 +24,170 @@
       display: flex;
       justify-content: center;
       min-height: 100vh;
+      font-size: 0.75rem; /* صغرنا كل شي تقريباً 25% */
     }
     .shell {
       width: min(1100px, 100%);
-      padding: 2.5rem 1.5rem 4rem;
+      padding: 2.2rem 1.3rem 4rem;
     }
 
-    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .9rem; }
+    .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .7rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
     .top-brand {
       display: flex;
       flex-direction: column;
-      gap: .25rem;
-      margin-bottom: .4rem;
+      gap: .3rem;
+      margin-bottom: .2rem;
     }
     .top-brand .name {
-      font-size: 1.9rem;
+      font-size: 1.4rem;
       font-weight: 700;
       color: #ff4d4d;
     }
     .top-brand .sub {
-      font-size: .78rem;
+      font-size: .68rem;
     }
     .top-brand .sub small {
       display: block;
       color: #fff;
       opacity: .85;
-      font-size: .7rem;
+      font-size: .65rem;
     }
 
-    .breadcrumb { font-size: .8rem; color: #d4d4d4; margin-bottom: 1.2rem; }
+    .breadcrumb {
+      font-size: 1rem; /* كبرناه */
+      color: #d4d4d4;
+      margin: .4rem 0 1rem;
+      font-weight: 600;
+    }
     .breadcrumb span { cursor: pointer; }
-    .breadcrumb .active { color: #fff; font-weight: 600; }
+    .breadcrumb .active { color: #fff; }
 
-    .select-title { font-size: 1.2rem; margin-bottom: 1rem; }
+    .select-title { font-size: 1rem; margin-bottom: .9rem; }
     .option-btn, .subject-btn {
       width: 100%; background: #0f172a; border: 1px solid rgba(255,255,255,.025); color: #fff;
-      padding: .75rem .9rem; border-radius: .5rem; font-size: 1.05rem; text-align: left;
-      cursor: pointer; margin-bottom: .75rem; transition: .15s;
+      padding: .6rem .75rem; border-radius: .5rem; font-size: .8rem; text-align: left;
+      cursor: pointer; margin-bottom: .6rem; transition: .15s;
     }
     .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
 
     /* submenu */
     .submenu {
-      margin-top: .4rem;
+      margin-top: .35rem;
       margin-left: .6rem;
       border-left: 2px solid rgba(255,255,255,.03);
       padding-left: .6rem;
     }
-    .submenu .subject-btn { margin-bottom: .4rem; }
+    .submenu .subject-btn { margin-bottom: .35rem; }
 
     #quiz-screen { display: none; }
 
     .quiz-title-block {
       text-align: center;
-      margin-bottom: 1.1rem;
+      margin-bottom: .9rem;
     }
     .quiz-title-block h1 {
       margin: 0;
-      font-size: 2.1rem;
+      font-size: 1.7rem;
       font-weight: 600;
     }
     .quiz-title-block h2 {
-      margin: .15rem 0 0;
-      font-size: 1.7rem;
+      margin: .1rem 0 0;
+      font-size: 1.3rem;
       font-weight: 700;
     }
     .info-chips {
-      margin-top: .7rem;
+      margin-top: .6rem;
       display: flex;
-      gap: .8rem;
+      gap: .6rem;
       justify-content: center;
     }
     .chip {
       background: rgba(255,255,255,.03);
       border: 1px solid rgba(255,255,255,.03);
-      padding: .45rem .9rem;
+      padding: .35rem .7rem;
       border-radius: 999px;
-      font-size: .68rem;
+      font-size: .6rem;
       color: var(--muted);
-      min-width: 95px;
+      min-width: 85px;
       text-align: center;
     }
 
     .q-header-row {
       display: flex;
-      gap: .6rem;
+      gap: .4rem;
       align-items: center;
-      margin-bottom: 1.1rem;
+      margin-bottom: .8rem;
     }
     .badge-pill {
       background: #1d4ed8;
-      padding: .5rem 1.1rem;
+      padding: .35rem .9rem;
       border-radius: .4rem;
-      font-size: .78rem;
+      font-size: .65rem;
       white-space: nowrap;
     }
     .inline-tools {
       display: flex;
-      gap: .5rem;
+      gap: .4rem;
     }
     .inline-tools .icon-btn {
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
       background: #0f172a;
       border: 1px solid #1e293b;
       border-radius: .4rem;
       display: grid;
       place-items: center;
       cursor: pointer;
-      font-size: .85rem;
+      font-size: .7rem;
     }
     .inline-tools .icon-btn.active { background: var(--accent); }
 
     .q-text {
-      font-size: 1.35rem;
-      margin-bottom: 1rem;
+      font-size: 1.05rem;
+      margin-bottom: .6rem;
+      line-height: 1.35;
     }
 
     .choices {
       display: flex;
       flex-direction: column;
-      gap: .85rem;
+      gap: .6rem;
     }
     .choice-btn {
       background: transparent;
       border: none;
       border-bottom: 1px solid rgba(255,255,255,.04);
-      padding: .45rem 0;
+      padding: .3rem 0;
       display: flex;
-      gap: .75rem;
+      gap: .55rem;
       align-items: center;
       color: #fff;
-      font-size: 1rem;
+      font-size: .8rem;
       cursor: pointer;
     }
     .choice-btn.correct { color: var(--correct); border-bottom-color: var(--correct); }
     .choice-btn.wrong { color: var(--wrong); border-bottom-color: var(--wrong); }
 
     .nav-area {
-      margin-top: 2.2rem;
+      margin-top: 1.7rem;
       display: flex;
       flex-direction: column;
-      gap: 1.2rem;
+      gap: 1rem;
       align-items: center;
     }
     .nav-btns {
       display: flex;
-      gap: 1.6rem;
+      gap: 1.1rem;
     }
     .big-nav {
-      min-width: 140px;
+      min-width: 120px;
       background: #0f172a;
       border: 1px solid rgba(255,255,255,.05);
-      border-radius: .7rem;
-      padding: .5rem 1rem;
-      font-size: 1rem;
+      border-radius: .6rem;
+      padding: .45rem .9rem;
+      font-size: .8rem;
       color: #fff;
       cursor: pointer;
       text-align: center;
@@ -189,24 +196,25 @@
 
     .pager {
       display: flex;
-      gap: .4rem;
+      gap: .3rem;
       flex-wrap: wrap;
       justify-content: center;
     }
     .pager-label {
       background: #0f172a;
-      padding: .35rem .8rem;
+      padding: .28rem .6rem;
       border-radius: .4rem;
-      font-size: .65rem;
+      font-size: .55rem;
     }
     .pager button {
       background: #0f172a;
       border: 1px solid #0f172a;
       color: #fff;
-      width: 38px;
-      height: 38px;
+      width: 34px;
+      height: 34px;
       border-radius: .4rem;
       cursor: pointer;
+      font-size: .7rem;
     }
     .pager button.active {
       background: transparent;
@@ -218,7 +226,7 @@
       color: #fff;
     }
 
-    .summary { font-size: .75rem; color: var(--muted); }
+    .summary { font-size: .65rem; color: var(--muted); }
 
     /* overlay modal */
     .overlay {
@@ -234,31 +242,32 @@
       background: #0f172a;
       border: 1px solid rgba(255,255,255,.05);
       border-radius: .75rem;
-      padding: 1.2rem 1.4rem;
+      padding: 1rem 1.2rem;
       width: min(620px, 94vw);
       max-height: 80vh;
       overflow-y: auto;
+      font-size: .75rem;
     }
     .modal h3 { margin-top: 0; }
     .modal-btns {
       display: flex;
       gap: .5rem;
       flex-wrap: wrap;
-      margin-top: .75rem;
+      margin-top: .6rem;
     }
     .btn {
       background: #1d4ed8;
       border: none;
       color: #fff;
-      padding: .4rem .85rem;
+      padding: .4rem .75rem;
       border-radius: .4rem;
       cursor: pointer;
-      font-size: .8rem;
+      font-size: .7rem;
     }
     .btn.secondary { background: #0f172a; border: 1px solid rgba(255,255,255,.05); }
 
     .questions-list {
-      margin-top: .8rem;
+      margin-top: .6rem;
       border: 1px solid rgba(255,255,255,.03);
       border-radius: .4rem;
       overflow: hidden;
@@ -266,7 +275,7 @@
     .questions-list div {
       padding: .35rem .5rem;
       border-bottom: 1px solid rgba(255,255,255,.02);
-      font-size: .75rem;
+      font-size: .65rem;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -274,12 +283,12 @@
     .questions-list div:last-child { border-bottom: none; }
 
     @media (max-width: 640px) {
-      .shell { padding-inline: 1rem; }
+      .shell { padding-inline: .8rem; }
       .q-header-row { flex-wrap: wrap; }
       .inline-tools { order: 2; }
       .badge-pill { order: 1; }
-      .q-text { font-size: 1.2rem; }
-      .big-nav { min-width: 120px; }
+      .q-text { font-size: .95rem; }
+      .big-nav { min-width: 110px; }
     }
   </style>
 </head>
@@ -326,6 +335,7 @@
           <div class="icon-btn" id="restartBtn">↩</div>
           <div class="icon-btn" id="reviewBtn">📁</div>
           <div class="icon-btn" id="filterBtn">📄</div>
+          <div class="icon-btn" id="jumpBtn">⬇</div>
         </div>
       </div>
 
@@ -337,6 +347,7 @@
       <div class="nav-area">
         <div class="nav-btns">
           <button class="big-nav" id="prevBtn">Previous</button>
+          <button class="big-nav" id="submitBtn">Submit</button>
           <button class="big-nav" id="nextBtn">Next</button>
         </div>
         <div class="pager" id="jumpMenu"></div>
@@ -367,6 +378,17 @@
         <button class="btn" id="restartSame">Restart With Same Order</button>
         <button class="btn secondary" id="restartShuffle">Restart With Different Order</button>
         <button class="btn secondary" id="restartCancel">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- jump modal -->
+  <div class="overlay" id="jumpOverlay">
+    <div class="modal">
+      <h3>Jump to question</h3>
+      <div class="modal-btns" id="jumpList"></div>
+      <div style="margin-top:.6rem;text-align:right">
+        <button class="btn secondary" id="jumpClose">Close</button>
       </div>
     </div>
   </div>
@@ -417,12 +439,14 @@
     const choicesEl = document.getElementById("choices");
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
+    const submitBtn = document.getElementById("submitBtn");
     const jumpMenu = document.getElementById("jumpMenu");
     const summaryBox = document.getElementById("summaryBox");
     const bookmarkBtn = document.getElementById("bookmarkBtn");
     const restartBtn = document.getElementById("restartBtn");
     const reviewBtn = document.getElementById("reviewBtn");
     const filterBtn = document.getElementById("filterBtn");
+    const jumpBtn = document.getElementById("jumpBtn");
     const progressBar = document.getElementById("progressBar");
 
     const completionOverlay = document.getElementById("completionOverlay");
@@ -437,6 +461,10 @@
     const restartSame = document.getElementById("restartSame");
     const restartShuffle = document.getElementById("restartShuffle");
     const restartCancel = document.getElementById("restartCancel");
+
+    const jumpOverlay = document.getElementById("jumpOverlay");
+    const jumpList = document.getElementById("jumpList");
+    const jumpClose = document.getElementById("jumpClose");
 
     document.querySelectorAll(".option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -478,7 +506,6 @@
       const subs = SUBJECT_FILES[currentTrack];
 
       if (currentTrack === "associate") {
-        // اجمع أجزاء Gen I&K
         const genIK = Object.keys(subs).filter(n => n.startsWith("Gen I&K Part"));
         const others = Object.keys(subs).filter(n => !n.startsWith("Gen I&K Part"));
         const mainBtn = document.createElement("button");
@@ -502,7 +529,7 @@
         });
         subjectList.appendChild(mainBtn);
         subjectList.appendChild(subDiv);
-        // باقي المواد
+
         others.forEach(name => {
           const b = document.createElement("button");
           b.className = "subject-btn";
@@ -538,20 +565,44 @@
       }
     }
 
+    // تعديلات القراءة: لو في أسطر 1 / 2 / 3 بدون ✅ نلصقها في السؤال
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
       for (const block of blocks) {
         const lines = block.split(/\r?\n/).map(l => l.trim()).filter(l => l !== "" && l !== "=");
         if (lines.length < 2) continue;
-        const questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
-        const choices = [];
+
+        let questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
+        const choiceLines = [];
+        // نبني السؤال ونفصل الخيارات
         for (let i = 1; i < lines.length; i++) {
           const raw = lines[i];
+
+          const looksLikeChoice =
+            raw.includes("✅") ||
+            /^[A-Ca-c][\).]\s*/.test(raw) ||
+            /^(\d+)[\).\s]/.test(raw) && parseInt(raw,10) >= 4; // 4 وفوق تعتبر خيار
+
+          if (looksLikeChoice) {
+            choiceLines.push(raw);
+          } else {
+            // جزء من السؤال
+            questionLine += "\n" + raw;
+          }
+        }
+
+        const choices = [];
+        for (const raw of choiceLines) {
           const isCorrect = raw.includes("✅");
-          const clean = raw.replace("✅", "").replace(/^[A-C][\).]\s*/, "").trim();
+          const clean = raw
+            .replace("✅", "")
+            .replace(/^[A-Ca-c][\).]\s*/, "")
+            .replace(/^\d+[\).\s]*/, "")
+            .trim();
           choices.push({ text: clean, correct: isCorrect });
         }
+
         qs.push({
           title: currentSubject,
           text: questionLine,
@@ -572,10 +623,7 @@
     }
     function saveProgress() {
       if (!currentStorageKey) return;
-      const data = {
-        total: questions.length,
-        state
-      };
+      const data = { total: questions.length, state };
       localStorage.setItem(STORAGE_PREFIX + currentStorageKey, JSON.stringify(data));
     }
 
@@ -666,6 +714,22 @@
       makeBtn("LAST PAGE", total - 1, false, state.bookmarks.includes(visible[total - 1]));
     }
 
+    function renderJumpModal() {
+      jumpList.innerHTML = "";
+      const visible = getVisibleOrder();
+      visible.forEach((idx, i) => {
+        const b = document.createElement("button");
+        b.className = "btn" + (state.current === i ? "" : " secondary");
+        b.textContent = i + 1;
+        b.addEventListener("click", () => {
+          state.current = i;
+          jumpOverlay.style.display = "none";
+          render();
+        });
+        jumpList.appendChild(b);
+      });
+    }
+
     function render() {
       const visible = getVisibleOrder();
       if (!visible.length) return;
@@ -709,22 +773,10 @@
 
       renderPager(visible);
 
-      if (unanswered === 0) {
-        const percent = questions.length ? ((correct / questions.length) * 100).toFixed(2) : "0.00";
-        completionTitle.textContent = `Quiz Completed ${percent}%`;
-        completionText.textContent = "You have completed the quiz";
-        completionList.innerHTML = "";
-        questions.forEach((qq, idx) => {
-          const r = document.createElement("div");
-          r.textContent = `${idx + 1}. ${qq.text}`;
-          completionList.appendChild(r);
-        });
-        completionOverlay.style.display = "flex";
-      } else {
-        completionOverlay.style.display = "none";
-        summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
-      }
+      const percent = questions.length ? ((correct / questions.length) * 100).toFixed(2) : "0.00";
+      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
 
+      // save
       saveProgress();
     }
 
@@ -736,6 +788,22 @@
       const visible = getVisibleOrder();
       if (state.current < visible.length - 1) { state.current++; render(); }
     });
+
+    submitBtn.addEventListener("click", showCompletion);
+
+    function showCompletion() {
+      const { correct } = calcSummary();
+      const percent = questions.length ? ((correct / questions.length) * 100).toFixed(2) : "0.00";
+      completionTitle.textContent = `Quiz Completed ${percent}%`;
+      completionText.textContent = "You have completed the quiz";
+      completionList.innerHTML = "";
+      questions.forEach((qq, idx) => {
+        const r = document.createElement("div");
+        r.textContent = `${idx + 1}. ${qq.text}`;
+        completionList.appendChild(r);
+      });
+      completionOverlay.style.display = "flex";
+    }
 
     bookmarkBtn.addEventListener("click", () => {
       const visible = getVisibleOrder();
@@ -766,6 +834,14 @@
       if (state.view === "wrong") state.view = "all";
       else { state.view = "wrong"; state.current = 0; }
       render();
+    });
+
+    jumpBtn.addEventListener("click", () => {
+      renderJumpModal();
+      jumpOverlay.style.display = "flex";
+    });
+    jumpClose.addEventListener("click", () => {
+      jumpOverlay.style.display = "none";
     });
 
     // shuffle
@@ -824,7 +900,29 @@
       completionOverlay.style.display = "none";
     });
 
+    // فتح اختبار من الرابط ?quiz=اسم-الملف
+    function tryOpenFromURL() {
+      const url = new URL(window.location.href);
+      const q = url.searchParams.get("quiz");
+      if (!q) return;
+      // نحاول نلقاه في associate أول ثم diploma
+      currentTrack = "associate";
+      if (SUBJECT_FILES.associate[q]) {
+        showSubjects();
+        currentSubject = q;
+        loadSubjectFromText(SUBJECT_FILES.associate[q], q);
+        return;
+      }
+      if (SUBJECT_FILES.diploma[q]) {
+        currentTrack = "diploma";
+        showSubjects();
+        currentSubject = q;
+        loadSubjectFromText(SUBJECT_FILES.diploma[q], q);
+      }
+    }
+
     showHome();
+    tryOpenFromURL();
   </script>
 </body>
 </html>
