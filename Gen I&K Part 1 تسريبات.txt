@@ -1,4 +1,4 @@
-An FAA Form 337 is used to record and document
+An FAA Form 337 is used to record and documen?
 reventive and unscheduled maintenance and special inspections.
 major and minor repairs, and major and minor alterations.
 major repairs and major alterations. ✅
@@ -6,7 +6,6 @@ major repairs and major alterations. ✅
 =
 
 When is a mechanic responsible for checking AD compliance?
-
 Never, the owner or operator is solely responsible.
 When performing an inspection required under part 91, 125, or 135. ✅
 Anytime an aircraft or portion thereof is returned to service.
@@ -35,9 +34,8 @@ exceeds minimum standards with regard to aerodynamic function, structural streng
 =
 
 An aircraft mechanic is privileged to perform major alterations on U.S. certificated aircraft; however, the work must be done in accordance with FAA✅approved technical data before the aircraft can be returned to service. Which is NOT approved data?
-
 Airworthiness Directives.
-AC 43.13✅2A. ✅
+AC 43.13-2A. ✅
 Supplemental Type Certificates.
 
 =
@@ -93,9 +91,9 @@ is on board and displayed at the cabin or cockpit entrance and is transferred wi
 
 
 With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
-LSA Repairman?
-A&P?
-Repair Station?
+*LSA Repairman
+*A&P
+*Repair Station
 
 1 and 2 only
 1 only
@@ -183,9 +181,9 @@ FAA Form 337 ✅
 
 What is/are the appropriate action(s) concerning minor repairs performed on a certificated aircraft?
 
- FAA Form 337 must be completed.
- Entries must be made in the aircraft's maintenance record.
- The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+*1. FAA Form 337 must be completed.
+*2. Entries must be made in the aircraft's maintenance record.
+*3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
 
 2✅
 1and2
@@ -195,9 +193,9 @@ What is/are the appropriate action(s) concerning minor repairs performed on a ce
 
  
 Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service?
-A 100 hour inspection.
-An annual inspection, under specified circumstances.
-A progressive inspection, under specified circumstances
+*1. A 100 hour inspection.
+*2. An annual inspection, under specified circumstances.
+*3. A progressive inspection, under specified circumstances
 
 1.2
 1.3 ✅
@@ -229,9 +227,9 @@ is on board and displayed at the cabin or cockpit entrance and is transferred wi
 =
  
 With regard to Light Sport Aircraft (LSA) who may carry out Inspection, Repair, and Alterations?
-LSA Repairman
-A&P
-Repair Station.
+*1. LSA Repairman
+*2. A&P
+*3. Repair Station.
 
 1 and 2 only
 1 only
@@ -322,9 +320,9 @@ FAA Form 337. ✅
 
  
 What is/are the appropriate action(s) concerning minor repairs performed on a certificated aircraft?
-FAA Form 337 must be completed.
-Entries must be made in the aircraft's maintenance record.
-The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+*1. FAA Form 337 must be completed.
+*2. Entries must be made in the aircraft's maintenance record.
+*3. The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
 
 2 ✅
 1and2
@@ -342,9 +340,9 @@ The owner may fly in the restricted category up to 10 hours.
 
 
 Which of the following may a certificated airframe and powerplant mechanic perform on aircraft and approve for return to service?
-A 100-hour inspection.
-An annual inspection, under specified circumstances.
-A progressive inspection, under specified circumstances.
+*1. A 100-hour inspection.
+*2. An annual inspection, under specified circumstances.
+*3. A progressive inspection, under specified circumstances.
 
 1.2
 1.3 ✅
@@ -357,5 +355,4 @@ Which is an appliance major repair?
 Overhaul of a hydraulic pressure pump ✅
 Repairs to a propeller governor or its control.
 Troubleshooting and repairing broken circuits in landing light circuits
-
 =
