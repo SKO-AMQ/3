@@ -1,4 +1,5 @@
 =
+=
 The chord of a wing is measured from:
 A. leading edge to trailing edge.
 B. wingtip to wingtip. ✅
@@ -100,7 +101,6 @@ B. inspecting for wear or corrosion.
 C. inspecting for broken wires ✅
 =
 Identify the cable that is used in primary control systems and in other place where operation over pulleys is frequent:
-تقاط
 A. 2 (7x7 cable).
 B. 1 (1x19 cable).
 C. 3 (7x19 cable). ✅
