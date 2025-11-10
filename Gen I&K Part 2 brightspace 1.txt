@@ -107,7 +107,7 @@ The AD effective date
 =
 
 State true or false Airworthy means the aircraft conforms to its type design and is in a condition for safe operation.
-True
+True ✅
 False
 
 =
