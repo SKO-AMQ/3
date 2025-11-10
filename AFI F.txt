@@ -1,0 +1,142 @@
+=
+The chord of a wing is measured from:
+A. leading edge to trailing edge.
+B. wingtip to wingtip. ✅
+C. wing root to the wingtip.
+=
+When the outside air temperature is 80°•F, select the acceptable 3/16 cable tension range.
+A. 130 pounds minimum, 140 pounds maximum.
+B. 120 pounds minimum, 140 pounds maximum.
+C. 117 pounds minimum, 143 pounds maximum. ✅
+=
+One purpose of the freewheeling unit required between the engine and the helicopter transmission is to:
+A. disconnect the rotor from the engine to relieve the starter load.
+B. automatically disengage the rotor from the engine in case of an engine failure. ✅
+C. permit practice of autorotation landings.
+=
+The purpose of spring tabs or servo tabs is to:
+A. contribute to the static balance of the control surface.
+B. make in flight trim adjustments possible.
+C. assist the pilot in moving the control surfaces. ✅
+=
+A freewheeling unit is used in which form of helicopter flight?
+A. Forward flight. ✅
+B. Hovering flight.
+C. Autorotation.
+=
+What helicopter flight condition is also known as the law of conservation of angular momentum?
+A. Ground effect.
+B. Coriolis effect. ✅
+C. Translating tendency.
+=
+If all instructions issued by the swaging tool manufacturer are followed when swaging a cable terminal, the resultant swaged terminal strength should be:
+A. the full rated strength of the cable. ✅
+B. 70 percent of the full rated strength of the cable.
+C. 80 percent of the full rated strength of the cable.
+=
+If a pilot reports that an airplane flies left wing heavy, this condition may be corrected by:
+A. increasing the dihedral angle of the left wing, or decreasing the dihedral angle of the right wing, or both.
+B. increasing the angle of the incidence of the left wing, or decreasing the angle of incidence of the right wing, or both. ✅
+C. adjusting the dihedral angle of the left with so that differential pressure between the upper and lower wing surfaces is increased.
+=
+An airplane is controlled directionally about its vertical axis by the:
+A. ailerons.
+B. elevators.
+C. rudder. ✅
+=
+Which type of blade tracking is accomplished with tracking tip cap reflectors and a strobe light?
+A. Electronic blade. ✅
+B. Flag and pole
+C. Marking method.
+=
+An airplane which has good longitudinal stability should have a minimum tendency to:
+A. pitch. ✅
+B. roll.
+C. yaw.
+=
+The control system for a large aircraft that causes the mechanical link to open servo valves, which then direct hydraulic fluid to actuators, is a:
+A. hydraulic control.
+B. mechanical control.
+C. hydro mechanical control. ✅
+=
+___________is the differential lift between advancing and retreating halves of the rotor disk caused by the different wind flow velocity across each half.
+A. Dissymmetry of lift. ✅
+B. Translational lift.
+C. Effective translational lift.
+=
+The correct dihedral angle can be determined by:
+A. measuring the angular setting of each wing at the rear spar with a bubble protractor.
+B. placing a straightedge and bubble protractor across the spars while the airplane is in flying position.
+C. using a dihedral board and bubble level along the front spar of each wing. ✅
+=
+Improper rigging of the elevator trim tab system will affect the balance of the airplane about its:
+A. vertical axis.
+B. lateral axis. ✅
+C. longitudinal axis. 
+=
+When a control cable is properly rigged, which cable system installation item is the small extra push that is needed for the flight deck control to his its mechanical stop?
+A. Cable connectors. 
+B. Spring-backs. ✅
+C. Turnbuckles.
+=
+Movement about the longitudinal axis (roll) in a helicopter is effected by movement of the:
+A. cyclic pitch control.
+B. collective pitch control.
+C. tail rotor pitch control. ✅
+=
+When the lift of an airfoil increases, the drag will:
+A. increase while the lift is changing but will return to its original value.
+B. also increase. ✅
+C. decrease.
+=
+How are changes in direction of a control cable accomplished?
+A. Pulleys. ✅
+B. Fairleads.
+C. Bell cranks.
+=
+Placing a piece of cloth around a stainless steel control cable and running it back and forth over the length of the cable is generally a satisfactory method of:
+A. applying par-al-ketene.
+B. inspecting for wear or corrosion.
+C. inspecting for broken wires ✅
+=
+Identify the cable that is used in primary control systems and in other place where operation over pulleys is frequent:
+تقاط
+A. 2 (7x7 cable).
+B. 1 (1x19 cable).
+C. 3 (7x19 cable). ✅
+=
+Which airplane assembly installation that consists of the horizontal and vertical stabilizer is not normally removed and installed unless the aircraft was damaged?
+A. Empennage installation. ✅
+B. Flap installation.
+C. Aileron installation.
+=
+A universal propeller protractor used to measure the degrees of aileron travel should be zeroed:
+A. with the aileron in the DOWN position.
+B. with the aileron in the NEUTRAL position. ✅
+C. when the aircraft is in a level flight attitude.
+=
+The elevators of a conventional airplane are used to provide rotation about the:
+A. vertical axis.
+B. longitudinal axis.
+C. lateral axis. ✅
+=
+When a control cable is properly rigged, which cable system installation item is the small extra push that is needed for the flight deck control to his its mechanical stop?
+A. Cable connectors.
+B. Spring-backs. ✅
+C. Turnbuckles.
+=
+A freewheeling unit is used in which form of helicopter flight?
+A. Forward flight. ✅
+B. Hovering flight.
+C. Autorotation.
+=
+Rigging and alignment checks should not be undertaken in the open; however, if this cannot be avoided, the aircraft should be positioned:
+A. facing any direction since it makes no difference if the wind is steady (not gusting).
+B. with the nose into the wind. ✅
+C. obliquely into the wind.
+=
+Which statement is correct concerning torque effect on helicopters?
+A. As horsepower decreases, torque increases.
+B. Torque direction is the opposite of rotor blade rotation. ✅
+C. Torque direction is the same as rotor blade rotation.
+=
