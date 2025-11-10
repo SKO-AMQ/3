@@ -674,34 +674,21 @@
       }
     }
 
+    // ← هنا رجعنا طريقة الخيارات البسيطة من الكود الأول
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
       for (const block of blocks) {
         const lines = block.split(/\r?\n/).map(l => l.trim()).filter(l => l !== "" && l !== "=");
         if (lines.length < 2) continue;
-
-        let questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
-        const choiceLines = [];
+        const questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
+        const choices = [];
         for (let i = 1; i < lines.length; i++) {
           const raw = lines[i];
-          const looksLikeChoice =
-            raw.includes("✅") ||
-            /^[A-Ca-c][\).]\s*/.test(raw) ||
-            (/^(\d+)[\).\s]/.test(raw) && parseInt(raw,10) >= 4);
-          if (looksLikeChoice) {
-            choiceLines.push(raw);
-          } else {
-            questionLine += "\n" + raw;
-          }
-        }
-        const choices = [];
-        for (const raw of choiceLines) {
           const isCorrect = raw.includes("✅");
           const clean = raw
             .replace("✅", "")
             .replace(/^[A-Ca-c][\).]\s*/, "")
-            .replace(/^\d+[\).\s]*/, "")
             .trim();
           choices.push({ text: clean, correct: isCorrect });
         }
@@ -729,7 +716,7 @@
       currentStorageKey = storageKey || label;
       const saved = loadSaved(currentStorageKey);
       pendingSavedState = null;
-      jumpInput.value = "1";             // ← تصفير Go to لكل اختبار
+      jumpInput.value = "1";             // تصفير Go to لكل اختبار
       if (saved && saved.total === questions.length) {
         pendingSavedState = saved.state;
       }
