@@ -83,7 +83,7 @@ Which behaviour or safety net can improve teamwork?
  A. Team tasks require a full team.
  B. Reconfirm duties among team members.
  C. Communication. ✅
- =
+=
 Not alerting others when something does not seem right, not speaking up when the actions of another concern you, or not reporting that procedures are poorly written or impractical are all actions of someone who lacks:
 A. awareness.
 B. assertiveness. ✅
@@ -106,10 +106,11 @@ C. an increased heart rate.
 D. All of the above ✅
 =
 The environmental aspect of the PEAR model considers which of the following:
-1. workplace design.
-2. shared goals.
-3. company culture.
-4. lighting.
+*1. workplace design.
+*1. workplace design.
+*2. shared goals.
+*3. company culture.
+*4. lighting.
 A. 2 of the above factors.
 B. 3 of the above factors.
 C. all of the above factors. ✅
@@ -133,7 +134,7 @@ All of the following human error, except are consequences of
 mental stressor.✅
 catastrophic.
 personal injury.
-
+=
 Many areas of aviation have shifted their focus from eliminating error to
 preventing and managing error. ✅
 identifying and mitigating error.
