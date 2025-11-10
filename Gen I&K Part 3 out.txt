@@ -18,12 +18,12 @@
     B- 14 CFR Part 43 — Maintenance, Preventive Maintenance, Rebuilding, and Alterations ✅
     C- 14 CFR Part 25—Airworthiness Standards: Transport Category Airplanes
 =
-    5-  In requirements for obtaining a maintenance training certificate, who many curriculum hours required for both airframe and powerplant ratings✅
+    5-  In requirements for obtaining a maintenance training certificate, who many curriculum hours required for both airframe and powerplant ratings	
     A- 1,150 hours
     B- 1,900 hours. ✅
     C- 2,300 hours
 =
-    6- If the maintenance accomplished was a major repair or alteration (both of which require supporting approved data), the work must be documented on✅
+    6- If the maintenance accomplished was a major repair or alteration (both of which require supporting approved data), the work must be documented on
     A- FAA Form 8130-6.
     B- FAA Form 8100-2.
     C- FAA Form 337. ✅
@@ -41,7 +41,7 @@
     A- True. ✅
     B- False.
 =
-    10- When the FAA issues a type certificate✅
+    10- When the FAA issues a type certificate
     A- when a new aircraft, engine, propeller, and so forth, is found to meet safety standards set forth by the FAA. -
     B- When the specifications, conditions, and limitations under which airworthiness requirements were met for the specified product.
     C- When a monthly electronic publication of the FAA that provides information concerning malfunction or defects observed by technicians throughout the aviation industry.
@@ -54,7 +54,7 @@
     A- True ✅
     B- False
 =
-    13- What is Structural Repair Manual (SRM)✅
+    13- What is Structural Repair Manual (SRM)
     A- Manual that provides information concerning the maintenance (including troubleshooting and repair) of the aircraft and systems on the aircraft.
     B- manual that carries detail information for the technician concerning an aircraft’s primary and secondary structure, criteria for evaluating the severity of the detected damage, determining the feasibility of a repair, and alignment/inspection information. ✅
     C- Manual that focus on a specific item or component such as hydraulic pump, generator, or thrust reverser.
