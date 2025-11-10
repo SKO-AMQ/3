@@ -13,6 +13,7 @@
       --border: #1e2937;
       --correct: #22c55e;
       --wrong: #ef4444;
+      --bookmark: #facc15;
     }
     * { box-sizing: border-box; }
     body {
@@ -46,6 +47,12 @@
     .top-brand .sub {
       font-size: .78rem;
     }
+    .top-brand .sub small {
+      display: block;
+      color: #fff;
+      opacity: .85;
+      font-size: .7rem;
+    }
 
     .breadcrumb { font-size: .8rem; color: #d4d4d4; margin-bottom: 1.2rem; }
     .breadcrumb span { cursor: pointer; }
@@ -58,6 +65,15 @@
       cursor: pointer; margin-bottom: .75rem; transition: .15s;
     }
     .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+    /* submenu */
+    .submenu {
+      margin-top: .4rem;
+      margin-left: .6rem;
+      border-left: 2px solid rgba(255,255,255,.03);
+      padding-left: .6rem;
+    }
+    .submenu .subject-btn { margin-bottom: .4rem; }
 
     #quiz-screen { display: none; }
 
@@ -196,8 +212,66 @@
       background: transparent;
       border: 1px solid #fff;
     }
+    .pager button.bookmark-page {
+      background: #854d0e;
+      border-color: #eab308;
+      color: #fff;
+    }
 
     .summary { font-size: .75rem; color: var(--muted); }
+
+    /* overlay modal */
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.4);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 50;
+    }
+    .modal {
+      background: #0f172a;
+      border: 1px solid rgba(255,255,255,.05);
+      border-radius: .75rem;
+      padding: 1.2rem 1.4rem;
+      width: min(620px, 94vw);
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    .modal h3 { margin-top: 0; }
+    .modal-btns {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+      margin-top: .75rem;
+    }
+    .btn {
+      background: #1d4ed8;
+      border: none;
+      color: #fff;
+      padding: .4rem .85rem;
+      border-radius: .4rem;
+      cursor: pointer;
+      font-size: .8rem;
+    }
+    .btn.secondary { background: #0f172a; border: 1px solid rgba(255,255,255,.05); }
+
+    .questions-list {
+      margin-top: .8rem;
+      border: 1px solid rgba(255,255,255,.03);
+      border-radius: .4rem;
+      overflow: hidden;
+    }
+    .questions-list div {
+      padding: .35rem .5rem;
+      border-bottom: 1px solid rgba(255,255,255,.02);
+      font-size: .75rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .questions-list div:last-child { border-bottom: none; }
 
     @media (max-width: 640px) {
       .shell { padding-inline: 1rem; }
@@ -215,7 +289,10 @@
 
     <div class="top-brand">
       <div class="name">Alqhtani.</div>
-      <div class="sub">دعواتكم ❤️</div>
+      <div class="sub">دعواتكم ❤️
+        <small>أبو مسفر</small>
+        <small>النوفي</small>
+      </div>
     </div>
 
     <div class="breadcrumb" id="breadcrumb">
@@ -268,6 +345,32 @@
     </div>
   </div>
 
+  <!-- completion modal -->
+  <div class="overlay" id="completionOverlay">
+    <div class="modal">
+      <h3 id="completionTitle">Quiz Completed</h3>
+      <p id="completionText">You have completed the quiz</p>
+      <div class="modal-btns">
+        <button class="btn" id="againSameBtn">Do it again</button>
+        <button class="btn secondary" id="againShuffleBtn">OR with different questions order</button>
+        <button class="btn secondary" id="completionClose">Close</button>
+      </div>
+      <div class="questions-list" id="completionList"></div>
+    </div>
+  </div>
+
+  <!-- restart modal -->
+  <div class="overlay" id="restartOverlay">
+    <div class="modal">
+      <h3>Do you wish to restart?</h3>
+      <div class="modal-btns">
+        <button class="btn" id="restartSame">Restart With Same Order</button>
+        <button class="btn secondary" id="restartShuffle">Restart With Different Order</button>
+        <button class="btn secondary" id="restartCancel">Cancel</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const SUBJECT_FILES = {
       associate: {
@@ -277,14 +380,19 @@
         "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
         "Gen J Part 1": "Gen J Part 1.txt",
         "AFI C Part 1": "AFI C Part 1.txt",
+        "Gen E Part 1": "Gen E Part 1.txt",
+        "Gen M Part 1": "Gen M Part 1.txt"
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt"
       }
     };
 
+    const STORAGE_PREFIX = "alqhtaniQuiz:";
+
     let currentTrack = null;
     let currentSubject = null;
+    let currentStorageKey = null;
     let questions = [];
     let state = {
       current: 0,
@@ -316,6 +424,19 @@
     const reviewBtn = document.getElementById("reviewBtn");
     const filterBtn = document.getElementById("filterBtn");
     const progressBar = document.getElementById("progressBar");
+
+    const completionOverlay = document.getElementById("completionOverlay");
+    const completionTitle = document.getElementById("completionTitle");
+    const completionText = document.getElementById("completionText");
+    const completionList = document.getElementById("completionList");
+    const againSameBtn = document.getElementById("againSameBtn");
+    const againShuffleBtn = document.getElementById("againShuffleBtn");
+    const completionClose = document.getElementById("completionClose");
+
+    const restartOverlay = document.getElementById("restartOverlay");
+    const restartSame = document.getElementById("restartSame");
+    const restartShuffle = document.getElementById("restartShuffle");
+    const restartCancel = document.getElementById("restartCancel");
 
     document.querySelectorAll(".option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -355,16 +476,55 @@
       subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"})`;
       subjectList.innerHTML = "";
       const subs = SUBJECT_FILES[currentTrack];
-      Object.keys(subs).forEach(name => {
-        const b = document.createElement("button");
-        b.className = "subject-btn";
-        b.textContent = name;
-        b.addEventListener("click", () => {
-          currentSubject = name;
-          loadSubjectFromText(subs[name], name);
+
+      if (currentTrack === "associate") {
+        // اجمع أجزاء Gen I&K
+        const genIK = Object.keys(subs).filter(n => n.startsWith("Gen I&K Part"));
+        const others = Object.keys(subs).filter(n => !n.startsWith("Gen I&K Part"));
+        const mainBtn = document.createElement("button");
+        mainBtn.className = "subject-btn";
+        mainBtn.textContent = `Gen I&K (${genIK.length} parts)`;
+        const subDiv = document.createElement("div");
+        subDiv.className = "submenu";
+        subDiv.style.display = "none";
+        genIK.forEach(name => {
+          const b = document.createElement("button");
+          b.className = "subject-btn";
+          b.textContent = name;
+          b.addEventListener("click", () => {
+            currentSubject = name;
+            loadSubjectFromText(subs[name], name);
+          });
+          subDiv.appendChild(b);
         });
-        subjectList.appendChild(b);
-      });
+        mainBtn.addEventListener("click", () => {
+          subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
+        });
+        subjectList.appendChild(mainBtn);
+        subjectList.appendChild(subDiv);
+        // باقي المواد
+        others.forEach(name => {
+          const b = document.createElement("button");
+          b.className = "subject-btn";
+          b.textContent = name;
+          b.addEventListener("click", () => {
+            currentSubject = name;
+            loadSubjectFromText(subs[name], name);
+          });
+          subjectList.appendChild(b);
+        });
+      } else {
+        Object.keys(subs).forEach(name => {
+          const b = document.createElement("button");
+          b.className = "subject-btn";
+          b.textContent = name;
+          b.addEventListener("click", () => {
+            currentSubject = name;
+            loadSubjectFromText(subs[name], name);
+          });
+          subjectList.appendChild(b);
+        });
+      }
     }
 
     async function loadSubjectFromText(fileName, label) {
@@ -372,7 +532,7 @@
         const res = await fetch(fileName);
         const txt = await res.text();
         questions = parseTextToQuestions(txt);
-        startQuiz(label);
+        startQuiz(label, fileName);
       } catch (e) {
         alert("Cannot load file: " + fileName);
       }
@@ -401,14 +561,38 @@
       return qs;
     }
 
-    function startQuiz(label) {
-      state = {
-        current: 0,
-        order: [...questions.keys()],
-        answers: {},
-        bookmarks: [],
-        view: "all"
+    function loadSaved(key) {
+      try {
+        const raw = localStorage.getItem(STORAGE_PREFIX + key);
+        if (!raw) return null;
+        return JSON.parse(raw);
+      } catch {
+        return null;
+      }
+    }
+    function saveProgress() {
+      if (!currentStorageKey) return;
+      const data = {
+        total: questions.length,
+        state
       };
+      localStorage.setItem(STORAGE_PREFIX + currentStorageKey, JSON.stringify(data));
+    }
+
+    function startQuiz(label, storageKey) {
+      currentStorageKey = storageKey || label;
+      const saved = loadSaved(currentStorageKey);
+      if (saved && saved.total === questions.length) {
+        state = saved.state;
+      } else {
+        state = {
+          current: 0,
+          order: [...questions.keys()],
+          answers: {},
+          bookmarks: [],
+          view: "all"
+        };
+      }
       quizTitle.textContent = label;
       quizSubtitle.textContent = "";
       homeScreen.style.display = "none";
@@ -441,7 +625,7 @@
       return { correct, wrong, unanswered: questions.length - correct - wrong };
     }
 
-    // pager 10-10
+    // pager 5-5 + bookmark color
     function renderPager(visible) {
       const total = visible.length;
       const current = state.current;
@@ -452,15 +636,16 @@
       label.textContent = `PAGE ${current + 1} OF ${total}`;
       jumpMenu.appendChild(label);
 
-      const groupSize = 10;
+      const groupSize = 5;
       const currentQ = current + 1;
       const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
       const end = Math.min(start + groupSize - 1, total);
 
-      const makeBtn = (text, targetIndex, active = false) => {
+      const makeBtn = (text, targetIndex, active = false, bookmarked = false) => {
         const b = document.createElement("button");
         b.textContent = text;
         if (active) b.classList.add("active");
+        if (bookmarked) b.classList.add("bookmark-page");
         b.addEventListener("click", () => {
           state.current = targetIndex;
           render();
@@ -469,14 +654,16 @@
       };
 
       for (let n = start; n <= end; n++) {
-        makeBtn(n, n - 1, n === currentQ);
+        const realIdx = visible[n - 1];
+        const isBookmarked = state.bookmarks.includes(realIdx);
+        makeBtn(n, n - 1, n === currentQ, isBookmarked);
       }
 
       if (end < total) {
-        makeBtn("...", end, false);
+        makeBtn("...", end, false, false);
       }
 
-      makeBtn("LAST PAGE", total - 1, false);
+      makeBtn("LAST PAGE", total - 1, false, state.bookmarks.includes(visible[total - 1]));
     }
 
     function render() {
@@ -523,10 +710,22 @@
       renderPager(visible);
 
       if (unanswered === 0) {
-        summaryBox.textContent = `Done: ${correct} correct, ${wrong} wrong`;
+        const percent = questions.length ? ((correct / questions.length) * 100).toFixed(2) : "0.00";
+        completionTitle.textContent = `Quiz Completed ${percent}%`;
+        completionText.textContent = "You have completed the quiz";
+        completionList.innerHTML = "";
+        questions.forEach((qq, idx) => {
+          const r = document.createElement("div");
+          r.textContent = `${idx + 1}. ${qq.text}`;
+          completionList.appendChild(r);
+        });
+        completionOverlay.style.display = "flex";
       } else {
+        completionOverlay.style.display = "none";
         summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
       }
+
+      saveProgress();
     }
 
     prevBtn.addEventListener("click", () => {
@@ -569,7 +768,7 @@
       render();
     });
 
-    // دالة خلط بسيطة
+    // shuffle
     function shuffleArray(arr) {
       for (let i = arr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -578,14 +777,51 @@
       return arr;
     }
 
-    // زر الإعادة ↩
+    // restart button -> open modal
     restartBtn.addEventListener("click", () => {
+      restartOverlay.style.display = "flex";
+    });
+    restartCancel.addEventListener("click", () => {
+      restartOverlay.style.display = "none";
+    });
+    restartSame.addEventListener("click", () => {
+      state.answers = {};
+      state.bookmarks = [];
+      state.view = "all";
+      state.current = 0;
+      restartOverlay.style.display = "none";
+      render();
+    });
+    restartShuffle.addEventListener("click", () => {
       state.answers = {};
       state.bookmarks = [];
       state.view = "all";
       state.current = 0;
       state.order = shuffleArray([...questions.keys()]);
+      restartOverlay.style.display = "none";
       render();
+    });
+
+    // completion modal buttons
+    againSameBtn.addEventListener("click", () => {
+      state.answers = {};
+      state.bookmarks = [];
+      state.view = "all";
+      state.current = 0;
+      completionOverlay.style.display = "none";
+      render();
+    });
+    againShuffleBtn.addEventListener("click", () => {
+      state.answers = {};
+      state.bookmarks = [];
+      state.view = "all";
+      state.current = 0;
+      state.order = shuffleArray([...questions.keys()]);
+      completionOverlay.style.display = "none";
+      render();
+    });
+    completionClose.addEventListener("click", () => {
+      completionOverlay.style.display = "none";
     });
 
     showHome();
