@@ -1,0 +1,251 @@
+=
+1. What percentage of energy from aviation fuel is typically converted to useful power in reciprocating engines?
+A) 15% 
+B) 40%
+C) 25% ✅
+=
+2. What is the main function of cooling fins on engine cylinders?
+A) Heat dissipation ✅
+B) Aerodynamic stabilization
+C) Lubrication
+=
+3. Excessive engine heat can cause all EXCEPT:
+A) Increased fuel efficiency ✅
+B) Decreased lubrication
+C) Pre-ignition
+=
+4. The cowl flap is used to:
+A) Regulate oil viscosity
+B) Control engine cooling airflow ✅
+C) Increase turbocharger boost
+=
+5. What does an augmentor system primarily utilize to increase cooling airflow?
+A) Exhaust gas velocity ✅
+B) Engine vibration
+C) Fan blades
+=
+6. Which engine inspection criterion mandates cylinder removal?
+A) 2 adjacent broken fins of 2 inches each
+B) Breaks exceeding 83 sq. in. total fin area 
+C) Loss of 6 sq. in. fin area ✅
+=
+7. What does a damaged air seal in a cowl panel cause?
+A) Flameout
+B) Unbalanced thrust
+C) Bypass of cooling air ✅
+=
+8. Cylinder baffles and deflectors primarily serve to:
+A) Cool the propeller
+B) Force cooling air around cylinders ✅
+C) Protect engine from bird strikes
+=
+9. During descent, why might augmentor vanes be closed?
+A) Improve oil pressure
+B) Reduce engine cooling ✅
+C) Increase fuel flow
+=
+10. The gasket-type CHT (cylinder head temperature) probe is installed:
+A) On the fuel manifold
+B) In the exhaust stack
+C) Under the spark plug ✅
+=
+11. A typical turbine engine uses what method for internal cooling?
+A) Secondary airflow ✅
+B) Recirculated fuel
+C) Hydraulic mist
+=
+12. In a turbine engine nacelle, which area is typically referred to as the “hot section”?
+A) Turbine area ✅
+B) Nose cowl
+C) Compressor
+=
+13. What happens if the thermocouple lead for a CHT system is shortened?
+A) Incorrect temperature reading ✅
+B) No change
+C) It overheats
+=
+14. What percentage of ram air typically enters the cowl for cooling?
+A) 80–90%
+B) 50%
+C) 15–30%✅
+=
+15. What is the function of a pressure differential in engine cooling?
+A) Lubricates pistons
+B) Balances propeller thrust
+C) Forces air through the engine ✅
+=
+16. What is the purpose of the fireproof bulkheads between nacelle zones?
+A) Contain oil vapors
+B) Support structural loads
+C) Limit the spread of fire ✅
+=
+17. Which condition requires cylinder removal in adjacent cooling fin breakage?
+A) 1-inch break in 4 adjacent fins
+B) 6-inch break in 2 adjacent fins ✅
+C) 4-inch break in 3 adjacent fins
+=
+18. Which material is typically used in insulation blankets on turbine engines?
+A) Fiberglass with foil ✅
+B) Steel mesh
+C) Kevlar
+=
+19. Why is residual heat door used post-shutdown in some aircraft?
+A) De-ice the nacelle
+B) Release trapped heat ✅
+C) Drain excess oil
+=
+20. In turbine engines, excess air over the ideal fuel ratio is used to:
+A) Improve fuel economy
+B) Cool hot sections ✅
+C) Prevent flameout
+
+21. What is the effect of excessive cylinder head temperature on pre-ignition tendency?
+A) Has no effect unless RPM is reduced
+B) Increases it due to overheated spark plug electrodes ✅
+C) Causes fuel vapor lock only
+=
+22. Why are augmentors especially useful during ground operations?
+A) They create a low-pressure area to increase cooling airflow ✅
+B) They reduce engine back pressure
+C) They prevent exhaust gas reversion
+=
+23. Which component primarily determines if a reciprocating cylinder with broken fins is serviceable?
+A) Total broken fin area and adjacent break length ✅
+B) Length of cracks in the crankcase
+C) RPM during takeoff
+=
+24. Which inspection finding requires mandatory cylinder replacement?
+A) Over 83 square inches of broken cooling fins ✅
+B) Cracks in the exhaust flange 
+C) Any bent spark plug
+=
+25. What is the purpose of the baffles in a reciprocating engine?
+A) Disperse lubrication
+B) Guide cooling airflow around the cylinders ✅
+C) Reduce vibration
+=
+26. A damaged deflector in a cylinder cooling system will likely result in:
+A) Cylinder flooding
+B) Uneven cooling and hotspots ✅
+C) Increased oil pressure
+=
+27. What effect does closing cowl flaps have on engine temperature?
+A) Increases temperature by reducing airflow ✅
+B) Increases spark plug voltage
+C) Decreases temperature by increasing airflow
+=
+28. Why should a thermocouple lead never be cut to shorten it?
+A) It reduces corrosion resistance
+B) It increases electromagnetic shielding
+C) It alters the designed resistance and voltage reading ✅
+=
+29. Why is the hottest cylinder chosen for thermocouple installation?
+A) It represents the worst-case temperature for monitoring ✅
+B) It cools fastest
+C) It receives the richest fuel mixture
+=
+30. What is a common material used in turbine insulation blankets?
+A) Kevlar mesh
+B) Fiberglass and aluminum foil ✅
+C) Copper and ceramic wool
+=
+31. Why must the outer surface of a cowl-panel remain smooth?
+A) To simplify inspection routines
+B) To reflect sunlight
+C) To improve aerodynamic efficiency and reduce drag ✅
+=
+32. Which component in a turbine engine cooling system directly prevents vapor buildup?
+A) Ventilation inlets and outlets ✅
+B) Residual heat door
+C) Exhaust ejector
+=
+33. When are nacelle flaps most likely to be opened?
+A) During climb
+B) After engine shutdown to release heat ✅
+C) During cruise to maintain power
+=
+34. The heat from burned fuel in a turbine engine is mainly handled by:
+A) Increasing RPM
+B) Radiative cooling
+C) Mixing with excess cooling air ✅
+=
+35. What does a pressure relief door in Zone 1 of a turbine engine do?
+A) Vents cabin pressure
+B) Cools turbine blades
+C) Prevents over-pressurization in the fan-case area ✅
+=
+36. Why are multiple zones used in turbine nacelle design?
+A) To increase power output
+B) To isolate cooling, fire risk, and accessories ✅
+C) To optimize thrust-vectoring
+=
+37. What happens if the air seal between the engine and cowling is missing?
+A) Improved cooling
+B) Increased pressure at exhaust ✅
+C) Air escapes without cooling the cylinders
+=
+38. Which of the following best describes augmentor-tube airflow?
+A) Low-pressure jet effect from exhaust gas mixing ✅
+B) Parallel laminar flow only
+C) Reverse venturi suction
+=
+39. Cylinder-head thermocouples most commonly use which materials?
+A) Copper and brass
+B) Constantan and iron ✅
+C) Zinc and aluminum
+=
+40. What is a key role of cowling in a reciprocating engine?
+A) Supporting the landing gear
+B) Creating fuel vapor barriers
+C) Streamlining and directing cooling airflow ✅
+=
+41. Which of the following would most reduce fin effectiveness?
+A) Short oil drain interval ✅
+B) Smooth air duct
+C) Broken fin area
+=
+42. What type of airflow is used in turbine accessory-zone cooling?
+A) Compressor bypass air
+B) Ram air ✅
+C) Static-port pressure
+=
+43. If multiple adjacent cooling fins are damaged, what is the key factor for replacement?
+A) Weight imbalance
+B) Sound level during operation
+C) Total area and location of breaks ✅
+=
+44. Which of the following occurs if too many cooling fins are missing on a cylinder?
+A) Fuel consumption increases ✅
+B) Oil temperature drops
+C) A hot spot forms, risking damage
+=
+45. What best describes "secondary air" in turbine engine cooling?
+A) Airflow through turbine nozzles
+B) Oil mist used in accessory cooling
+C) Excess air used for liner and casing cooling ✅
+=
+46. The smooth internal construction of a cowl panel serves to:
+A) Increase oil retention
+B) Guide oil vapor to the intake
+C) Support reinforcement ribs and air seal ✅
+=
+47. What is the main reason modern aircraft rarely use augmentor tubes?
+A) Noise generation ✅
+B) Weight penalties
+C) Improved passive cooling systems
+=
+48. What is the purpose of the aluminum foil in turbine-engine insulation blankets?
+A) Structural rigidity
+B) Radiation shielding ✅
+C) Weight reduction
+=
+49. Which cylinder temperature reading method uses a spark-plug adapter?
+A) Thermistor
+B) Bayonet probe
+C) Gasket thermocouple ✅
+=
+50. The cooling air that does not pass through the engine cooling system usually flows:
+A) Around the outside of the cowl ✅
+B) Into the tailpipe
+C) Into the oil reservoir
+=

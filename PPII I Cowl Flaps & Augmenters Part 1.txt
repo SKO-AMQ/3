@@ -1,0 +1,200 @@
+What is the main function of cowl flaps in an aircraft engine?
+A Increase fuel efficiency
+B Regulate engine temperature by controlling airflow ✅
+C Enhance engine power output
+=
+How do cowl flaps help in cooling the engine?
+A They add extra fuel for cooling
+B They increase engine RPM
+C They regulate the exit area for cooling airflow ✅
+=
+What happens when cowl flaps are opened during ground operations?
+A Drag is reduced
+B Engine performance decreases
+C Maximum cooling is achieved ✅
+=
+What is a drawback of opening cowl flaps during flight?
+A Increase in engine oil temperature
+B Drag is increased ✅
+C Cooling becomes ineffective
+=
+During takeoff, how are cowl flaps typically adjusted?
+A Fully closed to reduce drag
+B Fully open for max airflow
+C Slightly opened to manage temperature ✅
+=
+Which mechanism can be used to operate cowl flaps? مهم
+A Hydraulic actuators, electric motors, or manual controls ✅
+B Carburetors
+C Fuel injectors
+=
+What happens to engine temperature when cowl flaps are closed?
+A Temperature drops
+B No effect
+C Temperature increases ✅
+= 
+On what type of aircraft are cowl flaps most commonly found?
+A Jet engines only
+B Older aircraft and radial engine installations ✅
+C Helicopters
+=
+What is the relationship between cowl flap position and drag?
+A Fully open cowl flaps reduce drag
+B Partially open flaps eliminate drag 
+C More open flaps create more drag ✅
+=
+When should cowl flaps be fully opened regardless of drag?
+A During ground operations
+B In cold weather ✅
+C During high-speed cruise
+=
+What is the main purpose of an augmenter in an aircraft cooling system?
+A To reduce fuel consumption
+B To increase oil pressure
+C To provide additional cooling airflow ✅
+=
+How does an augmenter create airflow over the engine?
+A By using auxiliary fans
+B By utilizing exhaust gas velocity ✅
+C By burning extra fuel
+=
+What effect does the augmenter have on the pressure around the engine?
+A Creates a high-pressure area
+B Maintains constant pressure
+C Forms a low-pressure area that draws in cooling air ✅
+=
+What part of the aircraft typically houses the augmenter tubes?
+A The nacelle ✅
+B The tail section
+C The wings
+=
+What enters the inner augmenter tubes to assist in engine cooling?
+A Cabin air
+B Coolant fluid
+C Exhaust gases ✅
+=
+How is the outer shell air of an augmenter used?
+A For combustion
+B For defrosting and anti-icing ✅
+C For increasing thrust
+=
+What component in the augmenter can be adjusted to control airflow?
+A Vanes ✅
+B Fans
+C Baffles
+=
+What is a potential reason to close the augmenter vanes?
+A Increase engine noise
+B Increase heat for cabin or anti-icing use ✅
+C Improve fuel efficiency
+=
+Why are augmenters especially useful during descent?
+A They increase drag
+B They boost engine performance
+C They prevent the engine from overcooling ✅
+= 
+Are augmenters commonly used on modern aircraft? مهم جاني فالاختبار
+A Yes, they are standard equipment
+B No, they are rarely used now ✅
+C Only in helicopters
+=
+What does closing the cowl flaps result in?
+A Decrease in engine drag
+B Increase in cooling airflow
+C Decrease in airflow and increase in engine temperature ✅
+=
+What component allows manual control of cowl flaps on some aircraft?
+A Cowl flap control lever ✅
+B Hydraulic valve
+C Thermostat knob
+=
+In flight, how are cowl flaps typically operated to minimize drag?
+A Fully opened at all times
+B Closed completely
+C Opened just enough to stay below red-line temperature ✅
+= 
+Why is it important to inspect the cowl flap hinges and bondings?
+A They affect fuel flow
+B To ensure security and check for cracks ✅
+C They regulate cabin temperature
+=
+What percentage of total ram air entering the nacelle is used for engine cooling?
+A 5–10%
+B 15–30% ✅
+C 40–50%
+=
+What is the purpose of the low-pressure area created in the augmenter?
+ATo draw more cooling air over the engine ✅
+B  To increase combustion efficiency
+C To reduce exhaust noise
+=
+Which part of the augmenter system is responsible for heating air for the cabin?
+A Outer augmenter shell ✅
+B Inner augmenter tube
+C Augmenter fan ✅
+=
+What system do augmenters assist when engine speed is low?
+A Fuel injection
+B Cabin pressure
+C Engine cooling ✅
+=
+Which gases mix in the inner augmenter tube?
+A Exhaust gas and air that has passed over the engine ✅
+B Exhaust and combustion gases
+C Intake air and oil vapor
+=
+What is the role of the vanes inside the augmenter tubes?
+A Mix oil and air
+B Control air volume flow ✅
+C  Reduce vibration
+=
+What does increasing the exit area by opening cowl flaps accomplish?
+A Raises engine RPM
+B Reduces engine noise
+C Increases cooling airflow ✅
+=
+What is a potential consequence of not opening cowl flaps during taxi operations?
+A Excessive engine heat build-up ✅
+B Engine overcooling
+C Reduced cabin heat
+=
+What percentage of airflow from the nacelle is used for engine cooling?
+A 15-30% ✅
+B 35-50%
+C 60-75%
+=
+What is the purpose of the air seal in the cowl panel?
+A To insulate from exhaust heat
+B To keep air from escaping around the panel edges ✅
+C To prevent oil leaks
+=
+What should be checked when inspecting cowl flap hinge bondings?
+A Oil level
+B Cylinder compression
+C Mounting security and cracks ✅
+=
+What is a visible sign that cowl panel damage may reduce cooling efficiency?
+A Dents and scratches ✅ 
+B Polished finish
+C Oil residue
+=
+Which type of air cools the augmenter shell without contamination?
+A Exhaust gas
+B Fresh air from carburetor
+C Air from outside over the engine ✅
+=
+When should augmenter vanes be closed?
+A During high-altitude cruise
+B During descent to retain heat ✅
+C On takeoff
+=
+Which part provides the suction to pull heated air out through the augmenters?
+A Cabin air inlet
+B Oil cooler fan
+C Exhaust jet effect ✅
+=
+What happens to the cooling airflow when the cowl flaps are closed too much?
+A It circulates faster
+B It becomes turbulent
+C It is reduced, causing higher engine temperatures ✅
+=
