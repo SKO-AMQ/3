@@ -130,11 +130,11 @@ B. Wet and dry process materials. ✅
 C. High retentivity and low permeability material.
 =
 How many of these factors are considered essential knowledge for x-ray exposure?
-Processing of the film.
-Material thickness and density.
-Exposure distance and angle.
-Film characteristics.
-Answer choices:
+*Processing of the film.
+*Material thickness and density.
+*Exposure distance and angle.
+*Film characteristics.
+*Answer choices:
 
 A. One.
 B. Three.
@@ -142,12 +142,12 @@ C. Four. ✅
 =
 
 Liquid penetrant inspection methods may be used on which of the following?
-porous plastics
-ferrous metals
-non-ferrous metals
-smooth primer-sealed wood
-non-porous plastics
-Answer choices:
+*porous plastics
+*ferrous metals
+*non-ferrous metals
+*smooth primer-sealed wood
+*non-porous plastics
+*Answer choices:
 
 A. 2, 3, and 4
 B. 1, 2, and 3
