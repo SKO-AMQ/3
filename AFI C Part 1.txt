@@ -36,7 +36,7 @@ What is not an advantage of airless spraying equipment compared to an air atomiz
   A. Reduction in overspray.
 B. Quality of the finish. ✅
 C. Increased transfer efficiency.
-
+=
 What is the usual cause of runs and sags in aircraft finishes?
   • A. Low atmospheric humidity.
 • B. Too much material applied in one coat. ✅
@@ -46,10 +46,10 @@ What is the usual cause of runs and sags in aircraft finishes?
 When planning a paint touch✅up project following a repair, how can it be determined if the existing topcoat is acrylic or epoxy based?
   A. Apply a coating of engine oil; the acrylic finish will soften.
 B. Wipe with a wet rag of MEK; the MEK picks up the acrylic pigment from the finish. ✅
-C. Remove a small chip of the topcoat and immerse in isopropyl alcohol; within 3✅5 minutes an acrylic chip will dissolve.
+C. Remove a small chip of the topcoat and immerse in isopropyl alcohol; within 3-5 minutes an acrylic chip will dissolve.
 
 =
-Which properly✅applied coating is the most abrasion and chemial re sistant?
+Which properly applied coating is the most abrasion and chemial re sistant?
   • A. Synthetic enamel.
 • B. Polyurethane. ✅
 • C. Acrylic lacquer
@@ -69,7 +69,7 @@ C. Is less hazardous than other primer types.
 =
 Which chemical paint stripper type is considered environmentally friendly?
   • A. Methylene chloride systems.
-• B. EFS✅2500 systems.✅
+• B. EFS-2500 systems.✅
 • C. Benzyl alcohol systems.
 =
 
@@ -122,55 +122,56 @@ C. Quickens the drying time.
 =
 
 When spraying topcoat or primer, how far is the spray head held from the painted surface?
-  A. 8✅10 inches. ✅
-B. 12✅16 inches.
+  A. 8-10 inches. ✅
+B. 12-16 inches.
 C. Determined by product data sheet based on temperature and viscosity.
 
 =
 Why are HVLP spray guns considered excellent for painting large aircraft? 
-الاجابة جت بصيغه قريبه من ذي حاول تفهم
+*الاجابة جت بصيغه قريبه من ذي حاول تفهم
   a) not require high air pressure ✅
 b) They do not require a designated spray booth
 c) They do not consume any paint materials
 =
 
   Polyurethane paint is used for what purpose?  
-السؤال جا بصيغة ثانيه بس  Polyurethane يستخدم لانه يقاوم الاشعه فوق البنفسجية UV
+*السؤال جا بصيغة ثانيه بس  Polyurethane يستخدم لانه يقاوم الاشعه فوق البنفسجية UV
   a) Reduces aircraft weight
 b) Provides natural resistance to the damaging effects of UV rays ✅
 c) Adds extra shine only to the outer layer
 
 =
 When an aircraft surface is exposed to excessive heat and air, what happens to the paint?
-جا بصغية قريبه من ذي بس الاجابه نفسها صعب ان البويه تنشال
+*جا بصغية قريبه من ذي بس الاجابه نفسها صعب ان البويه تنشال
   a) Paint becomes tough to sand or refinish
 b) Paint appearance becomes uneven and dull
 c) Paint becomes hard and difficult to remove ✅
 
 =
 If you have an unpainted aluminum surface, what is the first thing you must do before painting?
-برضو بصغيه قريبه بس الفكره وحده
+*برضو بصغيه قريبه بس الفكره وحده
   a) It must be primed immediately
 b) It must be cleaned before painting ✅
 c) It must be sanded before applying paint
 =
 
 If you have an unpainted aluminum surface, what must NOT be done before painting?
-جا بصيغه ثانيه بس الفكره الاساسيه ان  unpainted aluminum لازم ماتكون عليه اي اثار يد او اي شي 
+*جا بصيغه ثانيه بس الفكره الاساسيه ان  unpainted aluminum لازم ماتكون عليه اي اثار يد او اي شي 
   a) Do not leave it with fingerprints or hand marks ✅
 b) Do not wipe it with clean solvent
 c) Do not dry it before priming
 =
 
  What is the first step before applying primer on a metal surface?
-جا بصيغة ثانيه بس نفس الفكره
+*جا بصيغة ثانيه بس نفس الفكره
   a) Masking the edges
 b) Surface preparation (cleaning, etching, drying) ✅
 c) Applying thinner
 =
 
  What measures the viscosity of paint?
-بصيغه ثانيه
+*بصيغه ثانيه
   a) Paint filter
 b) Zahn cup ✅
 c) Pressure gauge
+=
