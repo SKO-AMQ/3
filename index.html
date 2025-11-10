@@ -79,7 +79,6 @@
       font-size: .65rem;
     }
 
-    /* submenu */
     .submenu {
       margin-top: .35rem;
       margin-left: .6rem;
@@ -450,7 +449,9 @@
         "Gen J Part 1": "Gen J Part 1.txt",
         "AFI C Part 1": "AFI C Part 1.txt",
         "Gen E Part 1": "Gen E Part 1.txt",
-        "Gen M Part 1": "Gen M Part 1.txt"
+        "Gen M Part 1": "Gen M Part 1.txt",
+        "AFI E": "AFI E.txt",
+        "AFI F Part 1": "AFI F Part 1.txt"
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt"
@@ -559,6 +560,8 @@
       subjectList.innerHTML = "";
       const subs = SUBJECT_FILES[currentTrack];
 
+      const countPromises = [];
+
       if (currentTrack === "associate") {
         const genIK = Object.keys(subs).filter(n => n.startsWith("Gen I&K Part"));
         const others = Object.keys(subs).filter(n => !n.startsWith("Gen I&K Part"));
@@ -582,19 +585,17 @@
             loadSubjectFromText(subs[name], name);
           });
           subDiv.appendChild(b);
-          fetchAndCount(subs[name], c => span.textContent = c + " q");
+          const p = fetchCount(subs[name]).then(c => {
+            span.textContent = c + " q";
+            return c;
+          });
+          countPromises.push(p);
         });
         mainBtn.addEventListener("click", () => {
           subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
         });
         subjectList.appendChild(mainBtn);
         subjectList.appendChild(subDiv);
-
-        // نحسب التوتل
-        Promise.all(genIK.map(n => fetchCount(subs[n]))).then(counts => {
-          const total = counts.reduce((a,b)=>a+b,0);
-          mainBtn.textContent = `Gen I&K (${genIK.length} parts, ${total} q)`;
-        });
 
         others.forEach(name => {
           const b = document.createElement("button");
@@ -609,8 +610,22 @@
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
-          fetchAndCount(subs[name], c => span.textContent = c + " q");
+          const p = fetchCount(subs[name]).then(c => {
+            span.textContent = c + " q";
+            return c;
+          });
+          countPromises.push(p);
         });
+
+        Promise.all(countPromises).then(arr => {
+          const tot = arr.reduce((a,b)=>a+b,0);
+          subjectTitleText.textContent = `Select course (Associate diploma – ${tot} q)`;
+          Promise.all(genIK.map(n => fetchCount(subs[n]))).then(counts => {
+            const totalIK = counts.reduce((a,b)=>a+b,0);
+            mainBtn.textContent = `Gen I&K (${genIK.length} parts, ${totalIK} q)`;
+          });
+        });
+
       } else {
         Object.keys(subs).forEach(name => {
           const b = document.createElement("button");
@@ -625,7 +640,15 @@
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
-          fetchAndCount(subs[name], c => span.textContent = c + " q");
+          const p = fetchCount(subs[name]).then(c => {
+            span.textContent = c + " q";
+            return c;
+          });
+          countPromises.push(p);
+        });
+        Promise.all(countPromises).then(arr => {
+          const tot = arr.reduce((a,b)=>a+b,0);
+          subjectTitleText.textContent = `Select course (Diploma – ${tot} q)`;
         });
       }
     }
@@ -639,9 +662,6 @@
         return 0;
       }
     }
-    function fetchAndCount(fileName, cb) {
-      fetchCount(fileName).then(cb);
-    }
 
     async function loadSubjectFromText(fileName, label) {
       try {
@@ -654,7 +674,6 @@
       }
     }
 
-    // parsing
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -710,6 +729,7 @@
       currentStorageKey = storageKey || label;
       const saved = loadSaved(currentStorageKey);
       pendingSavedState = null;
+      jumpInput.value = "1";             // ← تصفير Go to لكل اختبار
       if (saved && saved.total === questions.length) {
         pendingSavedState = saved.state;
       }
@@ -874,7 +894,6 @@
 
       renderPager(visible);
 
-      // submit يظهر بس في آخر سؤال
       if (state.current === visible.length - 1) {
         submitBtn.style.display = "inline-block";
       } else {
@@ -908,7 +927,6 @@
         r.textContent = `${idx + 1}. ${qq.text}`;
         r.addEventListener("click", () => {
           completionOverlay.style.display = "none";
-          // نرجع له
           state.view = "all";
           state.current = idx;
           render();
