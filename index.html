@@ -24,7 +24,7 @@
       display: flex;
       justify-content: center;
       min-height: 100vh;
-      font-size: 0.75rem; /* صغرنا كل شي تقريباً 25% */
+      font-size: 0.75rem;
     }
     .shell {
       width: min(1100px, 100%);
@@ -56,10 +56,11 @@
     }
 
     .breadcrumb {
-      font-size: 1rem; /* كبرناه */
+      font-size: 1rem;
       color: #d4d4d4;
       margin: .4rem 0 1rem;
       font-weight: 600;
+      text-align: center;
     }
     .breadcrumb span { cursor: pointer; }
     .breadcrumb .active { color: #fff; }
@@ -71,6 +72,12 @@
       cursor: pointer; margin-bottom: .6rem; transition: .15s;
     }
     .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+    .subject-count {
+      float: right;
+      opacity: .7;
+      font-size: .65rem;
+    }
 
     /* submenu */
     .submenu {
@@ -148,6 +155,7 @@
       font-size: 1.05rem;
       margin-bottom: .6rem;
       line-height: 1.35;
+      white-space: pre-wrap;
     }
 
     .choices {
@@ -226,9 +234,25 @@
       color: #fff;
     }
 
+    .jump-input-wrap {
+      display: flex;
+      gap: .4rem;
+      justify-content: center;
+      align-items: center;
+      font-size: .65rem;
+    }
+    .jump-input-wrap input {
+      width: 60px;
+      background: #0f172a;
+      border: 1px solid rgba(255,255,255,.05);
+      border-radius: .35rem;
+      padding: .15rem .3rem;
+      color: #fff;
+      text-align: center;
+    }
+
     .summary { font-size: .65rem; color: var(--muted); }
 
-    /* overlay modal */
     .overlay {
       position: fixed;
       inset: 0;
@@ -247,6 +271,7 @@
       max-height: 80vh;
       overflow-y: auto;
       font-size: .75rem;
+      text-align: center;
     }
     .modal h3 { margin-top: 0; }
     .modal-btns {
@@ -254,6 +279,7 @@
       gap: .5rem;
       flex-wrap: wrap;
       margin-top: .6rem;
+      justify-content: center;
     }
     .btn {
       background: #1d4ed8;
@@ -271,6 +297,7 @@
       border: 1px solid rgba(255,255,255,.03);
       border-radius: .4rem;
       overflow: hidden;
+      text-align: left;
     }
     .questions-list div {
       padding: .35rem .5rem;
@@ -279,7 +306,10 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      cursor: pointer;
+      background: rgba(15,23,42,.4);
     }
+    .questions-list div:hover { background: rgba(29,78,216,.2); }
     .questions-list div:last-child { border-bottom: none; }
 
     @media (max-width: 640px) {
@@ -347,10 +377,15 @@
       <div class="nav-area">
         <div class="nav-btns">
           <button class="big-nav" id="prevBtn">Previous</button>
-          <button class="big-nav" id="submitBtn">Submit</button>
+          <button class="big-nav" id="submitBtn" style="display:none">Submit</button>
           <button class="big-nav" id="nextBtn">Next</button>
         </div>
         <div class="pager" id="jumpMenu"></div>
+        <div class="jump-input-wrap">
+          <span>Go to:</span>
+          <input type="number" id="jumpInput" min="1" value="1" />
+          <button class="btn secondary" id="jumpGo">Go</button>
+        </div>
         <div class="summary" id="summaryBox"></div>
       </div>
     </div>
@@ -387,8 +422,20 @@
     <div class="modal">
       <h3>Jump to question</h3>
       <div class="modal-btns" id="jumpList"></div>
-      <div style="margin-top:.6rem;text-align:right">
+      <div style="margin-top:.6rem;text-align:center">
         <button class="btn secondary" id="jumpClose">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- continue modal -->
+  <div class="overlay" id="continueOverlay">
+    <div class="modal">
+      <h3>Saved progress found</h3>
+      <p>Do you want to continue or start over?</p>
+      <div class="modal-btns">
+        <button class="btn" id="continueYes">Continue with saved progress</button>
+        <button class="btn secondary" id="continueNo">Start over</button>
       </div>
     </div>
   </div>
@@ -416,6 +463,7 @@
     let currentSubject = null;
     let currentStorageKey = null;
     let questions = [];
+    let pendingSavedState = null;
     let state = {
       current: 0,
       order: [],
@@ -448,6 +496,8 @@
     const filterBtn = document.getElementById("filterBtn");
     const jumpBtn = document.getElementById("jumpBtn");
     const progressBar = document.getElementById("progressBar");
+    const jumpInput = document.getElementById("jumpInput");
+    const jumpGo = document.getElementById("jumpGo");
 
     const completionOverlay = document.getElementById("completionOverlay");
     const completionTitle = document.getElementById("completionTitle");
@@ -465,6 +515,10 @@
     const jumpOverlay = document.getElementById("jumpOverlay");
     const jumpList = document.getElementById("jumpList");
     const jumpClose = document.getElementById("jumpClose");
+
+    const continueOverlay = document.getElementById("continueOverlay");
+    const continueYes = document.getElementById("continueYes");
+    const continueNo = document.getElementById("continueNo");
 
     document.querySelectorAll(".option-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -511,18 +565,24 @@
         const mainBtn = document.createElement("button");
         mainBtn.className = "subject-btn";
         mainBtn.textContent = `Gen I&K (${genIK.length} parts)`;
+        mainBtn.id = "genIKButton";
         const subDiv = document.createElement("div");
         subDiv.className = "submenu";
         subDiv.style.display = "none";
         genIK.forEach(name => {
           const b = document.createElement("button");
           b.className = "subject-btn";
-          b.textContent = name;
+          b.textContent = name + " ";
+          const span = document.createElement("span");
+          span.className = "subject-count";
+          span.textContent = "...";
+          b.appendChild(span);
           b.addEventListener("click", () => {
             currentSubject = name;
             loadSubjectFromText(subs[name], name);
           });
           subDiv.appendChild(b);
+          fetchAndCount(subs[name], c => span.textContent = c + " q");
         });
         mainBtn.addEventListener("click", () => {
           subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
@@ -530,28 +590,57 @@
         subjectList.appendChild(mainBtn);
         subjectList.appendChild(subDiv);
 
+        // نحسب التوتل
+        Promise.all(genIK.map(n => fetchCount(subs[n]))).then(counts => {
+          const total = counts.reduce((a,b)=>a+b,0);
+          mainBtn.textContent = `Gen I&K (${genIK.length} parts, ${total} q)`;
+        });
+
         others.forEach(name => {
           const b = document.createElement("button");
           b.className = "subject-btn";
-          b.textContent = name;
+          b.textContent = name + " ";
+          const span = document.createElement("span");
+          span.className = "subject-count";
+          span.textContent = "...";
+          b.appendChild(span);
           b.addEventListener("click", () => {
             currentSubject = name;
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
+          fetchAndCount(subs[name], c => span.textContent = c + " q");
         });
       } else {
         Object.keys(subs).forEach(name => {
           const b = document.createElement("button");
           b.className = "subject-btn";
-          b.textContent = name;
+          b.textContent = name + " ";
+          const span = document.createElement("span");
+          span.className = "subject-count";
+          span.textContent = "...";
+          b.appendChild(span);
           b.addEventListener("click", () => {
             currentSubject = name;
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
+          fetchAndCount(subs[name], c => span.textContent = c + " q");
         });
       }
+    }
+
+    async function fetchCount(fileName) {
+      try {
+        const res = await fetch(fileName);
+        const txt = await res.text();
+        return parseTextToQuestions(txt).length;
+      } catch {
+        return 0;
+      }
+    }
+    function fetchAndCount(fileName, cb) {
+      fetchCount(fileName).then(cb);
     }
 
     async function loadSubjectFromText(fileName, label) {
@@ -565,7 +654,7 @@
       }
     }
 
-    // تعديلات القراءة: لو في أسطر 1 / 2 / 3 بدون ✅ نلصقها في السؤال
+    // parsing
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -575,23 +664,18 @@
 
         let questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
         const choiceLines = [];
-        // نبني السؤال ونفصل الخيارات
         for (let i = 1; i < lines.length; i++) {
           const raw = lines[i];
-
           const looksLikeChoice =
             raw.includes("✅") ||
             /^[A-Ca-c][\).]\s*/.test(raw) ||
-            /^(\d+)[\).\s]/.test(raw) && parseInt(raw,10) >= 4; // 4 وفوق تعتبر خيار
-
+            (/^(\d+)[\).\s]/.test(raw) && parseInt(raw,10) >= 4);
           if (looksLikeChoice) {
             choiceLines.push(raw);
           } else {
-            // جزء من السؤال
             questionLine += "\n" + raw;
           }
         }
-
         const choices = [];
         for (const raw of choiceLines) {
           const isCorrect = raw.includes("✅");
@@ -602,12 +686,7 @@
             .trim();
           choices.push({ text: clean, correct: isCorrect });
         }
-
-        qs.push({
-          title: currentSubject,
-          text: questionLine,
-          choices
-        });
+        qs.push({ title: currentSubject, text: questionLine, choices });
       }
       return qs;
     }
@@ -630,8 +709,18 @@
     function startQuiz(label, storageKey) {
       currentStorageKey = storageKey || label;
       const saved = loadSaved(currentStorageKey);
+      pendingSavedState = null;
       if (saved && saved.total === questions.length) {
-        state = saved.state;
+        pendingSavedState = saved.state;
+      }
+      quizTitle.textContent = label;
+      quizSubtitle.textContent = "";
+      homeScreen.style.display = "none";
+      subjectScreen.style.display = "none";
+      quizScreen.style.display = "block";
+      setBreadcrumb("quiz");
+      if (pendingSavedState) {
+        continueOverlay.style.display = "flex";
       } else {
         state = {
           current: 0,
@@ -640,15 +729,28 @@
           bookmarks: [],
           view: "all"
         };
+        render();
       }
-      quizTitle.textContent = label;
-      quizSubtitle.textContent = "";
-      homeScreen.style.display = "none";
-      subjectScreen.style.display = "none";
-      quizScreen.style.display = "block";
-      setBreadcrumb("quiz");
-      render();
     }
+
+    continueYes.addEventListener("click", () => {
+      if (pendingSavedState) {
+        state = pendingSavedState;
+      }
+      continueOverlay.style.display = "none";
+      render();
+    });
+    continueNo.addEventListener("click", () => {
+      state = {
+        current: 0,
+        order: [...questions.keys()],
+        answers: {},
+        bookmarks: [],
+        view: "all"
+      };
+      continueOverlay.style.display = "none";
+      render();
+    });
 
     function getVisibleOrder() {
       if (state.view === "all") return state.order;
@@ -673,7 +775,6 @@
       return { correct, wrong, unanswered: questions.length - correct - wrong };
     }
 
-    // pager 5-5 + bookmark color
     function renderPager(visible) {
       const total = visible.length;
       const current = state.current;
@@ -773,10 +874,15 @@
 
       renderPager(visible);
 
-      const percent = questions.length ? ((correct / questions.length) * 100).toFixed(2) : "0.00";
+      // submit يظهر بس في آخر سؤال
+      if (state.current === visible.length - 1) {
+        submitBtn.style.display = "inline-block";
+      } else {
+        submitBtn.style.display = "none";
+      }
+
       summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
 
-      // save
       saveProgress();
     }
 
@@ -800,6 +906,13 @@
       questions.forEach((qq, idx) => {
         const r = document.createElement("div");
         r.textContent = `${idx + 1}. ${qq.text}`;
+        r.addEventListener("click", () => {
+          completionOverlay.style.display = "none";
+          // نرجع له
+          state.view = "all";
+          state.current = idx;
+          render();
+        });
         completionList.appendChild(r);
       });
       completionOverlay.style.display = "flex";
@@ -844,7 +957,15 @@
       jumpOverlay.style.display = "none";
     });
 
-    // shuffle
+    jumpGo.addEventListener("click", () => {
+      const visible = getVisibleOrder();
+      const val = parseInt(jumpInput.value, 10);
+      if (!isNaN(val) && val >= 1 && val <= visible.length) {
+        state.current = val - 1;
+        render();
+      }
+    });
+
     function shuffleArray(arr) {
       for (let i = arr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -853,7 +974,6 @@
       return arr;
     }
 
-    // restart button -> open modal
     restartBtn.addEventListener("click", () => {
       restartOverlay.style.display = "flex";
     });
@@ -878,7 +998,6 @@
       render();
     });
 
-    // completion modal buttons
     againSameBtn.addEventListener("click", () => {
       state.answers = {};
       state.bookmarks = [];
@@ -900,12 +1019,10 @@
       completionOverlay.style.display = "none";
     });
 
-    // فتح اختبار من الرابط ?quiz=اسم-الملف
     function tryOpenFromURL() {
       const url = new URL(window.location.href);
       const q = url.searchParams.get("quiz");
       if (!q) return;
-      // نحاول نلقاه في associate أول ثم diploma
       currentTrack = "associate";
       if (SUBJECT_FILES.associate[q]) {
         showSubjects();
