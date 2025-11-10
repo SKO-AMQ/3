@@ -1,0 +1,165 @@
+=
+For drilling most materials, a bit with a lip angle of 59 degrees is most common.However for soft metals use a bit with a lip angle of:
+A. 20 degrees.
+B. 45 degrees.
+c. 90 degrees. ✅
+=
+What type of pliers is typically used for twisting safety wire?
+A. round nose pliers.
+B. duckbill pliers. ✅
+C. needle nose pliers.
+=
+A proper procedure to produce a precision hole exactly. 125" in diameter would be to drill:
+A. once with a precision 4 flute 1/8" or #49 drill bit.
+B. a hole at .120" and then remove the final 0.005" with a reamer. ✅
+C. a hole at. 115" and then remove the final 0.010" with a reamer.
+=
+If dye penetrant inspection indications are not sharp and clear, the most probable cause is that the part:
+A. was not correctly degaussed before the developer was applied.
+B. has no appreciable damage.
+C. was not thoroughly washed before the developer was applied. ✅
+=
+Which of these non-destructive testing methods is suitable for the inspection of most metals, plastics, and ceramics for surface and subsurface defects?
+A. Eddy current inspection.
+B. Magnetic Particle inspection.
+C. Ultrasonic inspection. ✅
+=
+What non-destructive testing method requires little or no part preparation,-is used to detect surface or near-surface defects in most metals,-and may also be used to separate metals or alloys and their heat-treat conditions?
+A. Eddy current inspection. ✅
+B. Ultrasonic inspection.
+C. Magnetic Particle inspection.
+=
+One way a part may be demagnetized after magnetic particle inspection is by:
+A. subjecting the part to high voltage, low amperage AC.
+B. slowly moving the part out of an AC magnetic field of sufficient strength. ✅
+C. slowly moving the part into an AC magnetic field of sufficient strength.
+=
+Which of the following are commonly used non-destructive testing methods on composite structures?
+A. tap test, ultrasonic, and radiographic. ✅
+B. tap test, eddy current, and dye penetrant.
+C. tap test, magnaglo, and flux density.
+=
+Which non-destructive testing method is typically used to inspect aluminium components subjected to fire or extreme heat?
+A. liquid penetrant inspection.
+B. eddy current inspection.
+C. ultrasonic inspection. ✅
+=
+Standard hacksaw blades come in 14,18,24, and 32 pitch. Which is preferable for cutting structural steel?
+A. 14 pitch. ✅
+B. 24 pitch.
+C. 32 pitch.
+=
+A bolt with a raised or recessed triangle on the head is classified as a:
+A. NAS standard aircraft bolt.
+B. NAS close tolerance bolt. ✅
+C. AN corrosion resistant steel bolt.
+=
+When is an AN clevis bolt used in an airplane?
+A. For tension and shear load conditions.
+B. For areas where external tension loads are applied.
+C. Only for shear load applications. ✅
+=
+Composite aircraft structures can reach up the tensile strength of steel or to _______ aluminium
+A. 10 times
+B. 15 times
+C. 4-6 times ✅
+=
+Honeycomb composite construction for aircraft consist of:
+A. core, face sheets, and adhesive. ✅
+B. core, beeswax, and resin. 
+C. face sheet, resin, and fiberglass.
+=
+When the specific torque value for nuts is not given, where can the recommended torque value be found?
+А. АС43.13-2В. ✅
+B. Technical Standard Order.
+C. Standard Torque Table.
+=
+Regarding the below statements: An aircraft part may be demagnetized by subjecting it to a magnetizing force from alternating current that is gradually reduced in strength. ﻿﻿﻿An aircraft part may be demagnetized by subjecting it to a magnetizing force from direct current that is alternately reversed in direction and gradually reduced in strength.
+A. both 1 and 2 are true. ✅
+B. only 1 is true.
+C. only 2 is true.
+=
+The testing medium that is generally used in magnetic particle inspection utilizes a ferromagnetic material that has:
+A. high permeability and low retentivity. ✅
+B. low permeability and high retentivity.
+C. high permeability and high retentivity. 
+=
+Which system provides the most accuracy in measuring drill bit diameter?
+A. the numbering system; sizes 1-80. ✅
+B. the lettering system; sizes A-Z.
+C. the fraction system by 64ths of an inch.
+=
+Aircraft aluminium skin is easily worked because it possesses these two characteristics:
+A. It's malleable and ductile. ✅
+B. It's elastic and strong.
+C. It's permeable and hard.
+=
+What is generally used in the construction of aircraft engine firewalls?
+A. Stainless steel. ✅
+B. Chrome-molybdenum alloy steel. 
+C. Titanium nickel alloy.
+=
+What may be used to check the stem on a poppet type valve for stretch?
+A. dial indicator.
+B. micrometre. ✅
+C. telescoping gauge.
+=
+What precision measuring tool is used for measuring crankpin and main bearing journals for out of round wear?
+A. dial indicator.
+B. micrometre calliper. ✅
+C. depth gauge.
+=
+Which tool is used to find the centre of ashaft or other cylindrical work?
+A. combination set. ✅
+B. dial indicator.
+C. micrometre calliper.
+=
+What is meant by a metal's 'critical points?'
+A. The temperature at which hardening of a metal begins.
+B. The metal's melting point.
+C. The temperature at which carbon particles dissolve in steel. ✅
+=
+When checking an item with the magnetic particle inspection method, circular and longitudinal magnetization should be used to:
+A. reveal all possible defects. ✅
+B. evenly magnetize the entire part.
+C. ensure uniform current flow.
+=
+What two types of indicating mediums are available for magnetic particle inspection?
+A. Iron and ferric oxides.
+B. Wet and dry process materials. ✅
+C. High retentivity and low permeability material.
+=
+How many of these factors are considered essential knowledge for x-ray exposure?
+Processing of the film.
+Material thickness and density.
+Exposure distance and angle.
+Film characteristics.
+Answer choices:
+
+A. One.
+B. Three.
+C. Four. ✅
+=
+
+Liquid penetrant inspection methods may be used on which of the following?
+porous plastics
+ferrous metals
+non-ferrous metals
+smooth primer-sealed wood
+non-porous plastics
+Answer choices:
+
+A. 2, 3, and 4
+B. 1, 2, and 3
+C. 2, 3, and 5 ✅
+=
+A fiber-type, self-locking nut must never be used on an aircraft if the bolt is
+A. under shear loading.
+B. under tension loading.
+C. subject to rotation. ✅
+=
+A mechanic has completed a bonded honeycomb repair using the potted compound repair technique. What nondestructive testing method is used to determine the soundness of the repair after the repair has cured?
+A. Eddy current test.
+B. Metallic ring test. ✅
+C. Ultrasonic test.
+=

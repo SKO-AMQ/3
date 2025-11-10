@@ -1,0 +1,287 @@
+=
+Most often, problems associated with a team's "normal way of doing things" can be best identified by the:
+ A. most experienced member of theteam.
+ B. team's supervisor.
+ C. newest member of the team. ✅
+=
+What is the purpose of introducing human factors into the aviation maintenance?
+To increase the risk
+To reduce the risk to stop them from developing into a problem ✅
+To get more knowledge about documentation
+=
+What percentage of aircraft accidents are deemed to be caused by human error?
+A. 30%.
+B. 50%.
+C. 80%. ✅
+=
+Of those listed, which is the best countermeasure to constant fatigue?
+A. A vacation lasting several days.
+B. Sleeping late on your days off
+C. Sleeping at regular intervals. ✅
+=
+A behaviour or safety net to reduce errors caused by distractions is to:
+A. Double inspect your work, either by yourself or someone else.
+B. Use a detailed checklist. ✅
+C. Mark the uncompleted work.
+=
+The model that incorporates people's actions in relation to their workplace environment, physical abilities, and available resources is the:
+A. SHEL Model. ✅
+B. Dirty Dozen Model.
+C. PEAR Model
+=
+The branch of human factors that studies an AMTs ability to quickly solve problems is called:
+A. Cognitive science.
+B. Safety engineering. ✅
+C. Clinical psychology.
+=
+Getting applicable training, keeping your knowledge current, using current manuals, asking questions, and asking someone who knows, are all behaviours or safety nets to reduce errors caused by:
+A. lack of resources.
+B. lack of knowledge. ✅
+C.lack of communication.
+=
+A lack of communication is a contributing cause for accidents/incidents. Which of the following personal actions can you use to improve communication and mitigate or reduce these risks?
+A. Ensure that the pressure being felt is not self-induced. ✅
+B. Discuss work to be done or what has been completed.
+C. Stop and look rationally at the problem.
+=
+Lack of Awareness" is defined as
+A. a failure to recognize all the consequences of an action or lack of foresight. ✅
+B. not understanding the technical procedures required for your task. 
+C. after repeating the same task multiple times, losing awareness of other aspects of your surroundings or the job as a whole.
+=
+Which of the following will best ensure that you have received and understood a verbal communication?
+A. Knowing that you are an expert in topic being discussed.
+B. After hearing the verbal communication, repeat it back to the person. ✅
+C. By interrupting the person and finishing their sentences.
+=
+Which behaviour or safety net can help reduce errors caused by stress?
+A. Discussing this situation with someone. ✅
+B. Eliminating all sources of stress before starting the job.
+C. Being sure it is not self-induced.
+=
+Which behaviour will give you the most credibility and provide the greatest safety net against a Lack of Assertiveness?
+ A. Awareness.
+ B. Assertiveness. ✅
+ C. Knowledge.
+=
+Which of the following actions can help you avoid complacency?
+A. Always expect to find faults or problems. ✅
+B. Documenting your work in greater detail.
+C. Sharing the work with another team member.
+=
+If a specified tool or part is not available to complete an assigned task, and no equivalent tools or parts are authorized, you should:
+A. use the closest type of tool or part available.
+B. modify the most similar tool or part available to get it as close to specifications as possible.
+C. cease work until the actual tool or part can be obtained. ✅
+=
+Which behaviour or safety net can help reduce the feelings of pressure?
+A. Ensure that the pressure is not self-induced. ✅
+B. Consider temporary solutions with the missed steps carefully logged.
+C. Use a detailed checklist
+=
+Which behaviour or safety net can improve teamwork?
+ A. Team tasks require a full team.
+ B. Reconfirm duties among team members.
+ C. Communication. ✅
+ =
+Not alerting others when something does not seem right, not speaking up when the actions of another concern you, or not reporting that procedures are poorly written or impractical are all actions of someone who lacks:
+A. awareness.
+B. assertiveness. ✅
+C. knowledge.
+=
+The concept that a system should continue to function even if one of its components fails describes the practice of
+A. industrial engineering.
+B. safety engineering. ✅
+C. anthropometrics.
+=
+The underlying cause of most aviation accidents is:
+A. mechanical failure.
+B. human error. ✅
+C. pilot loss of control.
+=
+Working in high temperature environments can cause:
+A. the body to overheat.
+B. an increased in perspiration.
+C. an increased heart rate.
+D. All of the above ✅
+=
+The environmental aspect of the PEAR model considers which of the following:
+1. workplace design.
+2. shared goals.
+3. company culture.
+4. lighting.
+A. 2 of the above factors.
+B. 3 of the above factors.
+C. all of the above factors. ✅
+=
+Considering an incident in which an AMT falls off a poorly maintained ladder; which would be considered the latent error?
+A. The AMT was inattentive when climbing the ladder.
+B. The AMT did not inspect the ladder prior to use.
+C. Someone should have replaced the broken ladder. ✅
+=
+What percentage of aircraft accidents are deemed to be caused by human error?
+A. 30%.
+B. 50%.
+C. 80%. ✅
+=
+Anthropometrics is the study of:
+A. Ancient cultural artefacts.
+B. Physical dimensions and abilities of the human body. ✅
+C. How people behave in social settings
+=
+All of the following human error, except are consequences of
+mental stressor.✅
+catastrophic.
+personal injury.
+
+Many areas of aviation have shifted their focus from eliminating error to
+preventing and managing error. ✅
+identifying and mitigating error.
+reducing and containing error
+=
+How is a quality system assured?
+By an indepedent organization.
+By a dependent organization.
+By an internal reporting and auditing system. ✅
+=
+The positive aspects of human issues are referred to as the
+Magnificent Seven. ✅
+Dirty Dozen.
+MEDA.
+=
+The SHEL model is another human factors tool. The goal is to determine not only what the problem is, but also
+where and why it exists. ✅
+how we prevent the problem.
+how many factors contribute to the error.
+=
+When we think of aviation safety in a contemporary way, human error is
+the starting point. ✅
+the ending point.
+the intervention point.
+=
+According to Dr. James Reason, there are two types of human failure which can
+active and latent. ✅
+mental and physical.
+proper and improper.
+=
+The three types of human error are
+omission, commission, and extraneous. ✅
+active, latent, and stressor.
+mental, situational, and physiological.
+=
+What is the interdisciplinary scientific study of minds as information processors?
+Anthropometrics
+Cognitive Science ✅
+Computer Science
+=
+______________is the science and art of healing.  
+Medical Science ✅
+Anthropometrics
+Cognitive Science
+=
+What is the study of the dimensions and abilities of the human body?
+Experimental Psychology
+Clinical Psychology
+Anthropometrics ✅
+=
+What are the two kinds of Errors?   
+Active & Unintentional
+Active & Laten ✅
+Unintentional & Intentional
+=
+An error in your action (a slip), opinion, or judgment caused by poor reasoning, carelessness, or insufficient knowledge (a mistake) considered to be ____________
+Unintentional Error ✅
+Intentional Error
+Active Error
+=
+Which psychology includes the study of a variety of basic behavioural processes, often in a laboratory environment.  
+Anthropometrics
+Experimental ✅
+Clinical
+=
+Which psychologists are concerned with relations between people and work?  
+Organizational Psychology
+Cognitive Science
+Anthropometrics ✅
+=
+Which psychology can help individuals deal with stress, coping mechanisms for adverse situations, poor self-image, and accepting criticism from co-workers?
+Anthropometrics
+Clinical ✅
+Experimental 
+=
+Which of these communications is knows as challenge-response system?  
+Supervisor send an email to manufacture for immediate response
+Pilot read back instructions or clearance given by air traffic control (ATC) ✅
+Pilot report any defects in logbook
+=
+Which psychologists study how people learn and design the methods and materials used to educate people of all ages?  
+Organizational Psychology
+Medical Science 
+Educational Psychology ✅
+=
+What is the study of theoretical foundations of information and computation and of practical techniques for their implementation and application in computer system?  
+Anthropometrics
+Cognitive Science
+Computer Science ✅
+=
+What is the psychosocial factor in people?  
+Lifestyle
+Fatigue
+Interpersonal Conflicts ✅
+=
+If any one has deviated from safe practices, procedures, standards, or regulations intentionally considered to be____________.  
+Violation ✅
+Unintentional Error
+Active Error
+=
+How can you reduce the risk of stress?  
+Healthy eating, exercise, and enough rest can reduce stress levels.
+Take time off or a short break if you are feeling stressed
+Discuss with co-worker and ask them to monitor your work
+All of the above ✅
+=
+Which of the following can help reduce the risk of complacency?
+A) Never expect to find something wrong
+B) Sign off on something that you did not fully check
+C) Expect to find something wrong ✅
+=
+Reward, Motivated and Treating all of them equal can enhance the work environment and productivity as per _____________.
+Organizational Psychology ✅
+Safety Engineering
+Medical Science
+=
+The effect of changing sleep patterns on the body's circadian cycle can lead to a degradation of performance.Conflicting shift schedule fall under with category of stress?
+Psychological stressors
+Physical Stressors ✅
+Physiological Stressors
+=
+What does the acronym PEAR stand for in aviation human factors?
+A. People, Environment, Actions, Resources ✅
+B. Procedure, Equipment, Authority, Risk
+C. Process, Evaluation, Actions, Response
+=
+What category of stress does a conflicting shift schedule fall under?
+A) Psychological Stressors
+B) Physical Stressors 
+C) Physiological Stressors ✅
+=
+A technician torques a bolt to 62 instead of 26. What type of error is this?
+A) Violation
+B) Intentional Error
+C) Unintentional Error ✅
+=
+Working under direct sunlight causes what type of stress?
+A) Physical Stressor ✅
+B) Psychological Stressor
+C) Emotional Fatigue
+=
+Which of the following is an example of emotional fatigue?
+A) Muscle soreness
+B) Loss of motivation and frequent anger ✅
+C) Lack of sleep
+=
+If you are feeling extremely tired after long hours of work, what should you do?
+A) Drink caffeine and continue the task
+B) Ignore the fatigue and finish the job quickly
+C) Take a long break or rest until you recover ✅
+=
