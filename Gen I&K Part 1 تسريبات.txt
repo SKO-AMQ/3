@@ -47,7 +47,9 @@ Aircraft, engines, propellers, and appliances
 
 =
 
-The Air Transport Association of America (ATA) Specification No. 100 (1) establishes a standard for the presentation of technical data in maintenance manuals. (2) divides the aircraft into numbered systems and subsystems in order to simplify locating maintenance instructions. Regarding the above statements,
+The Air Transport Association of America (ATA) Specification No. 100
+*(1) establishes a standard for the presentation of technical data in maintenance manuals. 
+*(2) divides the aircraft into numbered systems and subsystems in order to simplify locating maintenance instructions. Regarding the above statements,
 both 1 and 2 are true. ✅
 neither 1 nor 2 is true.
 only 1 is true.
@@ -125,9 +127,9 @@ Aircraft, engines, and propellers ✅
 =
 
 e Air Transport Association of America (ATA) Specificati
-(1) establishes a standard for the presentation of technical 
-(2) divides the aircraft into numbered systems and subsyst maintenance instructions.
-Regarding the above statements,
+*(1) establishes a standard for the presentation of technical 
+*(2) divides the aircraft into numbered systems and subsyst maintenance instructions.
+*Regarding the above statements,
 
 only No. 1 is true.
 neither No. 1 nor No. 2 is true. ✅
@@ -136,8 +138,8 @@ both No. 1 and No. 2 are true.
 =
 
 
-(1) Manufacturer's data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data.
-(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,
+*(1) Manufacturer's data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data.
+*(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,
 
 both No. 1 and No. 2 are true
 only N. 1 is true
@@ -278,8 +280,8 @@ both No. 1 and No. 2 are true. ✅
 =
 
 
-(1) Manufacturer's data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data.
-(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,
+*(1) Manufacturer's data and FAA publications such as Airworthiness Directives, Type Certificate Data Sheets, and advisory circulars are all approved data.
+*(2) FAA publications such as Technical Standard Orders, Airworthiness Directives, Type Certificate Data Sheets, and Aircraft Specifications and Supplemental Type Certificates are all approved data Regarding the above statements,
 
 both No. 1 and No. 2 are true
 only N. 1 is true
