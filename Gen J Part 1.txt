@@ -52,14 +52,18 @@ C. It applies only to gases.
 
 
 Which type of tabs move in the opposite direction of the trailing edge?
-*1 Anti✅servo tab.
+*1 Anti-servo tab.
 *2 Servo tab.
 *3 Balance tab.
 A. 1 & 2.
 B. 1 & 3.
 C. 2 & 3. ✅
 =
-
+What is the acceleration due to gravity on Earth?
+a. 32.2 ft/s² ✅
+b. 22.2 ft/s²
+c. Doesn’t fall by gravity
+=
 
 Aspect ratio of a wing is defined as the ratio of the:
 A. wingspan to the wing root.
@@ -67,7 +71,7 @@ B. square of the chord to the wingspan.
 C. wingspan to the mean chord. ✅ 
 =
 
-If a double✅acting actuating cylinder in a 3,000 PSI system has a piston with a surface area of three square inches on the extension side, and a rod with a cross✅section area of one square inch attached to the piston on the other side, approximately how much force will the actuator be able to produce when retracting
+If a double-acting actuating cylinder in a 3,000 PSI system has a piston with a surface area of three square inches on the extension side, and a rod with a cross✅section area of one square inch attached to the piston on the other side, approximately how much force will the actuator be able to produce when retracting
 A. 9000 lbs.
 B. 6000 lbs. ✅
 c. 3000 Ibs.
@@ -82,7 +86,7 @@ C. Tension ✅
 
 =
 
-Identify which anti✅torque system of a helicopter presents the least amount of risk to personnel on the ground and creates less drag in flight.
+Identify which anti-torque system of a helicopter presents the least amount of risk to personnel on the ground and creates less drag in flight.
 A. NOTAR. ✅
 B. Fenestron
 C. Tail rotor
@@ -138,7 +142,7 @@ C. Longitudinal stability. ✅
 If the volume of a confined gas is double (without the addition of more gas), assuming the temperature remains constant, the pressure will:
 A. increase in direct proportion to the volume increase.
 B. remain the same.
-C. be reduced to one✅half it original value. ✅
+C. be reduced to one-half it original value. ✅
 =
 
 The rudder is a type of flight control or directional control for the:
@@ -154,10 +158,10 @@ B. stored energy. ✅
 C. one half mass times velocity squared.
 
 =
-How much work input is required to lower (not drop) a 120✅pound weight from the top of a 3✅foot table to the floor?
+How much work input is required to lower (not drop) a 120-pound weight from the top of a 3-foot table to the floor?
 A. 120 pounds of force.
-B. 360 foot✅pounds. ✅
-C. 40 foot✅pounds
+B. 360 foot-pounds. ✅
+C. 40 foot-pounds
 =
 
 Thermal expansion is very slight in:
@@ -188,7 +192,7 @@ C. Pascal's Law.
 The rotor system on a helicopter that has blades which are rigidly attached to the hub with the blades and a hub able to teeter like a seesaw is the:
 A. rigid rotor system.
 B. fully articulated rotor system
-C. semi✅rigid rotor system ✅
+C. semi-rigid rotor system ✅
 
 =
 Which statement concerning heat and/or temperature is true?
@@ -249,12 +253,12 @@ C. Equal to 14.7 psi, and 29.92 inches of mercury ✅
 
 =
 What is the heat energy unt that is equal to the amount of heat required to ch degree Fahrenheit?
-A. Brush thermal unit (BTU) ✅
-B. One Kelvin
+A. Brush thermal unit (BTU) 
+B. One Kelvin ✅
 C. One calone
 =
 
-What is the centripetal force if a 50✅pound weight was moving in a 5✅ft radius circular path at a velocity of 1,000 fps?
+What is the centripetal force if a 50-ound weight was moving in a 5-ft radius circular path at a velocity of 1,000 fps?
 A 310,559 lb ✅
 B 10,000,000 lb
 C 310lb
@@ -297,9 +301,9 @@ D 3
 
 
 What is the unit for measuring force in the English system of measurement?
-A. Newton✅ meters
-B. Pounds (Ibs) ✅
-C, Newton✅pounds
+A. Newton meters ✅
+B. Pounds (Ibs) 
+C, Newton-pounds
 =
 
 
@@ -489,5 +493,21 @@ Torque is a force acting in opposition to motion. Torque prevents rotation.
 What is pressure?
 the amount of energy exerted over time
 the force applied to an object's mass
-the amount of force acting on a specific amount of surface area ✅
+the amount of force acting on a specific amount of surface area  ✅
 =
+=
+ Which condition is the actual amount of water vapor in a mixture of air and water?
+Relative humidity.
+Dewpoint.
+Absolute humidity. ✅
+=
+The temperature to which humid air must be cooled at constant pressure to become saturated is called
+dewpoint. ✅
+absolute humidity.
+relative humidity.
+=
+Which is the ratio of the water vapor actually present in the atmosphere to the amount that would be present if the air were saturated at the prevailing temperature and pressure?
+Absolute humidity.
+Relative humidity. ✅
+Dewpoint. 
+= 
