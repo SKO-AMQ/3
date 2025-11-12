@@ -43,7 +43,7 @@ near the top border line, in the upper right-hand corner ✅
 near the top border line, in the upper lift-hand corner
 near the down border line, in the upper right-hand corner
 =
-QWhat is the purpose of aircraft drawing number?
+What is the purpose of aircraft drawing number?
 quick glance of a print
 quick identification of a print ✅
 quick identification of a species
@@ -168,7 +168,7 @@ A detail drawing is a description of a single part.
  Only 1 is true.
  Neither 1 nor 2 is true.
  Both 1 and 2 are true. ✅
- =
+=
  What does a sectional drawing depict?
  It depicts an object by cutting away part of the object to show the shape and construction at the cutting plane. ✅
  It depicts a single part, describing by lines, notes, and symbols the specifications of that object.
@@ -185,7 +185,7 @@ What is the name of the type of drawing in which the subassemblies or parts are 
  A detail drawing.
 =
 What is the allowable manufacturing tolerance for a bushing where the outside dimensions shown on the blueprint are:
-1.0625 + 0.0025 - 0.0003?
+*1.0625 + 0.0025 - 0.0003?
  0.0028. ✅
  1.0650.
  1.0647.
