@@ -747,37 +747,59 @@
       localStorage.setItem(STORAGE_PREFIX + currentStorageKey, JSON.stringify(data));
     }
 
+    // ←← تم إرجاع منطق "متابعة أو البدء من جديد"
     function startQuiz(label, storageKey) {
       currentStorageKey = storageKey || label;
       const saved = loadSaved(currentStorageKey);
       pendingSavedState = null;
+
       const url = new URL(window.location.href);
       url.searchParams.set('quiz', encodeURIComponent(label));
       window.history.replaceState({}, '', url);
 
-      if (saved && saved.total === questions.length) {
-        pendingSavedState = saved.state;
-      }
       quizTitle.textContent = label;
       quizSubtitle.textContent = "";
       homeScreen.style.display = "none";
       subjectScreen.style.display = "none";
       quizScreen.style.display = "block";
       setBreadcrumb("quiz");
-      if (pendingSavedState) {
-        state = pendingSavedState;
-        pendingSavedState = null;
+
+      if (saved && saved.total === questions.length) {
+        // عند وجود حفظ سابق، لا نرندر الآن — نُظهر نافذة المتابعة
+        pendingSavedState = saved.state;
+        continueOverlay.style.display = "flex";
       } else {
+        // لا يوجد حفظ — ابدأ جديد
         state = {
           current: 0,
           order: [...questions.keys()],
           answers: {},
-          bookmarks: [],   // البوكمارك محفوظ داخل state وسيُحفظ في localStorage
+          bookmarks: [],
           view: "all"
         };
+        render();
       }
-      render();
     }
+
+    // أزرار متابعة/بدء جديد
+    continueYes.addEventListener("click", () => {
+      // كمّل من الحفظ
+      if (pendingSavedState) {
+        state = pendingSavedState;
+        pendingSavedState = null;
+      } else {
+        state = { current: 0, order: [...questions.keys()], answers: {}, bookmarks: [], view: "all" };
+      }
+      continueOverlay.style.display = "none";
+      render();
+    });
+    continueNo.addEventListener("click", () => {
+      // ابدأ من جديد
+      state = { current: 0, order: [...questions.keys()], answers: {}, bookmarks: [], view: "all" };
+      pendingSavedState = null;
+      continueOverlay.style.display = "none";
+      render();
+    });
 
     function getVisibleOrder() {
       if (state.view === "all") return state.order;
