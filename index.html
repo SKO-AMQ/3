@@ -158,9 +158,7 @@
       white-space: pre-wrap;
     }
 
-    .q-image-wrap {
-      margin-bottom: .6rem;
-    }
+    .q-image-wrap { margin-bottom: .6rem; }
     .q-image-wrap img {
       max-width: 100%;
       border-radius: .5rem;
@@ -458,13 +456,17 @@
         "Gen I&K Part 2 brightspace 1": "Gen I&K Part 2 brightspace 1.txt",
         "Gen I&K Part 3 out": "Gen I&K Part 3 out.txt",
         "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
+
+        "Gen B brightspace part 1": "Gen B brightspace part 1.txt",
+        "Gen B brightspace part 2": "Gen B brightspace part 2.txt",
+        "Gen B part 1": "Gen B part 1.txt",
+
         "Gen J Part 1": "Gen J Part 1.txt",
         "AFI C Part 1": "AFI C Part 1.txt",
         "Gen E Part 1": "Gen E Part 1.txt",
         "Gen M Part 1": "Gen M Part 1.txt",
         "AFI E": "AFI E.txt",
-        "AFI F Part 1": "AFI F Part 1.txt",
-        "Gen B part 1": "Gen B part 1.txt"
+        "AFI F Part 1": "AFI F Part 1.txt"
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt",
@@ -570,6 +572,48 @@
       setBreadcrumb("home");
     }
 
+    function buildGroup(subs, filterFn, groupTitle, parent) {
+      const names = Object.keys(subs).filter(filterFn);
+      if (!names.length) return;
+
+      const mainBtn = document.createElement("button");
+      mainBtn.className = "subject-btn";
+      mainBtn.textContent = `${groupTitle} (${names.length} parts)`;
+      const subDiv = document.createElement("div");
+      subDiv.className = "submenu";
+      subDiv.style.display = "none";
+
+      const countPromises = [];
+      names.forEach(name => {
+        const b = document.createElement("button");
+        b.className = "subject-btn";
+        b.textContent = name;
+        const span = document.createElement("span");
+        span.className = "subject-count";
+        span.textContent = "...";
+        b.appendChild(span);
+        b.addEventListener("click", () => {
+          currentSubject = name;
+          loadSubjectFromText(subs[name], name);
+        });
+        subDiv.appendChild(b);
+        const p = fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; return c; });
+        countPromises.push(p);
+      });
+
+      mainBtn.addEventListener("click", () => {
+        subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
+      });
+
+      parent.appendChild(mainBtn);
+      parent.appendChild(subDiv);
+
+      Promise.all(countPromises).then(arr => {
+        const total = arr.reduce((a,b)=>a+b,0);
+        mainBtn.textContent = `${groupTitle} (${names.length} parts, ${total} q)`;
+      });
+    }
+
     function showSubjects() {
       homeScreen.style.display = "none";
       subjectScreen.style.display = "block";
@@ -582,41 +626,14 @@
       const countPromises = [];
 
       if (currentTrack === "associate") {
-        const genIK = Object.keys(subs).filter(n => n.startsWith("Gen I&K Part"));
-        const others = Object.keys(subs).filter(n => !n.startsWith("Gen I&K Part"));
-        const mainBtn = document.createElement("button");
-        mainBtn.className = "subject-btn";
-        mainBtn.textContent = `Gen I&K (${genIK.length} parts)`;
-        mainBtn.id = "genIKButton";
-        const subDiv = document.createElement("div");
-        subDiv.className = "submenu";
-        subDiv.style.display = "none";
-        genIK.forEach(name => {
-          const b = document.createElement("button");
-          b.className = "subject-btn";
-          b.textContent = name;
-          const span = document.createElement("span");
-          span.className = "subject-count";
-          span.textContent = "...";
-          b.appendChild(span);
-          b.addEventListener("click", () => {
-            currentSubject = name;
-            loadSubjectFromText(subs[name], name);
-          });
-          subDiv.appendChild(b);
-          const p = fetchCount(subs[name]).then(c => {
-            span.textContent = `(${c} q)`;
-            return c;
-          });
-          countPromises.push(p);
-        });
-        mainBtn.addEventListener("click", () => {
-          subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
-        });
-        subjectList.appendChild(mainBtn);
-        subjectList.appendChild(subDiv);
+        // Group: Gen I&K
+        buildGroup(subs, n => n.startsWith("Gen I&K Part"), "Gen I&K", subjectList);
+        // Group: Gen B brightspace
+        buildGroup(subs, n => n.startsWith("Gen B brightspace"), "Gen B brightspace", subjectList);
 
-        others.forEach(name => {
+        // Others (not in the two groups)
+        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K Part") || n.startsWith("Gen B brightspace")));
+        Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
           const b = document.createElement("button");
           b.className = "subject-btn";
           b.textContent = name;
@@ -629,20 +646,13 @@
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
-          const p = fetchCount(subs[name]).then(c => {
-            span.textContent = `(${c} q)`;
-            return c;
-          });
+          const p = fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; return c; });
           countPromises.push(p);
         });
 
         Promise.all(countPromises).then(arr => {
           const tot = arr.reduce((a,b)=>a+b,0);
           subjectTitleText.textContent = `Select course (Associate diploma – ${tot} q)`;
-          Promise.all(genIK.map(n => fetchCount(subs[n]))).then(counts => {
-            const totalIK = counts.reduce((a,b)=>a+b,0);
-            mainBtn.textContent = `Gen I&K (${genIK.length} parts, ${totalIK} q)`;
-          });
         });
 
       } else {
@@ -659,10 +669,7 @@
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
-          const p = fetchCount(subs[name]).then(c => {
-            span.textContent = `(${c} q)`;
-            return c;
-          });
+          const p = fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; return c; });
           countPromises.push(p);
         });
         Promise.all(countPromises).then(arr => {
@@ -693,7 +700,7 @@
       }
     }
 
-    // نضيف دعم النجمة * = تكملة للسؤال + دعم الصور .png
+    // دعم السطور المكمِّلة (*) + صور .png (Gen B من مجلد GemBpng/)
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -711,7 +718,7 @@
           }
           if (raw.toLowerCase().endsWith(".png")) {
             let imgName = raw.trim();
-            if (currentSubject === "Gen B part 1") {
+            if (/^Gen B/i.test(currentSubject)) {
               images.push("GemBpng/" + imgName);
             } else {
               images.push(imgName);
@@ -719,10 +726,7 @@
             continue;
           }
           const isCorrect = raw.includes("✅");
-          const clean = raw
-            .replace("✅", "")
-            .replace(/^[A-Ca-c][\).]\s*/, "")
-            .trim();
+          const clean = raw.replace("✅", "").replace(/^[A-Ca-c][\).]\s*/, "").trim();
           choices.push({ text: clean, correct: isCorrect });
         }
         qs.push({ title: currentSubject, text: questionLine, choices, images });
@@ -760,23 +764,22 @@
       quizScreen.style.display = "block";
       setBreadcrumb("quiz");
       if (pendingSavedState) {
-        continueOverlay.style.display = "flex";
+        state = pendingSavedState;
+        pendingSavedState = null;
       } else {
         state = {
           current: 0,
           order: [...questions.keys()],
           answers: {},
-          bookmarks: [],
+          bookmarks: [],   // البوكمارك محفوظ داخل state وسيُحفظ في localStorage
           view: "all"
         };
-        render();
       }
+      render();
     }
 
     continueYes.addEventListener("click", () => {
-      if (pendingSavedState) {
-        state = pendingSavedState;
-      }
+      if (pendingSavedState) state = pendingSavedState;
       continueOverlay.style.display = "none";
       render();
     });
@@ -928,15 +931,11 @@
 
       renderPager(visible);
 
-      if (state.current === visible.length - 1) {
-        submitBtn.style.display = "inline-block";
-      } else {
-        submitBtn.style.display = "none";
-      }
+      submitBtn.style.display = (state.current === visible.length - 1) ? "inline-block" : "none";
 
       summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
 
-      saveProgress();
+      saveProgress(); // يحفظ البوكمارك/التقدم فوراً
     }
 
     prevBtn.addEventListener("click", () => {
@@ -968,6 +967,7 @@
         completionList.appendChild(r);
       });
       completionOverlay.style.display = "flex";
+      saveProgress();
     }
 
     bookmarkBtn.addEventListener("click", () => {
@@ -976,7 +976,7 @@
       const idx = state.bookmarks.indexOf(realIndex);
       if (idx === -1) state.bookmarks.push(realIndex);
       else state.bookmarks.splice(idx, 1);
-      render();
+      render(); // يتبعها saveProgress داخل render
     });
 
     filterBtn.addEventListener("click", () => {
