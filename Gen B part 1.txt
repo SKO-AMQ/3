@@ -263,7 +263,7 @@ a measurement scale, or other object, such as a coin, can be placed near the are
 a public part, or other object, such as a phone, can be placed near the area of concern before the picture is taken
 =
 name this lines
-name this lines.png
+name-these-lines.png
 Center line,Dimension,Phantom,Hidden,Visible Line ✅
 Break,Stitch,Sectioning,Cutting,Satum
 Center line,Dimension,Sectioning,Hidden,Visible Line
