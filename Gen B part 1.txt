@@ -246,7 +246,7 @@ Block, add shape, brighten display, add Dimensions
 =
 numbere the steps in sketching?
 number-the-steps-in-sketching.png
-1 Block in,2 Add Detiail,3 Darken Views,4 Add Dimensions &
+1 Block in,2 Add Detiail,3 Darken Views,4 Add Dimensions ✅
 1 Block in,2 Darken Views,3 Add Detiail,4 Add Dimensions
 1 Block in,2 Add Dimensions,3 Darken Views,4 Add Detiail
 =
