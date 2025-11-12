@@ -194,7 +194,7 @@ What should be the first step of the procedure in sketching an aircraft wing rep
  Draw heavy guidelines.
  Lay out the repair.
  Block in the views. ✅
- =
+=
 What dose the schematic diagram locate?
 locate parts with respect to each other within the system. 
 locate components with respect to each other within the system. ✅
