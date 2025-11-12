@@ -41,18 +41,18 @@
       margin-bottom: .2rem;
     }
     .top-brand .name {
-      font-size: 1.6rem; /* كبرنا العنوان شوي */
+      font-size: 1.6rem;
       font-weight: 700;
       color: #ff4d4d;
     }
     .top-brand .sub {
-      font-size: .8rem; /* كبرنا "دعواتكم ❤️" */
+      font-size: .8rem;
     }
     .top-brand .sub small {
       display: block;
       color: #fff;
       opacity: .85;
-      font-size: .78rem; /* كبرنا أبو مسفر والنوفي */
+      font-size: .78rem;
     }
 
     .breadcrumb {
@@ -156,6 +156,16 @@
       margin-bottom: .6rem;
       line-height: 1.35;
       white-space: pre-wrap;
+    }
+    .q-images {
+      margin-bottom: .6rem;
+    }
+    .q-images img {
+      max-width: 100%;
+      border-radius: .4rem;
+      display: block;
+      margin-bottom: .4rem;
+      background: #0f172a;
     }
 
     .choices {
@@ -371,6 +381,7 @@
 
       <div class="q-wrap">
         <div class="q-text" id="questionText"></div>
+        <div class="q-images" id="questionImages"></div>
         <div class="choices" id="choices"></div>
       </div>
 
@@ -452,7 +463,8 @@
         "Gen E Part 1": "Gen E Part 1.txt",
         "Gen M Part 1": "Gen M Part 1.txt",
         "AFI E": "AFI E.txt",
-        "AFI F Part 1": "AFI F Part 1.txt"
+        "AFI F Part 1": "AFI F Part 1.txt",
+        "Gen B Part 1": "Gen B Part 1.txt"
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt",
@@ -491,6 +503,7 @@
     const infoChips = document.getElementById("infoChips");
     const qPill = document.getElementById("qPill");
     const questionText = document.getElementById("questionText");
+    const questionImages = document.getElementById("questionImages");
     const choicesEl = document.getElementById("choices");
     const prevBtn = document.getElementById("prevBtn");
     const nextBtn = document.getElementById("nextBtn");
@@ -680,7 +693,7 @@
       }
     }
 
-    // نضيف دعم النجمة * = تكملة للسؤال
+    // دعم * للسؤال + دعم السطور اللي تنتهي بـ .png
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -689,10 +702,15 @@
         if (lines.length < 2) continue;
         let questionLine = lines[0].replace(/^\d+[\).\-\s]*/, "").trim();
         const choices = [];
+        const images = [];
         for (let i = 1; i < lines.length; i++) {
           const raw = lines[i];
           if (raw.startsWith("*")) {
             questionLine += "\n" + raw.replace(/^\*\s*/, "");
+            continue;
+          }
+          if (/\.png$/i.test(raw)) {
+            images.push(raw);
             continue;
           }
           const isCorrect = raw.includes("✅");
@@ -702,7 +720,7 @@
             .trim();
           choices.push({ text: clean, correct: isCorrect });
         }
-        qs.push({ title: currentSubject, text: questionLine, choices });
+        qs.push({ title: currentSubject, text: questionLine, choices, images });
       }
       return qs;
     }
@@ -857,6 +875,16 @@
 
       qPill.textContent = `Question ${state.current + 1} of ${visible.length}`;
       questionText.textContent = q.text;
+
+      // render images
+      questionImages.innerHTML = "";
+      if (q.images && q.images.length) {
+        q.images.forEach(src => {
+          const img = document.createElement("img");
+          img.src = src;
+          questionImages.appendChild(img);
+        });
+      }
 
       const { correct, wrong, unanswered } = calcSummary();
       infoChips.innerHTML = `
@@ -1034,7 +1062,6 @@
       completionOverlay.style.display = "none";
     });
 
-    // حساب التوتل في الصفحة الرئيسية
     async function computeHomeTotals() {
       const assocFiles = SUBJECT_FILES.associate;
       const dipFiles = SUBJECT_FILES.diploma;
