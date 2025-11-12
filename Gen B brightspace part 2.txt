@@ -46,9 +46,9 @@ How many sets of data a nomogram usually consists of?
 3 ✅
 =
 The reference number that appear in title block usually refer to?
- Number of other prints. ✅
- Number of draftsman.
- Number of revision.
+Number of other prints. ✅
+Number of draftsman.
+Number of revision.
 =
 Identify material symbol in the above figure
 steel.png
@@ -99,7 +99,7 @@ I - BEAM.
 SQUARE section ✅
 =
 Where is the usual location for title block in a drawing?
-مهمم *
+* مهمم 
 Top right hand corner
 Lower right hand corner ✅
 Top left hand corner
@@ -120,7 +120,7 @@ ROUND section ✅
 SQUARE section.
 =
 How many digits are there in a universal drawing number system?
-مهمم *
+* مهمم
 Six OR Seven ✅
 Four OR Five
  hree OR Four
