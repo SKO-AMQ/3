@@ -157,15 +157,15 @@
       line-height: 1.35;
       white-space: pre-wrap;
     }
-    .q-images {
+
+    .q-image-wrap {
       margin-bottom: .6rem;
     }
-    .q-images img {
+    .q-image-wrap img {
       max-width: 100%;
-      border-radius: .4rem;
+      border-radius: .5rem;
+      border: 1px solid rgba(255,255,255,.06);
       display: block;
-      margin-bottom: .4rem;
-      background: #0f172a;
     }
 
     .choices {
@@ -381,7 +381,7 @@
 
       <div class="q-wrap">
         <div class="q-text" id="questionText"></div>
-        <div class="q-images" id="questionImages"></div>
+        <div id="questionImages" class="q-image-wrap" style="display:none"></div>
         <div class="choices" id="choices"></div>
       </div>
 
@@ -464,7 +464,7 @@
         "Gen M Part 1": "Gen M Part 1.txt",
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
-        "Gen B Part 1": "Gen B Part 1.txt"
+        "Gen B part 1": "Gen B part 1.txt"
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt",
@@ -693,7 +693,7 @@
       }
     }
 
-    // دعم * للسؤال + دعم السطور اللي تنتهي بـ .png
+    // نضيف دعم النجمة * = تكملة للسؤال + دعم الصور .png
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -709,8 +709,13 @@
             questionLine += "\n" + raw.replace(/^\*\s*/, "");
             continue;
           }
-          if (/\.png$/i.test(raw)) {
-            images.push(raw);
+          if (raw.toLowerCase().endsWith(".png")) {
+            let imgName = raw.trim();
+            if (currentSubject === "Gen B part 1") {
+              images.push("GemBpng/" + imgName);
+            } else {
+              images.push(imgName);
+            }
             continue;
           }
           const isCorrect = raw.includes("✅");
@@ -876,14 +881,18 @@
       qPill.textContent = `Question ${state.current + 1} of ${visible.length}`;
       questionText.textContent = q.text;
 
-      // render images
-      questionImages.innerHTML = "";
       if (q.images && q.images.length) {
+        questionImages.style.display = "block";
+        questionImages.innerHTML = "";
         q.images.forEach(src => {
           const img = document.createElement("img");
           img.src = src;
+          img.alt = "image";
           questionImages.appendChild(img);
         });
+      } else {
+        questionImages.style.display = "none";
+        questionImages.innerHTML = "";
       }
 
       const { correct, wrong, unanswered } = calcSummary();
