@@ -1,0 +1,127 @@
+ What information's can you find in a typical Bill of material?
+Material for construction, Revision number, Date
+Drawing Scale, Name of draftsman, Name of firm
+Part number, Name of part, Material for construction. ✅
+=
+Identify material symbol in the above figure
+castiron.png
+Steel
+Wood
+Cast Iron ✅
+=
+Choose the correct statement.
+Purpose of drawing number is for quick identification. ✅
+Drawing number doesn't appear in a drawing.
+There is no purpose for drawing number
+=
+Choose the correct statement.
+Pictorial drawings shows the interior view.
+None of the above. ✅
+Pictorial drawings shows the functions and the principle of operation
+=
+Which material symbol is used for the sectioning if the exact material specification is shown elsewhere on the drawing?
+Steel
+Plastic
+Cast iron ✅
+=
+Which lines are used in drawing for measurement indication?
+Phantom line.
+Extension line.
+Dimension line. ✅
+=
+Identify material symbol in the above figure
+Steel
+Cast Iron
+Wood ✅
+=
+Identify the shape symbol above
+beam.png
+I - BEAM. ✅
+SQUARE section.
+ROUND section
+=
+How many sets of data a nomogram usually consists of?
+1
+2
+3 ✅
+=
+The reference number that appear in title block usually refer to?
+ Number of other prints. ✅
+ Number of draftsman.
+ Number of revision.
+=
+Identify material symbol in the above figure
+steel.png
+Cast Iron
+Wood
+Steel ✅
+=
+Which line indicates invisible edges or contours?
+Hidden lines ✅
+Stitch lines
+Leader lines
+=
+What is known as the sum of the plus and minus allowance figures?
+Finish mark
+Geometry
+Tolerance ✅
+=
+What line is shown in above figure?
+hidden.png
+Hidden line ✅
+Extension line
+Center line
+=
+What line is shown in above figure?
+phantom.png
+Center line
+Phantom line ✅
+Dimension line
+=
+Which line indicates that a portion of the object is not shown on the drawing?
+Break line ✅
+Extension line
+Dimension line
+=
+What information's does revision block have?
+Date.
+Both a&b. ✅
+Name of the draftsman
+=
+What will be the first digit in a universal drawing number?
+1, 2, 4 or 5 ✅
+2, 3, 6 or 7
+3, 4, 7 or 9
+=
+Identify the shape symbol
+ROUND section
+I - BEAM.
+SQUARE section ✅
+=
+Where is the usual location for title block in a drawing?
+مهمم *
+Top right hand corner
+Lower right hand corner ✅
+Top left hand corner
+=
+Which views shows a part of the object but in greater detail and to a large scale than the principal view
+Oblique view.
+Detail view. ✅
+Orthographic view.
+=
+In drawing notes are added for different reasons one of them is to refer method of attachment or construction
+True ✅
+False
+=
+Identify the shape symbol above
+roundsection.png
+I - BEAM.
+ROUND section ✅
+SQUARE section.
+=
+How many digits are there in a universal drawing number system?
+مهمم *
+Six OR Seven ✅
+Four OR Five
+ hree OR Four
+=
