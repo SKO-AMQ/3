@@ -1,0 +1,134 @@
+What is the purpose of aircraft drawings?
+They are the new computer controlled manufacturing techniques.
+They are the link between the engineers who design and the workers who build, maintain and repair it. ✅
+They do not link between the engineers who design and the workers who build, maintain and repair it.
+=
+What is Bill of material?
+List of materials and parts necessary for the fabrication or assembly of a component or system. ✅
+List of draftsmen who assisted in fabrication or assembly of a component or system.
+List of drawing equipment's necessary for the fabrication or assembly of a component or system.
+=
+Which class of drawing is a description an object made up of two or more parts?
+Detail Drawing.
+Installation Drawing.
+Assembly Drawing. ✅
+=
+What does a fuselage station 185 indicate?
+A location 185 inches from the stabilizer.
+A location 185 inches from the datum. ✅
+A location 185 inches from the cockpit. 
+=
+Name the three classes of drawings.
+Detail, Assembly, Installation ✅
+Installation, Complete, Accumulated.
+Detail, Narrow, Slight.
+=
+Which of the following information's should the drawings provide?
+Size of the object.
+Shape of the Object.
+Both a&b. ✅
+=
+Which type of drawing is similar to revolved section drawing but shows the cross section view at one side to a larger scale?
+Half Section. ✅
+Revolved Section.
+Removed Section.
+=
+How many possible views are there in a orthographic projection?
+Six. ✅
+Five.
+Two.
+=
+Which type of diagram show the electrical wiring and circuitry, coded for identification, of all the electrical appliances and devices used on aircraft.
+Block Diagram.
+Wiring Diagram. ✅
+Schematic Diagram. 
+=
+Which type of diagram is used to show complex system components relationship simplified?
+Schematic Diagram.
+Installation Diagram.
+Block Diagram. ✅
+=
+Choose the correct statement regarding the notes in drawing.
+مهمم*
+Make notes in the centre of the drawing.
+Make notes during every routine maintenance of aircraft.
+Never make notes or mark on a print as they may confuse other persons. ✅
+=
+Choose the correct statement about Installation diagrams.
+They are used in aircraft maintenance and repair manual. ✅
+Mostly used in aircraft flight manual.
+Never used in aircraft maintenance manuals.
+=
+Which type of drawing shows cross section of a part directly on exterior view?
+Removed Section.
+Revolved Section. ✅
+Full Section. 
+=
+What is used to illustrate a particular sequence, or flow of events?
+Block Diagram.
+Fuselage Station.
+Flowchart. ✅
+=
+Which type of drawing is similar to a photograph?
+Pictorial drawing ✅
+Orthographic projection.
+Detail View Drawing. 
+=
+Who is permitted to make notes or changes on any drawing prints?
+Aircraft Dispatcher.
+Aircraft technician.
+Authorized persons. ✅
+=
+What line is shown in above figure?
+cnterline.png
+Extension line
+Center line ✅
+Dimension line
+=
+What are the most common views in Orthographic projection?
+One View, Two View, Three View. ✅
+One view, Two View
+One view, Three View
+=
+Which class of drawing is a description of single part?
+مهمم*
+Narrow Drawing.
+Detail Drawing. ✅
+Assembly Drawing.
+=
+hat is a half section view drawing?
+مهمم*
+The cutting plane extends only halfway across the object, leaving the other half of the object as an exterior view
+Drawn directly to show exterior shape. 
+Drawn directly to show the exterior view. ✅
+=
+State true or false: Schematic diagrams do not indicate the location of individual component in the aircraft.
+True ✅
+False
+=
+Which statement is true?
+While opening drawings smooth out fold lines. ✅
+While opening drawings bend fold lines backward. 
+While opening drawing bend fold lines inward.
+=
+Which of the following information's are present in a title block?
+Name of the part & the scale to which it's drawn.
+Both A&B ✅
+Date & Name of the Firm. 
+=
+What are zone numbers in drawing?
+They are used for identifying the changes made in drawing. 
+They are used to draw lines in drawing.
+They are used to locate particular point in drawing. ✅
+=
+Which drawing is one which includes all necessary information for a part in final installed position in the aircraft?
+Installation Drawing ✅
+Assembly Drawing
+Detail Drawing
+=
+What type of drawing is shown in above figure?
+q29.png
+Schematic diagram 
+Block Diagram ✅
+Installation Diagram 
+=
