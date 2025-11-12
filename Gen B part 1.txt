@@ -227,14 +227,14 @@ a graphic representation of an assembly or system, to show the various parts
 =
 locate Center line,Outline,Hidden Line,Break line,Phantom line
 * الهدف من السؤال تحفظ الاسامي 
-Correct use of lines.png
+correct-use-of-lines.png
 1.2.4.8.5 ✅
 1.2.3.6.7
 1.2.4.7.8
 =
 Locate FUSE,GROUND,BATTRY
 * الهدف من السؤال تحفظ الاسامي
-Correct use of lines.png
+locate-fuse-ground-battery.png
 2.4.6
 1.4.7
 2.4.7 ✅
@@ -245,13 +245,13 @@ Block in,Add Detail,Darken Views,Add Dimensions ✅
 Block, add shape, brighten display, add Dimensions
 =
 numbere the steps in sketching?
-numbere the steps in sketching.png
+number-the-steps-in-sketching.png
 1 Block in,2 Add Detiail,3 Darken Views,4 Add Dimensions &
 1 Block in,2 Darken Views,3 Add Detiail,4 Add Dimensions
 1 Block in,2 Add Dimensions,3 Darken Views,4 Add Detiail
 =
 What is shown in the above figure?
-Nomogram.png
+nomogram.png
 fuel quantity rate
 Introduction
 Nomogram ✅
@@ -269,31 +269,31 @@ Break,Stitch,Sectioning,Cutting,Satum
 Center line,Dimension,Sectioning,Hidden,Visible Line
 =
 What is shown in the above figure
-Perspective isometric oblique drawings.png
+perspective-isometric-oblique-drawings.png
 (a)Perspective (b)oblique drawings (c)isometric
 (a)oblique drawings (b)isometric (c)Perspective
 (a)Perspective (b)isometric (c)oblique drawings ✅
 =
 name this
-Orthographic projection.png
+orthographic-projection.png
 1 LIFT SUDE,2 FRONT,3 RIGHT SIDE,4 REAR,5 TOP,6 BOTTOM ✅
 1 RIGHT  SUDE,2 FRONT,3 LIFT SIDE,4 REAR,5 TOP,6 BOTTOM
 1 LIFT SUDE,2 FRONT,3 RIGHT SIDE,4 REAR,5 BOTTOM,6 TOP
 =
 What is shown in the above figure?
-Revision block.png
+revision-block.png
 Title block
 parts Block
 Revision Block ✅
 =
 What is shown in the above figure?
-bill of material.png
+bill-of-material.png
 Bill of Material ✅
 Bill of parts
 Bill of notes
 =
 What is shown in the above figure?
-Title block.png
+title-block.png
 parts Block
 Revision Block 
 Title block ✅
