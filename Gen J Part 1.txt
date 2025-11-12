@@ -71,7 +71,7 @@ B. square of the chord to the wingspan.
 C. wingspan to the mean chord. ✅ 
 =
 
-If a double-acting actuating cylinder in a 3,000 PSI system has a piston with a surface area of three square inches on the extension side, and a rod with a cross✅section area of one square inch attached to the piston on the other side, approximately how much force will the actuator be able to produce when retracting
+If a double-acting actuating cylinder in a 3,000 PSI system has a piston with a surface area of three square inches on the extension side, and a rod with a cross-section area of one square inch attached to the piston on the other side, approximately how much force will the actuator be able to produce when retracting
 A. 9000 lbs.
 B. 6000 lbs. ✅
 c. 3000 Ibs.
@@ -142,11 +142,11 @@ C. Longitudinal stability. ✅
 If the volume of a confined gas is double (without the addition of more gas), assuming the temperature remains constant, the pressure will:
 A. increase in direct proportion to the volume increase.
 B. remain the same.
-C. be reduced to one-half it original value. ✅
+C. be reduced to one-half it original value ✅
 =
 
 The rudder is a type of flight control or directional control for the:
-A. vertical axis. ✅
+A. vertical axis. 
 B. lateral axis.
 C. longitudinal axis.
 
@@ -221,7 +221,7 @@ C. Dynamic stability.
 
 =
 The description below is describing which property of sound energy?
-'When two pieces of matter have the same natural frequency, and one starts to vibrate, that wave energy can be transferred to the other one and cause it to vibrate.
+* When two pieces of matter have the same natural frequency, and one starts to vibrate, that wave energy can be transferred to the other one and cause it to vibrate.
 A. Resonance. ✅
 B. Frequency of sound.
 C. Doppler effect.
@@ -440,7 +440,7 @@ Dewpoint.
 Absolute humidity. ✅
 =
 
- If the fluid pressure is 800 PSI in a 1/2✅inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
+ If the fluid pressure is 800 PSI in a 1/2 inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
 4,000 pounds.
 8,000 pounds. ✅
 800 pounds.
@@ -453,9 +453,9 @@ directly with density.
 
 =
  An engine that weighs 350 pounds is removed from an aircraft by means of a mobile hoist. The engine is raised 3 feet above its attachment mount, and the entire assembly is then moved forward 12 feet. A constant force of 70 pounds is required to move the loaded hoist. What is the total work input required to move the hoist?
-840 foot✅pounds. ✅
-1,890 foot✅pounds.
-1,050 foot✅pounds.
+840 foot pounds. ✅
+1,890 foot pounds.
+1,050 foot pounds.
 =
 Which formula is used to find the specific gravity of gases?
 
