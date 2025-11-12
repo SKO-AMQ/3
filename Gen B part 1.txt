@@ -1,0 +1,300 @@
+What is CAD stand for?
+Computer Aided Design ✅
+Computer Aided Manufacturing
+Computer Aided Design Drafting 
+=
+What is the purpose of Aircraft Drawings?
+They are the link between technician and AMM
+They are the link between technician and planing
+They are the link between engineers who design an aircraft and the workers who build, maintain, and repair it ✅
+=
+Only authorized __________are permitted to make notes or changes on prints
+people 
+Persons ✅
+Engineers 
+=
+Types of Aircraft Drawings?
+Detail, Assembly, and Installation  ✅
+Detail, sectional, and Installation
+Assembly, Installation, and block   
+=
+What is Detail Drawing?
+A detail drawing is a description of a single part $
+An assembly drawing is a description of an object made up of two or more parts
+An installation drawing is one which includes all neces sary information for a part or an assembly in the final installed position in the aircraft.
+=
+What is Assembly Drawing?
+A detail drawing is a description of a single part 
+An installation drawing is one which includes all neces sary information for a part or an assembly in the final installed position in the aircraft.
+An assembly drawing is a description of an object made up of two or more parts $
+=
+What is Installation Drawing?
+An installation drawing is one which includes all neces sary information for a part or an assembly in the final installed position in the aircraft. $
+A detail drawing is a description of a single part 
+An assembly drawing is a description of an object made up of two or more parts 
+=
+How many digits the drawing number consist of?
+drawing number consists of two or three digits
+drawing number consists of six or seven digits $
+drawing number consists of four or five digits
+=
+Where is usually the drawing number located?
+near the top border line, in the upper right-hand corner $
+near the top border line, in the upper lift-hand corner
+near the down border line, in the upper right-hand corner
+=
+QWhat is the purpose of aircraft drawing number?
+quick glance of a print
+quick identification of a print $
+quick identification of a species
+=
+What is Bill of Material?
+A list of the materials and parts $
+A list of the tools and parts
+A list of the materials and figre 
+=
+What is the use of Zone Numbers?
+locate parts, sections, and views on small drawings
+locate parts, sections, and views on large drawings $
+locate parts, sections, and views on huge drawings
+=
+What Fuselage station 185 indicates?
+a location that is 185 inches from the datum of the aircraft.$
+a location that is 185 inches from the nose of the aircraft.
+a location that is 185 inches from the cockpit of the aircraft.
+=
+Is the print when it comes from the printer is accurate?
+when a 1:1 copy of a print is made, the copy size may differ slightly from that of the original. $
+when a 1:1 copy of a print is made, the copy size dose't differ  from that of the original.
+when a 1:1 copy of a print is made, the copy size may differ significantly from that of the original.
+=
+What is tolerance?
+The sum of the max plus  and minus allowance figures is called tolerance. 
+The sum of the plus and minus allowance figures is called Allowances.
+The sum of the plus and minus allowance figures is called tolerance. $
+=
+How many possible views in an object?
+In orthographic projection, there are two possible views of an object.
+In orthographic projection, there are six possible views of an object. $
+In orthographic projection, there are only one possible views of an object.
+=
+What are the most common views in Orthographic projection?
+two-, three-, and four-view drawings are the most common.
+One-, two-, and three-view four-view drawings are the most common.
+One-, two-, and three-view drawings are the most common. $
+=
+What is pictorial Drawing?
+is similar to a photograph. $
+It's not like photography.
+is similar to a reality.
+=
+What is installation diagram used for?
+Installation diagrams not used extensively in aircraft maintenance and repair manuals
+Installation diagrams are used extensively in aircraft strchr  and repair manuals
+Installation diagrams are used extensively in aircraft maintenance and repair manuals $
+=
+What schematic diagrams used for?
+used mainly in troubleshooting. $
+used mainly in maintenance and repair.
+used mainly in strchr.
+=
+What are Centerlines?
+Centerlines are made up of alternate short and short dashes.
+Centerlines are made up of alternate long dashes and short alternate.
+Centerlines are made up of alternate long and short dashes. $
+=
+What is a sketch?
+A sketch is a simple rough drawing that is made rapidly and with much detail.
+A sketch is a simple rough drawing that is made rapidly and without much detail. $
+A sketch is a real  rough drawing that is made rapidly and with much detail.
+=
+The technician took an image of a damaged part of the aircraft and put a measurement scale, What he should do Next?
+the technician should state the exact location of the damage, referenced to fuselage station, wing station, and so forth. $
+the technician should state nothing
+The technician must determine the general location of the damage, indicating the aircraft body.
+=
+Where are title blocks normally located on an aircraft drawing?
+ upper left-hand corner.
+ lower left-hand corner.
+ lower right-hand corner. ✅
+=
+Which statement is true regarding an orthographic projection?
+ There are always at least 2 views.
+ It could have as many as 8 views.
+ The most common are 1 view, 2 view, and 3 view drawings. ✅
+=
+What does the term “tolerance” mean when reading aircraft blueprints?
+ It is the tightest permissible fit for proper construction and operation of mated parts.
+ It is the difference between extreme permissible dimensions that a part may have and still be acceptable. ✅
+ It represents the limits of galvanic compatibility between different adjoining material types in aircraft parts.
+=
+Schematic diagrams indicate the location of individual components in the aircraft.
+Schematic diagrams indicate the location of components with respect to each other within the system.
+Regarding the above statements, which answer is true?
+ Only 1 is true.
+ Both 1 and 2 are true.
+ Only 2 is true. ✅
+=
+What is one purpose for schematic drawings?
+ To show the functional location of components within a system. ✅
+ To show the physical location of components within a system.
+ To show the size and shape of components within a system.
+=
+What do flowcharts illustrate?
+ The flow of hydraulic and fuel lines.
+ The flow of air over an aerofoil.
+ The flow of events or a particular sequence. ✅
+=
+A measurement should not be scaled from an aircraft print because the paper shrinks or stretches when the print is made.
+When a detail drawing is made, it is carefully and accurately drawn to scale, and is dimensioned.
+Regarding the above statements, which are true?
+ Only 2 is true.
+ Both 1 and 2 are true. ✅
+ Neither 1 nor 2 is true.
+=
+What are zone numbers on aircraft blueprints used to do?
+ To locate parts, sections, and views on large drawings. ✅
+ To indicate different sections of the aircraft.
+ To locate parts in the aircraft.
+=
+Which of the following terms is/are used to indicate specific measured distances from the datum and/or other points identified by the manufacturer to points in or on the aircraft?
+ Zone numbers and station numbers.
+ Station numbers. ✅
+ Reference numbers.
+=
+A detail drawing is a description of a single part.
+An assembly drawing is a description of an object made up of two or more parts.
+Regarding the above statements, which are true?
+ Only 1 is true.
+ Neither 1 nor 2 is true.
+ Both 1 and 2 are true. ✅
+ =
+ What does a sectional drawing depict?
+ It depicts an object by cutting away part of the object to show the shape and construction at the cutting plane. ✅
+ It depicts a single part, describing by lines, notes, and symbols the specifications of that object.
+ It depicts an object made up of two or more parts.
+=
+What is the class of working drawing that is the description/depiction of a single part?
+ Installation drawing.
+ Assembly drawing.
+ Detail drawing. ✅
+=
+What is the name of the type of drawing in which the subassemblies or parts are shown as brought together on the aircraft?
+ An assembly drawing.
+ An installation drawing. ✅
+ A detail drawing.
+=
+What is the allowable manufacturing tolerance for a bushing where the outside dimensions shown on the blueprint are:
+1.0625 + 0.0025 - 0.0003?
+ 0.0028. ✅
+ 1.0650.
+ 1.0647.
+=
+What should be the first step of the procedure in sketching an aircraft wing repair?
+ Draw heavy guidelines.
+ Lay out the repair.
+ Block in the views. ✅
+ =
+What dose the schematic diagram locate?
+locate parts with respect to each other within the system. 
+locate components with respect to each other within the system. $
+locate components without respect to each other within the system. 
+=
+Block Diagrams
+used to show a simplified relationship of a more complex system of components. $
+locate com ponents with respect to each other within the system
+An assembly drawing is a description of an object made up of two or more parts.
+=
+Schematic Diagrams
+used to show a simplified relationship of a more complex system of components.
+locate com ponents with respect to each other within the system $
+An assembly drawing is a description of an object made up of two or more parts.
+=
+Assembly Drawing
+used to show a simplified relationship of a more complex system of components.
+locate com ponents with respect to each other within the system
+description of an object made up of two or more parts. $
+=
+Detail Drawing
+describing by lines, notes, and symbols the specifications  for size, shape, material, and methods of manufacture to be used in making the part $
+locate com ponents with respect to each other within the system
+An assembly drawing is a description of an object made up of two or more parts.
+=
+What is Diagrams?
+a graphic representation of an assembly or system, indicating the various parts $
+a graphic representation of an assembly or system, indicating the huge components
+a graphic representation of an assembly or system, to show the various parts
+=
+locate Center line,Outline,Hidden Line,Break line,Phantom line
+* الهدف من السؤال تحفظ الاسامي 
+Correct use of lines.png
+1.2.4.8.5 $
+1.2.3.6.7
+1.2.4.7.8
+=
+Locate FUSE,GROUND,BATTRY
+* الهدف من السؤال تحفظ الاسامي
+Correct use of lines.png
+2.4.6
+1.4.7
+2.4.7 $
+=
+what is the steps in sketching?
+Block in,Add figure,Darken Views,Add lines
+Block in,Add Detail,Darken Views,Add Dimensions $
+Block, add shape, brighten display, add Dimensions
+=
+numbere the steps in sketching?
+numbere the steps in sketching.png
+1 Block in,2 Add Detiail,3 Darken Views,4 Add Dimensions &
+1 Block in,2 Darken Views,3 Add Detiail,4 Add Dimensions
+1 Block in,2 Add Dimensions,3 Darken Views,4 Add Detiail
+=
+What is shown in the above figure?
+Nomogram.png
+fuel quantity rate
+Introduction
+Nomogram $
+=
+What can you use information about the extent of the damage for?
+*جا بصيغه ثانيه 
+cannot use information about the extent of the damage.
+a measurement scale, or other object, such as a coin, can be placed near the area of concern before the picture is taken $
+a public part, or other object, such as a phone, can be placed near the area of concern before the picture is taken
+=
+name this lines
+name this lines.png
+Center line,Dimension,Phantom,Hidden,Visible Line $
+Break,Stitch,Sectioning,Cutting,Satum
+Center line,Dimension,Sectioning,Hidden,Visible Line
+=
+What is shown in the above figure
+Perspective isometric oblique drawings.png
+(a)Perspective (b)oblique drawings (c)isometric
+(a)oblique drawings (b)isometric (c)Perspective
+(a)Perspective (b)isometric (c)oblique drawings $
+=
+name this
+Orthographic projection.png
+1 LIFT SUDE,2 FRONT,3 RIGHT SIDE,4 REAR,5 TOP,6 BOTTOM $
+1 RIGHT  SUDE,2 FRONT,3 LIFT SIDE,4 REAR,5 TOP,6 BOTTOM
+1 LIFT SUDE,2 FRONT,3 RIGHT SIDE,4 REAR,5 BOTTOM,6 TOP
+=
+What is shown in the above figure?
+Revision block.png
+Title block
+parts Block
+Revision Block $
+=
+What is shown in the above figure?
+bill of material.png
+Bill of Material $
+Bill of parts
+Bill of notes
+=
+What is shown in the above figure?
+Title block.png
+parts Block
+Revision Block 
+Title block $
+=
