@@ -298,3 +298,9 @@ parts Block
 Revision Block 
 Title block ✅
 =
+What is the maximum diameter of the hole for the clevis pin?
+3175.png
+0.3130
+0.31255
+0.3175 ✅
+=
