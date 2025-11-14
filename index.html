@@ -456,7 +456,8 @@
         "Gen I&K Part 2 brightspace 1": "Gen I&K Part 2 brightspace 1.txt",
         "Gen I&K Part 3 out": "Gen I&K Part 3 out.txt",
         "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
-
+        "Gen I&K Important": "Gen I&K Important.txt",
+		
         "Gen B brightspace part 1": "Gen B brightspace part 1.txt",
         "Gen B brightspace part 2": "Gen B brightspace part 2.txt",
         "Gen B part 1": "Gen B part 1.txt",
@@ -626,7 +627,7 @@
 
       if (currentTrack === "associate") {
         // مجموعة Gen I&K
-        buildGroup(subs, n => n.startsWith("Gen I&K Part"), "Gen I&K", subjectList);
+        buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         // مجموعة Gen B (تحتها brightspace 1/2 و part 1)
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
 
