@@ -1,4 +1,5 @@
 An increase in the speed at which an aerofoil passes through the air, increases lift because:
+* مهم
  the increasea speed of the airflow creates a greater pressure differential between the upper and lower surfaces. ✅
  the increased speed of the airflow creates a lesser pressure differential between the upper and lower surfaces.
  the increased velocity of the relative wind increases the angle of attack.
@@ -19,21 +20,25 @@ The rudder is a type of flight control or directional control for the:
  longitudinal axis.
 =
 What type of stability for an airplane involves the tendency for the nose to pitch up or pitch down, rotating around the lateral axis?
+* مهم
 Lateral stability.
 Directional stability.
 Longitudinal stability. ✅
 =
 Which is the ratio of the water vapor actually present in the atmosphere to the amount that would be present if the air were saturated at the prevailing temperature and pressure?
+* مهم
 Absolute humidity.
 Relative humidity. ✅
 Dewpoint.
 =
 The temperature to which humid air must be cooled at constant pressure to become saturated is called
+* مهم
 dewpoint. ✅
 absolute humidity.
 relative humidity.
 =
 Which condition is the actual amount of water vapor in a mixture of air and water?
+* مهم
 Relative humidity.
 Dewpoint.
 Absolute humidity. ✅
@@ -80,11 +85,13 @@ What is the acceleration due to gravity on Earth?
  Doesn’t fall by gravity
 =
 Aspect ratio of a wing is defined as the ratio of the:
+* مهم
  wingspan to the wing root.
  square of the chord to the wingspan.
  wingspan to the mean chord. ✅ 
 =
 If a double-acting actuating cylinder in a 3,000 PSI system has a piston with a surface area of three square inches on the extension side, and a rod with a cross-section area of one square inch attached to the piston on the other side, approximately how much force will the actuator be able to produce when retracting
+* مهم
  9000 lbs.
  6000 lbs. ✅
  3000 Ibs.
@@ -100,16 +107,19 @@ Identify which anti-torque system of a helicopter presents the least amount of r
  Tail rotor
 =
 Which of the following is not a kind of friction?
+* مهم
  Rolling friction
  Static friction
  Resisting friction. ✅
 =
 Which atmospheric conditions will cause the true landing speed of an aircraft to be the greatest?
+* مهم
  Low temperature with low humidity.
  High temperature with low humidity.
  High temperature with high humidity. ✅
 =
 Which of the following is not a characteristic of matter?
+* مهم
  Porosity
  Impenetrability
  Energy ✅
@@ -135,11 +145,13 @@ If the volume of a confined gas is double (without the addition of more gas), as
  be reduced to one-half it original value ✅
 =
 Potential energy is:
+* مهم
  energy in motion.
  stored energy. ✅
  one half mass times velocity squared.
 =
 How much work input is required to lower (not drop) a 120-pound weight from the top of a 3-foot table to the floor?
+* مهم
  120 pounds of force.
  360 foot-pounds. ✅
  40 foot-pounds
@@ -150,6 +162,7 @@ liquids
 solids ✅
 =
 Name four of the seven main components of a helicopter?
+* مهم
  Landing gear, transmission, tail rotor, stabilator.
  Cabin, tail boom, transmission, powerplant. ✅
  Blades, tail rotor, landing gear, tail boom.
@@ -196,11 +209,13 @@ The description below is describing which property of sound energy?
  Doppler effect.
 =
 Which of the following is NOT considered a method of heat transfer?
+* مهم
  Convection
  Conduction
  Diffusion ✅
 =
 The speed of sound in the atmosphere
+* مهم
  varies according to the frequency of the sound
  changes with a change in temperature. ✅
  changes with a change in pressure
@@ -211,36 +226,43 @@ What is a hydrometer used for?
  For measuring speafic gravity of liquids ✅
 =
 What is standard day atmospheric pressure equal to in pounds per squre inch (psi) and
+* مهم
  Equal to 14.5 psi, and 29.28 inches of mercury
  Equal to 14.3 ps, and 25.92 inches of mercury
  Equal to 14.7 psi, and 29.92 inches of mercury ✅
 =
 What is the heat energy unt that is equal to the amount of heat required to ch degree Fahrenheit?
+* مهم
  Brush thermal unit (BTU) 
  One Kelvin ✅
  One calone
 =
 What is the centripetal force if a 50-ound weight was moving in a 5-ft radius circular path at a velocity of 1,000 fps?
+* مهم
 310,559 lb ✅
 10,000,000 lb
 310lb
 =
 To change the mass of an object:
+* مهم
  Change the state of the object 
  Add or take away arors from the object ✅
  Remove gravity from acting on the object
 =
 What is atmospheric pressure?
+* مهم
  14.7 PSI ✅
  14.5 PSI
  14.3 PSI
 =
 Which of the following is NOT considered a method of heat transfer?
+* مهم
 Convection
 Conduction
 Diffusion ✅
 =
-We need to calculate the acceleration of an airplane traveling at 300 mph. The pilot pushes the throttle to a speed of 600 mph in 30 seconds. What is the airplane’s average acceleration in mph/s?”
+We need to calculate the acceleration of an airplane traveling at 300 mph. The pilot pushes the throttle to a speed of 600 mph in 30 seconds. What is the airplane’s average acceleration in mph/s?
+* مهم
 20 mph/s
 300 mph/s
 10 mph/s ✅
@@ -254,6 +276,7 @@ B 2 ✅
 D 3
 =
 What is the unit for measuring force in the English system of measurement?
+* مهم
  Newton meters ✅
  Pounds (Ibs) 
  Newton-pounds
@@ -279,6 +302,7 @@ Cabin, tail boorn, transmission, powerplant. ✅
 Fowler flaps, tail rotor, landing gear, tail boor
 =
 Newton's Third Law of motion is often called?
+* مهم لانه جا سؤالين عن قوانين نيوتين 
 Momentum.
 Objects at rest tend to stay at rest and objects in motion tend to stay
 The law of action and reaction. ✅
@@ -289,16 +313,19 @@ What are some examples of chemical energy?
  Explosive effects of gunpowder, the burning of oil or wood ✅
 =
 What formula is used to calculate power?
+* مهم
  Power = Time X Distance divided by Force
  Power = Force X Distance divided by Time. ✅
  Power = Force divided by Distance X Time
 =
-both the volume and the absolute temperature of a confined gas are doubled, the pressure wit
+both the volume and the absolute temperature of a confined gas are doubled, the pressure with
+* مهم
 not change ✅
 be halved
 become four times as great
 =
 Aspect ratio of a wing is defined as the ratio of the
+* مهم
 wingspan to the wing root
 square of the chord to the wingspan.
 wingspan to the mean chord ✅
@@ -309,6 +336,7 @@ What is torque?
  A twisting force that tries to make something rotate ✅
 =
 What are wingtip vortices?
+* مهم
 An airflow that is ahead of the wingtip.
 A spiral or vortex that trails behind the wingtip anytime lift is being produced. ✅
 The air on top of the wing, which is at the higher pressure.
@@ -344,6 +372,7 @@ the weight of a substance per unit of volume ✅
 the pressure of a substance per unit of area
 =
  If the fluid pressure is 800 PSI in a 1/2 inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
+ * مهم
 4,000 pounds.
 8,000 pounds. ✅
 800 pounds.
@@ -354,6 +383,7 @@ inversely with pressure.
 directly with density.
 =
  An engine that weighs 350 pounds is removed from an aircraft by means of a mobile hoist. The engine is raised 3 feet above its attachment mount, and the entire assembly is then moved forward 12 feet. A constant force of 70 pounds is required to move the loaded hoist. What is the total work input required to move the hoist?
+* مهم
 840 foot pounds. ✅
 1,890 foot pounds.
 1,050 foot pounds.
@@ -370,6 +400,7 @@ None
 Speed of sound ✅
 =
 The angle related to the atmosphere is:
+* مهم
 90 ✅
 60
 40
@@ -385,11 +416,13 @@ Torque= Force x Distance
 Work=Force x Distance
 =
 What is torque as applied to physics?   
+* مهم
 Torque is described as a force acting along a distance. Torque is something that creates twisting and tries to make something rotate. ✅
 Torque is a force acting vertically. Torque creates linear motion.
 Torque is a force acting in opposition to motion. Torque prevents rotation.
 =
 What is pressure?
+* مهم مهم مهم مهم احفظ الاجابة وافهمها لانها فالاخبار جت متشاهبهه
 the amount of energy exerted over time
 the force applied to an object's mass
 the amount of force acting on a specific amount of surface area  ✅
@@ -405,6 +438,7 @@ Gravity
 None of the above
 =
 What are the four forces of tlight?
+* مهم
 Power, Lift, Gravity: and Drag
 Lift, Weight. Thrust, and Drag ✅
 Engine, Gravy, Power, and Lift
