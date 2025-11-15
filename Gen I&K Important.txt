@@ -128,8 +128,7 @@ Empty weight of the aircraft
 Useful load of aircraft
 Control surface movements ✅
 =
-Which of the following are sometimes used as authorization to deviate from an aircraft's original type design?
-FAA Form 337.
+Which of the following are sometimes used as authorization to deviate from an aircraft's original type design? FAA Form 337.
 * Supplemental Type Certificate.
 * Airworthiness Directive.
 * Technical Standard Order
@@ -210,7 +209,7 @@ major repairs and major alterations. ✅
 The Air Transport Association of America (ATA) Specification No. 100 
 * 1 establishes a standard for the presentation of technical data in maintenance manuals. 
 * 2 divides the aircraft into numbered systems and subsystems in order to simplify locating maintenance instructions.
-Regarding the above statements,
+* Regarding the above statements,
 both No. 1 and No. 2 are true. ✅
 ﻿﻿neither No. 1 nor No. 2 is true.
 ﻿﻿only No. 1 is true.
@@ -246,4 +245,178 @@ Which the correct order required before describe work on an aircraft, airframe, 
 Disassembled,Cleaned,Repaired as necessary,Reassembled,Tested
 Disassembled,Cleaned as necessary ,Inspected,Repaired as necessary,Reassembled,Tested
 Disassembled,Cleaned,Inspected,Repaired as necessary,Reassembled,Tested ✅
+=
+What document is issued to approve a major change in aircraft type design?
+* افهم السؤال واحفظ الإجابة
+Supplemental type certifcales ✅
+Structural modification clearance
+Secondary conformity approval
+=
+Where must the Standard Airworthiness Certificate be displayed?
+* افهم السؤال واحفظ الإجابة
+Is on board and displayed and the capin or cokbit entrance. ✅
+Positioned near the left wing inspection panel
+Stored inside maintenance record pouch only
+=
+Which regulation contains procedures for certification of products and parts?
+* افهم السؤال واحفظ الإجابة
+14 CFR part 21 ✅
+FAR index chapter 5
+Technical bulletin section 41
+=
+What document lists limitations for a specific propeller model?
+* افهم السؤال واحفظ الإجابة
+propeller type certificate data sheets. ✅
+Operational balance loading chart
+Propeller service life booklet
+=
+What requirement applies to aircraft maintenance manuals?
+* افهم السؤال واحفظ الإجابة
+Content: the Manual contents Must be in the customer ✅
+Operating notes must be filed by inspector
+Manual indexes stored inside log compartment
+=
+Which statement about certificated powerplants is correct?
+* افهم السؤال واحفظ الإجابة
+only No 2 is true a certificated powerplant ✅
+All units are uncertified unless rebuilt
+Engine rating must be unlisted always
+=
+Which steps are required before classifying work as overhaul or rebuild?
+* افهم السؤال واحفظ الإجابة
+Disassembiled cleaned ✅
+Measured only during operation
+Painted and resealed without checks
+=
+Which of these is considered an FAA Publication?
+* افهم السؤال واحفظ الإجابة
+Only 2 is true FAA Publications.. ✅
+Only 1 applies under foreign data
+None comply with Federal listings
+=
+What does Title 14 CFR accomplish structurally?
+* افهم السؤال واحفظ الإجابة
+both 1 and 2 are true Stabilshes divides ✅
+Only part 1 defines structure
+Separates sections without authority
+=
+What contains legally enforceable rules to correct unsafe aircraft conditions?
+* افهم السؤال واحفظ الإجابة
+AD not are only additional (ADS) ✅
+Safety cards with inspections
+Optional hazard memorandums
+=
+Which part requires engines to undergo block testing?
+* افهم السؤال واحفظ الإجابة
+Subjecting the engine..... under part 33. ✅
+Testing performed per part 17
+Certification code listed in 48C
+=
+Which standards apply to large aircraft?
+* افهم السؤال واحفظ الإجابة
+CAR F4 A and 6 is for larg aircraft ✅
+CAS unit 12B for small planes
+FAR M7B for local trainers
+=
+How must life-limited parts be handled after removal?
+* افهم السؤال واحفظ الإجابة
+should be segregated... (Sups)? ✅
+Stored with unrelated hardware
+Mixed inside general tool drawers
+=
+What should a technician do if maintenance data is unavailable?
+* افهم السؤال واحفظ الإجابة
+Contact the many factuf.... ✅
+Modify instructions without advice
+Skip the needed reference material
+=
+Which statement is true about SLSA aircraft?
+* افهم السؤال واحفظ الإجابة
+SLSA are factory..... ✅
+All SLSA are home-built only
+SLSA require no manufacturing data
+=
+Who develops standards for Light-Sport Aircraft?
+* فهم السؤال واحفظ الإجابة
+ASTM ✅
+ISAM
+AATM
+=
+What is true regarding annual and 100-hour inspections?
+* افهم السؤال واحفظ الإجابة
+The loo-hours inspection is the Same as the annual.... ✅
+Annual inspection covers avionics only
+100-hour excludes engine items fully
+=
+Which aircraft are excluded from Part 43?
+* افهم السؤال واحفظ الإجابة
+...are excluded.....  (experimental etc.) ✅
+All rental aircraft automatically
+Standard category jets only
+=
+Which persons may perform specific repairman or repair station duties?
+* افهم السؤال واحفظ الإجابة
+1.2 and 3 Isa Repairman  A and b Repair Station ✅
+2.4 and 5 for pilot only sections
+3.6 and 7 for owners exclusively
+=
+Who may approve preventive maintenance for RTS on their own aircraft?
+* افهم السؤال واحفظ الإجابة
+Certificated sport pilot..... (RTS)  ✅
+Recreational user without rating
+Any student pilot without log
+=
+Who may maintain U.S. aircraft under the bilateral agreement?
+* افهم السؤال واحفظ الإجابة
+l and 2 are both correct... (AME) (AMO)  ✅
+Neither group may sign work
+Only manufacturers may approve
+=
+What defines a repair?
+* افهم السؤال واحفظ الإجابة
+is at least equal to It's original.... ✅
+Must exceed new part standards
+Needs complete redesign changes
+=
+What does an FAA approval statement certify?
+* افهم السؤال واحفظ الإجابة
+The product, Part or material meets FAA ✅
+Conforms only to foreign rules
+Applies with no technical basis
+=
+What areas does Part 43 address?
+* افهم السؤال واحفظ الإجابة
+Maintelance, preventive.... ✅
+Licensing laws for pilots only
+Environmental noise procedures
+=
+How many regulatory categories does Title 14 divide into?
+* افهم السؤال واحفظ الإجابة
+1 Adminstrative 2- air worthiness Certification 3-Airworthines operation. ✅
+Flight ops and pilot only sections
+Engines, radio and fuel grouping
+=
+What do aircraft nationality markings indicate?
+* افهم السؤال واحفظ الإجابة
+Aircraft nationality ✅
+Owner’s operating hours
+Landing gear configuration
+=
+How long must certain records be kept?
+* افهم السؤال واحفظ الإجابة
+This are record.......1 year ✅
+Retained strictly for 10 days
+Stored permanently without limit
+=
+What must an inspector provide when an aircraft fails inspection?
+* افهم السؤال واحفظ الإجابة
+Provide Written note of depect the owner. ✅
+Leave findings undocumented
+Verbally inform crew only
+=
+What must be obtained to fly an unairworthy aircraft to repair?
+* افهم السؤال واحفظ الإجابة
+The owner Must obtain a special flight permi  ✅
+File a normal passenger manifest
+Use temporary handwritten clearance
 =
