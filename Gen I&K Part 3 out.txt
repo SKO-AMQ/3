@@ -42,7 +42,7 @@
     B- False.
 =
     10- When the FAA issues a type certificate
-    A- when a new aircraft, engine, propeller, and so forth, is found to meet safety standards set forth by the FAA. -
+    A- when a new aircraft, engine, propeller, and so forth, is found to meet safety standards set forth by the FAA. ✅
     B- When the specifications, conditions, and limitations under which airworthiness requirements were met for the specified product.
     C- When a monthly electronic publication of the FAA that provides information concerning malfunction or defects observed by technicians throughout the aviation industry.
 =
