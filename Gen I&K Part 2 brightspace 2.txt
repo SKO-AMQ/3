@@ -1,0 +1,131 @@
+What are the two Airworthiness certificates?
+Standard and Aerobatic
+Standard and Experimental
+Standard and Special ✅
+=
+Who issues Airworthiness certificate?
+Either A or B ✅
+FAA personnel
+FAA designees
+=
+Who developed a comprehensive list of consensus standards for use by manufacturers, regulators, maintenance facilities, LSA owners, and service providers?
+FAA
+ASTM ✅
+EASA
+=
+Name the document that contains specifications and data for certificated aircraft when the number of registered aircraft is 50 or fewer?
+Aircraft Listings
+Aircraft Model
+Aircraft number ✅
+=
+Choose the correct statement regarding the AMM for LSA
+They do not require FAA approval
+The regulation doesn't require that the manual to be developed with industry standard set by ASTM ✅
+Both of the above
+=
+Who can perform overhaul on a LSA?
+LSA repairman
+Owner
+Manufacturer ✅
+=
+Identify the FAA Form for standard airworthiness certificate
+FAA Form 8100-2 ✅
+FAA Form 8001-7
+FAA Form 8107-1
+=
+State true or false
+* LSA repairman is authorized to perform the 100-hour/annual inspection of the aircraft, which he or she owns
+True ✅
+False
+=
+Which one of the following is a monthly electronic publication of the FAA that provides information concerning malfunction or defects observed by technicians throughout the aviation industry?
+Advisory Circular
+Airworthiness Directive
+Aviation Maintenance Alerts ✅
+=
+What does ATA stands for?
+Aircraft Test Association
+Airline Test Association
+Air Transport Association ✅
+=
+State true or false
+* If the FAA Form 337 is used to document additional fuel tanks in the cabin or cargo, then an additional copy must be signed and in the aircraft at all times.
+True ✅
+False
+=
+Name the two types of Light Sport Aircraft?
+Special and Aerobatic LSA
+Special and Heavy LSA
+Special and Experimental LSA ✅
+=
+What must be done on the completion of major repair and alterations of a LSA?
+FAA for 337 must be send within 48 hours to FSDO
+Manufacturer provides a written affidavit attesting that the LSA still meets the requirements of the applicable ASTMs. ✅
+Both A & B
+=
+Who issues Service bulletins?
+Manufacturer ✅
+FAA
+Mechanic
+=
+Who issues STC for an aircraft?
+Aircraft Operator
+FAA ✅
+Mechanic
+=
+Choose the correct statement regarding the loss of certificate of registration
+A replacement certificate fee and an explanation of the reason for the replacement certificate are also required
+Both A & B ✅
+It may be replaced by contacting the FAA Aircraft Registration Branch
+=
+How many major groups are there in Aircraft Specification?
+3
+5 ✅
+7
+=
+Who issues the safety directives for LSA?
+FAA
+Manufacturer ✅
+Owner 
+=
+Who can accomplish heavy maintenance, repairs, and alterations on LSA?
+Either A or B ✅
+A&P certified mechanic
+LSA repairman who has received additional task specific training
+=
+State true or false:
+* The TCDS is a formal description of the aircraft, engine, or propeller. It lists limitations and information required for type certification.
+True ✅
+False
+=
+Choose the correct statement
+Both A & B ✅
+A radio station license is not required for aircraft that are operated domestically
+A radio station license is required if the aircraft is equipped with radios, and the aircraft is planned to be flown outside the boundaries of the United States
+=
+How many sheets are there in an Aircraft registration application form?
+2
+3 ✅
+5
+=
+State true or false
+* ADs have a three-part number designator. The first part is the calendar year of issuance
+True ✅
+False
+=
+What is the maximum validity for the pink copy which serves as temporary authority to operate the aircraft until official Aircraft registration is received?
+60 days
+30 days
+90 days ✅
+=
+Choose the correct statement
+Heavy repair of components or structure can be accomplished when instructions are provided in the maintenance manual or other service directed instructions
+Heavy alterations of components can be accomplished when instructions are provided in the maintenance manual or other service directed instructions
+Both A & B ✅
+=
+What does STC stands for?
+* مهم
+Supervisory type certificate
+Suspended type certificate
+Supplemental type certificate ✅ 
+=
