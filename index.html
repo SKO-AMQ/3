@@ -700,7 +700,7 @@
       }
     }
 
-    // دعم السطور المكمِّلة (*) + صور .png (Gen B من مجلد GemBpng/)
+    // دعم السطور المكمِّلة (*) + صور .png (Gen B من GemBpng/ و Gen E من genepng/)
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -720,6 +720,8 @@
             let imgName = raw.trim();
             if (/^Gen B/i.test(currentSubject)) {
               images.push("GemBpng/" + imgName);
+            } else if (/^Gen E/i.test(currentSubject)) {
+              images.push("genepng/" + imgName);
             } else {
               images.push(imgName);
             }
