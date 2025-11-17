@@ -163,3 +163,113 @@ A. Eddy current test.
 B. Metallic ring test. ✅
 C. Ultrasonic test.
 =
+If you spray the NDT penetrant (Dye Penetrant), what color will appear on the surface?
+* افهم السؤال هنا يتكلم عن اللون الي يطلع من البخاخ 
+A) Red ✅
+B) Yellow
+C) Blue
+=
+Which of the following are common types of metal files?
+* الصيغه مختلفه بس الاجابه قريبه الي هي انوع المبرد الي يتخدم مع الحديد
+A) Hand rasp, Flat rasp, Mill rasp
+B) Hand filer, Flat filer, Mill filer
+C) Hand file, Flat file, Mill file, Square file ✅
+=
+Which type of packing ring is the most commonly used in aircraft hydraulic systems?
+* الصيغه مختلفه بس افهمها هذا يتكلم عن الاشهر
+oring.png
+A) U-ring
+B) V-ring
+C) O-ring ✅
+=
+Which seal is typically used in a hydraulic piston where pressure acts in one direction?
+* الصيغه مختلفه بس هذا يتكلم عن الاستخدام يستخدم فالOne-way pressure
+oring.png
+A) U-cup ✅
+B) O-ring
+C) V-ring  
+=
+name these peens
+* الهدف تحفظ الاسماء
+peen.png
+A) Ball peen, Cross peen, Cross peen
+B) Ball peen, Straight peen, Straight peen
+C) Ball peen, Straight peen, Cross peen ✅
+=
+name these typical 
+* الهدف تحفظ الاسماء
+phillips.png
+A) Phillips, Reed & Prince ✅
+B) Phillips Offset & Prince
+C) Phillips Flat & Prince
+=
+which one is Pin punch
+* الهدف تحفظ الاسماء
+pin.png
+A) 2
+B) 1 ✅
+C) 3
+=
+which one is these
+* الهدف تحفظ الاسماء
+hook.png
+A) Crow Foot
+B) Allen wrench
+C) Hook spanner ✅
+=
+which one is these
+* الهدف تحفظ الاسماء
+wrench.png
+A) Strap wrench ✅
+B) Micrometer wrench
+C) Electronic wrench
+=
+which one is these
+* الهدف تحفظ الاسماء
+snips.png
+A) Left cut snips, Double snips
+B) Straight Flat, Straight snips  
+C) Left cut snips, Straight snips ✅
+=
+What is the number 
+* اهم شي احفظ الرقم
+drill.png 
+A) 59°,59° ✅
+B) 60°,60°
+C) 56°,56°
+=
+which one is these
+* الهدف تحفظ الاسماء
+combination.png
+A) Stock head,Center head
+B) Center head, Protractor head ✅
+C) Center head, Stock head
+=
+which one is these
+* الهدف تحفظ الاسماء جت فالاختبار بترتيب مختلف الاداه اسمها  Outside micrometer part
+micrometer.png
+A) Spindle,Anvil,Measuring faces,Frame,Clamp ring,Barrel ✅
+B) Spindle,Anvil,Measuring faces,Ratchet stop,Thimble cap,Barrel
+C) Spindle,Anvil,Measuring faces,Thimble,Thimble cap,Barrel
+=
+What is the number 
+* اهم شي احفظ الرقم
+2153.png
+A) .2150
+B) .2944
+C) .2153 ✅
+=
+which one is these
+* الهدف تحفظ الاسماء ممكن الاسم يختلف بس الفكره نفسها
+indicator.png
+A) Electronic and dial indicato ✅
+B) Dial Indicato
+C) slide calipes
+=
+which one is these
+* الهدف تحفظ الاسماء
+hacksaws.png
+A) Snips
+B) Cutter
+C) Hacksaws ✅
+=
