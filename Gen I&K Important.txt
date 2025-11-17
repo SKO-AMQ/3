@@ -398,3 +398,33 @@ A standard flight permit issued temporary
 The owner Must obtain a special flight permi . ✅
 A limited special permit approved for relocation 
 =
+What is ATA 2200?
+Standardised electronic documentation for aircraft models ✅
+Fuel specifications for transport category airplanes.
+Airline transport catalogue for aircraft parts.
+=
+Which statement is true regarding the requirements for maintenance record format?
+Any desired change from manufacturer provided format requires approval from the 
+The format provided by the manufacturer of the aircraft must be retained.
+Any format that provides record continuity and includes the required information may be used ✅
+=
+Federal Aviation Administration.
+* What is/ are the appropriate action (s) concerning minor repairs performed on a certificated aircraft? 
+* 1.FAA Form 37 degrees must be completed. 
+* 2.Entries must be made in the aircraft's maintenance record.
+* 3.The owner of the aircraft must submit a record of all minor repairs to the FAA at least annually.
+2 ✅
+2and3
+1and2
+=
+Which maintenance action is an airframe major repair?
+Changes to the wing or to fixed or movable control surfaces which affect flutter and vibration characteristics.
+Rewinding the field coil of an electrical accessory
+O The repair of portions of skin sheets by making additional seams. ✅
+=
+CAR Part 3 is primarily used for which category of aircraft?
+* الصيغه تختلف بس car part 3 لطيارات الصغيره
+Small aircraft ✅
+Large transport aircraft
+Experimental non-certificated aircraft
+=
