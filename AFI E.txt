@@ -5,11 +5,13 @@ Spichal metal ✅
 Copper
 =
 the good weld for titaniumwilt will colored?
+* الاجابه جت بصيعة قريبه بس الاجابه اللون سلفر
 dark blue
 straw colored
 silver ✅
 =
 Can aluminum and magnesium be welded together?
+* السؤال تقريبي بس الاجابه ماتتلحم
 The cannot be welded together ✅
 The can be welded together
 =
@@ -72,4 +74,127 @@ Why is it necessary to use flux in all silver soldering operations?
  To increase heat conductivity.
  To chemically clean the base metal of oxide film. ✅
  To prevent overheating of the base metal.
- =
+=
+Naem these 
+torch.png
+Connecting Torch.
+Pin lighter.
+Torch lighter. ✅
+=
+What if naem of this method
+sweeping.png
+* السؤال كان بصيغة ثانيه اسم الطريقه Scratch/sweeping وتستخدم عشان starting the arc ودرجة اللحام 20-25
+Scratch or sweeping ✅
+Touch
+stick
+=
+What is the naem of this hand position
+position.png
+Hand position for heavy-gauge materials
+Hand position for middle-gauge materials
+Hand position for light-gauge materials ✅
+=
+Naem this 
+checkvalves.png
+Two-stage
+Check valves ✅
+Single-stage
+=
+What is the angle of this position
+angle.png
+* مهم ممكن يجي بصوره ويمكن بدون
+20° to 20°
+25° to 20°
+20° to 25° ✅
+=
+Which one is the  Lap joint
+basic.png
+A
+B ✅
+C 
+=
+Naem the flames
+flames.png
+* مهم جدًا احفظ الاسماء لانها جت مختلفه
+A.Neutral,B.Carburizing,C.Oxidizing ✅
+A.Neutral,B.Oxidizing,C.Carburizing
+A.Oxidizing,B.Carburizing,C.Neutral
+=
+Which one is the Oxidizing
+flames.png
+* مهم جدًا احفظ الاسماء لانها جت مختلفه
+A
+B
+C ✅
+=
+Which one is type of good weld
+* مهم تعرف صورت اللحام الي بشكل صحيح
+goodwilding.png
+A ✅
+B
+C 
+=
+Naem types of butt joints
+joints.png
+* مهم احفظ الاسماء لانها جت كلها بنصوص مختلفه
+Flanged,B.Plain,C.Double bevel,D.Single beve
+Flanged,B.Plain,C.Double bevel,D.Double beve
+Flanged,B.Plain,C.Single bevel,D.Double beve ✅
+=
+Naem the types of tee joints showing filler penetration.
+showing.png 
+* مهم تحفظ الاسماء بذات الي فالنص
+A.Plain,B.Single bevel,C.Double bevel ✅
+A.Flanged,B.Single bevel,C.Double bevel
+A.Plain,B.Single Plain,C.Double bevel
+=
+Naem solder joints
+solderjoints.png
+* مهم بذات اليسار والنص
+A.Lap joint,B.Edge joint,C.Flanged butt joint
+A.Edge joint,B.Flanged butt joint,C.Lap joint
+A.Lap joint,B.Flanged butt joint,C.Edge joint ✅
+=
+Which landing gear component is NOT repairable by welding and must be replaced?
+landinggear.png
+* القطعتين ذي لابد تتدبل ماتتلحم ولا تتصلح احفظها جت فالاختبار
+C and D 
+A and C 
+A and B only ✅
+=
+when using tube splicing with outer split sleeves
+* جا بصيغة قريبه بس احفظ وافهم
+Inner sleeve 
+Outer sleeve ✅
+Upper sleeve
+=
+what sleeves we use with tube splicing with Inner sleeves
+* جا بصيغة قريبه بس احفظ وافهم
+Inner sleeve ✅
+Outer sleeve
+Upper sleeve
+=
+Why should welds NOT be filed to improve appearance?
+* كان شكل اللحام نظيف مايدل انه قوي برد اللحام او صنفرته او تنظيف يضعف اللحام ويقلل من قوته
+Filing makes the weld too smooth
+Filing may remove part of the weld and reduce its strength ✅
+Filing causes oxidation
+=
+When re-welding a joint, what must be done first?
+* السؤال ذا مهم اذا بتعيد اللحام لازم تشيل الاول كامل
+Reheat the joint to soften it
+Remove all old weld material completely ✅
+Add filler rod first
+=
+Why must parts be securely fastened together during brazing?
+* السؤال كان قريب من كذا بس لازم تثبته عشان تمنع الحركة اثناء اللحام
+To prevent movement that would weaken the brazed joint ✅
+To increase heat at the joint
+To allow flux to penetrate deeply
+=
+Why must the edges of parts be beveled before brazing?
+* السؤال يتكلم عن الحواف ليش تكون مشطوفه تكون عشان اللحام يتوزع بشكل ممتاز
+To increase the melting temperature
+To reduce the need for flux
+To allow proper capillary action and filler flow ✅
+=
