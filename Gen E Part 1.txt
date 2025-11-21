@@ -137,8 +137,8 @@ How many of these factors are considered essential knowledge for x-ray exposure?
 *Answer choices:
 
 A. One.
-B. Three.
-C. Four. ✅
+B. Three. ✅
+C. Four. 
 =
 
 Liquid penetrant inspection methods may be used on which of the following?
@@ -273,3 +273,4 @@ A) Snips
 B) Cutter
 C) Hacksaws ✅
 =
+
