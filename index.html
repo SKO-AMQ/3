@@ -466,6 +466,7 @@
         "Gen J Part 1": "Gen J Part 1.txt",
         "AFI C Part 1": "AFI C Part 1.txt",
         "Gen E Part 1": "Gen E Part 1.txt",
+        "Gen N": "Gen N.txt",
         "Gen M Part 1": "Gen M Part 1.txt",
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
@@ -703,7 +704,7 @@
       }
     }
 
-    // دعم السطور المكمِّلة (*) + صور .png (Gen B من GemBpng/ و Gen E من genepng/)
+    // دعم السطور المكمِّلة (*) + صور .png  (Gen B من GemBpng/ و Gen E من genepng/Gen N من gemnpng/)
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -725,6 +726,8 @@
               images.push("GemBpng/" + imgName);
             } else if (/^Gen E/i.test(currentSubject)) {
               images.push("genepng/" + imgName);
+			} else if (/^Gen N/i.test(currentSubject)) {
+              images.push("gennpng/" + imgName);
             } else if (/^AFI E/i.test(currentSubject)) {
               images.push("afiepng/" + imgName);
             } else {
