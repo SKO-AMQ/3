@@ -76,7 +76,7 @@ How to mitigate noise
 =
 main reason for engine development? 
 Fuel effectiveness
-fuel efficiency ✅
+Fuel efficiency ✅
 Full efficiency
 =
 ﻓﯿﮫ ﺳﺆال ﻓﯿﮫ 2،1 / 3،1 / 3،2،1 
@@ -85,7 +85,9 @@ Full efficiency
 1.2.3
 =
 Disadvantage
-1.2.5
+1.3.5
+1.2.3
+1.2.5 ✅
 =
 اذا جاك السؤال two blade 
 * تحط الاجابه الطويله 
@@ -97,8 +99,7 @@ less
 more ✅
 the seam 
 =
-What is the most significant design improvement for the Unducted Fan (UDF) blades 
-compared to conventional propeller blade? 
+What is the most significant design improvement for the Unducted Fan (UDF) blades compared to conventional propeller blade? 
 The UDF blades can operate efficiently at airspeed up to Mach ✅
 UDF blades are more robust and heavier than propeller blades 
 UDF blades operate subsonically, whereas prop blade tips are supersoni
