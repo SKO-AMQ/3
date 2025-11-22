@@ -1,0 +1,146 @@
+In a semiconductor diode, what determines whether Electricity can flow ?
+The type of semiconductor used.
+﻿﻿﻿The width of depletion area.
+﻿﻿﻿The width of depletion area. ✅
+=
+Analogue electrical representation of real world phenomenon are :
+Incremental.
+Continuous. ✅
+Discontinuous
+=
+The three basic logic gates are :
+﻿﻿﻿AND, OR, NOR.
+﻿﻿﻿AND, OR, NOT. ✅
+AND, NAND, OR.
+=
+When enough reversed bias voltage is applied to the gate of an FET?
+The channel widens and current flows. ✅
+The gate will burn out.
+The channel narrows and current flow is cut off.
+=
+A diode allows :
+Current flow during both halves of the AC (Alternating Current).
+Current to flow during half of the AC (Alternating Current Cycle). ✅
+DC current to flow but blocks AC current.
+=
+A rectifier :
+Changes AC voltage to pulsating DC voltage . ✅
+Changes DC voltage into full wave AC voltage.
+Eliminates the peaks and valleys in AC voltage .
+=
+An atomic characteristic shares by conductors is :
+﻿﻿﻿An electron valence shell with two electrons.
+An electron valence shell with one or three electrons. ✅
+﻿﻿﻿A full electron valence shell.
+=
+A silicon is doped to create :
+﻿﻿﻿N-type semiconductor.
+﻿﻿﻿P-type semiconductor.
+N-type and P-type semiconductors. ✅
+=
+A digital logic gate is :
+﻿﻿A diode that returns current to the base.
+﻿﻿﻿used to apply power to an avionics device.
+Constructed with transistors. ✅
+=
+The color of a light emitting diode depends on :
+The amount of current applied.
+The type of material used. ✅
+The size of the PN junction.
+=
+A semiconductor diode has a junction between N-type :
+Neutralized
+Doped.
+Depleted. ✅
+=
+Amplifier :
+Eliminates the peaks and valley voltage. ✅
+Changes AC voltage to pulsating DC.
+Changes DC voltage into full wave AC.
+=
+A transistor is :
+A reversed biased diode.
+﻿﻿A control valve with two terminals.
+﻿﻿A sandwich of dissimilar semiconductors. ✅
+=
+Which device can be used instead of a resistor as a dimmer for lighting?
+UJT
+SCR ✅
+FET
+=
+In noise more or less of an issue with digitized data compared to analogue representation of same information :
+More because the signal contains noise.
+Cannot be removed.
+Less because the real world phenomenon is represented by series of ones and zeros. ✅
+=
+What is the relationship between radio wave and Frequency:
+Directly proportional.
+﻿﻿﻿Indirectly proportional. ✅
+﻿﻿﻿No relation.
+=
+A current wave:
+﻿﻿﻿Inversely related to AC.
+﻿﻿﻿Represents live information to be transmitted.
+﻿﻿﻿Must be modified to carry useful information. ✅
+=
+Diode, Triodes, Tetrodes, Pentodes are useful in :
+Electron Control Valves. ✅
+Electronic relay.
+Low power solid state circuits.
+=
+Which device uses & controls both of an AC power source ?
+SCR
+Triac ✅
+Diode
+=
+Picture of Navigation Display :
+﻿﻿﻿Electronic Horizontal Situation Indicator (EHSI).
+﻿﻿﻿Primary Flight Display.
+﻿﻿﻿Navigation Display ✅
+=
+Picture of Primary Flight Display :
+﻿﻿﻿Primary Flight Display . ✅
+﻿﻿﻿Electronic Horizontal Situation Indicator (EHSI).
+﻿﻿﻿Electronic Attitude Director Indicator (EADI).
+=
+Picture of Engine primary & secondary display :
+﻿﻿﻿Flight Management Computer (FMC).
+﻿﻿﻿Engine Indicating and Crew Alerting System (EICAS). ✅
+﻿﻿﻿Primary Flight Display ( PFD).
+=
+Q23- When creating AC voltage from DC voltage a ...........
+Circuit is used.
+Transformer.
+Amplifier.
+Oscillator. ✅
+=
+How the transistor rated :
+BY the ration of the current collector to base current or Beta (B). ✅
+=
+What is PFD ?
+Primary Flight Data
+Primary Flight Display. ✅
+Pilot Flight Display
+=
+What is ND?
+Nav Display Unit
+Navigation Data
+Navigation Display. ✅
+=
+بيجيك سؤال خيارات
+1.2 and 5
+4 only
+1.2.3 and 5 ✅
+=
+Referring to the attached image. What type of display is shown?
+navigationdisplay.png
+Primary Flight Display (PFD)
+Electronic Horizontal Situation Indicator (EHSI)
+Navigation Display (ND) ✅
+=
+Referring to the attached image. What type of display is shown?
+primaryflightdisplay.png
+A Primary Flight Display (PFD) ✅
+﻿﻿﻿Electronic Honzontal Situation Indicator (EHSI)
+﻿﻿﻿Electronic Attitude Director Indicator (EADI)
+=
