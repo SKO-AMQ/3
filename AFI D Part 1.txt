@@ -1,0 +1,467 @@
+=
+What does the term fixed wing mean?
+The wings are NOT attached to the fuselage and are intended to move independently in a fashion that results in the creation of lift.
+The wings are attached to the fuselage and are intended to move independently in a fashion that results in the creation of lift.
+The wings are attached to the fuselage and are not intended to move independently in a fashion that results in the creation of lift. ✅
+=
+What is the primary structural member of the fuselage?
+Vertical stab
+Longerons ✅
+Wing
+=
+In regards to pressurization choose the correct statement.
+Pressurization causes significant stress on the fuselage structure ✅
+Pressurization does not causes significant stress on the fuselage structure
+Pressurization improves engine performance
+=
+What part of an aircraft when moved through the air creates lift?
+Landing gear
+Pitot
+Wing ✅
+=
+The stress that resists a crushing force is known as?
+Tension
+Compression ✅
+Shear
+=
+The most common airframe construction is?
+Semimonococque ✅
+Monocoque
+Truss type
+=
+The stress that produces twisting is known as?
+Bending
+Torsion ✅
+Shear
+=
+What stabilizer is the elevator attached to?
+Vertical stabilizer
+Diagonal stabilizer
+Horizontal stabilizer ✅
+=
+Movement around the lateral axis will cause the nose of the aircraft to?
+Move side to side
+Roll
+Pitch up and down ✅
+=
+When the rudder changes position, the aircraft rotates about what axis?
+Lateral axis
+Yaw axis ✅ 
+Longitudinal axis
+=
+A structure that is built up from a core material resembling a bee hive which is laminated or sandwiched between thin outer skin sheets is known as?
+Honeycomb ✅
+None of the above
+Sweetcorn
+=
+What is another term for the trail section?
+Radome
+Empennage ✅
+Ruddervator
+=
+Choose the correct statement regarding differential aileron control movement.
+When one aileron is moved down, the aileron on the opposite wing is deflected downward.
+When one aileron is moved down, the aileron on the opposite wing is deflected upward. ✅
+When one aileron is moved up, the aileron on the opposite wing is deflected upward.
+=
+Enclosures that are used primarily to house the engine and its components are known as?
+Nacelle ✅
+Cabin
+Wheel well
+=
+A primary control surface that moves the aircraft around the horizontal axis is?
+Trim
+Flap
+Elevator ✅
+=
+What stabilizer is the rudder hinged to?
+Vertical stabilizer ✅
+Diagonal stabilizer
+Horizontal stabilizer
+=
+Which of these are designed to promote positive laminar airflow over the wing and control surfaces?
+Spring tab
+Trim tab
+Vortex generator ✅
+=
+Which of these punches is designed for transferring holes in the structure to mark the locations of new holes?
+Prick punch
+Transfer punch ✅
+Centre punch
+=
+A tool that is used to place reference marks on a metal by producing small indentations is called?
+Divider
+Rivet spacer
+Prick punch ✅
+=
+A control surface that performs a combined functions of ailerons and elevator is known as?
+Rudder
+Elevons ✅
+Flap
+=
+A stress that is a combination of compression and tension is known as?
+Bending ✅
+Tension
+Shearing
+=
+The process of sheet metal being shaped by stretching it over a formed block to just beyond the elastic limit where permanent set takes place with a minimum amount of spring-back is known as?
+Scratch forming
+File forming
+Stretch forming ✅
+=
+The most common machine tool used to bend sheet metal and applies force via mechanical and/or hydraulic components to shape the sheet metal between the punch and die is called?
+Bar folding machine
+Press brake ✅
+Slip roller former
+=
+Which of these tools is widely used in airframe metalwork for shrinking and stretching metal, particularly angles and flanges?
+G-blocks 
+V-blocks ✅
+Spacers
+=
+What machine is used to form sheets into cylinders or other straight curved surfaces?
+Press brake
+Slip roller former ✅
+Bar folding machine
+=
+Which if these are considered shop tools due to their size and power source?
+Kett saw
+Nibblers
+Squaring shear ✅
+=
+What saw achieves cutting action through a push and pull (reciprocating) motion of the blade?
+Reciprocating saw ✅
+Circular cutting saw
+Ket saw
+=
+Which of these are considered as reusable sheet metal fasteners?
+Solid rivets
+Pop rivets
+Cleco fasteners ✅
+=
+What is the purpose of reusable fasteners?
+Temporarily hold drilled sheet metal parts accurately in position for riveting or drilling ✅
+Allows holes to be filled with glue for solid attachments
+Permit for welding of rivets
+=
+The primary objective of aircraft repair is to?
+Temporary restoration to damaged parts
+Restore damaged parts to their original strength ✅
+Partially restore damaged parts to their original strength
+=
+Before a part is attached to the aircraft during either manufacture or repair, it has to be shaped to fit into place. The process that makes this possible is called
+Forming process ✅
+Riveting process
+Bolting process
+=
+The term ''ice box rivets'' are given to what rivet alloys?
+AD rivets (alloy 3533)
+ED rivets
+DD rivets (alloy 2024-T4) ✅
+=
+What is the most common type of rivet used in aircraft construction?
+Blind rivets
+Solid shank rivets ✅
+Pop rivets
+=
+The combined thickness of the materials to be joined is known as?
+Grip length ✅
+Force length
+Stick length
+=
+The recommended countersunk angle for aircraft use is?
+120°
+60°
+100° ✅
+=
+What is a structural panel concept that consists in its simplest form of two relatively thin, parallel face sheets bonded to and separated by a relatively thick, lightweight core.
+Raw structure
+Sandwich construction ✅
+Balloon construction
+=
+What is the Material provides a tough layer between the repair and the atmosphere.
+Vaccum bag ✅
+Paper
+Tape 
+=
+Which of these are considered as matrix materials?
+Epoxy ✅
+Rubber
+Glass
+=
+which one creates a path for the air and volatiles to escape from the repair?
+traw
+Vent 
+Bleeder ply ✅
+=
+What are used for high-temperature applications, such as turbine blades in a gas turbine engine
+Plastic
+Rubber
+Ceramic fibers ✅
+=
+Which of these is considered as non-destructive inspection for composites?
+All the above ✅
+Ultrasonic testing
+Coin tap test
+=
+Which is used to provide a path for air to get out of the vacuum bag.
+Layup tapes
+All the above
+Breather material ✅
+=
+What are often used to create a clean surface for bonding purposes?
+Brush
+Peel ply ✅
+Tape
+=
+Impregnating the dry fabric with a resin just before the repair work is done is a process known as?
+Wet layup ✅
+None of the above
+Dry up
+=
+High strength and corrosion resistance are disadvantages of?
+Fiberglass
+Kevlar
+carbon fibers ✅
+=
+What is the primary load carrying element of the composite material.
+Fiber ✅
+Isotropic
+sand
+=
+During the curing stages of resins, what does the A stage refer to?
+The components of the resin (base material and hardener) have been mixed and the chemical reaction has started.
+The components of the resin (base material and hardener) have been mixed but the chemical reaction has not started. ✅
+The resin has fully cured
+=
+A method in which heat sensing devices are used to measure temperature variations for parts under inspection is known as?
+Coin tap
+X ray
+Thermography ✅
+=
+What are used to repair cracked aluminium aircraft skins, because the thermal expansion of boron is close to aluminium and there is no galvanic corrosion potential.
+Lead
+Boron ✅
+Acid
+=
+Structural properties, such as stiffness, dimensional stability, and strength of a composite laminate, depends on the?
+Separation of the fibers
+Foam
+Stacking sequence of the plies ✅
+=
+Which part is called if too much resin is bled off during the curing process or if not enough resin is applied during the wet layup process.
+Resin starved ✅
+None of the above
+Resin rich
+=
+What is used to seal the vacuum bag to the part or tool.
+Peel ply
+None of the above
+Layup tapes ✅
+=
+Which supports the fibers and bonds them together in the composite material.
+Matrix ✅
+Sand
+Foam
+=
+Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels?
+* 1. Microballoons.
+* 2. Flox.
+* 3. Chopped fibers.
+2 and 3. ✅
+1 and 3.
+1, 2, and 3.
+=
+Which rivets should be selected to join two sheets of .032-inch aluminum?
+MS20425D-4-3.
+MS20470AD-4-4. ✅
+MS20455DD-5-3.
+=
+MS20426AD-6-5 indicates a countersunk rivet which has
+a shank length of 5/16 inch (excluding head).
+a shank length of 5/32 inch (excluding head).
+an overall length of 5/16 inch. ✅
+=
+What should be the included angle of a twist drill for soft metals?
+118°.
+90°. ✅
+65°.
+=
+A piece of flat stock that is to be bent to a closed angle of 15° must be bent through an angle of
+165°. ✅
+105°.
+90°.
+=
+How many of the following are benefits of using microballoons when making repairs to laminated honeycomb panels?
+* 1. Greater concentrations of resin in edges and corners.
+* 2. Improved strength to weight ratio.
+* 3. Less density
+* 4. Lower stress concentrations
+2, 3, and 4. ✅
+1, 2, and 4.
+All of the above.
+=
+Proper pre-preg composite lay-up curing is generally accomplished by
+* 1. applying external heat.
+* 2. room temperature exposure.
+* 3. adding a catalyst or curing agent to the resin.
+* 4. applying pressure
+2 and 3.
+1 and 4. ✅
+1, 3, and 4.
+=
+Which of the following are generally characteristic of aramid fiber (Kevlar) composites?
+* 1. High tensile strength.
+* 2. Flexibility.
+* 3. Stiffness.
+* 4. Corrosive effect in contact with aluminum.
+* 5. Ability to conduct electricity.
+1 and 2. ✅
+2, 3, and 4.
+1, 3, and 5.
+=
+Which of the following are generally characteristic of carbon/graphite fiber composites?
+* 1. Flexibility.
+* 2. Stiffness.
+* 3. High compressive strength.
+* 4. Corrosive effect in contact with aluminum.
+* 5. Ability to conduct electricity.
+1 and 3.
+2, 3, and 4. ✅
+1, 3, and 5.
+=
+What should be the included angle of a twist drill for hard metal?
+118°. ✅
+100°.
+90°.
+=
+When drilling stainless steel, the drill used should have an included angle of
+90° and turn at a low speed.
+118° and turn at a high speed.
+140° and turn at a low speed. ✅
+=
+Which part of the 2017-T36 aluminum alloy designation indicates the primary alloying agent used in its manufacture?
+17
+20
+2 ✅
+=
+The primary alloying agent of 2024-T3 is indicated by the number
+2 ✅
+20
+24
+=
+The flat layout or blank length of a piece of metal from which a simple L-shaped bracket 3 inches by 1 inch is to be bent depends upon the radius of the desired bend. The bracket which will require the greatest amount of material is one which has a bend radius of
+1/2 inch.
+1/8 inch. ✅	
+1/4 inch.
+=
+If a new safety belt is to be installed in an aircraft, the belt must conform to the strength requirements in which document?
+STC 1282.
+14 CFR Part 39.
+TSO C22. ✅
+=
+A sheet metal repair is to be made using two pieces of 0.040-inch aluminum riveted together. All rivet holes are drilled for 3/32-inch rivets. The length of the rivets to be used will be
+1/8 inch.
+1/4 inch. ✅
+5/16 inch.
+=
+The length of rivet to be chosen when making a structural repair that involves the joining of 0.032-inch and 0.064-inch aluminum sheet, drilled with a No. 30 drill, is
+7/16 inch.
+5/16 inch. ✅
+1/4 inch. 
+=
+A single-lap sheet splice is to be used to repair a section of damaged aluminum skin. If a double row of 1/8-inch rivets is used, the minimum allowable overlap will be
+1/2 inch.
+3/4 inch.
+13/16 inch. ✅
+=
+A sheet metal repair is to be made using two pieces of 0.0625-inch aluminum riveted together. All rivet holes are drilled for 1/8-inch rivets. The length of the rivets to be used will be
+5/32 inch.
+3/16 inch.
+5/16 inch. ✅
+=
+The dimensions of an MS20430AD-4-8 rivet are
+1/8 inch in diameter and 1/4 inch long.
+1/8 inch in diameter and 1/2 inch long. ✅
+4/16 inch in diameter and 8/32 inch long.
+=
+The classification for fiberglass reinforcement material that has high resistivity and is the most common is
+E-glass. ✅
+S-glass.
+G-glass.
+=
+The classification for high tensile strength fiberglass used in aircraft structures is
+E-glass. 
+S-glass. ✅
+G-glass.
+=
+How many MS20470 AD-4-6 rivets will be required to attach a 10 x 5 inch plate, using a single row of rivets, minimum edge distance, and 4D spacing?
+56 ✅
+54
+52
+=
+Determine the dimensions of A, B, and C in the flat layout.
+* Setback = .252
+* Bend allowance = .345
+A = .748, B = 2.252, C = 2.004.
+A = .748, B = 1.496, C = 1.248. ✅
+A = 1.252, B = 2.504, C = 1.752
+=
+Which rivet may be used as received without further treatment?
+2024-T4.
+2117-T3. ✅
+2017-T3.
+=
+Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
+* 1. Acoustic emission monitoring.
+* 2. X-ray.
+* 3. Backlighting.
+1 and 2.
+1 and 3.
+2 and 3. ✅
+=
+A category of plastic material that is capable of softening or flowing when reheated is described as a
+thermoplastic. ✅
+thermocure.
+thermoset.
+=
+Which fiber to resin (percent) ratio for advanced composite wet lay-ups is generally considered the best for strength?
+40:60.
+50:50.
+60:40. ✅
+=
+How many fabric thicknesses will be found in a French-fell seam?
+Five.
+Three.
+Four. ✅
+=
+Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels?
+Flox and chopped fibers. ✅
+Microballoons.
+Microballoons and flox.
+=
+Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
+Backlighting and acoustic emission monitoring.
+X-ray and acoustic emission monitoring.
+X-ray and backlighting. ✅
+=
+The Dzus turnlock fastener consists of a stud, grommet, and receptacle. The stud diameter is measured in
+0.1 inch
+0.01 inch
+0.0625 inch ✅
+=
+The Dzus turnlock fastener consists of a stud, grommet, and receptacle. The stud length is measured in
+0.1 inch
+0.01 inch ✅
+0.0625 inch 
+=
+Which part of 2017-T36 aluminum alloy indicates the temper designation?
+T36. ✅
+2.
+17.
+=
+When welding or cutting, the acetylene pressure gauge should never be set higher than
+15 psi. ✅
+20 psi.
+25 psi.
+=
