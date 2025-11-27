@@ -663,7 +663,7 @@
         // العداد العام (لكل ملفات المسار)
         Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
           const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (Associate diploma – ${tot} q)`;
+          subjectTitleText.textContent = `Select course (Associate diploma – ${tot} Q)`;
         });
 
       } else {
@@ -680,11 +680,11 @@
             loadSubjectFromText(subs[name], name);
           });
           subjectList.appendChild(b);
-          fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
+          fetchCount(subs[name]).then(c => { span.textContent = `(${c} Q)`; });
         });
         Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
           const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (Diploma – ${tot} q)`;
+          subjectTitleText.textContent = `Select course (Diploma – ${tot} Q)`;
         });
       }
     }
