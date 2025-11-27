@@ -473,7 +473,7 @@
 
 
 		"AFI D Part 1": "AFI D Part 1.txt",
-		"AFI D Part 1": "AFI D Part 2.txt",
+		"AFI D Part 2": "AFI D Part 2.txt",
 
       },
       diploma: {
@@ -640,7 +640,7 @@
         // مجموعة Gen B (تحتها brightspace 1/2 و part 1)
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
         // مجموعة AFI D (تحتها AFI D Part 1و AFI D Part 2)
-        buildGroup(subs, n => n.startsWith("AFI D "), "AFI D", subjectList);
+        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
 		
         // الباقي (خارج المجموعتين)
         const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K Part") || n.startsWith("Gen B ")));
