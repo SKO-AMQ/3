@@ -205,3 +205,10 @@ replacement only ✅
 Weld Repair
 Heat-treat straightening
 =
+The image above is starting for what?
+sweeping.png
+* الصيغه مختلفه بس المعنى واحد بداية للحام القوس
+Initiating the arc in TIG welding (GTAW)
+Starting the arc in SMAW (Stick Welding) ✅
+Beginning the heat puddle in MIG welding (GMAW)
+=
