@@ -470,7 +470,11 @@
         "Gen M Part 1": "Gen M Part 1.txt",
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
+
+
 		"AFI D Part 1": "AFI D Part 1.txt",
+		"AFI D Part 1": "AFI D Part 2.txt",
+
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt",
@@ -635,7 +639,9 @@
         buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         // مجموعة Gen B (تحتها brightspace 1/2 و part 1)
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
-
+        // مجموعة AFI D
+        buildGroup(subs, n => n.startsWith("AFI D"), "AFI D", subjectList);
+		
         // الباقي (خارج المجموعتين)
         const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K Part") || n.startsWith("Gen B ")));
         Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
@@ -704,7 +710,7 @@
       }
     }
 
-    // دعم السطور المكمِّلة (*) + صور .png  (Gen B من GemBpng/ و Gen E من genepng/Gen N من gemnpng/)
+    // دعم السطور المكمِّلة (*) + صور .png  (AFI D من afidpng/ و Gen B من GemBpng/ و Gen E من genepng/Gen N من gemnpng/)
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -730,6 +736,8 @@
               images.push("gennpng/" + imgName);
             } else if (/^AFI E/i.test(currentSubject)) {
               images.push("afiepng/" + imgName);
+			} else if (/^AFI D/i.test(currentSubject)) {
+              images.push("afidpng/" + imgName);
             } else {
               images.push(imgName);
             }
