@@ -19,11 +19,6 @@ bonding on metal or cured composite patches.
 riveting on metal or cured composite patches.
 laminating on new repair plies. ✅
 =
-If a new safety belt is to be installed in an aircraft, the belt must conform to the strength requirements in which document?
-STC 1282.
-TSO C22. ✅
-14 CFR Part 39.
-=
 On a sheet metal fitting layout with a single bend, allow for stretching by
 adding the setback to each leg.
 subtracting the setback from one leg.
@@ -94,6 +89,7 @@ How many of the following are benefits of using microballoons when making repair
 *2. Improved strength to weight ratio.
 *3. Less density
 *4. Lower stress concentrations
+* اذا جا microballoons تكون 2,3,4
 2, 3, and 4. ✅
 1, 2, and 4.
 All of the above.
@@ -104,6 +100,7 @@ Which of the following are generally characteristic of carbon/graphite fiber com
 *3. High compressive strength.
 *4. Corrosive effect in contact with aluminum.
 *5. Ability to conduct electricity.
+* اذا جا carbon/graphite 2,3,4
 1 and 3.
 2, 3, and 4. ✅
 1, 3, and 5.
@@ -114,9 +111,44 @@ Which of the following are generally characteristic of aramid fiber (Kevlar) com
 *3. Stiffness.
 *4. Corrosive effect in contact with aluminum.
 *5. Ability to conduct electricity.
+* اذا جا (Kevlar) 1and2
 1 and 2. ✅
 2, 3, and 4.
 1, 3, and 5.
+=
+Proper pre-preg composite lay-up curing is generally accomplished by
+* 1. applying external heat.
+* 2. room temperature exposure.
+* 3. adding a catalyst or curing agent to the resin.
+* 4. applying pressure
+* اذا جا lay-up curing 1and4
+2 and 3.
+1 and 4. ✅
+1, 3, and 4.
+=
+Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels?
+* 1. Microballoons.
+* 2. Flox.
+* 3. Chopped fibers.
+2 and 3. ✅
+1 and 3.
+1, 2, and 3.
+=
+Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
+* 1. Acoustic emission monitoring.
+* 2. X-ray.
+* 3. Backlighting.
+1 and 2.
+1 and 3.
+2 and 3. ✅
+=
+Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
+* 1.acoustic emission monitoring
+* 2.x-ray
+* 3.backlighting
+1 and 2. ✅
+1 and 3.
+2 and 3.
 =
 Which door design cannot be opened in flight?
 * الصيغة تختلف بس افهم 
@@ -207,4 +239,51 @@ weave.png
 Crowfoot weave
 Shaft weave
 Plain weave ✅
+=
+Which of these is considered as non-destructive inspection for composites?
+*1-Ultrasonic testing
+*2-Coin tap test
+only one is true
+only two is true
+all is true ✅
+=
+What should be the included angle of a twist drill for hard metal?
+118°. ✅
+100°.
+90°.
+=
+The recommended countersunk angle for aircraft use is?
+120°
+60°
+100° ✅
+=
+When drilling stainless steel, the drill used should have an included angle of
+90° and turn at a low speed.
+118° and turn at a high speed.
+140° and turn at a low speed. ✅
+=
+A method in which heat sensing devices are used to measure temperature variations for parts under inspection is known as?
+Coin tap
+X ray
+Thermography ✅
+=
+Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
+Backlighting and acoustic emission monitoring.
+X-ray and acoustic emission monitoring.
+X-ray and backlighting. ✅
+=
+Impregnating the dry fabric with a resin just before the repair work is done is a process known as?
+Wet layup ✅
+None of the above
+Dry up
+=
+Which is used to provide a path for air to get out of the vacuum bag.
+Layup tapes
+All the above
+Breather material ✅
+=
+Which of these tools is widely used in airframe metalwork for shrinking and stretching metal, particularly angles and flanges?
+G-blocks 
+V-blocks ✅
+Spacers
 =
