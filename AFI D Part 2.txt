@@ -142,14 +142,6 @@ Which of these methods may be used to inspect fiberglass/honeycomb structures fo
 1 and 3.
 2 and 3. ✅
 =
-Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
-* 1.acoustic emission monitoring
-* 2.x-ray
-* 3.backlighting
-1 and 2. ✅
-1 and 3.
-2 and 3.
-=
 Which door design cannot be opened in flight?
 * الصيغة تختلف بس افهم 
 Non-plug 
@@ -239,6 +231,74 @@ weave.png
 Crowfoot weave
 Shaft weave
 Plain weave ✅
+=
+Which is the grip length of the flush rivet?
+grip.png
+1
+2
+3 ✅
+=
+Select the preferred drawing for proper countersinking.
+countersinking.png
+All are acceptable.
+1 ✅
+2
+=
+What is the length of flat A?
+flata.png
+3.7 inches. ✅
+3.8 inches.
+3.9 inches.
+=
+What is the flat layout dimension?
+layout.png
+7.0 inches.
+6.8 inches.✅
+6.6 inches
+=
+The length of flat A is
+flatb.png
+3.875 inches.
+3.937 inches.
+3.750 inches. ✅
+=
+The amount of material required to make the 90° bend is
+flatb.png
+0.3436 inch. ✅
+0.3717 inch.
+0.3925 inch.
+=
+What is dimension F?
+*Setback at D = .095
+*Setback at E = .068
+*Bend allowance at D = .150
+*Bend allowance at E = .112
+dimension.png
+4.836.
+5.936. ✅
+5.738.
+=
+What is dimension D?
+*Setback = .252
+*Bend allowance = .345
+flat.png
+3.492.
+4.182. ✅
+3.841.
+=
+Which of the rivets shown will accurately fit the conical depression made by a 100° countersink?
+countersink.png
+1 ✅
+2
+3 
+=
+Determine the dimensions of A, B, and C in the flat layout.
+*Setback = .252
+*Bend allowance = .345
+flat.png
+A = .748, B = 2.252, C = 2.004.
+A = .748, B = 1.496, C = 1.248. ✅
+A = 1.252, B = 2.504, C = 1.752.
 =
 Which of these is considered as non-destructive inspection for composites?
 *1-Ultrasonic testing
