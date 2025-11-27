@@ -114,11 +114,6 @@ Bar folding machine
 Press brake ✅
 Slip roller former
 =
-Which of these tools is widely used in airframe metalwork for shrinking and stretching metal, particularly angles and flanges?
-G-blocks 
-V-blocks ✅
-Spacers
-=
 What machine is used to form sheets into cylinders or other straight curved surfaces?
 Press brake
 Slip roller former ✅
@@ -155,8 +150,8 @@ Riveting process
 Bolting process
 =
 The term ''ice box rivets'' are given to what rivet alloys?
-AD rivets (alloy 3533)
 ED rivets
+AD rivets (alloy 3533)
 DD rivets (alloy 2024-T4) ✅
 =
 What is the most common type of rivet used in aircraft construction?
@@ -168,11 +163,6 @@ The combined thickness of the materials to be joined is known as?
 Grip length ✅
 Force length
 Stick length
-=
-The recommended countersunk angle for aircraft use is?
-120°
-60°
-100° ✅
 =
 What is a structural panel concept that consists in its simplest form of two relatively thin, parallel face sheets bonded to and separated by a relatively thick, lightweight core.
 Raw structure
@@ -199,25 +189,10 @@ Plastic
 Rubber
 Ceramic fibers ✅
 =
-Which of these is considered as non-destructive inspection for composites?
-All the above ✅
-Ultrasonic testing
-Coin tap test
-=
-Which is used to provide a path for air to get out of the vacuum bag.
-Layup tapes
-All the above
-Breather material ✅
-=
 What are often used to create a clean surface for bonding purposes?
 Brush
 Peel ply ✅
 Tape
-=
-Impregnating the dry fabric with a resin just before the repair work is done is a process known as?
-Wet layup ✅
-None of the above
-Dry up
 =
 High strength and corrosion resistance are disadvantages of?
 Fiberglass
@@ -233,11 +208,6 @@ During the curing stages of resins, what does the A stage refer to?
 The components of the resin (base material and hardener) have been mixed and the chemical reaction has started.
 The components of the resin (base material and hardener) have been mixed but the chemical reaction has not started. ✅
 The resin has fully cured
-=
-A method in which heat sensing devices are used to measure temperature variations for parts under inspection is known as?
-Coin tap
-X ray
-Thermography ✅
 =
 What are used to repair cracked aluminium aircraft skins, because the thermal expansion of boron is close to aluminium and there is no galvanic corrosion potential.
 Lead
@@ -264,14 +234,6 @@ Matrix ✅
 Sand
 Foam
 =
-Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels?
-* 1. Microballoons.
-* 2. Flox.
-* 3. Chopped fibers.
-2 and 3. ✅
-1 and 3.
-1, 2, and 3.
-=
 Which rivets should be selected to join two sheets of .032-inch aluminum?
 MS20425D-4-3.
 MS20470AD-4-4. ✅
@@ -291,54 +253,6 @@ A piece of flat stock that is to be bent to a closed angle of 15° must be bent 
 165°. ✅
 105°.
 90°.
-=
-How many of the following are benefits of using microballoons when making repairs to laminated honeycomb panels?
-* 1. Greater concentrations of resin in edges and corners.
-* 2. Improved strength to weight ratio.
-* 3. Less density
-* 4. Lower stress concentrations
-2, 3, and 4. ✅
-1, 2, and 4.
-All of the above.
-=
-Proper pre-preg composite lay-up curing is generally accomplished by
-* 1. applying external heat.
-* 2. room temperature exposure.
-* 3. adding a catalyst or curing agent to the resin.
-* 4. applying pressure
-2 and 3.
-1 and 4. ✅
-1, 3, and 4.
-=
-Which of the following are generally characteristic of aramid fiber (Kevlar) composites?
-* 1. High tensile strength.
-* 2. Flexibility.
-* 3. Stiffness.
-* 4. Corrosive effect in contact with aluminum.
-* 5. Ability to conduct electricity.
-1 and 2. ✅
-2, 3, and 4.
-1, 3, and 5.
-=
-Which of the following are generally characteristic of carbon/graphite fiber composites?
-* 1. Flexibility.
-* 2. Stiffness.
-* 3. High compressive strength.
-* 4. Corrosive effect in contact with aluminum.
-* 5. Ability to conduct electricity.
-1 and 3.
-2, 3, and 4. ✅
-1, 3, and 5.
-=
-What should be the included angle of a twist drill for hard metal?
-118°. ✅
-100°.
-90°.
-=
-When drilling stainless steel, the drill used should have an included angle of
-90° and turn at a low speed.
-118° and turn at a high speed.
-140° and turn at a low speed. ✅
 =
 Which part of the 2017-T36 aluminum alloy designation indicates the primary alloying agent used in its manufacture?
 17
@@ -412,14 +326,6 @@ Which rivet may be used as received without further treatment?
 2117-T3. ✅
 2017-T3.
 =
-Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
-* 1. Acoustic emission monitoring.
-* 2. X-ray.
-* 3. Backlighting.
-1 and 2.
-1 and 3.
-2 and 3. ✅
-=
 A category of plastic material that is capable of softening or flowing when reheated is described as a
 thermoplastic. ✅
 thermocure.
@@ -439,11 +345,6 @@ Which of the following, when added to wet resins, provide strength for the repai
 Flox and chopped fibers. ✅
 Microballoons.
 Microballoons and flox.
-=
-Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
-Backlighting and acoustic emission monitoring.
-X-ray and acoustic emission monitoring.
-X-ray and backlighting. ✅
 =
 The Dzus turnlock fastener consists of a stud, grommet, and receptacle. The stud diameter is measured in
 0.1 inch
