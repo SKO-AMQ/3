@@ -1,0 +1,210 @@
+=
+A piece of sheet metal is bent to a certain radius. The curvature of the bend is referred to as the
+bend allowance.
+neutral line.
+bend radius. $
+=
+The aluminum alloys used in aircraft construction are usually hardened by which method?
+Cold-working.
+Aging.
+Heat treatment. $
+=
+The most important factors needed to make a flat pattern layout are
+radius, thickness, and mold line.
+radius, thickness, and degree of bend. $
+the lengths of the legs (flat sections).
+=
+The preferred way to make permanent repairs on composites is by
+bonding on metal or cured composite patches.
+riveting on metal or cured composite patches.
+laminating on new repair plies. $
+=
+If a new safety belt is to be installed in an aircraft, the belt must conform to the strength requirements in which document?
+STC 1282.
+TSO C22. $
+14 CFR Part 39.
+=
+On a sheet metal fitting layout with a single bend, allow for stretching by
+adding the setback to each leg.
+subtracting the setback from one leg.
+subtracting the setback from both legs. $
+=
+Repairing advanced composites using materials and techniques traditionally fiberglass repairs is likely to result in
+an unairworthy repair. $
+restored strength and flexibility.
+improved wear resistance to the structure.
+=
+What is the most common method of cementing transparent plastics?
+Heat method.
+Soak method. $
+Bevel method.
+=
+A well-designed rivet joint will subject the rivets to
+shear loads. $
+tension loads.
+compressive loads.
+=
+Shallow scratches in sheet metal may be repaired by
+stop drilling.
+buffing.
+burnishing. $
+=
+When an MS20470D rivet is installed, its full shear strength is obtained
+only after a period of age hardening. $
+by heat treating just prior to being driven.
+by the cold working of the rivet metal in forming a shop head.
+=
+Rivet gauge, or transverse pitch is the distance between the
+heads of rivets in the same row.
+centers of rivets in adjacent rows. $
+centers of adjacent rivets in the same row.
+=
+What should be the included angle of a twist drill for soft metals?
+65°.
+118°.
+90°. $
+=
+Which rivet may be used as received without further treatment?
+2024-T4.
+2117-T3. $
+2017-T3.
+=
+vWhat type loads cause the most rivet failures?
+Shear. $
+Head.
+Bearing.
+=
+What is the material layer used within the vacuum bag pressure system to absorb excess resin during curing called?
+Release.
+Bleeder. $
+Breather.
+=
+A DD rivet is heat treated before use to
+harden and increase strength.
+relieve internal stresses.
+soften to facilitate riveting. $
+=
+If no scratches are visible after transparent plastic enclosure materials have been cleaned, their surfaces should be
+covered with a thin coat of wax. $
+buffed with a clean, soft, dry cloth.
+polished with rubbing compound applied with a damp cloth.
+=
+How many of the following are benefits of using microballoons when making repairs to laminated honeycomb panels?
+*1. Greater concentrations of resin in edges and corners.
+*2. Improved strength to weight ratio.
+*3. Less density
+*4. Lower stress concentrations
+2, 3, and 4. $
+1, 2, and 4.
+All of the above.
+=
+Which of the following are generally characteristic of carbon/graphite fiber composites?
+*1. Flexibility.
+*2. Stiffness.
+*3. High compressive strength.
+*4. Corrosive effect in contact with aluminum.
+*5. Ability to conduct electricity.
+1 and 3.
+2, 3, and 4. $
+1, 3, and 5.
+=
+Which of the following are generally characteristic of aramid fiber (Kevlar) composites?
+*1. High tensile strength.
+*2. Flexibility.
+*3. Stiffness.
+*4. Corrosive effect in contact with aluminum.
+*5. Ability to conduct electricity.
+1 and 2. $
+2, 3, and 4.
+1, 3, and 5.
+=
+Which door design cannot be opened in flight?
+* الصيغة تختلف بس افهم 
+Non-plug 
+One plug-type $
+Two plug-type 
+=
+Why is it impossible to open an aircraft door in flight?
+* الصيغة تختلف بس افهم 
+Because wider than the opening and seals against the frame (plug-type design). $
+Because smaller than the fuselage opening so pressure pushes it closed.
+Because equal in size to the opening but pressure holds it in place.
+=
+Why is it impossible to open an aircraft plug-type door in flight?
+* الصيغة تختلف بس افهم 
+the handle locks electrically
+the door is larger than the opening and sealed by cabin pressure $
+the hinges expand with temperature
+=
+Why is it not possible to open the main cabin door during flight?
+* الصيغة تختلف بس افهم الفكره ان المسمار يكون اكبر من الفتحه
+Because the door is designed smaller than the frame and held by structural brackets
+Because the door is larger than the frame opening and held in place by cabin pressure $
+Because the door is equal to the frame size and secured only by mechanical hinges
+=
+What is the purpose of the small hole found in cockpit window inner panes?
+* الصيغة تختلف بس افهم الهدف من الفتحه الموجوجدجه فالقزاز توازن الضغط
+To drain warm air from the outer pane and reduce window temperature
+To release cabin pressure gradually through the inner window surface
+To equalize pressure between window layers and prevent moisture buildup $
+=
+visual inspection is
+* مهم بس الصيغة مختلفه بس الفكره وحده الفحص النظري يعتبر اساسي 
+Primary inspection $
+Not a mandatory inspection
+Secondary inspection
+=
+What should a mechanic do when a composite skin is cracked or broken?
+* مهم بس الصيغة مختلفه بس الفكره الاساسية اذا تضررت تتغير
+Clean the damaged area only
+Repair or replace the damaged section according to the SRM $
+Cover the damage with paint to prevent further cracking
+=
+The installation of aircraft windshields and side windows is usually accomplished with
+* مهم الصيغة مختلفه بس الفكره الاساسية تكون قطعتين عشان تتحمل الضغط
+two or more plies of glass or plastic, laminated together. $
+one solid piece of glass or plastic.
+a single pane of tempered glass.
+=
+What is the naem of these repair method
+drying.png
+* الصيغة تختلف بس نوع العملية Hot Bond Cure مهم مهم مهم
+Vacuum bag method for drying parts $
+repairs for honeycomb sandwich structure
+Resin injection repair
+=
+In what used in this repair method?
+drying.png
+* الصيغة تمامًا تختلف بس الفكره نفسها عملية الاصلاح تكون بالحراره
+Cold Bond Cure (Cold Bonder Composite Repair)
+Hot Bond Cure (Hot Bonder Composite Repair) $
+Warm Bond Cure (Warm Bonder Composite Repair)
+=
+In what used in this repair method?
+drying.png
+* الصيغة مختلفه بس الفكره الاساسية يستخدم اذا فيه كسرت او تلف داخلي
+reshaping aluminum panels by cold working
+removing moisture trapped inside metal skins
+curing composite repairs with applied heat and vacuum $
+=
+What is the naem of these repair method
+resin.png
+* الصيغة تختلف بس اسم طريقة الاصلاح ريزن مهم مهم مهم
+Vacuum bag method for drying parts 
+repairs for honeycomb sandwich structure
+Resin Injection Repair $
+=
+In what used in this repair method?
+resin.png
+* الصيغة تختلف بس الفكره ان طريقة الاصلاح تكون بحقن الريزن داخل الطبقات يسد الفراغ ويرجع القوة
+Injecting resin into delaminated areas $
+Applying solvent to soften composite layers
+Filling surface scratches with filler
+=
+What is naem this weave
+weave.png
+* مهم الصيغة مختلفه 
+Crowfoot weave
+Shaft weave
+Plain weave $
+=
