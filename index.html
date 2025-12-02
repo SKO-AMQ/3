@@ -350,10 +350,10 @@
 
     <div id="home-screen">
 	  <div class="select-title">Select what you want</div>
-      <button class="option-btn" id="associateBtn" data-track="Gen">Gen</button>
-      <button class="option-btn" id="associateBtn" data-track="AFI">AFI</button>
-      <button class="option-btn" id="associateBtn" data-track="AFII">AFII</button>
-      <button class="option-btn" id="diplomaBtn" data-track="PPII">PPII</button>
+      <button class="option-btn" id="GenBtn" data-track="Gen">Gen</button>
+      <button class="option-btn" id="AFIBtn" data-track="AFI">AFI</button>
+      <button class="option-btn" id="AFII" data-track="AFII">AFII</button>
+      <button class="option-btn" id="PPII" data-track="PPII">PPII</button>
     </div>
 
     <div id="subject-screen" style="display:none">
@@ -507,8 +507,10 @@
     const subjectList = document.getElementById("subjectList");
     const subjectTitleText = document.getElementById("subjectTitleText");
     const breadcrumb = document.getElementById("breadcrumb");
-    const associateBtn = document.getElementById("associateBtn");
-    const diplomaBtn = document.getElementById("diplomaBtn");
+    const GenBtn = document.getElementById("GenBtn");
+    const AFIBtn = document.getElementById("AFIBtn");
+    const AFIIBtn = document.getElementById("AFIIBtn");
+    const PPIIBtn = document.getElementById("PPIIBtn");
 
     const quizTitle = document.getElementById("quizTitle");
     const quizSubtitle = document.getElementById("quizSubtitle");
@@ -571,7 +573,7 @@
       breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
       if (currentTrack) {
         breadcrumb.querySelector('[data-level="track"]').textContent =
-	          currentTrack === "associate" ? "Gen" : "AFI":"AFII" : "PPII";
+	          currentTrack === "Gen" ? "Gen" : "AFI":"AFII" : "PPII";
       }
     }
 
@@ -630,18 +632,16 @@
       subjectScreen.style.display = "block";
       quizScreen.style.display = "none";
       setBreadcrumb("track");
-      subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Gen" : "AFI""AFII" : "PPII";
+      subjectTitleText.textContent = `Select course (${currentTrack === "Gen" ? "Gen" : "AFI""AFII" : "PPII";
       subjectList.innerHTML = "";
       const subs = SUBJECT_FILES[currentTrack];
 
-      if (currentTrack === "associate") {
+      if (currentTrack === "Gen") {
         // مجموعة Gen I&K
         buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         // مجموعة Gen B (تحتها brightspace 1/2 و part 1)
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
-        // مجموعة AFI D (تحتها AFI D Part 1و AFI D Part 2)
-        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
-		
+
         // الباقي (خارج المجموعتين)
         const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K Part") || n.startsWith("Gen B ")));
         Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
@@ -655,7 +655,12 @@
           b.addEventListener("click", () => {
             currentSubject = name;
             loadSubjectFromText(subs[name], name);
-          });
+        });
+		if (currentTrack === "AFI") {
+        // مجموعة AFI D (تحتها AFI D Part 1و AFI D Part 2)
+        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
+		
+		  
           subjectList.appendChild(b);
           fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
         });
@@ -1115,18 +1120,34 @@
       const url = new URL(window.location.href);
       const q = url.searchParams.get("quiz");
       if (!q) return;
-      currentTrack = "associate";
-      if (SUBJECT_FILES.associate[q]) {
+      currentTrack = "Gen";
+      if (SUBJECT_FILES.Gen[Q]) {
         showSubjects();
-        currentSubject = q;
-        loadSubjectFromText(SUBJECT_FILES.associate[q], q);
+        currentSubject = Q;
+        loadSubjectFromText(SUBJECT_FILES.Gen[Q], Q);
         return;
       }
-      if (SUBJECT_FILES.diploma[q]) {
-        currentTrack = "diploma";
+      if (SUBJECT_FILES.AFI[Q]) {
+        currentTrack = "AFI";
         showSubjects();
-        currentSubject = q;
-        loadSubjectFromText(SUBJECT_FILES.diploma[q], q);
+        currentSubject = Q;
+        loadSubjectFromText(SUBJECT_FILES.AFI[Q], Q);
+      }
+    }
+      }
+      if (SUBJECT_FILES.AFII[Q]) {
+        currentTrack = "AFII";
+        showSubjects();
+        currentSubject = Q;
+        loadSubjectFromText(SUBJECT_FILES.AFII[Q], Q);
+      }
+    }
+      }
+      if (SUBJECT_FILES.PPII[Q]) {
+        currentTrack = "PPII";
+        showSubjects();
+        currentSubject = Q;
+        loadSubjectFromText(SUBJECT_FILES.PPII[Q], Q);
       }
     }
 
