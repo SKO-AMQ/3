@@ -31,38 +31,22 @@
     .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .7rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
-    /* === Brand + Important button row === */
+    /* Brand + Important button row */
     .brand-line {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-bottom: .2rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .2rem;
     }
-    .top-brand {
-      display: flex;
-      flex-direction: column;
-      gap: .3rem;
-    }
+    .top-brand { display: flex; flex-direction: column; gap: .3rem; }
     .top-brand .name { font-size: 1.6rem; font-weight: 700; color: #ff4d4d; }
     .top-brand .sub { font-size: .8rem; }
     .top-brand .sub small { display: block; color: #fff; opacity: .85; font-size: .78rem; }
 
     .important-btn {
-      background: #dc2626; /* Red */
-      color: #fff;
-      border: 1px solid rgba(255,255,255,.15);
-      border-radius: .55rem;
-      padding: .5rem .9rem;
-      font-size: .85rem;
-      cursor: pointer;
-      white-space: nowrap;
+      background: #dc2626; color: #fff; border: 1px solid rgba(255,255,255,.15);
+      border-radius: .55rem; padding: .5rem .9rem; font-size: .85rem; cursor: pointer; white-space: nowrap;
     }
     .important-btn:hover { filter: brightness(1.05); }
 
-    .breadcrumb {
-      font-size: 1rem; color: #d4d4d4; margin: .4rem 0 1rem; font-weight: 600; text-align: center;
-    }
+    .breadcrumb { font-size: 1rem; color: #d4d4d4; margin: .4rem 0 1rem; font-weight: 600; text-align: center; }
     .breadcrumb span { cursor: pointer; }
     .breadcrumb .active { color: #fff; }
 
@@ -76,11 +60,6 @@
 
     .subject-count { display: inline-block; margin-left: .4rem; opacity: .7; font-size: .65rem; }
 
-    .submenu {
-      margin-top: .35rem; margin-left: .6rem; border-left: 2px solid rgba(255,255,255,.03); padding-left: .6rem;
-    }
-    .submenu .subject-btn { margin-bottom: .35rem; }
-
     #quiz-screen { display: none; }
 
     .quiz-title-block { text-align: center; margin-bottom: .9rem; }
@@ -93,7 +72,8 @@
     .badge-pill { background: #1d4ed8; padding: .35rem .9rem; border-radius: .4rem; font-size: .65rem; white-space: nowrap; }
     .inline-tools { display: flex; gap: .4rem; }
     .inline-tools .icon-btn {
-      width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem; display: grid; place-items: center; cursor: pointer; font-size: .7rem;
+      width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem;
+      display: grid; place-items: center; cursor: pointer; font-size: .7rem;
     }
     .inline-tools .icon-btn.active { background: var(--accent); }
 
@@ -137,7 +117,6 @@
     .questions-list div:hover { background: rgba(29,78,216,.2); }
     .questions-list div:last-child { border-bottom: none; }
 
-    /* Simple read-only notes content */
     .notes-content { text-align: left; font-size: .9rem; line-height: 1.6; color: #e5e7eb; }
     .notes-content h1, .notes-content h2, .notes-content h3 { color: #fff; }
     .notes-content a { color: #60a5fa; }
@@ -156,7 +135,6 @@
   <div class="shell">
     <div class="progress-line"><span id="progressBar"></span></div>
 
-    <!-- Brand row with Important button -->
     <div class="brand-line">
       <div class="top-brand">
         <div class="name">Alqhtani.</div>
@@ -170,14 +148,17 @@
 
     <div class="breadcrumb" id="breadcrumb">
       <span data-level="home" class="active">Home</span> /
-      <span data-level="track">Program</span> /
+      <span data-level="track">Category</span> /
       <span data-level="quiz">Quiz</span>
     </div>
 
+    <!-- Home: four categories -->
     <div id="home-screen">
       <div class="select-title">Select what you want</div>
-      <button class="option-btn" id="associateBtn" data-track="associate">Associate diploma</button>
-      <button class="option-btn" id="diplomaBtn" data-track="diploma">Diploma</button>
+      <button class="option-btn" data-cat="gen"  id="btnGen">Gen</button>
+      <button class="option-btn" data-cat="afi"  id="btnAFI">AFI</button>
+      <button class="option-btn" data-cat="afii" id="btnAFII">AFII</button>
+      <button class="option-btn" data-cat="ppii" id="btnPPII">PPII</button>
     </div>
 
     <div id="subject-screen" style="display:none">
@@ -275,7 +256,7 @@
     </div>
   </div>
 
-  <!-- IMPORTANT notes modal (read-only) -->
+  <!-- IMPORTANT notes modal -->
   <div class="overlay" id="importantOverlay">
     <div class="modal">
       <h3>ملاحظات مهمة</h3>
@@ -287,6 +268,7 @@
   </div>
 
   <script>
+    /* ملفاتك كما هي */
     const SUBJECT_FILES = {
       associate: {
         "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt",
@@ -322,7 +304,7 @@
 
     const STORAGE_PREFIX = "alqhtaniQuiz:";
 
-    let currentTrack = null;
+    let currentCategory = null; // gen/afi/afii/ppii
     let currentSubject = null;
     let currentStorageKey = null;
     let questions = [];
@@ -335,11 +317,8 @@
     const subjectList = document.getElementById("subjectList");
     const subjectTitleText = document.getElementById("subjectTitleText");
     const breadcrumb = document.getElementById("breadcrumb");
-    const associateBtn = document.getElementById("associateBtn");
-    const diplomaBtn = document.getElementById("diplomaBtn");
 
     const quizTitle = document.getElementById("quizTitle");
-    const quizSubtitle = document.getElementById("quizSubtitle");
     const infoChips = document.getElementById("infoChips");
     const qPill = document.getElementById("qPill");
     const questionText = document.getElementById("questionText");
@@ -385,64 +364,28 @@
     const importantBody = document.getElementById("importantBody");
     const importantClose = document.getElementById("importantClose");
 
-    document.querySelectorAll(".option-btn").forEach(btn => {
-      btn.addEventListener("click", () => { currentTrack = btn.dataset.track; showSubjects(); });
+    // Home buttons (four categories)
+    document.querySelectorAll('#home-screen .option-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentCategory = btn.dataset.cat; // gen/afi/afii/ppii
+        showSubjectsForCategory();
+      });
     });
 
     breadcrumb.addEventListener("click", e => {
       const level = e.target.dataset.level;
       if (!level) return;
       if (level === "home") showHome();
-      else if (level === "track" && currentTrack) showSubjects();
+      else if (level === "track" && currentCategory) showSubjectsForCategory();
     });
 
     function setBreadcrumb(level) {
       breadcrumb.querySelectorAll("span[data-level]").forEach(s => s.classList.remove("active"));
       breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
-      if (currentTrack) {
-        breadcrumb.querySelector('[data-level="track"]').textContent =
-          currentTrack === "associate" ? "Associate diploma" : "Diploma";
+      if (currentCategory) {
+        const txt = currentCategory.toUpperCase();
+        breadcrumb.querySelector('[data-level="track"]').textContent = txt;
       }
-    }
-
-    // ===== Group builder (unchanged) =====
-    function buildGroup(subs, filterFn, groupTitle, parent) {
-      const names = Object.keys(subs).filter(filterFn);
-      if (!names.length) return;
-
-      const mainBtn = document.createElement("button");
-      mainBtn.className = "subject-btn";
-      mainBtn.textContent = `${groupTitle} (${names.length} parts)`;
-      const subDiv = document.createElement("div");
-      subDiv.className = "submenu";
-      subDiv.style.display = "none";
-
-      const countPromises = [];
-      names.forEach(name => {
-        const b = document.createElement("button");
-        b.className = "subject-btn";
-        b.textContent = name;
-        const span = document.createElement("span");
-        span.className = "subject-count";
-        span.textContent = "...";
-        b.appendChild(span);
-        b.addEventListener("click", () => { currentSubject = name; loadSubjectFromText(subs[name], name); });
-        subDiv.appendChild(b);
-        const p = fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; return c; });
-        countPromises.push(p);
-      });
-
-      mainBtn.addEventListener("click", () => {
-        subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
-      });
-
-      parent.appendChild(mainBtn);
-      parent.appendChild(subDiv);
-
-      Promise.all(countPromises).then(arr => {
-        const total = arr.reduce((a,b)=>a+b,0);
-        mainBtn.textContent = `${groupTitle} (${names.length} parts, ${total} q)`;
-      });
     }
 
     function showHome() {
@@ -452,27 +395,41 @@
       setBreadcrumb("home");
     }
 
-    // ===== New grouping exactly as requested: Gen / AFI / AFII / PPII =====
-    function showSubjects() {
+    // Merge catalogs by prefix across associate + diploma
+    const prefixRegex = {
+      gen:  /^Gen\b/i,
+      afi:  /^AFI\b/i,
+      afii: /^AFII\b/i,
+      ppii: /^PPII\b/i,
+    };
+
+    function getCatalogByPrefix(catKey) {
+      const reg = prefixRegex[catKey];
+      const all = {...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma};
+      const out = {};
+      Object.entries(all).forEach(([name, path]) => {
+        if (reg.test(name)) out[name] = path;
+      });
+      return out;
+    }
+
+    async function fetchCount(fileName) {
+      try { const res = await fetch(fileName); const txt = await res.text(); return parseTextToQuestions(txt).length; }
+      catch { return 0; }
+    }
+
+    async function showSubjectsForCategory() {
       homeScreen.style.display = "none";
       subjectScreen.style.display = "block";
       quizScreen.style.display = "none";
       setBreadcrumb("track");
-      subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"})`;
+
+      const subs = getCatalogByPrefix(currentCategory);
       subjectList.innerHTML = "";
-      const subs = SUBJECT_FILES[currentTrack];
 
-      // Group by prefix
-      buildGroup(subs, n => /^Gen\b/i.test(n), "Gen", subjectList);
-      buildGroup(subs, n => /^AFI\b/i.test(n), "AFI", subjectList);
-      buildGroup(subs, n => /^AFII\b/i.test(n), "AFII", subjectList);
-      buildGroup(subs, n => /^PPII\b/i.test(n), "PPII", subjectList);
-
-      // Any leftovers (not matching the four groups)
-      const grouped = new Set(Object.keys(subs).filter(n =>
-        /^Gen\b|^AFI\b|^AFII\b|^PPII\b/i.test(n)
-      ));
-      Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
+      // List flat (بدون مجموعات)
+      const names = Object.keys(subs).sort();
+      names.forEach(name => {
         const b = document.createElement("button");
         b.className = "subject-btn";
         b.textContent = name;
@@ -485,16 +442,10 @@
         fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
       });
 
-      // Totals
-      Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
-        const tot = arr.reduce((a,b)=>a+b,0);
-        subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"} – ${tot} q)`;
-      });
-    }
-
-    async function fetchCount(fileName) {
-      try { const res = await fetch(fileName); const txt = await res.text(); return parseTextToQuestions(txt).length; }
-      catch { return 0; }
+      // Totals per category
+      const counts = await Promise.all(Object.values(subs).map(f => fetchCount(f)));
+      const tot = counts.reduce((a,b)=>a+b,0);
+      subjectTitleText.textContent = `Select course (${currentCategory.toUpperCase()} – ${tot} q)`;
     }
 
     async function loadSubjectFromText(fileName, label) {
@@ -503,12 +454,12 @@
         const txt = await res.text();
         questions = parseTextToQuestions(txt);
         startQuiz(label, fileName);
-      } catch (e) {
+      } catch {
         alert("Cannot load file: " + fileName);
       }
     }
 
-    // دعم السطور المكمِّلة (*) + صور .png  (AFI D من afidpng/ و Gen B من GemBpng/ و Gen E من genepng/Gen N من gennpng/)
+    // Parser (يدعم السطور المكمِّلة والصور)
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -559,8 +510,8 @@
       url.searchParams.set('quiz', encodeURIComponent(label));
       window.history.replaceState({}, '', url);
 
-      quizTitle.textContent = label;
-      quizSubtitle.textContent = "";
+      document.getElementById("quizTitle").textContent = label;
+      document.getElementById("quizSubtitle").textContent = "";
       homeScreen.style.display = "none";
       subjectScreen.style.display = "none";
       quizScreen.style.display = "block";
@@ -748,8 +699,7 @@
       render();
     });
 
-    const jumpBtnEl = document.getElementById("jumpBtn");
-    jumpBtnEl.addEventListener("click", () => { renderJumpModal(); jumpOverlay.style.display = "flex"; });
+    document.getElementById("jumpBtn").addEventListener("click", () => { renderJumpModal(); jumpOverlay.style.display = "flex"; });
     jumpClose.addEventListener("click", () => { jumpOverlay.style.display = "none"; });
 
     jumpGo.addEventListener("click", () => {
@@ -759,7 +709,7 @@
     });
 
     function shuffleArray(arr) {
-      for (let i = arr.length - 1; i > 0; i--) {
+      for (let i = arr.length - 1; i > 0; i++) {
         const j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
       }
@@ -787,53 +737,54 @@
     });
     completionClose.addEventListener("click", () => { completionOverlay.style.display = "none"; });
 
-    async function computeHomeTotals() {
-      const assocFiles = SUBJECT_FILES.associate;
-      const dipFiles = SUBJECT_FILES.diploma;
-      const assocCounts = await Promise.all(Object.values(assocFiles).map(f => fetchCount(f)));
-      const dipCounts = await Promise.all(Object.values(dipFiles).map(f => fetchCount(f)));
-      const assocTotal = assocCounts.reduce((a,b)=>a+b,0);
-      const dipTotal = dipCounts.reduce((a,b)=>a+b,0);
-      associateBtn.textContent = `Associate diploma (${assocTotal} q)`;
-      diplomaBtn.textContent = `Diploma (${dipTotal} q)`;
+    // Show totals on home buttons
+    async function computeCategoryTotals() {
+      const all = {...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma};
+      const cats = { gen:0, afi:0, afii:0, ppii:0 };
+      const entries = Object.entries(all);
+      for (const [name, file] of entries) {
+        let key = null;
+        if (prefixRegex.gen.test(name)) key = "gen";
+        else if (prefixRegex.afi.test(name)) key = "afi";
+        else if (prefixRegex.afii.test(name)) key = "afii";
+        else if (prefixRegex.ppii.test(name)) key = "ppii";
+        if (!key) continue;
+        try { const res = await fetch(file); const txt = await res.text(); cats[key] += parseTextToQuestions(txt).length; }
+        catch {}
+      }
+      document.getElementById('btnGen').textContent  = `Gen (${cats.gen} q)`;
+      document.getElementById('btnAFI').textContent  = `AFI (${cats.afi} q)`;
+      document.getElementById('btnAFII').textContent = `AFII (${cats.afii} q)`;
+      document.getElementById('btnPPII').textContent = `PPII (${cats.ppii} q)`;
     }
+
+    // IMPORTANT (read-only)
+    let importantLoaded = false;
+    importantBtn.addEventListener("click", async () => {
+      document.getElementById("importantOverlay").style.display = "flex";
+      if (!importantLoaded) {
+        try {
+          const res = await fetch("important.html");
+          if (res.ok) importantBody.innerHTML = await res.text();
+          else importantBody.textContent = "ضع ملف important.html بجانب هذا الملف لعرض الملاحظات.";
+        } catch { importantBody.textContent = "تعذر تحميل الملاحظات."; }
+        importantLoaded = true;
+      }
+    });
+    importantClose.addEventListener("click", () => { document.getElementById("importantOverlay").style.display = "none"; });
 
     function tryOpenFromURL() {
       const url = new URL(window.location.href);
       const q = url.searchParams.get("quiz");
       if (!q) return;
-      currentTrack = "associate";
-      if (SUBJECT_FILES.associate[q]) {
-        showSubjects(); currentSubject = q; loadSubjectFromText(SUBJECT_FILES.associate[q], q); return;
-      }
-      if (SUBJECT_FILES.diploma[q]) {
-        currentTrack = "diploma"; showSubjects(); currentSubject = q; loadSubjectFromText(SUBJECT_FILES.diploma[q], q);
+      const all = {...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma};
+      if (all[q]) {
+        currentSubject = q; loadSubjectFromText(all[q], q);
       }
     }
 
-    // IMPORTANT button behavior: simple read-only view
-    let importantLoaded = false;
-    importantBtn.addEventListener("click", async () => {
-      importantOverlay.style.display = "flex";
-      if (!importantLoaded) {
-        try {
-          const res = await fetch("important.html"); // ضع ملاحظاتك هنا
-          if (res.ok) {
-            const html = await res.text();
-            importantBody.innerHTML = html;
-          } else {
-            importantBody.textContent = "ضع ملف important.html بجانب هذا الملف لعرض الملاحظات.";
-          }
-        } catch {
-          importantBody.textContent = "تعذر تحميل الملاحظات.";
-        }
-        importantLoaded = true;
-      }
-    });
-    importantClose.addEventListener("click", () => { importantOverlay.style.display = "none"; });
-
     showHome();
-    computeHomeTotals();
+    computeCategoryTotals();
     tryOpenFromURL();
   </script>
 </body>
