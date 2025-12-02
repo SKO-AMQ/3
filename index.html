@@ -31,10 +31,8 @@
     .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .7rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
-    /* Brand + Important button row */
-    .brand-line {
-      display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .2rem;
-    }
+    /* header + important */
+    .brand-line { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .2rem; }
     .top-brand { display: flex; flex-direction: column; gap: .3rem; }
     .top-brand .name { font-size: 1.6rem; font-weight: 700; color: #ff4d4d; }
     .top-brand .sub { font-size: .8rem; }
@@ -60,6 +58,9 @@
 
     .subject-count { display: inline-block; margin-left: .4rem; opacity: .7; font-size: .65rem; }
 
+    .submenu { margin-top: .35rem; margin-left: .6rem; border-left: 2px solid rgba(255,255,255,.03); padding-left: .6rem; }
+    .submenu .subject-btn { margin-bottom: .35rem; }
+
     #quiz-screen { display: none; }
 
     .quiz-title-block { text-align: center; margin-bottom: .9rem; }
@@ -72,8 +73,7 @@
     .badge-pill { background: #1d4ed8; padding: .35rem .9rem; border-radius: .4rem; font-size: .65rem; white-space: nowrap; }
     .inline-tools { display: flex; gap: .4rem; }
     .inline-tools .icon-btn {
-      width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem;
-      display: grid; place-items: center; cursor: pointer; font-size: .7rem;
+      width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem; display: grid; place-items: center; cursor: pointer; font-size: .7rem;
     }
     .inline-tools .icon-btn.active { background: var(--accent); }
 
@@ -117,9 +117,8 @@
     .questions-list div:hover { background: rgba(29,78,216,.2); }
     .questions-list div:last-child { border-bottom: none; }
 
-    .notes-content { text-align: left; font-size: .9rem; line-height: 1.6; color: #e5e7eb; }
-    .notes-content h1, .notes-content h2, .notes-content h3 { color: #fff; }
-    .notes-content a { color: #60a5fa; }
+    /* Important notes (preserve new lines) */
+    .notes-content { text-align: left; font-size: .9rem; line-height: 1.6; color: #e5e7eb; white-space: pre-wrap; }
 
     @media (max-width: 640px) {
       .shell { padding-inline: .8rem; }
@@ -148,17 +147,17 @@
 
     <div class="breadcrumb" id="breadcrumb">
       <span data-level="home" class="active">Home</span> /
-      <span data-level="track">Category</span> /
+      <span data-level="track">Program</span> /
       <span data-level="quiz">Quiz</span>
     </div>
 
-    <!-- Home: four categories -->
+    <!-- HOME: four buttons in this exact order (Gen, AFI, AFII, PPII) -->
     <div id="home-screen">
       <div class="select-title">Select what you want</div>
-      <button class="option-btn" data-cat="gen"  id="btnGen">Gen</button>
-      <button class="option-btn" data-cat="afi"  id="btnAFI">AFI</button>
-      <button class="option-btn" data-cat="afii" id="btnAFII">AFII</button>
-      <button class="option-btn" data-cat="ppii" id="btnPPII">PPII</button>
+      <button class="option-btn" id="genBtn"  data-track="gen">Gen</button>
+      <button class="option-btn" id="afiBtn"  data-track="afi">AFI</button>
+      <button class="option-btn" id="afiiBtn" data-track="afii">AFII</button>
+      <button class="option-btn" id="ppiiBtn" data-track="ppii">PPII</button>
     </div>
 
     <div id="subject-screen" style="display:none">
@@ -256,7 +255,7 @@
     </div>
   </div>
 
-  <!-- IMPORTANT notes modal -->
+  <!-- IMPORTANT notes modal (read-only, keeps lines) -->
   <div class="overlay" id="importantOverlay">
     <div class="modal">
       <h3>ملاحظات مهمة</h3>
@@ -268,7 +267,7 @@
   </div>
 
   <script>
-    /* ملفاتك كما هي */
+    /* ===== File catalog ===== */
     const SUBJECT_FILES = {
       associate: {
         "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt",
@@ -302,15 +301,29 @@
       }
     };
 
-    const STORAGE_PREFIX = "alqhtaniQuiz:";
+    /* ===== Build flat registry per top-level (Gen / AFI / AFII / PPII) ===== */
+    function buildRegistry() {
+      const reg = { gen:{}, afi:{}, afii:{}, ppii:{} };
+      const all = { ...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma };
+      for (const [name, path] of Object.entries(all)) {
+        if (/^Gen\b/i.test(name)) reg.gen[name] = path;
+        else if (/^AFI\b/i.test(name)) reg.afi[name] = path;
+        else if (/^AFII\b/i.test(name)) reg.afii[name] = path;
+        else if (/^PPII\b/i.test(name)) reg.ppii[name] = path;
+      }
+      return reg;
+    }
+    const REGISTRY = buildRegistry();
 
-    let currentCategory = null; // gen/afi/afii/ppii
+    const STORAGE_PREFIX = "alqhtaniQuiz:";
+    let currentTrack = null;           // 'gen' | 'afi' | 'afii' | 'ppii'
     let currentSubject = null;
     let currentStorageKey = null;
     let questions = [];
     let pendingSavedState = null;
     let state = { current: 0, order: [], answers: {}, bookmarks: [], view: "all" };
 
+    // DOM refs
     const homeScreen = document.getElementById("home-screen");
     const subjectScreen = document.getElementById("subject-screen");
     const quizScreen = document.getElementById("quiz-screen");
@@ -364,71 +377,40 @@
     const importantBody = document.getElementById("importantBody");
     const importantClose = document.getElementById("importantClose");
 
-    // Home buttons (four categories)
-    document.querySelectorAll('#home-screen .option-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        currentCategory = btn.dataset.cat; // gen/afi/afii/ppii
-        showSubjectsForCategory();
-      });
+    // Home buttons (order fixed: Gen, AFI, AFII, PPII)
+    document.querySelectorAll("#home-screen .option-btn").forEach(btn => {
+      btn.addEventListener("click", () => { currentTrack = btn.dataset.track; showSubjects(); });
     });
 
     breadcrumb.addEventListener("click", e => {
       const level = e.target.dataset.level;
       if (!level) return;
       if (level === "home") showHome();
-      else if (level === "track" && currentCategory) showSubjectsForCategory();
+      else if (level === "track" && currentTrack) showSubjects();
     });
 
     function setBreadcrumb(level) {
       breadcrumb.querySelectorAll("span[data-level]").forEach(s => s.classList.remove("active"));
       breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
-      if (currentCategory) {
-        const txt = currentCategory.toUpperCase();
-        breadcrumb.querySelector('[data-level="track"]').textContent = txt;
+      if (currentTrack) {
+        const label = currentTrack.toUpperCase();
+        breadcrumb.querySelector('[data-level="track"]').textContent = label;
       }
     }
 
-    function showHome() {
-      homeScreen.style.display = "block";
-      subjectScreen.style.display = "none";
-      quizScreen.style.display = "none";
-      setBreadcrumb("home");
-    }
+    /* ===== Group builder ===== */
+    function buildGroup(subs, filterFn, groupTitle, parent) {
+      const names = Object.keys(subs).filter(filterFn);
+      if (!names.length) return;
 
-    // Merge catalogs by prefix across associate + diploma
-    const prefixRegex = {
-      gen:  /^Gen\b/i,
-      afi:  /^AFI\b/i,
-      afii: /^AFII\b/i,
-      ppii: /^PPII\b/i,
-    };
+      const mainBtn = document.createElement("button");
+      mainBtn.className = "subject-btn";
+      mainBtn.textContent = `${groupTitle} (${names.length} parts)`;
+      const subDiv = document.createElement("div");
+      subDiv.className = "submenu";
+      subDiv.style.display = "none";
 
-    function getCatalogByPrefix(catKey) {
-      const reg = prefixRegex[catKey];
-      const all = {...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma};
-      const out = {};
-      Object.entries(all).forEach(([name, path]) => {
-        if (reg.test(name)) out[name] = path;
-      });
-      return out;
-    }
-
-    async function fetchCount(fileName) {
-      try { const res = await fetch(fileName); const txt = await res.text(); return parseTextToQuestions(txt).length; }
-      catch { return 0; }
-    }
-
-    async function showSubjectsForCategory() {
-      homeScreen.style.display = "none";
-      subjectScreen.style.display = "block";
-      quizScreen.style.display = "none";
-      setBreadcrumb("track");
-
-      const subs = getCatalogByPrefix(currentCategory);
-      subjectList.innerHTML = "";
-
-      // List flat (بدون مجموعات)
-      const names = Object.keys(subs).sort();
+      const countPromises = [];
       names.forEach(name => {
         const b = document.createElement("button");
         b.className = "subject-btn";
@@ -438,14 +420,82 @@
         span.textContent = "...";
         b.appendChild(span);
         b.addEventListener("click", () => { currentSubject = name; loadSubjectFromText(subs[name], name); });
-        subjectList.appendChild(b);
-        fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
+        subDiv.appendChild(b);
+        const p = fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; return c; });
+        countPromises.push(p);
       });
 
-      // Totals per category
-      const counts = await Promise.all(Object.values(subs).map(f => fetchCount(f)));
-      const tot = counts.reduce((a,b)=>a+b,0);
-      subjectTitleText.textContent = `Select course (${currentCategory.toUpperCase()} – ${tot} q)`;
+      mainBtn.addEventListener("click", () => {
+        subDiv.style.display = subDiv.style.display === "none" ? "block" : "none";
+      });
+
+      parent.appendChild(mainBtn);
+      parent.appendChild(subDiv);
+
+      Promise.all(countPromises).then(arr => {
+        const total = arr.reduce((a,b)=>a+b,0);
+        mainBtn.textContent = `${groupTitle} (${names.length} parts, ${total} q)`;
+      });
+    }
+
+    function showHome() {
+      homeScreen.style.display = "block";
+      subjectScreen.style.display = "none";
+      quizScreen.style.display = "none";
+      setBreadcrumb("home");
+    }
+
+    /* ===== Subject screen (ordered groups per selection) ===== */
+    function showSubjects() {
+      homeScreen.style.display = "none";
+      subjectScreen.style.display = "block";
+      quizScreen.style.display = "none";
+      setBreadcrumb("track");
+
+      const label = currentTrack.toUpperCase();
+      subjectTitleText.textContent = `Select course (${label})`;
+      subjectList.innerHTML = "";
+      const subs = REGISTRY[currentTrack] || {};
+
+      // Order:
+      // GEN → (Gen I&K group) → (Gen B group) → others
+      // AFI → (AFI D Part group) → others
+      // AFII / PPII → simple list
+      if (currentTrack === "gen") {
+        buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
+        buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
+
+        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K") || n.startsWith("Gen B ")));
+        Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => addLeaf(subs, name));
+
+      } else if (currentTrack === "afi") {
+        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
+
+        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("AFI D Part")));
+        Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => addLeaf(subs, name));
+
+      } else {
+        // AFII or PPII
+        Object.keys(subs).forEach(name => addLeaf(subs, name));
+      }
+
+      function addLeaf(map, name) {
+        const b = document.createElement("button");
+        b.className = "subject-btn";
+        b.textContent = name;
+        const span = document.createElement("span");
+        span.className = "subject-count";
+        span.textContent = "...";
+        b.appendChild(span);
+        b.addEventListener("click", () => { currentSubject = name; loadSubjectFromText(map[name], name); });
+        subjectList.appendChild(b);
+        fetchCount(map[name]).then(c => { span.textContent = `(${c} q)`; });
+      }
+    }
+
+    async function fetchCount(fileName) {
+      try { const res = await fetch(fileName); const txt = await res.text(); return parseTextToQuestions(txt).length; }
+      catch { return 0; }
     }
 
     async function loadSubjectFromText(fileName, label) {
@@ -459,7 +509,7 @@
       }
     }
 
-    // Parser (يدعم السطور المكمِّلة والصور)
+    // parse text blocks; support * continuation lines + images + ✅
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -510,8 +560,7 @@
       url.searchParams.set('quiz', encodeURIComponent(label));
       window.history.replaceState({}, '', url);
 
-      document.getElementById("quizTitle").textContent = label;
-      document.getElementById("quizSubtitle").textContent = "";
+      quizTitle.textContent = label;
       homeScreen.style.display = "none";
       subjectScreen.style.display = "none";
       quizScreen.style.display = "block";
@@ -709,7 +758,7 @@
     });
 
     function shuffleArray(arr) {
-      for (let i = arr.length - 1; i > 0; i++) {
+      for (let i = arr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
       }
@@ -737,54 +786,61 @@
     });
     completionClose.addEventListener("click", () => { completionOverlay.style.display = "none"; });
 
-    // Show totals on home buttons
-    async function computeCategoryTotals() {
-      const all = {...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma};
-      const cats = { gen:0, afi:0, afii:0, ppii:0 };
-      const entries = Object.entries(all);
-      for (const [name, file] of entries) {
-        let key = null;
-        if (prefixRegex.gen.test(name)) key = "gen";
-        else if (prefixRegex.afi.test(name)) key = "afi";
-        else if (prefixRegex.afii.test(name)) key = "afii";
-        else if (prefixRegex.ppii.test(name)) key = "ppii";
-        if (!key) continue;
-        try { const res = await fetch(file); const txt = await res.text(); cats[key] += parseTextToQuestions(txt).length; }
-        catch {}
+    /* Totals for top buttons in required order */
+    async function computeHomeTotals() {
+      async function sumFor(prefixRe) {
+        const entries = Object.entries({ ...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma })
+          .filter(([name]) => prefixRe.test(name));
+        const counts = await Promise.all(entries.map(([, path]) => fetchCount(path)));
+        return counts.reduce((a,b)=>a+b,0);
       }
-      document.getElementById('btnGen').textContent  = `Gen (${cats.gen} q)`;
-      document.getElementById('btnAFI').textContent  = `AFI (${cats.afi} q)`;
-      document.getElementById('btnAFII').textContent = `AFII (${cats.afii} q)`;
-      document.getElementById('btnPPII').textContent = `PPII (${cats.ppii} q)`;
+      document.getElementById("genBtn").textContent  = `Gen (${await sumFor(/^Gen\b/i)} q)`;
+      document.getElementById("afiBtn").textContent  = `AFI (${await sumFor(/^AFI\b/i)} q)`;
+      document.getElementById("afiiBtn").textContent = `AFII (${await sumFor(/^AFII\b/i)} q)`;
+      document.getElementById("ppiiBtn").textContent = `PPII (${await sumFor(/^PPII\b/i)} q)`;
     }
-
-    // IMPORTANT (read-only)
-    let importantLoaded = false;
-    importantBtn.addEventListener("click", async () => {
-      document.getElementById("importantOverlay").style.display = "flex";
-      if (!importantLoaded) {
-        try {
-          const res = await fetch("important.html");
-          if (res.ok) importantBody.innerHTML = await res.text();
-          else importantBody.textContent = "ضع ملف important.html بجانب هذا الملف لعرض الملاحظات.";
-        } catch { importantBody.textContent = "تعذر تحميل الملاحظات."; }
-        importantLoaded = true;
-      }
-    });
-    importantClose.addEventListener("click", () => { document.getElementById("importantOverlay").style.display = "none"; });
 
     function tryOpenFromURL() {
       const url = new URL(window.location.href);
       const q = url.searchParams.get("quiz");
       if (!q) return;
-      const all = {...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma};
-      if (all[q]) {
-        currentSubject = q; loadSubjectFromText(all[q], q);
+      // Try find it in REGISTRY
+      for (const key of ["gen","afi","afii","ppii"]) {
+        if (REGISTRY[key][q]) {
+          currentTrack = key;
+          showSubjects();
+          currentSubject = q;
+          loadSubjectFromText(REGISTRY[key][q], q);
+          return;
+        }
       }
     }
 
+    // IMPORTANT modal – load text (keeps new lines)
+    let importantLoaded = false;
+    importantBtn.addEventListener("click", async () => {
+      importantOverlay.style.display = "flex";
+      if (importantLoaded) return;
+      const tryFiles = ["important.txt", "important.html"];
+      for (const f of tryFiles) {
+        try {
+          const res = await fetch(f);
+          if (res.ok) {
+            const txt = await res.text();
+            importantBody.textContent = txt; // preserve line breaks
+            importantLoaded = true;
+            return;
+          }
+        } catch {}
+      }
+      importantBody.textContent = "ضع ملف important.txt (أو important.html) بجانب هذا الملف لعرض الملاحظات.";
+      importantLoaded = true;
+    });
+    importantClose.addEventListener("click", () => { importantOverlay.style.display = "none"; });
+
+    // init
     showHome();
-    computeCategoryTotals();
+    computeHomeTotals();
     tryOpenFromURL();
   </script>
 </body>
