@@ -337,8 +337,8 @@
     <div class="top-brand">
       <div class="name">Alqhtani.</div>
       <div class="sub">دعواتكم ❤️
-        <small>مروان اقوى واحد</small>
-        <small>لاتنسى تذاكر البربوير وتنشر الموقع للفائدة</small>
+        <small>ابو مسفر شوق الاعيان</small>
+        <small>لاتنسى تذاكر البربوير</small>
       </div>
     </div>
 
@@ -349,11 +349,9 @@
     </div>
 
     <div id="home-screen">
-	  <div class="select-title">Select what you want</div>
-      <button class="option-btn" id="GenBtn" data-track="Gen">Gen</button>
-      <button class="option-btn" id="AFIBtn" data-track="AFI">AFI</button>
-      <button class="option-btn" id="AFII" data-track="AFII">AFII</button>
-      <button class="option-btn" id="PPII" data-track="PPII">PPII</button>
+      <div class="select-title">Select what you want</div>
+      <button class="option-btn" id="associateBtn" data-track="associate">Associate diploma</button>
+      <button class="option-btn" id="diplomaBtn" data-track="diploma">Diploma</button>
     </div>
 
     <div id="subject-screen" style="display:none">
@@ -372,9 +370,9 @@
         <div class="badge-pill" id="qPill">Question 1 of 1</div>
         <div class="inline-tools">
           <div class="icon-btn" id="bookmarkBtn">🔖</div>
+          <div class="icon-btn" id="restartBtn">↩</div>
           <div class="icon-btn" id="reviewBtn">📁</div>
           <div class="icon-btn" id="filterBtn">📄</div>
-          <div class="icon-btn" id="restartBtn">↩</div>
           <div class="icon-btn" id="jumpBtn">⬇</div>
         </div>
       </div>
@@ -453,36 +451,38 @@
 
   <script>
     const SUBJECT_FILES = {
-      Gen: {
+      associate: {
         "Gen I&K Part 1 تسريبات": "Gen I&K Part 1 تسريبات.txt",
         "Gen I&K Part 2 brightspace 1": "Gen I&K Part 2 brightspace 1.txt",
         "Gen I&K Part 2 brightspace 2": "Gen I&K Part 2 brightspace 2.txt",
         "Gen I&K Part 3 out": "Gen I&K Part 3 out.txt",
         "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
         "Gen I&K Important": "Gen I&K Important.txt",
+		
         "Gen B brightspace part 1": "Gen B brightspace part 1.txt",
         "Gen B brightspace part 2": "Gen B brightspace part 2.txt",
         "Gen B part 1": "Gen B part 1.txt",
+
         "Gen J Part 1": "Gen J Part 1.txt",
+        "AFI C Part 1": "AFI C Part 1.txt",
         "Gen E Part 1": "Gen E Part 1.txt",
         "Gen N": "Gen N.txt",
         "Gen M Part 1": "Gen M Part 1.txt",
-      },
-      AFI: {
-        "AFI C Part 1": "AFI C Part 1.txt",
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
+
+
 		"AFI D Part 1": "AFI D Part 1.txt",
 		"AFI D Part 2": "AFI D Part 2.txt",
+
       },
-      AFII: {
+      diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt",
-      }
-      PPII: {
         "PPII J": "PPII J.txt",
         "PPII I Cowl Flaps & Augmenters Part 1": "PPII I Cowl Flaps & Augmenters Part 1.txt",
         "PPII I Cowl Flaps & Augmenters Part 2": "PPII I Cowl Flaps & Augmenters Part 2.txt",
         "PPII L Unducted fans": "PPII L Unducted fans.txt",
+		
       }
     };
 
@@ -507,10 +507,8 @@
     const subjectList = document.getElementById("subjectList");
     const subjectTitleText = document.getElementById("subjectTitleText");
     const breadcrumb = document.getElementById("breadcrumb");
-    const GenBtn = document.getElementById("GenBtn");
-    const AFIBtn = document.getElementById("AFIBtn");
-    const AFIIBtn = document.getElementById("AFIIBtn");
-    const PPIIBtn = document.getElementById("PPIIBtn");
+    const associateBtn = document.getElementById("associateBtn");
+    const diplomaBtn = document.getElementById("diplomaBtn");
 
     const quizTitle = document.getElementById("quizTitle");
     const quizSubtitle = document.getElementById("quizSubtitle");
@@ -573,7 +571,7 @@
       breadcrumb.querySelector(`[data-level="${level}"]`).classList.add("active");
       if (currentTrack) {
         breadcrumb.querySelector('[data-level="track"]').textContent =
-	          currentTrack === "Gen" ? "Gen" : "AFI":"AFII" : "PPII";
+          currentTrack === "associate" ? "Associate diploma" : "Diploma";
       }
     }
 
@@ -632,16 +630,18 @@
       subjectScreen.style.display = "block";
       quizScreen.style.display = "none";
       setBreadcrumb("track");
-      subjectTitleText.textContent = `Select course (${currentTrack === "Gen" ? "Gen" : "AFI""AFII" : "PPII";
+      subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"})`;
       subjectList.innerHTML = "";
       const subs = SUBJECT_FILES[currentTrack];
 
-      if (currentTrack === "Gen") {
+      if (currentTrack === "associate") {
         // مجموعة Gen I&K
         buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         // مجموعة Gen B (تحتها brightspace 1/2 و part 1)
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
-
+        // مجموعة AFI D (تحتها AFI D Part 1و AFI D Part 2)
+        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
+		
         // الباقي (خارج المجموعتين)
         const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K Part") || n.startsWith("Gen B ")));
         Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
@@ -655,12 +655,7 @@
           b.addEventListener("click", () => {
             currentSubject = name;
             loadSubjectFromText(subs[name], name);
-        });
-		if (currentTrack === "AFI") {
-        // مجموعة AFI D (تحتها AFI D Part 1و AFI D Part 2)
-        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
-		
-		  
+          });
           subjectList.appendChild(b);
           fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
         });
@@ -668,22 +663,28 @@
         // العداد العام (لكل ملفات المسار)
         Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
           const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (Gen – ${tot} Q)`;
+          subjectTitleText.textContent = `Select course (Associate diploma – ${tot} Q)`;
         });
-        // العداد العام (لكل ملفات المسار)
+
+      } else {
+        Object.keys(subs).forEach(name => {
+          const b = document.createElement("button");
+          b.className = "subject-btn";
+          b.textContent = name;
+          const span = document.createElement("span");
+          span.className = "subject-count";
+          span.textContent = "...";
+          b.appendChild(span);
+          b.addEventListener("click", () => {
+            currentSubject = name;
+            loadSubjectFromText(subs[name], name);
+          });
+          subjectList.appendChild(b);
+          fetchCount(subs[name]).then(c => { span.textContent = `(${c} Q)`; });
+        });
         Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
           const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (AFI – ${tot} Q)`;
-        });
-        // العداد العام (لكل ملفات المسار)
-        Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
-          const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (AFII – ${tot} Q)`;
-        });
-        // العداد العام (لكل ملفات المسار)
-        Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
-          const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (PPII – ${tot} Q)`;
+          subjectTitleText.textContent = `Select course (Diploma – ${tot} Q)`;
         });
       }
     }
@@ -1097,57 +1098,32 @@
     });
 
     async function computeHomeTotals() {
-      const GenFiles = SUBJECT_FILES.Gen;
-      const AFIFiles = SUBJECT_FILES.AFI;
-      const AFIIFiles = SUBJECT_FILES.AFII;
-      const PPIIFiles = SUBJECT_FILES.PPII;
-      const GenFiles = await Promise.all(Object.values(assocFiles).map(f => fetchCount(f)));
-      const AFIFiles = await Promise.all(Object.values(assocFiles).map(f => fetchCount(f)));
-      const AFIIFiles = await Promise.all(Object.values(assocFiles).map(f => fetchCount(f)));
-      const AFIIFiles = await Promise.all(Object.values(assocFiles).map(f => fetchCount(f)));
-      const PPIIFiles = await Promise.all(Object.values(dipFiles).map(f => fetchCount(f)));
-      const GenFiles = assocCounts.reduce((a,b)=>a+b,0);
-      const AFIFiles = assocCounts.reduce((a,b)=>a+b,0);
-      const AFIIFiles = assocCounts.reduce((a,b)=>a+b,0);
-      const PPIIFilesl = dipCounts.reduce((a,b)=>a+b,0);
-      GenBtn.textContent = `Gen (${GenTotal} q)`;
-      AFIBtn.textContent = `AFI (${dipTotal} q)`;
-      AFIIBtn.textContent = `AFII (${assocTotal} q)`;
-      PPIIBtn.textContent = `PPII (${dipTotal} q)`;
+      const assocFiles = SUBJECT_FILES.associate;
+      const dipFiles = SUBJECT_FILES.diploma;
+      const assocCounts = await Promise.all(Object.values(assocFiles).map(f => fetchCount(f)));
+      const dipCounts = await Promise.all(Object.values(dipFiles).map(f => fetchCount(f)));
+      const assocTotal = assocCounts.reduce((a,b)=>a+b,0);
+      const dipTotal = dipCounts.reduce((a,b)=>a+b,0);
+      associateBtn.textContent = `Associate diploma (${assocTotal} q)`;
+      diplomaBtn.textContent = `Diploma (${dipTotal} q)`;
     }
 
     function tryOpenFromURL() {
       const url = new URL(window.location.href);
       const q = url.searchParams.get("quiz");
       if (!q) return;
-      currentTrack = "Gen";
-      if (SUBJECT_FILES.Gen[Q]) {
+      currentTrack = "associate";
+      if (SUBJECT_FILES.associate[q]) {
         showSubjects();
-        currentSubject = Q;
-        loadSubjectFromText(SUBJECT_FILES.Gen[Q], Q);
+        currentSubject = q;
+        loadSubjectFromText(SUBJECT_FILES.associate[q], q);
         return;
       }
-      if (SUBJECT_FILES.AFI[Q]) {
-        currentTrack = "AFI";
+      if (SUBJECT_FILES.diploma[q]) {
+        currentTrack = "diploma";
         showSubjects();
-        currentSubject = Q;
-        loadSubjectFromText(SUBJECT_FILES.AFI[Q], Q);
-      }
-    }
-      }
-      if (SUBJECT_FILES.AFII[Q]) {
-        currentTrack = "AFII";
-        showSubjects();
-        currentSubject = Q;
-        loadSubjectFromText(SUBJECT_FILES.AFII[Q], Q);
-      }
-    }
-      }
-      if (SUBJECT_FILES.PPII[Q]) {
-        currentTrack = "PPII";
-        showSubjects();
-        currentSubject = Q;
-        loadSubjectFromText(SUBJECT_FILES.PPII[Q], Q);
+        currentSubject = q;
+        loadSubjectFromText(SUBJECT_FILES.diploma[q], q);
       }
     }
 
