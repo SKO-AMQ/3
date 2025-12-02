@@ -1,17 +1,17 @@
 =
 What components are typically part of the aircraft empennage?
 Main landing gear and engine cowling
-Elevators, rudder, and stabilizers ✅
 Flaps, ailerons, and trim tabs
+Elevators, rudder, and stabilizers ✅
 =
 Choose the correct statement about cyclic pitch control:
-It adjusts all blades simultaneously for vertical climb.
 The cyclic changes the swash plate angle to tilt the rotor disc. ✅
+It adjusts all blades simultaneously for vertical climb.
 It controls engine throttle during autorotation.
 =
 Which method is used to verify there are no voids or delaminations after a composite repair?
-Ultrasonic inspection ✅
 Sanding test
+Ultrasonic inspection ✅
 Resin dye check
 =
 Which principle is NOT one of the four fundamental forces of flight mentioned?
@@ -21,46 +21,46 @@ Gravity ✅
 =
 Choose the correct part of a file used to fit into the handle.
 Face
-Heel
 Tang ✅
+Heel
 =
 True or False: Small radius bends should always go across the grain direction for maximum strength.
 True ✅
 False
 =
 How many sections is a large aircraft fuselage typically constructed from?
+One continuous body
 Two to three sections
 Up to six or more separate sections ✅
-One continuous body
 =
 What must be checked before releasing a repaired composite part for service?
-Structural integrity, cosmetic appearance, environmental resistance ✅
-UV reflectivity only
 Paint adhesion only
+UV reflectivity only
+Structural integrity, cosmetic appearance, environmental resistance ✅
 =
 What is the role of breather material in vacuum bagging?
+Prevents fiber shifting
 Allows air evacuation and pressure equalization ✅
 Adds strength to the top ply
-Prevents fiber shifting
 =
 Why must composite repairs be documented in aircraft records?
 To maintain airworthiness and compliance ✅
-To increase resale value
 To notify passengers of prior repairs
+To increase resale value
 =
 True or False: A reciprocating saw is ideal for making square or circular holes in tight spaces.
 False ✅
 True
 =
 Choose the correct statement about reciprocating saws.
-They operate using a spinning abrasive disc
 They push and pull the blade to cut through metal ✅
+They operate using a spinning abrasive disc
 They are used primarily for polishing metal
 =
 In what year did George Cayley’s tri-wing glider fly a man?
 1903
-1853 ✅
 1809
+1853 ✅
 =
 Why is solvent wiping important before bonding a composite surface?
 To remove contaminants that inhibit bonding ✅
@@ -69,46 +69,46 @@ To soften the fibers
 =
 Which forming tool is used to create complex curves by hammering sheet metal over a mold?
 Dolly
-Form block ✅
 Edge joggler
+Form block ✅
 =
 False ribs are ribs that do not extend the full distance from leading edge to trailing edge.
 True ✅
 False
 =
 Choose the correct statement about nacelles:
-Nacelles are only used in supersonic military aircraft
 A nacelle is an unstreamlined housing for cargo
 Nacelles reduce drag and house engine components in many aircraft ✅
+Nacelles are only used in supersonic military aircraft
 =
 What direction do spars and stringers primarily run inside an aircraft wing?
-Spanwise ✅
 Chordwise
 Diagonally
+Spanwise ✅
 =
 What is the purpose of joggling in sheet metal work?
-To offset height for overlapping sheets ✅
 To reduce thickness for drilling
+To offset height for overlapping sheets ✅
 To compress the grain structure
 =
 Which factor can reduce the pot life of a mixed resin?
-Higher ambient temperature ✅
-Increased sanding pressure
 Lower vacuum pul
+Increased sanding pressure
+Higher ambient temperature ✅
 =
 Which is a key precaution during post-cure trimming of composite parts?
+Always cut wet plies first
 Avoid causing delamination or fiber pullout ✅
 Cut with maximum feed rate
-Always cut wet plies first
 =
 Which tool or technique is often used to shape the repair taper?
-Sanding jig ✅
-Heat gun
 Peel ply
+Heat gun
+Sanding jig ✅
 =
 Which factor most influences bend allowance in sheet metal bending?
-Material thickness and bend radius ✅
 Type of saw used
+Material thickness and bend radius ✅
 Color of the metal surface
 =
 True or False: Bond surfaces should be sanded and cleaned before adhesive application.
@@ -116,57 +116,57 @@ True ✅
 False
 =
 Choose the correct statement about the piccolo former.
-It uses hydraulic pressure to stretch large skins
 It is a manual tool used for small shaping tasks ✅
+It uses hydraulic pressure to stretch large skins
 It forms rivets on composite structures
 =
 What is the typical fit required for a properly prepared lockbolt hole?
-Slip fit
-Loose fit
 Interference fit ✅
+Loose fit
+Slip fit
 =
 Why are most pressurized aircraft designed using semimonocoque construction?
+It is cheaper than monocoque construction
 It can better withstand pressurization stresses and cyclic loads ✅
 It allows more aerodynamic shaping
-It is cheaper than monocoque construction
 =
 True or False: High humidity can affect composite bond quality.
 True ✅
 False
 =
 Which composite innovation was used in the De Havilland Mosquito during WWII?
-Fiberglass monocoque shell
 Titanium mesh structural skin
 Balsa wood sandwich material in the fuselage ✅
+Fiberglass monocoque shell
 =
 What is the function of a split flap?
 To increase lift by extending from the wing’s underside ✅
-To balance the pitch moment
 To stabilize airflow at the wingtip
+To balance the pitch moment
 =
 How do bulb-type pressurized door seals function?
-They inflate with cabin air to ensure an airtight seal ✅
 They use hydraulic fluid for sealing
+They inflate with cabin air to ensure an airtight seal ✅
 They mechanically lock before pressurization
 =
 Which direction do wooden members typically run in a wing structure?
+Circumferentially and radially
 Spanwise and chordwise ✅
 Tangentially and axially
-Circumferentially and radially
 =
 Which components are fixed aerodynamic surfaces in the empennage?
-Horizontal and vertical stabilizers ✅
 Flaps and spoilers
 Elevators and rudder
+Horizontal and vertical stabilizers ✅
 =
 Why might fixed landing gear be preferred over retractable gear on light aircraft?
 Retractable gear adds weight that reduces aerodynamic benefit ✅
-Fixed gear improves takeoff speed
 Retractable gear is incompatible with tricycle configuration
+Fixed gear improves takeoff speed
 =
 Which feature allows an orange-peel cowling bottom panel to stay open?
-Spring and cable retention system ✅
 Magnetic flap hold
+Spring and cable retention system ✅
 Overhead tension hook
 =
 Pressurized aircraft structures are subject to special inspections due to stress cycles.
@@ -174,13 +174,13 @@ True ✅
 False
 =
 Choose the correct statement about nose ribs:
-They are placed forward of the front spar to shape the wing’s leading edge ✅
-They span the entire chord and connect both spars
 They reinforce the main spar against shear
+They span the entire chord and connect both spars
+They are placed forward of the front spar to shape the wing’s leading edge ✅
 =
 Choose the correct statement about early aircraft structure development:
-Cayley’s tri-wing glider demonstrated manned flight in the 1800s ✅
 Early aircraft used metal structures and jets
+Cayley’s tri-wing glider demonstrated manned flight in the 1800s ✅
 Lift concept had no impact on aircraft design
 =
 Which spar type is designed in two parts that are riveted or spliced together?
@@ -189,7 +189,7 @@ I-beam spar
 Monospar wing
 =
 Choose the correct statement about float-equipped amphibious aircraft:
-Retractable wheels are built into the floats for land operation ✅
-Landing gear is removed before water operation
 Wheels are fixed outside the floats
+Landing gear is removed before water operation
+Retractable wheels are built into the floats for land operation ✅
 =
