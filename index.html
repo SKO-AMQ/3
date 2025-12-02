@@ -26,41 +26,42 @@
       min-height: 100vh;
       font-size: 0.75rem;
     }
-    .shell {
-      width: min(1100px, 100%);
-      padding: 2.2rem 1.3rem 4rem;
-    }
+    .shell { width: min(1100px, 100%); padding: 2.2rem 1.3rem 4rem; }
 
     .progress-line { width: 100%; height: 4px; background: rgba(255,255,255,.04); border-radius: 999px; overflow: hidden; margin-bottom: .7rem; }
     .progress-line span { height: 100%; background: #22c55e; display: block; width: 0%; transition: width .25s; }
 
+    /* === Brand + Important button row === */
+    .brand-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: .2rem;
+    }
     .top-brand {
       display: flex;
       flex-direction: column;
       gap: .3rem;
-      margin-bottom: .2rem;
     }
-    .top-brand .name {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #ff4d4d;
-    }
-    .top-brand .sub {
-      font-size: .8rem;
-    }
-    .top-brand .sub small {
-      display: block;
+    .top-brand .name { font-size: 1.6rem; font-weight: 700; color: #ff4d4d; }
+    .top-brand .sub { font-size: .8rem; }
+    .top-brand .sub small { display: block; color: #fff; opacity: .85; font-size: .78rem; }
+
+    .important-btn {
+      background: #dc2626; /* Red */
       color: #fff;
-      opacity: .85;
-      font-size: .78rem;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: .55rem;
+      padding: .5rem .9rem;
+      font-size: .85rem;
+      cursor: pointer;
+      white-space: nowrap;
     }
+    .important-btn:hover { filter: brightness(1.05); }
 
     .breadcrumb {
-      font-size: 1rem;
-      color: #d4d4d4;
-      margin: .4rem 0 1rem;
-      font-weight: 600;
-      text-align: center;
+      font-size: 1rem; color: #d4d4d4; margin: .4rem 0 1rem; font-weight: 600; text-align: center;
     }
     .breadcrumb span { cursor: pointer; }
     .breadcrumb .active { color: #fff; }
@@ -73,252 +74,73 @@
     }
     .option-btn:hover, .subject-btn:hover { border-color: var(--accent); transform: translateY(-1px); }
 
-    .subject-count {
-      display: inline-block;
-      margin-left: .4rem;
-      opacity: .7;
-      font-size: .65rem;
-    }
+    .subject-count { display: inline-block; margin-left: .4rem; opacity: .7; font-size: .65rem; }
 
     .submenu {
-      margin-top: .35rem;
-      margin-left: .6rem;
-      border-left: 2px solid rgba(255,255,255,.03);
-      padding-left: .6rem;
+      margin-top: .35rem; margin-left: .6rem; border-left: 2px solid rgba(255,255,255,.03); padding-left: .6rem;
     }
     .submenu .subject-btn { margin-bottom: .35rem; }
 
     #quiz-screen { display: none; }
 
-    .quiz-title-block {
-      text-align: center;
-      margin-bottom: .9rem;
-    }
-    .quiz-title-block h1 {
-      margin: 0;
-      font-size: 1.7rem;
-      font-weight: 600;
-    }
-    .quiz-title-block h2 {
-      margin: .1rem 0 0;
-      font-size: 1.3rem;
-      font-weight: 700;
-    }
-    .info-chips {
-      margin-top: .6rem;
-      display: flex;
-      gap: .6rem;
-      justify-content: center;
-    }
-    .chip {
-      background: rgba(255,255,255,.03);
-      border: 1px solid rgba(255,255,255,.03);
-      padding: .35rem .7rem;
-      border-radius: 999px;
-      font-size: .6rem;
-      color: var(--muted);
-      min-width: 85px;
-      text-align: center;
-    }
+    .quiz-title-block { text-align: center; margin-bottom: .9rem; }
+    .quiz-title-block h1 { margin: 0; font-size: 1.7rem; font-weight: 600; }
+    .quiz-title-block h2 { margin: .1rem 0 0; font-size: 1.3rem; font-weight: 700; }
+    .info-chips { margin-top: .6rem; display: flex; gap: .6rem; justify-content: center; }
+    .chip { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.03); padding: .35rem .7rem; border-radius: 999px; font-size: .6rem; color: var(--muted); min-width: 85px; text-align: center; }
 
-    .q-header-row {
-      display: flex;
-      gap: .4rem;
-      align-items: center;
-      margin-bottom: .8rem;
-    }
-    .badge-pill {
-      background: #1d4ed8;
-      padding: .35rem .9rem;
-      border-radius: .4rem;
-      font-size: .65rem;
-      white-space: nowrap;
-    }
-    .inline-tools {
-      display: flex;
-      gap: .4rem;
-    }
+    .q-header-row { display: flex; gap: .4rem; align-items: center; margin-bottom: .8rem; }
+    .badge-pill { background: #1d4ed8; padding: .35rem .9rem; border-radius: .4rem; font-size: .65rem; white-space: nowrap; }
+    .inline-tools { display: flex; gap: .4rem; }
     .inline-tools .icon-btn {
-      width: 32px;
-      height: 32px;
-      background: #0f172a;
-      border: 1px solid #1e293b;
-      border-radius: .4rem;
-      display: grid;
-      place-items: center;
-      cursor: pointer;
-      font-size: .7rem;
+      width: 32px; height: 32px; background: #0f172a; border: 1px solid #1e293b; border-radius: .4rem; display: grid; place-items: center; cursor: pointer; font-size: .7rem;
     }
     .inline-tools .icon-btn.active { background: var(--accent); }
 
-    .q-text {
-      font-size: 1.05rem;
-      margin-bottom: .6rem;
-      line-height: 1.35;
-      white-space: pre-wrap;
-    }
-
+    .q-text { font-size: 1.05rem; margin-bottom: .6rem; line-height: 1.35; white-space: pre-wrap; }
     .q-image-wrap { margin-bottom: .6rem; }
-    .q-image-wrap img {
-      max-width: 100%;
-      border-radius: .5rem;
-      border: 1px solid rgba(255,255,255,.06);
-      display: block;
-    }
+    .q-image-wrap img { max-width: 100%; border-radius: .5rem; border: 1px solid rgba(255,255,255,.06); display: block; }
 
-    .choices {
-      display: flex;
-      flex-direction: column;
-      gap: .6rem;
-    }
-    .choice-btn {
-      background: transparent;
-      border: none;
-      border-bottom: 1px solid rgba(255,255,255,.04);
-      padding: .3rem 0;
-      display: flex;
-      gap: .55rem;
-      align-items: center;
-      color: #fff;
-      font-size: .8rem;
-      cursor: pointer;
-    }
+    .choices { display: flex; flex-direction: column; gap: .6rem; }
+    .choice-btn { background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,.04); padding: .3rem 0; display: flex; gap: .55rem; align-items: center; color: #fff; font-size: .8rem; cursor: pointer; }
     .choice-btn.correct { color: var(--correct); border-bottom-color: var(--correct); }
     .choice-btn.wrong { color: var(--wrong); border-bottom-color: var(--wrong); }
 
-    .nav-area {
-      margin-top: 1.7rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      align-items: center;
-    }
-    .nav-btns {
-      display: flex;
-      gap: 1.1rem;
-    }
-    .big-nav {
-      min-width: 120px;
-      background: #0f172a;
-      border: 1px solid rgba(255,255,255,.05);
-      border-radius: .6rem;
-      padding: .45rem .9rem;
-      font-size: .8rem;
-      color: #fff;
-      cursor: pointer;
-      text-align: center;
-    }
+    .nav-area { margin-top: 1.7rem; display: flex; flex-direction: column; gap: 1rem; align-items: center; }
+    .nav-btns { display: flex; gap: 1.1rem; }
+    .big-nav { min-width: 120px; background: #0f172a; border: 1px solid rgba(255,255,255,.05); border-radius: .6rem; padding: .45rem .9rem; font-size: .8rem; color: #fff; cursor: pointer; text-align: center; }
     .big-nav:disabled { opacity: .4; cursor: not-allowed; }
 
-    .pager {
-      display: flex;
-      gap: .3rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .pager-label {
-      background: #0f172a;
-      padding: .28rem .6rem;
-      border-radius: .4rem;
-      font-size: .55rem;
-    }
-    .pager button {
-      background: #0f172a;
-      border: 1px solid #0f172a;
-      color: #fff;
-      width: 34px;
-      height: 34px;
-      border-radius: .4rem;
-      cursor: pointer;
-      font-size: .7rem;
-    }
-    .pager button.active {
-      background: transparent;
-      border: 1px solid #fff;
-    }
-    .pager button.bookmark-page {
-      background: #854d0e;
-      border-color: #eab308;
-      color: #fff;
-    }
+    .pager { display: flex; gap: .3rem; flex-wrap: wrap; justify-content: center; }
+    .pager-label { background: #0f172a; padding: .28rem .6rem; border-radius: .4rem; font-size: .55rem; }
+    .pager button { background: #0f172a; border: 1px solid #0f172a; color: #fff; width: 34px; height: 34px; border-radius: .4rem; cursor: pointer; font-size: .7rem; }
+    .pager button.active { background: transparent; border: 1px solid #fff; }
+    .pager button.bookmark-page { background: #854d0e; border-color: #eab308; color: #fff; }
 
-    .jump-input-wrap {
-      display: flex;
-      gap: .4rem;
-      justify-content: center;
-      align-items: center;
-      font-size: .65rem;
-    }
-    .jump-input-wrap input {
-      width: 60px;
-      background: #0f172a;
-      border: 1px solid rgba(255,255,255,.05);
-      border-radius: .35rem;
-      padding: .15rem .3rem;
-      color: #fff;
-      text-align: center;
-    }
+    .jump-input-wrap { display: flex; gap: .4rem; justify-content: center; align-items: center; font-size: .65rem; }
+    .jump-input-wrap input { width: 60px; background: #0f172a; border: 1px solid rgba(255,255,255,.05); border-radius: .35rem; padding: .15rem .3rem; color: #fff; text-align: center; }
 
     .summary { font-size: .65rem; color: var(--muted); }
 
-    .overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,.4);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 50;
-    }
+    .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.4); display: none; align-items: center; justify-content: center; z-index: 50; }
     .modal {
-      background: #0f172a;
-      border: 1px solid rgba(255,255,255,.05);
-      border-radius: .75rem;
-      padding: 1rem 1.2rem;
-      width: min(620px, 94vw);
-      max-height: 80vh;
-      overflow-y: auto;
-      font-size: .75rem;
-      text-align: center;
+      background: #0f172a; border: 1px solid rgba(255,255,255,.05); border-radius: .75rem; padding: 1rem 1.2rem;
+      width: min(620px, 94vw); max-height: 80vh; overflow-y: auto; font-size: .75rem; text-align: center;
     }
     .modal h3 { margin-top: 0; }
-    .modal-btns {
-      display: flex;
-      gap: .5rem;
-      flex-wrap: wrap;
-      margin-top: .6rem;
-      justify-content: center;
-    }
-    .btn {
-      background: #1d4ed8;
-      border: none;
-      color: #fff;
-      padding: .4rem .75rem;
-      border-radius: .4rem;
-      cursor: pointer;
-      font-size: .7rem;
-    }
+    .modal-btns { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .6rem; justify-content: center; }
+    .btn { background: #1d4ed8; border: none; color: #fff; padding: .4rem .75rem; border-radius: .4rem; cursor: pointer; font-size: .7rem; }
     .btn.secondary { background: #0f172a; border: 1px solid rgba(255,255,255,.05); }
 
-    .questions-list {
-      margin-top: .6rem;
-      border: 1px solid rgba(255,255,255,.03);
-      border-radius: .4rem;
-      overflow: hidden;
-      text-align: left;
-    }
-    .questions-list div {
-      padding: .35rem .5rem;
-      border-bottom: 1px solid rgba(255,255,255,.02);
-      font-size: .65rem;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      cursor: pointer;
-      background: rgba(15,23,42,.4);
-    }
+    .questions-list { margin-top: .6rem; border: 1px solid rgba(255,255,255,.03); border-radius: .4rem; overflow: hidden; text-align: left; }
+    .questions-list div { padding: .35rem .5rem; border-bottom: 1px solid rgba(255,255,255,.02); font-size: .65rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; background: rgba(15,23,42,.4); }
     .questions-list div:hover { background: rgba(29,78,216,.2); }
     .questions-list div:last-child { border-bottom: none; }
+
+    /* Simple read-only notes content */
+    .notes-content { text-align: left; font-size: .9rem; line-height: 1.6; color: #e5e7eb; }
+    .notes-content h1, .notes-content h2, .notes-content h3 { color: #fff; }
+    .notes-content a { color: #60a5fa; }
 
     @media (max-width: 640px) {
       .shell { padding-inline: .8rem; }
@@ -334,12 +156,16 @@
   <div class="shell">
     <div class="progress-line"><span id="progressBar"></span></div>
 
-    <div class="top-brand">
-      <div class="name">Alqhtani.</div>
-      <div class="sub">دعواتكم ❤️
-        <small>ابو مسفر شوق الاعيان</small>
-        <small>لاتنسى تذاكر البربوير</small>
+    <!-- Brand row with Important button -->
+    <div class="brand-line">
+      <div class="top-brand">
+        <div class="name">Alqhtani.</div>
+        <div class="sub">دعواتكم ❤️
+          <small>ابو مسفر شوق الاعيان</small>
+          <small>لاتنسى تذاكر البربوير</small>
+        </div>
       </div>
+      <button id="importantBtn" class="important-btn">مهم</button>
     </div>
 
     <div class="breadcrumb" id="breadcrumb">
@@ -449,6 +275,17 @@
     </div>
   </div>
 
+  <!-- IMPORTANT notes modal (read-only) -->
+  <div class="overlay" id="importantOverlay">
+    <div class="modal">
+      <h3>ملاحظات مهمة</h3>
+      <div id="importantBody" class="notes-content">...جارِ التحميل</div>
+      <div class="modal-btns" style="margin-top:.9rem">
+        <button class="btn secondary" id="importantClose">إغلاق</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const SUBJECT_FILES = {
       associate: {
@@ -458,7 +295,7 @@
         "Gen I&K Part 3 out": "Gen I&K Part 3 out.txt",
         "Gen I&K Part 4 Book": "Gen I&K Part 4 Book.txt",
         "Gen I&K Important": "Gen I&K Important.txt",
-		
+
         "Gen B brightspace part 1": "Gen B brightspace part 1.txt",
         "Gen B brightspace part 2": "Gen B brightspace part 2.txt",
         "Gen B part 1": "Gen B part 1.txt",
@@ -471,10 +308,8 @@
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
 
-
-		"AFI D Part 1": "AFI D Part 1.txt",
-		"AFI D Part 2": "AFI D Part 2.txt",
-
+        "AFI D Part 1": "AFI D Part 1.txt",
+        "AFI D Part 2": "AFI D Part 2.txt",
       },
       diploma: {
         "AFII C Hydraulic and Pneumatic Power": "AFII C Hydraulic and Pneumatic Power.txt",
@@ -482,7 +317,6 @@
         "PPII I Cowl Flaps & Augmenters Part 1": "PPII I Cowl Flaps & Augmenters Part 1.txt",
         "PPII I Cowl Flaps & Augmenters Part 2": "PPII I Cowl Flaps & Augmenters Part 2.txt",
         "PPII L Unducted fans": "PPII L Unducted fans.txt",
-		
       }
     };
 
@@ -493,13 +327,7 @@
     let currentStorageKey = null;
     let questions = [];
     let pendingSavedState = null;
-    let state = {
-      current: 0,
-      order: [],
-      answers: {},
-      bookmarks: [],
-      view: "all"
-    };
+    let state = { current: 0, order: [], answers: {}, bookmarks: [], view: "all" };
 
     const homeScreen = document.getElementById("home-screen");
     const subjectScreen = document.getElementById("subject-screen");
@@ -552,11 +380,13 @@
     const continueYes = document.getElementById("continueYes");
     const continueNo = document.getElementById("continueNo");
 
+    const importantBtn = document.getElementById("importantBtn");
+    const importantOverlay = document.getElementById("importantOverlay");
+    const importantBody = document.getElementById("importantBody");
+    const importantClose = document.getElementById("importantClose");
+
     document.querySelectorAll(".option-btn").forEach(btn => {
-      btn.addEventListener("click", () => {
-        currentTrack = btn.dataset.track;
-        showSubjects();
-      });
+      btn.addEventListener("click", () => { currentTrack = btn.dataset.track; showSubjects(); });
     });
 
     breadcrumb.addEventListener("click", e => {
@@ -575,7 +405,7 @@
       }
     }
 
-    // دالة بناء مجموعة بحسب فلتر
+    // ===== Group builder (unchanged) =====
     function buildGroup(subs, filterFn, groupTitle, parent) {
       const names = Object.keys(subs).filter(filterFn);
       if (!names.length) return;
@@ -596,10 +426,7 @@
         span.className = "subject-count";
         span.textContent = "...";
         b.appendChild(span);
-        b.addEventListener("click", () => {
-          currentSubject = name;
-          loadSubjectFromText(subs[name], name);
-        });
+        b.addEventListener("click", () => { currentSubject = name; loadSubjectFromText(subs[name], name); });
         subDiv.appendChild(b);
         const p = fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; return c; });
         countPromises.push(p);
@@ -625,6 +452,7 @@
       setBreadcrumb("home");
     }
 
+    // ===== New grouping exactly as requested: Gen / AFI / AFII / PPII =====
     function showSubjects() {
       homeScreen.style.display = "none";
       subjectScreen.style.display = "block";
@@ -634,69 +462,39 @@
       subjectList.innerHTML = "";
       const subs = SUBJECT_FILES[currentTrack];
 
-      if (currentTrack === "associate") {
-        // مجموعة Gen I&K
-        buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
-        // مجموعة Gen B (تحتها brightspace 1/2 و part 1)
-        buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
-        // مجموعة AFI D (تحتها AFI D Part 1و AFI D Part 2)
-        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
-		
-        // الباقي (خارج المجموعتين)
-        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K Part") || n.startsWith("Gen B ")));
-        Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
-          const b = document.createElement("button");
-          b.className = "subject-btn";
-          b.textContent = name;
-          const span = document.createElement("span");
-          span.className = "subject-count";
-          span.textContent = "...";
-          b.appendChild(span);
-          b.addEventListener("click", () => {
-            currentSubject = name;
-            loadSubjectFromText(subs[name], name);
-          });
-          subjectList.appendChild(b);
-          fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
-        });
+      // Group by prefix
+      buildGroup(subs, n => /^Gen\b/i.test(n), "Gen", subjectList);
+      buildGroup(subs, n => /^AFI\b/i.test(n), "AFI", subjectList);
+      buildGroup(subs, n => /^AFII\b/i.test(n), "AFII", subjectList);
+      buildGroup(subs, n => /^PPII\b/i.test(n), "PPII", subjectList);
 
-        // العداد العام (لكل ملفات المسار)
-        Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
-          const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (Associate diploma – ${tot} Q)`;
-        });
+      // Any leftovers (not matching the four groups)
+      const grouped = new Set(Object.keys(subs).filter(n =>
+        /^Gen\b|^AFI\b|^AFII\b|^PPII\b/i.test(n)
+      ));
+      Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => {
+        const b = document.createElement("button");
+        b.className = "subject-btn";
+        b.textContent = name;
+        const span = document.createElement("span");
+        span.className = "subject-count";
+        span.textContent = "...";
+        b.appendChild(span);
+        b.addEventListener("click", () => { currentSubject = name; loadSubjectFromText(subs[name], name); });
+        subjectList.appendChild(b);
+        fetchCount(subs[name]).then(c => { span.textContent = `(${c} q)`; });
+      });
 
-      } else {
-        Object.keys(subs).forEach(name => {
-          const b = document.createElement("button");
-          b.className = "subject-btn";
-          b.textContent = name;
-          const span = document.createElement("span");
-          span.className = "subject-count";
-          span.textContent = "...";
-          b.appendChild(span);
-          b.addEventListener("click", () => {
-            currentSubject = name;
-            loadSubjectFromText(subs[name], name);
-          });
-          subjectList.appendChild(b);
-          fetchCount(subs[name]).then(c => { span.textContent = `(${c} Q)`; });
-        });
-        Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
-          const tot = arr.reduce((a,b)=>a+b,0);
-          subjectTitleText.textContent = `Select course (Diploma – ${tot} Q)`;
-        });
-      }
+      // Totals
+      Promise.all(Object.values(subs).map(f => fetchCount(f))).then(arr => {
+        const tot = arr.reduce((a,b)=>a+b,0);
+        subjectTitleText.textContent = `Select course (${currentTrack === "associate" ? "Associate diploma" : "Diploma"} – ${tot} q)`;
+      });
     }
 
     async function fetchCount(fileName) {
-      try {
-        const res = await fetch(fileName);
-        const txt = await res.text();
-        return parseTextToQuestions(txt).length;
-      } catch {
-        return 0;
-      }
+      try { const res = await fetch(fileName); const txt = await res.text(); return parseTextToQuestions(txt).length; }
+      catch { return 0; }
     }
 
     async function loadSubjectFromText(fileName, label) {
@@ -710,7 +508,7 @@
       }
     }
 
-    // دعم السطور المكمِّلة (*) + صور .png  (AFI D من afidpng/ و Gen B من GemBpng/ و Gen E من genepng/Gen N من gemnpng/)
+    // دعم السطور المكمِّلة (*) + صور .png  (AFI D من afidpng/ و Gen B من GemBpng/ و Gen E من genepng/Gen N من gennpng/)
     function parseTextToQuestions(txt) {
       const blocks = txt.split(/\r?\n=\r?\n/g).map(b => b.trim()).filter(Boolean);
       const qs = [];
@@ -722,25 +520,15 @@
         const images = [];
         for (let i = 1; i < lines.length; i++) {
           const raw = lines[i];
-          if (raw.startsWith("*")) {
-            questionLine += "\n" + raw.replace(/^\*\s*/, "");
-            continue;
-          }
+          if (raw.startsWith("*")) { questionLine += "\n" + raw.replace(/^\*\s*/, ""); continue; }
           if (raw.toLowerCase().endsWith(".png")) {
             let imgName = raw.trim();
-            if (/^Gen B/i.test(currentSubject)) {
-              images.push("GemBpng/" + imgName);
-            } else if (/^Gen E/i.test(currentSubject)) {
-              images.push("genepng/" + imgName);
-			} else if (/^Gen N/i.test(currentSubject)) {
-              images.push("gennpng/" + imgName);
-            } else if (/^AFI E/i.test(currentSubject)) {
-              images.push("afiepng/" + imgName);
-			} else if (/^AFI D Part 2/i.test(currentSubject)) {
-              images.push("afidpng/" + imgName);
-            } else {
-              images.push(imgName);
-            }
+            if (/^Gen B/i.test(currentSubject)) images.push("GemBpng/" + imgName);
+            else if (/^Gen E/i.test(currentSubject)) images.push("genepng/" + imgName);
+            else if (/^Gen N/i.test(currentSubject)) images.push("gennpng/" + imgName);
+            else if (/^AFI E/i.test(currentSubject)) images.push("afiepng/" + imgName);
+            else if (/^AFI D Part 2/i.test(currentSubject)) images.push("afidpng/" + imgName);
+            else images.push(imgName);
             continue;
           }
           const isCorrect = raw.includes("✅");
@@ -753,13 +541,8 @@
     }
 
     function loadSaved(key) {
-      try {
-        const raw = localStorage.getItem(STORAGE_PREFIX + key);
-        if (!raw) return null;
-        return JSON.parse(raw);
-      } catch {
-        return null;
-      }
+      try { const raw = localStorage.getItem(STORAGE_PREFIX + key); if (!raw) return null; return JSON.parse(raw); }
+      catch { return null; }
     }
     function saveProgress() {
       if (!currentStorageKey) return;
@@ -767,7 +550,6 @@
       localStorage.setItem(STORAGE_PREFIX + currentStorageKey, JSON.stringify(data));
     }
 
-    // ←← تم إرجاع منطق "متابعة أو البدء من جديد"
     function startQuiz(label, storageKey) {
       currentStorageKey = storageKey || label;
       const saved = loadSaved(currentStorageKey);
@@ -785,59 +567,37 @@
       setBreadcrumb("quiz");
 
       if (saved && saved.total === questions.length) {
-        // عند وجود حفظ سابق، لا نرندر الآن — نُظهر نافذة المتابعة
         pendingSavedState = saved.state;
         continueOverlay.style.display = "flex";
       } else {
-        // لا يوجد حفظ — ابدأ جديد
-        state = {
-          current: 0,
-          order: [...questions.keys()],
-          answers: {},
-          bookmarks: [],
-          view: "all"
-        };
+        state = { current: 0, order: [...questions.keys()], answers: {}, bookmarks: [], view: "all" };
         render();
       }
     }
 
-    // أزرار متابعة/بدء جديد
     continueYes.addEventListener("click", () => {
-      // كمّل من الحفظ
-      if (pendingSavedState) {
-        state = pendingSavedState;
-        pendingSavedState = null;
-      } else {
-        state = { current: 0, order: [...questions.keys()], answers: {}, bookmarks: [], view: "all" };
-      }
-      continueOverlay.style.display = "none";
-      render();
+      if (pendingSavedState) { state = pendingSavedState; pendingSavedState = null; }
+      else { state = { current: 0, order: [...questions.keys()], answers: {}, bookmarks: [], view: "all" }; }
+      continueOverlay.style.display = "none"; render();
     });
     continueNo.addEventListener("click", () => {
-      // ابدأ من جديد
       state = { current: 0, order: [...questions.keys()], answers: {}, bookmarks: [], view: "all" };
-      pendingSavedState = null;
-      continueOverlay.style.display = "none";
-      render();
+      pendingSavedState = null; continueOverlay.style.display = "none"; render();
     });
 
     function getVisibleOrder() {
       if (state.view === "all") return state.order;
       if (state.view === "bookmarked") return state.order.filter(i => state.bookmarks.includes(i));
-      if (state.view === "wrong") {
-        return state.order.filter(i => {
-          const a = state.answers[i];
-          return a && Object.values(a).includes("wrong");
-        });
-      }
+      if (state.view === "wrong") return state.order.filter(i => {
+        const a = state.answers[i]; return a && Object.values(a).includes("wrong");
+      });
       return state.order;
     }
 
     function calcSummary() {
       let correct = 0, wrong = 0;
       for (let i = 0; i < questions.length; i++) {
-        const ans = state.answers[i];
-        if (!ans) continue;
+        const ans = state.answers[i]; if (!ans) continue;
         if (Object.values(ans).includes("correct")) correct++;
         else if (Object.values(ans).includes("wrong")) wrong++;
       }
@@ -845,42 +605,24 @@
     }
 
     function renderPager(visible) {
-      const total = visible.length;
-      const current = state.current;
-      jumpMenu.innerHTML = "";
-
-      const label = document.createElement("div");
-      label.className = "pager-label";
-      label.textContent = `PAGE ${current + 1} OF ${total}`;
-      jumpMenu.appendChild(label);
-
-      const groupSize = 5;
-      const currentQ = current + 1;
+      const total = visible.length; const current = state.current; jumpMenu.innerHTML = "";
+      const label = document.createElement("div"); label.className = "pager-label"; label.textContent = `PAGE ${current + 1} OF ${total}`; jumpMenu.appendChild(label);
+      const groupSize = 5; const currentQ = current + 1;
       const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
       const end = Math.min(start + groupSize - 1, total);
-
       const makeBtn = (text, targetIndex, active = false, bookmarked = false) => {
-        const b = document.createElement("button");
-        b.textContent = text;
+        const b = document.createElement("button"); b.textContent = text;
         if (active) b.classList.add("active");
         if (bookmarked) b.classList.add("bookmark-page");
-        b.addEventListener("click", () => {
-          state.current = targetIndex;
-          render();
-        });
+        b.addEventListener("click", () => { state.current = targetIndex; render(); });
         jumpMenu.appendChild(b);
       };
-
       for (let n = start; n <= end; n++) {
         const realIdx = visible[n - 1];
         const isBookmarked = state.bookmarks.includes(realIdx);
         makeBtn(n, n - 1, n === currentQ, isBookmarked);
       }
-
-      if (end < total) {
-        makeBtn("...", end, false, false);
-      }
-
+      if (end < total) makeBtn("...", end, false, false);
       makeBtn("LAST PAGE", total - 1, false, state.bookmarks.includes(visible[total - 1]));
     }
 
@@ -891,11 +633,7 @@
         const b = document.createElement("button");
         b.className = "btn" + (state.current === i ? "" : " secondary");
         b.textContent = i + 1;
-        b.addEventListener("click", () => {
-          state.current = i;
-          jumpOverlay.style.display = "none";
-          render();
-        });
+        b.addEventListener("click", () => { state.current = i; jumpOverlay.style.display = "none"; render(); });
         jumpList.appendChild(b);
       });
     }
@@ -915,13 +653,11 @@
         questionImages.innerHTML = "";
         q.images.forEach(src => {
           const img = document.createElement("img");
-          img.src = src;
-          img.alt = "image";
+          img.src = src; img.alt = "image";
           questionImages.appendChild(img);
         });
       } else {
-        questionImages.style.display = "none";
-        questionImages.innerHTML = "";
+        questionImages.style.display = "none"; questionImages.innerHTML = "";
       }
 
       const { correct, wrong, unanswered } = calcSummary();
@@ -956,23 +692,13 @@
       nextBtn.disabled = state.current === visible.length - 1;
 
       renderPager(visible);
-
       submitBtn.style.display = (state.current === visible.length - 1) ? "inline-block" : "none";
-
       summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
-
-      saveProgress(); // يحفظ البوكمارك/التقدم فوراً
+      saveProgress();
     }
 
-    prevBtn.addEventListener("click", () => {
-      const visible = getVisibleOrder();
-      if (state.current > 0) { state.current--; render(); }
-    });
-    nextBtn.addEventListener("click", () => {
-      const visible = getVisibleOrder();
-      if (state.current < visible.length - 1) { state.current++; render(); }
-    });
-
+    prevBtn.addEventListener("click", () => { const v = getVisibleOrder(); if (state.current > 0) { state.current--; render(); }});
+    nextBtn.addEventListener("click", () => { const v = getVisibleOrder(); if (state.current < v.length - 1) { state.current++; render(); }});
     submitBtn.addEventListener("click", showCompletion);
 
     function showCompletion() {
@@ -986,9 +712,7 @@
         r.textContent = `${idx + 1}. ${qq.text}`;
         r.addEventListener("click", () => {
           completionOverlay.style.display = "none";
-          state.view = "all";
-          state.current = idx;
-          render();
+          state.view = "all"; state.current = idx; render();
         });
         completionList.appendChild(r);
       });
@@ -1000,9 +724,8 @@
       const visible = getVisibleOrder();
       const realIndex = visible[state.current];
       const idx = state.bookmarks.indexOf(realIndex);
-      if (idx === -1) state.bookmarks.push(realIndex);
-      else state.bookmarks.splice(idx, 1);
-      render(); // saveProgress يُستدعى داخل render
+      if (idx === -1) state.bookmarks.push(realIndex); else state.bookmarks.splice(idx, 1);
+      render();
     });
 
     filterBtn.addEventListener("click", () => {
@@ -1010,16 +733,14 @@
       else {
         const has = state.order.filter(i => state.bookmarks.includes(i));
         if (!has.length) { alert("No bookmarked questions."); return; }
-        state.view = "bookmarked";
-        state.current = 0;
+        state.view = "bookmarked"; state.current = 0;
       }
       render();
     });
 
     reviewBtn.addEventListener("click", () => {
       const wrongs = state.order.filter(i => {
-        const r = state.answers[i];
-        return r && Object.values(r).includes("wrong");
+        const r = state.answers[i]; return r && Object.values(r).includes("wrong");
       });
       if (!wrongs.length) { alert("No wrong answers."); return; }
       if (state.view === "wrong") state.view = "all";
@@ -1027,21 +748,14 @@
       render();
     });
 
-    jumpBtn.addEventListener("click", () => {
-      renderJumpModal();
-      jumpOverlay.style.display = "flex";
-    });
-    jumpClose.addEventListener("click", () => {
-      jumpOverlay.style.display = "none";
-    });
+    const jumpBtnEl = document.getElementById("jumpBtn");
+    jumpBtnEl.addEventListener("click", () => { renderJumpModal(); jumpOverlay.style.display = "flex"; });
+    jumpClose.addEventListener("click", () => { jumpOverlay.style.display = "none"; });
 
     jumpGo.addEventListener("click", () => {
       const visible = getVisibleOrder();
       const val = parseInt(jumpInput.value, 10);
-      if (!isNaN(val) && val >= 1 && val <= visible.length) {
-        state.current = val - 1;
-        render();
-      }
+      if (!isNaN(val) && val >= 1 && val <= visible.length) { state.current = val - 1; render(); }
     });
 
     function shuffleArray(arr) {
@@ -1052,50 +766,26 @@
       return arr;
     }
 
-    restartBtn.addEventListener("click", () => {
-      restartOverlay.style.display = "flex";
-    });
-    restartCancel.addEventListener("click", () => {
-      restartOverlay.style.display = "none";
-    });
+    restartBtn.addEventListener("click", () => { restartOverlay.style.display = "flex"; });
+    restartCancel.addEventListener("click", () => { restartOverlay.style.display = "none"; });
     restartSame.addEventListener("click", () => {
-      state.answers = {};
-      state.bookmarks = [];
-      state.view = "all";
-      state.current = 0;
-      restartOverlay.style.display = "none";
-      render();
+      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
+      restartOverlay.style.display = "none"; render();
     });
     restartShuffle.addEventListener("click", () => {
-      state.answers = {};
-      state.bookmarks = [];
-      state.view = "all";
-      state.current = 0;
-      state.order = shuffleArray([...questions.keys()]);
-      restartOverlay.style.display = "none";
-      render();
+      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
+      state.order = shuffleArray([...questions.keys()]); restartOverlay.style.display = "none"; render();
     });
 
     againSameBtn.addEventListener("click", () => {
-      state.answers = {};
-      state.bookmarks = [];
-      state.view = "all";
-      state.current = 0;
-      completionOverlay.style.display = "none";
-      render();
+      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
+      completionOverlay.style.display = "none"; render();
     });
     againShuffleBtn.addEventListener("click", () => {
-      state.answers = {};
-      state.bookmarks = [];
-      state.view = "all";
-      state.current = 0;
-      state.order = shuffleArray([...questions.keys()]);
-      completionOverlay.style.display = "none";
-      render();
+      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
+      state.order = shuffleArray([...questions.keys()]); completionOverlay.style.display = "none"; render();
     });
-    completionClose.addEventListener("click", () => {
-      completionOverlay.style.display = "none";
-    });
+    completionClose.addEventListener("click", () => { completionOverlay.style.display = "none"; });
 
     async function computeHomeTotals() {
       const assocFiles = SUBJECT_FILES.associate;
@@ -1114,18 +804,33 @@
       if (!q) return;
       currentTrack = "associate";
       if (SUBJECT_FILES.associate[q]) {
-        showSubjects();
-        currentSubject = q;
-        loadSubjectFromText(SUBJECT_FILES.associate[q], q);
-        return;
+        showSubjects(); currentSubject = q; loadSubjectFromText(SUBJECT_FILES.associate[q], q); return;
       }
       if (SUBJECT_FILES.diploma[q]) {
-        currentTrack = "diploma";
-        showSubjects();
-        currentSubject = q;
-        loadSubjectFromText(SUBJECT_FILES.diploma[q], q);
+        currentTrack = "diploma"; showSubjects(); currentSubject = q; loadSubjectFromText(SUBJECT_FILES.diploma[q], q);
       }
     }
+
+    // IMPORTANT button behavior: simple read-only view
+    let importantLoaded = false;
+    importantBtn.addEventListener("click", async () => {
+      importantOverlay.style.display = "flex";
+      if (!importantLoaded) {
+        try {
+          const res = await fetch("important.html"); // ضع ملاحظاتك هنا
+          if (res.ok) {
+            const html = await res.text();
+            importantBody.innerHTML = html;
+          } else {
+            importantBody.textContent = "ضع ملف important.html بجانب هذا الملف لعرض الملاحظات.";
+          }
+        } catch {
+          importantBody.textContent = "تعذر تحميل الملاحظات.";
+        }
+        importantLoaded = true;
+      }
+    });
+    importantClose.addEventListener("click", () => { importantOverlay.style.display = "none"; });
 
     showHome();
     computeHomeTotals();
