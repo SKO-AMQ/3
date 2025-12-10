@@ -1,5 +1,6 @@
 =
 A piece of sheet metal is bent to a certain radius. The curvature of the bend is referred to as the
+* مهم
 bend allowance.
 neutral line.
 bend radius. ✅
@@ -130,11 +131,6 @@ radius, thickness, and degree of bend. ✅
 radius, thickness, and mold line.
 the lengths of the legs (flat sections).
 =
-The most important factors needed to make a flat pattern layout are
-radius, thickness, and mold line.
-radius, thickness, and degree of bend. ✅
-the lengths of the legs (flat sections).
-=
 The preferred way to make permanent repairs on composites is by
 bonding on metal or cured composite patches.
 riveting on metal or cured composite patches.
@@ -146,6 +142,7 @@ subtracting the setback from one leg.
 subtracting the setback from both legs. ✅
 =
 What is the most common method of cementing transparent plastics?
+* مهم
 Heat method.
 Soak method. ✅
 Bevel method.
@@ -265,7 +262,7 @@ One plug-type ✅
 Two plug-type 
 =
 What is the purpose of the small hole found in cockpit window inner panes?
-* الصيغة تختلف بس افهم الهدف من الفتحه الموجوجدجه فالقزاز توازن الضغط
+* الصيغة تختلف بس افهم الهدف من الفتحه الموجوده فالقزاز توازن الضغط
 To drain warm air from the outer pane and reduce window temperature
 To release cabin pressure gradually through the inner window surface
 To equalize pressure between window layers and prevent moisture buildup ✅
@@ -361,9 +358,4 @@ When drilling stainless steel, the drill used should have an included angle of
 90° and turn at a low speed.
 118° and turn at a high speed.
 140° and turn at a low speed. ✅
-=
-A method in which heat sensing devices are used to measure temperature variations for parts under inspection is known as?
-Coin tap
-X ray
-Thermography ✅
 =
