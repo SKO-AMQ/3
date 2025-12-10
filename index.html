@@ -282,16 +282,13 @@
         "Gen B part 1": "Gen B part 1.txt",
 
         "Gen J Part 1": "Gen J Part 1.txt",
-        "AFI C Part 1": "AFI C Part 1.txt",
         "Gen E Part 1": "Gen E Part 1.txt",
         "Gen N": "Gen N.txt",
         "Gen M Part 1": "Gen M Part 1.txt",
+        "AFI C Part 1": "AFI C Part 1.txt",
+        "AFI D Part 1": "AFI D Part 1.txt",
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
-
-        "AFI D Part 1": "AFI D Part 1.txt",
-        "AFI D Part 2": "AFI D Part 2.txt",
-        "AFI D Part 3": "AFI D Part 3.txt",
       },
       diploma: {
         "AFII B Hydraulic and Pneumatic Power": "AFII B Hydraulic and Pneumatic Power.txt",
@@ -460,19 +457,13 @@
 
       // Order:
       // GEN → (Gen I&K group) → (Gen B group) → others
-      // AFI → (AFI D Part group) → others
+      // AFI → simple list
       // AFII / PPII → simple list
       if (currentTrack === "gen") {
         buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
 
         const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K") || n.startsWith("Gen B ")));
-        Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => addLeaf(subs, name));
-
-      } else if (currentTrack === "afi") {
-        buildGroup(subs, n => n.startsWith("AFI D Part"), "AFI D Part", subjectList);
-
-        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("AFI D Part")));
         Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => addLeaf(subs, name));
 
       } else {
@@ -529,7 +520,7 @@
             else if (/^Gen E/i.test(currentSubject)) images.push("genepng/" + imgName);
             else if (/^Gen N/i.test(currentSubject)) images.push("gennpng/" + imgName);
             else if (/^AFI E/i.test(currentSubject)) images.push("afiepng/" + imgName);
-            else if (/^AFI D Part 2/i.test(currentSubject)) images.push("afidpng/" + imgName);
+            else if (/^AFI D Part 1/i.test(currentSubject)) images.push("afidpng/" + imgName);
             else images.push(imgName);
             continue;
           }
