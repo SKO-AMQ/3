@@ -1,256 +1,369 @@
 =
-What part of an aircraft when moved through the air creates lift?
-Landing gear
-Pitot
-Wing ✅
+A piece of sheet metal is bent to a certain radius. The curvature of the bend is referred to as the
+bend allowance.
+neutral line.
+bend radius. ✅
 =
-The stress that resists a crushing force is known as?
-Tension
-Compression ✅
-Shear
+The aluminum alloys used in aircraft construction are usually hardened by which method?
+* مهم
+Cold-working.
+Aging.
+Heat treatment. ✅
 =
-The most common airframe construction is?
-Semimonococque ✅
-Monocoque
-Truss type
+Repairing advanced composites using materials and techniques traditionally fiberglass repairs is likely to result in
+* مهم
+an unairworthy repair. ✅
+restored strength and flexibility.
+improved wear resistance to the structure.
 =
-The stress that produces twisting is known as?
-Bending
-Torsion ✅
-Shear
-=
-What stabilizer is the elevator attached to?
-Vertical stabilizer
-Diagonal stabilizer
-Horizontal stabilizer ✅
-=
-Movement around the lateral axis will cause the nose of the aircraft to?
-Move side to side
-Roll
-Pitch up and down ✅
-=
-When the rudder changes position, the aircraft rotates about what axis?
-Lateral axis
-Yaw axis ✅ 
-Longitudinal axis
-=
-A structure that is built up from a core material resembling a bee hive which is laminated or sandwiched between thin outer skin sheets is known as?
-Honeycomb ✅
+Impregnating the dry fabric with a resin just before the repair work is done is a process known as?
+* مهم
+Wet layup ✅
 None of the above
-Sweetcorn
-=
-What is another term for the trail section?
-Radome
-Empennage ✅
-Ruddervator
-=
-Enclosures that are used primarily to house the engine and its components are known as?
-Nacelle ✅
-Cabin
-Wheel well
-=
-A primary control surface that moves the aircraft around the horizontal axis is?
-Trim
-Flap
-Elevator ✅
-=
-What stabilizer is the rudder hinged to?
-Vertical stabilizer ✅
-Diagonal stabilizer
-Horizontal stabilizer
-=
-Which of these are designed to promote positive laminar airflow over the wing and control surfaces?
-Spring tab
-Trim tab
-Vortex generator ✅
-=
-Which of these punches is designed for transferring holes in the structure to mark the locations of new holes?
-Prick punch
-Transfer punch ✅
-Centre punch
-=
-A tool that is used to place reference marks on a metal by producing small indentations is called?
-Divider
-Rivet spacer
-Prick punch ✅
-=
-A control surface that performs a combined functions of ailerons and elevator is known as?
-Rudder
-Elevons ✅
-Flap
-=
-A stress that is a combination of compression and tension is known as?
-Bending ✅
-Tension
-Shearing
-=
-The process of sheet metal being shaped by stretching it over a formed block to just beyond the elastic limit where permanent set takes place with a minimum amount of spring-back is known as?
-Scratch forming
-File forming
-Stretch forming ✅
-=
-What machine is used to form sheets into cylinders or other straight curved surfaces?
-Press brake
-Slip roller former ✅
-Bar folding machine
-=
-Which if these are considered shop tools due to their size and power source?
-Kett saw
-Nibblers
-Squaring shear ✅
-=
-Which of these are considered as reusable sheet metal fasteners?
-Solid rivets
-Pop rivets
-Cleco fasteners ✅
-=
-What is the purpose of reusable fasteners?
-Temporarily hold drilled sheet metal parts accurately in position for riveting or drilling ✅
-Allows holes to be filled with glue for solid attachments
-Permit for welding of rivets
-=
-The primary objective of aircraft repair is to?
-Temporary restoration to damaged parts
-Restore damaged parts to their original strength ✅
-Partially restore damaged parts to their original strength
-=
-Before a part is attached to the aircraft during either manufacture or repair, it has to be shaped to fit into place. The process that makes this possible is called
-Forming process ✅
-Riveting process
-Bolting process
-=
-What is the most common type of rivet used in aircraft construction?
-Blind rivets
-Solid shank rivets ✅
-Pop rivets
-=
-The combined thickness of the materials to be joined is known as?
-Grip length ✅
-Force length
-Stick length
-=
-What is a structural panel concept that consists in its simplest form of two relatively thin, parallel face sheets bonded to and separated by a relatively thick, lightweight core.
-Raw structure
-Sandwich construction ✅
-Balloon construction
-=
-What is the Material provides a tough layer between the repair and the atmosphere.
-Vaccum bag ✅
-Paper
-Tape 
-=
-Which of these are considered as matrix materials?
-Epoxy ✅
-Rubber
-Glass
-=
-which one creates a path for the air and volatiles to escape from the repair?
-traw
-Vent 
-Bleeder ply ✅
-=
-What are used for high-temperature applications, such as turbine blades in a gas turbine engine
-Plastic
-Rubber
-Ceramic fibers ✅
-=
-What are often used to create a clean surface for bonding purposes?
-Brush
-Peel ply ✅
-Tape
-=
-High strength and corrosion resistance are disadvantages of?
-Fiberglass
-Kevlar
-carbon fibers ✅
-=
-What is the primary load carrying element of the composite material.
-Fiber ✅
-Isotropic
-sand
-=
-During the curing stages of resins, what does the A stage refer to?
-The components of the resin (base material and hardener) have been mixed and the chemical reaction has started.
-The components of the resin (base material and hardener) have been mixed but the chemical reaction has not started. ✅
-The resin has fully cured
-=
-Structural properties, such as stiffness, dimensional stability, and strength of a composite laminate, depends on the?
-Separation of the fibers
-Foam
-Stacking sequence of the plies ✅
-=
-Which part is called if too much resin is bled off during the curing process or if not enough resin is applied during the wet layup process.
-Resin starved ✅
-None of the above
-Resin rich
-=
-What is used to seal the vacuum bag to the part or tool.
-Peel ply
-None of the above
-Layup tapes ✅
-=
-Which supports the fibers and bonds them together in the composite material.
-Matrix ✅
-Sand
-Foam
-=
-Which rivets should be selected to join two sheets of .032-inch aluminum?
-MS20425D-4-3.
-MS20470AD-4-4. ✅
-MS20455DD-5-3.
+Dry up
 =
 MS20426AD-6-5 indicates a countersunk rivet which has
+* مهم
 a shank length of 5/16 inch (excluding head).
 a shank length of 5/32 inch (excluding head).
 an overall length of 5/16 inch. ✅
 =
-Which part of the 2017-T36 aluminum alloy designation indicates the primary alloying agent used in its manufacture?
-17
-20
-2 ✅
+Composite fabric material is considered to be the strongest in what direction?
+* مهم
+Fill.
+Warp. ✅
+Bias.
 =
 The primary alloying agent of 2024-T3 is indicated by the number
+* مهم
 2 ✅
-20
 24
+20
+=
+What precaution, if any, should be taken to prevent corrosion inside a repaired metal honeycomb structure?
+* مهم
+None. Honeycomb is usually made from a man-made or fibrous material which is not susceptible to corrosion.
+Paint the outside area with several coats of exterior paint.
+Prime the repair with a corrosion inhibitor and seal from the atmosphere. ✅
+=
+Mild steel rivets are used for riveting
+* مهم مهم
+nickel-steel parts.
+steel parts. ✅
+magnesium parts.
+=
+What is indicated by a black 'smoky' residue streaming back from some of the rivets on an aircraft?
+* مهم
+The rivets were excessively work hardened during installation.
+Exfoliation corrosion is occurring inside the structure.
+Fretting corrosion is occurring between the rivets and the skin. ✅
+=
+When necessary, what type of cutting fluid is usually acceptable for machining composite laminates?
+* مهم
+Water soluble oil.
+Water displacing oil.
+Water only. ✅
+=
+Fiberglass damage that extends completely through a laminated sandwich structure
+* مهم
+may be repaired. ✅
+must be filled with resin to eliminate dangerous stress concentrations.
+may be filled with putty which is compatible with resin.
+=
+A piece of flat stock that is to be bent to a closed angle of 15° must be bent through an angle of
+* مهم 
+90°.
+105°.
+165°. ✅
+=
+The dimensions of an MS20430AD-4-8 rivet are
+* مهم
+1/8 inch in diameter and 1/4 inch long.
+1/8 inch in diameter and 1/2 inch long. ✅
+4/16 inch in diameter and 8/32 inch long.
+=
+One of the main advantages of Hi-Lok type fasteners over earlier generations is that
+* مهم
+they can be removed and reused again.
+the squeezed on collar installation provides a more secure, tighter fit.
+they can be installed with ordinary hand tools. ✅
+=
+Fiberglass laminate damage not exceeding the first layer or ply can be repaired by
+* مهم
+filling with a putty consisting of a compatible resin and clean, short glass fibers. ✅
+sanding the damaged area until aerodynamic smoothness is obtained.
+trimming the rough edges and sealing with paint.
+=
+When making repairs to fiberglass, cleaning of the area to be repaired is essential for a good bond. The final cleaning should be made using
+* مهم
+soap, water, and a scrub brush.
+MEK (methyl ethyl ketone). ✅
+a thixotropic agent.
+=
+The coefficient of expansion of most plastic enclosure materials is
+* مهم
+greater than both steel and aluminum. ✅
+greater than steel but less than aluminum.
+less than either steel or aluminum.
+=
+The classification for high tensile strength fiberglass used in aircraft structures is
+* مهم اذا جاك high tensile تحط S
+E-glass.
+S-glass. ✅
+G-glass.
 =
 The classification for fiberglass reinforcement material that has high resistivity and is the most common is
+* مهم اذا جاك resistivity  تحط E
 E-glass. ✅
 S-glass.
 G-glass.
 =
-The classification for high tensile strength fiberglass used in aircraft structures is
-E-glass. 
-S-glass. ✅
-G-glass.
+When comparing the machining techniques for stainless steel sheet material to those for aluminum alloy sheet, it is normally considered good practice to drill the stainless steel at a
+* مهم
+higher speed with less pressure applied to the drill.
+lower speed with more pressure applied to the drill. ✅
+lower speed with less pressure applied to the drill.
 =
-How many fabric thicknesses will be found in a French-fell seam?
-Five.
-Three.
-Four. ✅
+The most important factors needed to make a flat pattern layout are
+* مهم
+radius, thickness, and degree of bend. ✅
+radius, thickness, and mold line.
+the lengths of the legs (flat sections).
+=
+The most important factors needed to make a flat pattern layout are
+radius, thickness, and mold line.
+radius, thickness, and degree of bend. ✅
+the lengths of the legs (flat sections).
+=
+The preferred way to make permanent repairs on composites is by
+bonding on metal or cured composite patches.
+riveting on metal or cured composite patches.
+laminating on new repair plies. ✅
+=
+On a sheet metal fitting layout with a single bend, allow for stretching by
+adding the setback to each leg.
+subtracting the setback from one leg.
+subtracting the setback from both legs. ✅
+=
+What is the most common method of cementing transparent plastics?
+Heat method.
+Soak method. ✅
+Bevel method.
+=
+A well-designed rivet joint will subject the rivets to
+shear loads. ✅
+tension loads.
+compressive loads.
+=
+Shallow scratches in sheet metal may be repaired by
+stop drilling.
+buffing.
+burnishing. ✅
+=
+When an MS20470D rivet is installed, its full shear strength is obtained
+only after a period of age hardening. ✅
+by heat treating just prior to being driven.
+by the cold working of the rivet metal in forming a shop head.
+=
+Rivet gauge, or transverse pitch is the distance between the
+heads of rivets in the same row.
+centers of rivets in adjacent rows. ✅
+centers of adjacent rivets in the same row.
+=
+What should be the included angle of a twist drill for soft metals?
+65°.
+118°.
+90°. ✅
+=
+Which rivet may be used as received without further treatment?
+2024-T4.
+2117-T3. ✅
+2017-T3.
+=
+vWhat type loads cause the most rivet failures?
+Shear. ✅
+Head.
+Bearing.
+=
+What is the material layer used within the vacuum bag pressure system to absorb excess resin during curing called?
+Release.
+Bleeder. ✅
+Breather.
+=
+A DD rivet is heat treated before use to
+harden and increase strength.
+relieve internal stresses.
+soften to facilitate riveting. ✅
+=
+If no scratches are visible after transparent plastic enclosure materials have been cleaned, their surfaces should be
+covered with a thin coat of wax. ✅
+buffed with a clean, soft, dry cloth.
+polished with rubbing compound applied with a damp cloth.
+=
+How many of the following are benefits of using microballoons when making repairs to laminated honeycomb panels?
+*1. Greater concentrations of resin in edges and corners.
+*2. Improved strength to weight ratio.
+*3. Less density
+*4. Lower stress concentrations
+* اذا جا microballoons تكون 2,3,4
+2, 3, and 4. ✅
+1, 2, and 4.
+All of the above.
+=
+Which of the following are generally characteristic of carbon/graphite fiber composites?
+*1. Flexibility.
+*2. Stiffness.
+*3. High compressive strength.
+*4. Corrosive effect in contact with aluminum.
+*5. Ability to conduct electricity.
+* اذا جا carbon/graphite 2,3,4
+1 and 3.
+2, 3, and 4. ✅
+1, 3, and 5.
+=
+Which of the following are generally characteristic of aramid fiber (Kevlar) composites?
+*1. High tensile strength.
+*2. Flexibility.
+*3. Stiffness.
+*4. Corrosive effect in contact with aluminum.
+*5. Ability to conduct electricity.
+* اذا جا (Kevlar) 1and2
+1 and 2. ✅
+2, 3, and 4.
+1, 3, and 5.
+=
+Proper pre-preg composite lay-up curing is generally accomplished by
+* 1. applying external heat.
+* 2. room temperature exposure.
+* 3. adding a catalyst or curing agent to the resin.
+* 4. applying pressure
+* اذا جا lay-up curing 1and4
+2 and 3.
+1 and 4. ✅
+1, 3, and 4.
 =
 Which of the following, when added to wet resins, provide strength for the repair of damaged fastener holes in composite panels?
-Flox and chopped fibers. ✅
-Microballoons.
-Microballoons and flox.
+* 1. Microballoons.
+* 2. Flox.
+* 3. Chopped fibers.
+2 and 3. ✅
+1 and 3.
+1, 2, and 3.
 =
-The Dzus turnlock fastener consists of a stud, grommet, and receptacle. The stud diameter is measured in
-0.1 inch
-0.01 inch
-0.0625 inch ✅
+Which of these methods may be used to inspect fiberglass/honeycomb structures for entrapped water?
+* 1. Acoustic emission monitoring.
+* 2. X-ray.
+* 3. Backlighting.
+1 and 2.
+1 and 3.
+2 and 3. ✅
 =
-The Dzus turnlock fastener consists of a stud, grommet, and receptacle. The stud length is measured in
-0.1 inch
-0.01 inch ✅
-0.0625 inch 
+Which door design cannot be opened in flight?
+* الصيغة تختلف بس افهم 
+Non-plug 
+One plug-type ✅
+Two plug-type 
 =
-Which part of 2017-T36 aluminum alloy indicates the temper designation?
-T36. ✅
-2.
-17.
+What is the purpose of the small hole found in cockpit window inner panes?
+* الصيغة تختلف بس افهم الهدف من الفتحه الموجوجدجه فالقزاز توازن الضغط
+To drain warm air from the outer pane and reduce window temperature
+To release cabin pressure gradually through the inner window surface
+To equalize pressure between window layers and prevent moisture buildup ✅
 =
-When welding or cutting, the acetylene pressure gauge should never be set higher than
-15 psi. ✅
-20 psi.
-25 psi.
+Which inspection is Primary inspection
+* مهم بس الصيغة مختلفه بس الفكره وحده الفحص النظري يعتبر اساسي 
+visual  ✅
+X-ray 
+backlighting
+=
+What should a mechanic do when a composite skin is cracked or broken?
+* مهم بس الصيغة مختلفه بس الفكره الاساسية اذا تضررت تتغير
+Clean the damaged area only
+Repair or replace the damaged section according to the SRM ✅
+Cover the damage with paint to prevent further cracking
+=
+The installation of aircraft windshields and side windows is usually accomplished with
+* مهم الصيغة مختلفه بس الفكره الاساسية تكون قطعتين عشان تتحمل الضغط
+two or more plies of glass or plastic, laminated together. ✅
+one solid piece of glass or plastic.
+a single pane of tempered glass.
+=
+What is the purpose of the small hole fuselage door?
+* مهم فايدة الفتحه تسمح للمقصوره تنضغط
+Allows some air to enter during depressurization
+Allows the cabin pressure to push the door tighter into the frame ✅
+Reduces noise and vibration around the door area
+=
+Why is the fuselage door impossible to open during pressurization?
+* مهم السبب الي مايخلي الباب يفتح البلق 
+Non-plug door cannot seal properly
+Door uses hydraulic lock only
+Plug-type door design only ✅
+=
+What is the naem of these repair method
+drying.png
+*  مهم مهم مهم احفظ اسم العملية
+repairs for honeycomb sandwich structure
+Resin injection repair
+Vacuum bag method for drying parts ✅
+=
+What is the naem of these repair method
+resin.png
+* الصيغة تختلف بس اسم طريقة الاصلاح ريزن مهم مهم مهم
+repairs for honeycomb sandwich structure
+Resin Injection Repair ✅
+Vacuum bag method for drying parts 
+=
+In what used in this repair method?
+resin.png
+* الصيغة تختلف بس الفكره ان طريقة الاصلاح تكون بحقن الريزن داخل الطبقات يسد الفراغ ويرجع القوة
+Injecting resin into delaminated areas ✅
+Applying solvent to soften composite layers
+Filling surface scratches with filler
+=
+What is naem this weave
+weave.png
+* مهم الصيغة مختلفه احفظ الشكل زين لانها فالاختبار جت مع صور شبيهه
+Crowfoot weave
+Shaft weave
+Plain weave ✅
+=
+Which is the grip length of the flush rivet?
+grip.png
+1
+2
+3 ✅
+=
+Select the preferred drawing for proper countersinking.
+countersinking.png
+* مهم
+All are acceptable.
+1 ✅
+2
+=
+Which of the rivets shown will accurately fit the conical depression made by a 100° countersink?
+countersink.png
+1 ✅
+2
+3 
+=
+What should be the included angle of a twist drill for hard metal?
+118°. ✅
+100°.
+90°.
+=
+The recommended countersunk angle for aircraft use is?
+120°
+60°
+100° ✅
+=
+When drilling stainless steel, the drill used should have an included angle of
+90° and turn at a low speed.
+118° and turn at a high speed.
+140° and turn at a low speed. ✅
+=
+A method in which heat sensing devices are used to measure temperature variations for parts under inspection is known as?
+Coin tap
+X ray
+Thermography ✅
 =
