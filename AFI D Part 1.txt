@@ -1,19 +1,4 @@
 =
-What does the term fixed wing mean?
-The wings are NOT attached to the fuselage and are intended to move independently in a fashion that results in the creation of lift.
-The wings are attached to the fuselage and are intended to move independently in a fashion that results in the creation of lift.
-The wings are attached to the fuselage and are not intended to move independently in a fashion that results in the creation of lift. ✅
-=
-What is the primary structural member of the fuselage?
-Vertical stab
-Longerons ✅
-Wing
-=
-In regards to pressurization choose the correct statement.
-Pressurization causes significant stress on the fuselage structure ✅
-Pressurization does not causes significant stress on the fuselage structure
-Pressurization improves engine performance
-=
 What part of an aircraft when moved through the air creates lift?
 Landing gear
 Pitot
@@ -58,11 +43,6 @@ What is another term for the trail section?
 Radome
 Empennage ✅
 Ruddervator
-=
-Choose the correct statement regarding differential aileron control movement.
-When one aileron is moved down, the aileron on the opposite wing is deflected downward.
-When one aileron is moved down, the aileron on the opposite wing is deflected upward. ✅
-When one aileron is moved up, the aileron on the opposite wing is deflected upward.
 =
 Enclosures that are used primarily to house the engine and its components are known as?
 Nacelle ✅
@@ -109,11 +89,6 @@ Scratch forming
 File forming
 Stretch forming ✅
 =
-The most common machine tool used to bend sheet metal and applies force via mechanical and/or hydraulic components to shape the sheet metal between the punch and die is called?
-Bar folding machine
-Press brake ✅
-Slip roller former
-=
 What machine is used to form sheets into cylinders or other straight curved surfaces?
 Press brake
 Slip roller former ✅
@@ -123,11 +98,6 @@ Which if these are considered shop tools due to their size and power source?
 Kett saw
 Nibblers
 Squaring shear ✅
-=
-What saw achieves cutting action through a push and pull (reciprocating) motion of the blade?
-Reciprocating saw ✅
-Circular cutting saw
-Ket saw
 =
 Which of these are considered as reusable sheet metal fasteners?
 Solid rivets
@@ -148,11 +118,6 @@ Before a part is attached to the aircraft during either manufacture or repair, i
 Forming process ✅
 Riveting process
 Bolting process
-=
-The term ''ice box rivets'' are given to what rivet alloys?
-ED rivets
-AD rivets (alloy 3533)
-DD rivets (alloy 2024-T4) ✅
 =
 What is the most common type of rivet used in aircraft construction?
 Blind rivets
@@ -209,11 +174,6 @@ The components of the resin (base material and hardener) have been mixed and the
 The components of the resin (base material and hardener) have been mixed but the chemical reaction has not started. ✅
 The resin has fully cured
 =
-What are used to repair cracked aluminium aircraft skins, because the thermal expansion of boron is close to aluminium and there is no galvanic corrosion potential.
-Lead
-Boron ✅
-Acid
-=
 Structural properties, such as stiffness, dimensional stability, and strength of a composite laminate, depends on the?
 Separation of the fibers
 Foam
@@ -244,16 +204,6 @@ a shank length of 5/16 inch (excluding head).
 a shank length of 5/32 inch (excluding head).
 an overall length of 5/16 inch. ✅
 =
-What should be the included angle of a twist drill for soft metals?
-118°.
-90°. ✅
-65°.
-=
-A piece of flat stock that is to be bent to a closed angle of 15° must be bent through an angle of
-165°. ✅
-105°.
-90°.
-=
 Which part of the 2017-T36 aluminum alloy designation indicates the primary alloying agent used in its manufacture?
 17
 20
@@ -264,41 +214,6 @@ The primary alloying agent of 2024-T3 is indicated by the number
 20
 24
 =
-The flat layout or blank length of a piece of metal from which a simple L-shaped bracket 3 inches by 1 inch is to be bent depends upon the radius of the desired bend. The bracket which will require the greatest amount of material is one which has a bend radius of
-1/2 inch.
-1/8 inch. ✅	
-1/4 inch.
-=
-If a new safety belt is to be installed in an aircraft, the belt must conform to the strength requirements in which document?
-STC 1282.
-14 CFR Part 39.
-TSO C22. ✅
-=
-A sheet metal repair is to be made using two pieces of 0.040-inch aluminum riveted together. All rivet holes are drilled for 3/32-inch rivets. The length of the rivets to be used will be
-1/8 inch.
-1/4 inch. ✅
-5/16 inch.
-=
-The length of rivet to be chosen when making a structural repair that involves the joining of 0.032-inch and 0.064-inch aluminum sheet, drilled with a No. 30 drill, is
-7/16 inch.
-5/16 inch. ✅
-1/4 inch. 
-=
-A single-lap sheet splice is to be used to repair a section of damaged aluminum skin. If a double row of 1/8-inch rivets is used, the minimum allowable overlap will be
-1/2 inch.
-3/4 inch.
-13/16 inch. ✅
-=
-A sheet metal repair is to be made using two pieces of 0.0625-inch aluminum riveted together. All rivet holes are drilled for 1/8-inch rivets. The length of the rivets to be used will be
-5/32 inch.
-3/16 inch.
-5/16 inch. ✅
-=
-The dimensions of an MS20430AD-4-8 rivet are
-1/8 inch in diameter and 1/4 inch long.
-1/8 inch in diameter and 1/2 inch long. ✅
-4/16 inch in diameter and 8/32 inch long.
-=
 The classification for fiberglass reinforcement material that has high resistivity and is the most common is
 E-glass. ✅
 S-glass.
@@ -308,33 +223,6 @@ The classification for high tensile strength fiberglass used in aircraft structu
 E-glass. 
 S-glass. ✅
 G-glass.
-=
-How many MS20470 AD-4-6 rivets will be required to attach a 10 x 5 inch plate, using a single row of rivets, minimum edge distance, and 4D spacing?
-56 ✅
-54
-52
-=
-Determine the dimensions of A, B, and C in the flat layout.
-* Setback = .252
-* Bend allowance = .345
-A = .748, B = 2.252, C = 2.004.
-A = .748, B = 1.496, C = 1.248. ✅
-A = 1.252, B = 2.504, C = 1.752
-=
-Which rivet may be used as received without further treatment?
-2024-T4.
-2117-T3. ✅
-2017-T3.
-=
-A category of plastic material that is capable of softening or flowing when reheated is described as a
-thermoplastic. ✅
-thermocure.
-thermoset.
-=
-Which fiber to resin (percent) ratio for advanced composite wet lay-ups is generally considered the best for strength?
-40:60.
-50:50.
-60:40. ✅
 =
 How many fabric thicknesses will be found in a French-fell seam?
 Five.
