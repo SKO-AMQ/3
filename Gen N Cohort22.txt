@@ -1,85 +1,85 @@
 How many bits are needed to build a computer system?
-32 or 64 bits $
+32 or 64 bits ✅
 64 or 96 bits
 16 or 32 bits
 =
 Benefits of computers in an aircraft:
 Increases total weight of the aircraft (a disadvantage).
 Used by the pilot to assist with navigation, communication, and controlling flight systems.
-Improves safety and accuracy by providing automatic monitoring and quick decision making support. $
+Improves safety and accuracy by providing automatic monitoring and quick decision making support. ✅
 =
 Meaning of the abbreviation “AI”
-Attitude Indicator $
+Attitude Indicator ✅
 Altitude Indicator
 Aircraft Indicator
 =
 Which of the following is true about ROM?
 You can control and change its contents easily
 It loses its data when the power is turned off.
-الاجابة هي الخيار المختلف عن الموجود تجنب الخيارات الي فوق $
+الاجابة هي الخيار المختلف عن الموجود تجنب الخيارات الي فوق ✅
 =
 What instruments form the top row in a Basic T configuration?
 Compass, Turn Coordinator, VSI
-Airspeed Indicator, Attitude Indicator, Altimeter $
+Airspeed Indicator, Attitude Indicator, Altimeter ✅
 Radar Altimeter, VSI, Compass
 =
 Which of the following instruments is replaced by the PFD?
 Landing gear status, Clock, Fuel pump
 Cabin pressure indicator, Weather radar, Stick shaker
-Attitude Director Indicator, Altimeter, VSI $
+Attitude Director Indicator, Altimeter, VSI ✅
 =
 How many bytes are there in 1 kilobyte (KB)?
 1000
-1024 $
+1024 ✅
 512
 =
 Choose the correct description of the Navigation Display (ND).
 It is limited to airspeed and altitude only
 It shows only artificial horizon data
-It displays terrain, weather radar, and TCAS advisories $
+It displays terrain, weather radar, and TCAS advisories ✅
 =
 How many bits are there in one byte?
 4
-8 $
+8 ✅
 16
 =
 Choose the correct description of the Navigation Display (ND).
 It is limited to airspeed and altitude only
-It displays terrain, weather radar, and TCAS advisories $
+It displays terrain, weather radar, and TCAS advisories ✅
 It monitors cabin crew actions
 =
 Transistors in digital circuits switch between which two states?
 HIGH / LOW
 1 / 0
-ON / OFF $
+ON / OFF ✅
 =
 If 4 bits can represent 16 values, how many values can 8 bits represent?
 64
-256 $
+256 ✅
 100
 =
 What system does Boeing use to display engine and aircraft alerts?
-EICAS $
+EICAS ✅
 ECAM
 EFIS
 =
 Which advantage is associated with EFIS systems?
 Manual override for analog backups
 Increased use of mechanical parts
-Reduced cockpit clutter and enhanced situational awareness $
+Reduced cockpit clutter and enhanced situational awareness ✅
 =
 Choose the correct statement about modern EFIS layouts:
 EFIS eliminates all need for pilot input
-Modern EFIS maintains the Basic T layout to simplify training $
+Modern EFIS maintains the Basic T layout to simplify training ✅
 Analog instruments are still mandatory
 =
 Why are cathode ray tubes (CRT) rarely used in modern aircraft?
-Due to their size, reliability issues, and short service life $
+Due to their size, reliability issues, and short service life ✅
 Because they emit too much light
 They are not supported by software updates
 =
 What instruments form the top row in a Basic T configuration?
 Compass, Turn Coordinator, VSI
-Airspeed Indicator, Attitude Indicator, Altimeter $
+Airspeed Indicator, Attitude Indicator, Altimeter ✅
 Radar Altimeter, VSI, Compass
 =
