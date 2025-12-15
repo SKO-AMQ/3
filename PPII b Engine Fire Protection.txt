@@ -1,0 +1,51 @@
+=
+During preflight check, if one inoperative ?
+Unlike the inoperative one, let the other one trigger the fire. ✅
+Fire warning system will be disabled completely
+Both loops must fail to give warning
+=
+During preflight check, if one inoperative?
+Reset the fire control unit
+Continue operation with same loop
+Switch to another loop. ✅
+=
+Why dual loop more reliable ?
+One loop works as backup only
+Need both loop to sense fire ✅
+Faster fire detection response
+=
+Fire zones based on what ?
+Areas that suspected to fire ✅
+Areas with highest temperature
+Areas containing fuel lines only
+=
+IR infrared how to differentiate between hydrocarbon ?
+By detecting visible flame color
+By sensing temperature increase only
+اطول اجابه ، في (i) ✅
+=
+Yellow visual indicators?
+Operated by pressure from bottle
+Operated by crew. ✅
+Automatically operated by heat
+=
+Two bottles, how the full bottle go in reserve to the emptied ?
+Check valve ✅
+Pressure relief valve
+Sequencing unit
+=
+Loop test simulate what ?
+Actual fire condition
+Loss of electrical power
+Change in to resistance core ✅
+=
+How the kidde differentiate between fire and short ?
+Resistance drop sharply. ✅
+Fire causes voltage increase
+Short causes circuit open
+=
+How to verify the pressure and if there is no pressure?
+Discharge indicator only
+Temperature sensor and warning light
+Pressure indicator and pressure signal. ✅
+=
