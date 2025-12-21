@@ -1,0 +1,164 @@
+The most satisfactory extinguishing agent for an electrical fire is
+* اذا جتك فالاجابات حطها على طول carbon dioxide
+carbon tetrachloride.
+carbon dioxide. ✅
+methyl bromide.
+=
+The most satisfactory extinguishing agent for a tailpipe or intake fire is
+* اذا جتك فالاجابات حطها على طول carbon dioxide
+carbon dioxide. ✅
+dry chemical.
+methyl bromide.
+=
+A fuel or oil fire is defined as a
+* الفيول B
+class A fire.
+class B fire. ✅
+class C fire
+=
+A fire involving energized electrical equipment is defined as a
+* الفير C
+class A fire.
+class B fire. 
+class C fire. ✅
+=
+Two continuous-loop fire detection systems that will not test due to a broken detector element are the
+* السؤال الي تجي will not test او will detec
+* تكون اجاباته Kidde system and Fenwal system
+Kidde system and the Lindberg system.
+Kidde system and the Fenwal system. ✅
+thermocouple system and the Lindberg system.
+=
+Which of the following fire detection systems will detect a fire when an element is inoperative but will not test when the test circuit is energized?
+* السؤال الي تجي will not test او will detec
+* تكون اجاباته Kidde system and Fenwal system
+The Kidde system and the thermocouple system.
+The Kidde system and the Fenwal system. ✅
+The thermocouple system and the Lindberg system.
+=
+Which of the following fire detection systems uses heat in the normal testing of the system?
+* السؤال الي نهايته normal testing of the system
+* تكون اجابته thermocouple system
+The thermocouple system and the Lindberg system. ✅
+The Kidde system and the Fenwal system.
+The thermocouple system and the Fenwal system.
+=
+The fire detection system that uses two wires imbedded in a ceramic core within a tube is the
+* اذا two wires تكون Kidde system
+Fenwal system.
+Kidde system. ✅
+Lindberg system.
+=
+The fire detection system that uses a single wire surrounded by a continuous string of ceramic beads in a tube is the
+* اذا single wire تكون Fenwal
+Fenwal system. ✅
+Kidde system.
+thermocouple system.
+=
+A fire detection system that operates on the rate-of-temperature rise is a
+continuous-loop system.
+thermocouple system. ✅
+thermal switch system.
+=
+What is the principle of operation of the continuous-loop fire detector system sensor?
+Fuse material which melts at high temperatures.
+Core resistance material which prevents current flow at normal temperatures. ✅
+A bimetallic thermoswitch which closes when heated to a high temperature.
+=
+How does carbon dioxide (CO(2)) extinguish an aircraft engine fire?
+Contact with the air converts the liquid into snow and gas which smothers the flame. ✅
+By lowering the temperature to a point where combustion will not take place.
+The high pressure spray lowers the temperature and blows out the fire.
+=
+The use of water on class D fires
+is most effective if sprayed in a fine mist.
+will cause the fire to burn more violently and can cause explosions. ✅
+has no effect.
+=
+What retains the nitrogen charge and fire-extinguishing agent in a high rate of discharge (HRD) container?
+Breakable disk and fusible disk. ✅
+Pressure switch and check tee valve.
+Pressure gauge and cartridge.
+=
+How are most aircraft turbine engine fire-extinguishing systems activated?
+Electrically discharged cartridges. ✅
+Manual remote control valve.
+Pushrod assembly.
+=
+What is the operating principle of the spot detector sensor in a fire detection system?
+Resistant core material that prevents current flow at normal temperatures.
+A conventional thermocouple that produces a current flow.
+A bimetallic thermoswitch that closes when heated to a high temperature. ✅
+=
+The explosive cartridge in the discharge valve of a fire-extinguisher container is
+a life-dated unit. ✅
+not a life-dated unit.
+mechanically fired.
+=
+For fire detection and extinguishing purposes, aircraft powerplant areas are divided into fire zones based on
+hot and cold sections of the engine.
+the volume and smoothness of the airflow through engine compartments. ✅
+engine type and size.
+=
+Which of the following fire detection systems measures temperature rise compared to a reference temperature?
+Thermocouple. ✅
+Thermal switch.
+Lindberg continuous element.
+=
+Which of the following fire detectors are commonly used in the power section of an engine nacelle?
+CO detectors.
+Smoke detectors.
+Rate-of-temperature-rise detectors. ✅
+=
+A continuous-loop fire detector is what type of detector?
+Spot detector.
+Overheat detector. ✅
+Rate-of-temperature-rise detector.
+=
+Why does one type of Fenwal fire detection system use spot detectors wired in parallel between two separate circuits?
+To provide an installation that is equal to two separate systems: a primary system and a secondary, or back-up system.
+So that a double fault may exist in the system without sounding a false alarm.
+So that a single fault may exist in the system without sounding a false alarm. ✅
+=
+In a fixed fire-extinguishing system, there are two small lines running from the system and exiting overboard. These line exit ports are covered with a blowout type indicator disc. Which of the following statements is true?
+When the red indicator disc is missing, it indicates the fire-extinguishing system has been normally discharged.
+When the yellow indicator disc is missing, it indicates the fire-extinguishing system has been normally discharged. ✅
+When the green indicator disc is missing, it indicates the fire-extinguishing system has had a thermal discharge.
+=
+Which of the following is the safest fire-extinguishing agent to use from a standpoint of toxicity and corrosion hazards?
+Dibromodifluoromethane (Halon 1202).
+Bromochlorodifluoromethane (Halon 1211).
+Bromotrifluoromethane (Halon 1301). ✅
+=
+What is the function of a fire detection system?
+To discharge the powerplant fire-extinguishing system at the origin of the fire.
+To activate a warning device in the event of a powerplant fire. ✅
+To identify the location of a powerplant fire.
+=
+The pulling out (or down) of an illuminated fire handle in a typical large jet aircraft fire protection system commonly accomplishes what events?
+* احفظها بترتيب ذا
+* Closes fuel ⭢ closes hydraulic ⭢ disconnects the generator ⭢ and arms the fire-extinguishing
+Closes all firewall shutoff valves, disconnects the generator, and discharges a fire bottle.
+Closes fuel shutoff, closes hydraulic shutoff, disconnects the generator field, and arms the fire-extinguishing system. ✅
+Closes fuel shutoff, closes hydraulic shutoff, closes the oxygen shutoff, disconnects the generator field, and arms the fire-extinguishing system.
+=
+How is the fire-extinguishing agent distributed in the engine section?
+Spray nozzles and fluid pumps.
+Nitrogen pressure and slinger rings.
+Spray nozzles and perforated tubing. ✅
+=
+After a fire is extinguished, or overheat condition removed in aircraft equipped with a Systron-Donner fire detector, the detection system
+must be manually reset.
+automatically resets. ✅
+sensing component must be replaced.
+=
+(Refer to Figure 2.) Determine the fire-extinguisher container pressure limits when the temperature is 75°F. (Click to view figure/s)
+326 minimum and 415 maximum.
+330 minimum and 419 maximum.
+338 minimum and 424 maximum. ✅
+=
+(Refer to Figure 3.) What are the fire-extinguisher container pressure limits when the temperature is 50°F? (Click to view figure/s)
+425 - 575 PSIG.
+435 - 605 PSIG.
+475 - 625 PSIG. ✅
+=
