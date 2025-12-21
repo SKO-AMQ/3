@@ -106,14 +106,22 @@ Thermal switch.
 Lindberg continuous element.
 =
 Which of the following fire detectors are commonly used in the power section of an engine nacelle?
+* اذا جاك are commonly used نحط Rate-of-temperature-rise
 CO detectors.
 Smoke detectors.
 Rate-of-temperature-rise detectors. ✅
 =
 A continuous-loop fire detector is what type of detector?
+* اذا جاك continuous-loop تحط Overheat detector 
 Spot detector.
 Overheat detector. ✅
 Rate-of-temperature-rise detector.
+=
+Which of the following is NOT used to detect fires in reciprocating engine nacelles?
+* اذا جاك is NOT used تحط Smoke detectors
+Smoke detectors. ✅
+Rate-of-temperature-rise detectors.
+Flame detectors.
 =
 Why does one type of Fenwal fire detection system use spot detectors wired in parallel between two separate circuits?
 To provide an installation that is equal to two separate systems: a primary system and a secondary, or back-up system.
@@ -152,11 +160,6 @@ After a fire is extinguished, or overheat condition removed in aircraft equipped
 must be manually reset.
 automatically resets. ✅
 sensing component must be replaced.
-=
-Which of the following is NOT used to detect fires in reciprocating engine nacelles?
-Smoke detectors. ✅
-Rate-of-temperature-rise detectors.
-Flame detectors.
 =
 A fire detection system operates on the principle of a buildup of gas pressure within a tube proportional to temperature. Which of the following systems does this statement define?
 Kidde continuous-loop system.
