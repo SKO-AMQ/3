@@ -1,56 +1,53 @@
 The most satisfactory extinguishing agent for an electrical fire is
-* اذا جتك فالاجابات حطها على طول carbon dioxide
+* اي اجابه ⭢ carbon dioxide
 carbon tetrachloride.
 carbon dioxide. ✅
 methyl bromide.
 =
 The most satisfactory extinguishing agent for a tailpipe or intake fire is
-* اذا جتك فالاجابات حطها على طول carbon dioxide
+* اي اجابه ⭢ carbon dioxide
 carbon dioxide. ✅
 dry chemical.
 methyl bromide.
 =
 A fuel or oil fire is defined as a
-* الفيول B
+* fuel ⭢ B
 class A fire.
 class B fire. ✅
 class C fire.
 =
 A fire involving energized electrical equipment is defined as a
-* الفير C
+* fire ⭢ C
 class A fire.
 class B fire. 
 class C fire. ✅
 =
 Two continuous-loop fire detection systems that will not test due to a broken detector element are the
-* السؤال الي تجي will not test او will detec
-* تكون اجاباته Kidde system and Fenwal system
+* will not test ⭢ Kidde system and Fenwal system
 Kidde system and the Lindberg system.
 Kidde system and the Fenwal system. ✅
 thermocouple system and the Lindberg system.
 =
 Which of the following fire detection systems will detect a fire when an element is inoperative but will not test when the test circuit is energized?
-* السؤال الي تجي will not test او will detec
-* تكون اجاباته Kidde system and Fenwal system
+*Kidde system and Fenwal system ⭢ will detec
 The Kidde system and the thermocouple system.
 The Kidde system and the Fenwal system. ✅
 The thermocouple system and the Lindberg system.
 =
 Which of the following fire detection systems uses heat in the normal testing of the system?
-* السؤال الي نهايته normal testing of the system
-* تكون اجابته thermocouple system
+*normal testing of the system ⭢ The thermocouple system
 The thermocouple system and the Lindberg system. ✅
 The Kidde system and the Fenwal system.
 The thermocouple system and the Fenwal system.
 =
 The fire detection system that uses two wires imbedded in a ceramic core within a tube is the
-* اذا two wires تكون Kidde system
+*two wires ⭢ Kidde system
 Fenwal system.
 Kidde system. ✅
 Lindberg system.
 =
 The fire detection system that uses a single wire surrounded by a continuous string of ceramic beads in a tube is the
-* اذا single wire تكون Fenwal
+*single wire ⭢ Fenwal
 Fenwal system. ✅
 Kidde system.
 thermocouple system.
@@ -106,19 +103,19 @@ Thermal switch.
 Lindberg continuous element.
 =
 Which of the following fire detectors are commonly used in the power section of an engine nacelle?
-* اذا جاك are commonly used نحط Rate-of-temperature-rise
+*are commonly used ⭢ Rate-of-temperature-rise
 CO detectors.
 Smoke detectors.
 Rate-of-temperature-rise detectors. ✅
 =
 A continuous-loop fire detector is what type of detector?
-* اذا جاك continuous-loop تحط Overheat detector 
+*continuous-loop ⭢ Overheat detector 
 Spot detector.
 Overheat detector. ✅
 Rate-of-temperature-rise detector.
 =
 Which of the following is NOT used to detect fires in reciprocating engine nacelles?
-* اذا جاك is NOT used تحط Smoke detectors
+*is NOT used ⭢ Smoke detectors
 Smoke detectors. ✅
 Rate-of-temperature-rise detectors.
 Flame detectors.
@@ -167,11 +164,13 @@ Lindberg continuous-element system. ✅
 Thermal switch system.
 =
 (Refer to Figure 2.) Determine the fire-extinguisher container pressure limits when the temperature is 75°F. (Click to view figure/s)
+* مهم
 326 minimum and 415 maximum.
 330 minimum and 419 maximum.
 338 minimum and 424 maximum. ✅
 =
 (Refer to Figure 3.) What are the fire-extinguisher container pressure limits when the temperature is 50°F? (Click to view figure/s)
+* مهم
 425 - 575 PSIG.
 435 - 605 PSIG.
 475 - 625 PSIG. ✅
