@@ -280,6 +280,8 @@
         "Gen B brightspace part 1": "Gen B brightspace part 1.txt",
         "Gen B brightspace part 2": "Gen B brightspace part 2.txt",
         "Gen B part 1": "Gen B part 1.txt",
+        "GEN F Ground Operation and Servicing": "GEN F Ground Operation and Servicing.txt",
+        "GEN O Fire Protection Systems": "GEN O Fire Protection Systems.txt",
 
         "Gen J Part 1": "Gen J Part 1.txt",
         "Gen E Part 1": "Gen E Part 1.txt",
@@ -290,9 +292,20 @@
         "AFI D Part 1": "AFI D Part 1.txt",
         "AFI E": "AFI E.txt",
         "AFI F Part 1": "AFI F Part 1.txt",
+        "AFI A Wood Structures": "AFI A Wood Structures.txt",
+        "AFI B  Aircraft Covering": "AFI B  Aircraft Covering.txt",
+
+
+
       },
       diploma: {
         "AFII B Hydraulic and Pneumatic Power": "AFII B Hydraulic and Pneumatic Power.txt",
+        "AFII A Aircraft Landing Gear Systems": "AFII A Aircraft Landing Gear Systems.txt",
+        "AFII D Aircraft Instrument Systems": "AFII D Aircraft Instrument Systems.txt",
+        "AFII H Position and Warning Systems": "AFII H Position and Warning Systems.txt",
+
+
+        "PPII M APU": "PPII M APU.txt",
         "PPII J": "PPII J.txt",
         "PPII I Cowl Flaps & Augmenters Part 1": "PPII I Cowl Flaps & Augmenters Part 1.txt",
         "PPII I Cowl Flaps & Augmenters Part 2": "PPII I Cowl Flaps & Augmenters Part 2.txt",
@@ -524,6 +537,7 @@
             else if (/^Gen N/i.test(currentSubject)) images.push("gennpng/" + imgName);
             else if (/^AFI E/i.test(currentSubject)) images.push("afiepng/" + imgName);
             else if (/^AFI D Part 1/i.test(currentSubject)) images.push("afidpng/" + imgName);
+            else if (/^GEN F Ground Operation and Servicing/i.test(currentSubject)) images.push("gennpn/" + imgName);
             else images.push(imgName);
             continue;
           }
