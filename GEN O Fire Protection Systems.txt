@@ -1,0 +1,56 @@
+=
+In what area of an aircraft would you find a carbon monoxide detector?
+Engine and/or nacelle.
+Surface combustion heater compartment.
+Cockpit and/or cabin.✅
+= 
+What method is used to detect the thermal discharge of a built in fire extinguishing system?
+a discolouring of the yellow plastic disk in the thermal discharge line.
+a rupture of the red plastic disk in the thermal discharge line. ✅
+the thermal plug missing from the side of the bottle.
+=
+What type of fire extinguishing agent is used in built in cargo compartment extinguishing systems?
+Halon 1301 or equivalent. ✅
+Carbon dioxide or equivalent.
+Dry Powder chemicals or equivalent.
+=
+Cargo compartments are classified by their accessibility for flight crew members to detect and extinguish the fire. The classification of a cargo compartment on an aircraft used only for cargo in which cockpit displays and controls provide the flight crew with the means to detect and extinguish a fire is:
+Class E.✅
+Class B.
+Class C.
+=
+When the engine fire switch is activated the engine shuts down due to:
+fire retardant agent displacing air (oxygen) flow.
+fuel flow being cut off.✅
+ignition being cut off.
+=
+When a fire has been extinguished, a Fenwall fire detection system:
+automatically returns to standby status.
+must be reset by an operator to continue service.
+must have the sensing element replaced before returning to service. ✅
+=
+Class B fire zones in Power plant compartments are:
+areas of no airflow such as wheel wells.
+areas of low airflow such as an accessory compartment. ✅
+area of heavy airflow past aerodynamically clean obstructions.
+=
+On a periodic check of fire extinguisher containers, the pressure was not between minimum and maximum limits. What procedure should be followed?
+Replace the extinguisher container. ✅
+Release pressure if above limits.
+Increase pressure if below limits.
+=
+A squib, as used in a fire protection system, is a:
+temperature sensing device.
+probe used for installing frangible disks in extinguisher bottles.
+device for causing the fire extinguishing agent to be released. ✅
+=
+In some fire extinguishing systems, evidence that the system has been intentionally discharged is indicated by the absence of a:
+red disk on the side of the fuselage.
+yellow disk on the side of the fuselage. ✅
+green disk on the side of the fuselage.
+=
+Which fire extinguishing agent is considered to be the least toxic?
+Bromochloromethsane (Halon 1011).
+Carbon dioxide.
+Bromofluoromethane (Halon 1301). ✅
+=

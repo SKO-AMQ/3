@@ -1,0 +1,4 @@
+The purpose of antiskiid generators is to
+monitor hydraulic pressure applied to brakes.
+indicate when a tire skid occurs.
+measure wheel rotational speed and any speed changes. ✅

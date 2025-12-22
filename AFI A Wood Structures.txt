@@ -1,0 +1,95 @@
+=
+How many of the below factors contribute to cure time of aircraft glues? 
+*1. clamping pressure. 
+*2. Temperature. 
+*3. Humidity. 
+*4. porosity of the wood.
+One of the factors above. ✅
+Two of the factors above.
+Three of the factors above.
+=
+When a bevel is being cut to repair a cap strip on a wing rib, the length of the beveled area on each piece should be:
+equal to the thickness of the rib cap stripages.
+16 times the thickness of the rib cap stripages. ✅
+10 times the thickness of the rib cap stripages.
+=
+Which type of plywood patch is appropriate for an overlay skin repair where no supporting structure exists under the patch?
+Splayed patch.
+Surface patch.
+Plug patch. ✅
+=
+Which statement about wood decay is correct?
+Decay is not acceptable in any form or amount.✅
+Decay that occurs before the wood is seasoned does not affect the strength of the finished piece.
+A limited amount of certain kinds of decay is acceptable in aircraft woods since decay affects the binding between the fibers and not the fibers themselves.
+=
+Pin knot clusters are permitted in wood aircraft structure provided:
+no pitch pockets are within 12 inches.
+they produce a small effect on grain direction. ✅
+they have no mineral streaks.
+=
+Holes bored for bolts which will hold fittings in place should be cut:
+to match the hole diameter of the fitting. ✅
+0.002" undersized, to ensure a tight fit through the wood.
+0.002" oversized, to allow for sealer between the fitting and the wood.
+=
+What is the purpose of a gusset or gusset plate used in the construction and repair of aircraft structures?
+To provide access for inspection of structural attachments.
+To hold structural members in position temporarily until the permanent attachment has been completed.
+To join and reinforce intersecting structural members (joints). ✅
+=
+Any wooden member that has been overstressed is subject to which type of failure?
+Bond failure
+Compression failure ✅
+Finish failure
+=
+Laminated wood is sometimes used in the construction of highly stressed aircraft components. This wood can be identified by its
+perpendicular grain construction
+circular grain reinforced diamond construction
+parallel grain construction question ✅
+=
+Where is information found concerning acceptable species substitutions for wood materials used in aircraft repair?
+Technical Standard Orders
+Aircraft Specifications or Type Certificate Data Sheets
+AC 43.13-1B ✅
+=
+In order to properly inspect wood structure of an aircraft, the wooden components must be:
+between 60-80 degrees F.
+at a moisture content as close as possible to its principle area of operation.
+dry. ✅
+=
+The slope of the grain of any of wood used for aircraft may not be greater than:
+1:15 ✅
+1:30
+the width to length ratio of that piece.
+=
+Glued joints are generally designed to take what type of load?
+Shear loads. ✅
+Tension loads.
+Both shear and tension loads.
+=
+Compression failures in wood aircraft structures are characterized by buckling of the fibers that appear as streaks on the surface
+parallel to the grain
+at right angles to the grain ✅
+at right angles to the growth rings
+=
+Pin knot clusters are permitted in wood aircraft structure provided
+they have no mineral streaks
+no pitch pockets are within 12 inches
+they produce a small effect on grain direction ✅
+=
+The I beam wooden spar is routed to
+reduce weight ✅
+increase strength
+obtain uniform strength
+=
+A faint line running across the grain of a wood spar generally indicates
+decay
+shear failure
+compression failure ✅
+=
+The strength of a well designed and properly prepared wood splice joint is provided by the
+bearing surface of the wood fibers
+reinforcement plates
+glue ✅
+=

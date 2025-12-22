@@ -1,0 +1,26 @@
+=
+How can it be determined that all air has been purged from a master cylinder brake system?
+By operating a hydraulic unit and watching the system pressure gauge for smooth, full-scale deflection.
+By noting whether the brake is firm or spongy. ✅
+By noting the amount of fluid return to the master cylinder upon brake release.
+=
+After performing maintenance on an aircraft's landing gear system which may have affected the system's operation, it is usually necessary to
+conduct a flight test.
+re-inspect the area after the first flight.
+make an operational check with the aircraft on jacks. ✅
+=
+When an empty shock strut is filled with fluid, care should be taken to extend and compress the strut completely at least two times to
+thoroughly lubricate the piston rod.
+force out any excess fluid.
+ensure proper packing ring seating and removal of air bubbles. ✅
+=
+A flexible hydraulic hose identified as MIL-H-8788 will have a stripe running the length of the hose. This stripe
+is used to ensure that the hose is installed without excessive twisting. ✅
+identifies that the hose is for high pressure fluids, with a 60 degree flexing range.
+identifies that the hose is constructed of Teflon and is suitable for a wide temperature range.
+=
+Why do tire and wheel manufacturers often recommend that the tires on split rim wheels be deflated before removing the wheel from the axle?
+To relieve the strain on the wheel retaining nut and axle threads.
+As a safety precaution in case the bolts that hold the wheel halves together have been damaged or weakened. ✅
+To remove the static load imposed upon the wheel bearings by the inflated tire.
+=

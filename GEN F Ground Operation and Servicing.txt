@@ -1,0 +1,117 @@
+=
+Identify the signal to engage the rotor on a rotorcraft.
+rotor.png
+1.
+2.
+3.✅
+=
+The priming of a fuel injected horizontally opposed engine is accomplished by placing the fuel control lever in the:
+IDLE-CUTOFF position.
+AUTO RICH position.
+FULL-RICH position. ✅
+=
+When taxing or towing an aircraft, a flashing white light from the control tower means:
+Move clear of the runway/taxiway immediately.
+OK to proceed but use extreme caution.
+Return to your starting point.✅
+=
+Which statement(s) is/are true regarding the tie down of small aircraft? 
+*1. Manila (hemp) rope has a tendency to stretch when it gets wet. 
+*2. Nylon or Dacron rope is preferred to manila rope. 
+*3. The aircraft should be headed downwind in order to minimize wing lift. 
+*4. Leave the nose wheel or tail wheel unlocked.
+1, 2, 3,and 4.
+1 and 2.
+2. ✅ 
+=
+When refilling an aircraft with nitrogen, the system you are typically servicing is:
+landing gear. ✅
+engine boost pumps.
+cabin climate control systems.
+=
+Which government agency regulates policy regarding workplace safety in aviation facilities?
+FAA.
+EPA.
+OSHA.✅
+=
+When towing a large aircraft:
+a person should be in the cockpit to watch for obstructions.
+persons should be stationed at the nose, each wingtip, and the empennage at all times.
+a person should be in the cockpit to operate the brakes. ✅
+=
+The following conditions are required for fire; eliminate any and the fire goes out:
+Heat, oxygen, fuel. ✅
+Heat, friction, carbon dioxide.
+Fuel, combustion, heat
+=
+Federal Specification "BB-0-925A Grade A" refers to the acceptable quality of:
+AVGAS for aircraft reciprocating engines.
+aviator's breathing oxygen. ✅
+hydraulic fluid for aircraft flight control systems.
+=
+During starting of a turbojet power plant using a compressed air starter, a hot start occurrence was recorded. Select what happened from the following:
+The pneumatic starting unit overheated.
+The power plant was preheated before starting.
+The fuel/air mixture was excessively rich. ✅
+=
+Which is the proper sequence for starting a turboprop engine?
+turn on boost pump, turn on starter, turn on ignition, turn fuel on, monitor EGT. ✅
+turn fuel on, turn on boost pump, turn ignition on, engage the starter, monitor EGT.
+engage the starter, turn on fuel, turn on boost pump, turn on ignition, monitor EGT.
+=
+What is a typical use for a ground support Air Cart?
+starting engines. ✅
+pressurizing tyres.
+performing cabin pressure tests.
+=
+The best way to prevent microbial growth in a turbine aircraft's fuel tanks is to insure:
+fuel is less than 30 days old.
+that the fuel remains dry. ✅
+filters are properly serviced in the aircraft fuelling equipment.
+=
+A Class B fire involves?
+Petroleum products or combustible liquids.✅
+Energised electrical wiring
+Material such as wood, paper, upholstery, etc.
+= 
+During starting of a turbine engine using a compressed air starter, a hung start occurred. Select the proper procedure:
+Advance power lever to increase RPM.
+Re-engage the starter.
+Shut the engine down. ✅
+=
+If a radial engine has been shut down for more than 30 minutes, the propeller should be rotated through at least two revolutions to:
+check for hydraulic lock. ✅
+check for leaks.
+prime the engine.
+=
+Which of the following is the most satisfactory extinguishing agent for use on a carburettor or intake fire?
+Dry chemical.
+A fine water mist.
+Carbon dioxide. ✅
+=
+When starting and ground operating an aircraft's engine, the aircraft should be positioned to head into the wind primarily:
+to aid in achieving and maintaining proper air flow into the engine induction system.
+to help cancel out engine torque effort
+for engine cooling purposes. ✅
+=
+Which marshalling signal, in below, should be given if a taxing aircraft is in imminent danger of striking an object?
+marshalling.png
+1.
+2.
+3.✅
+=
+When approaching the rear of an idling turbojet engine, the hazard area extends aft of the engine approximately:
+200 feet.
+100 feet.✅
+50 feet.
+=
+How is a flooded engine, equipped with a float-type carburettor cleared of excessive fuel?
+Crank the engine with the starter or by hand, with the mixture control in cut off, ignition switch off, and the throttle fully open until the fuel charge has been cleared.  ✅
+Turn off the fuel and ignition.Discontinue the starting attempt until the excess fuel has been cleared.
+Crank the engine with the starter or by hand, with the mixture control in cut off, ignition switch on, and the throttle fully open until the excess fuel has cleared or until the engine starts.
+=
+When tying down an aircraft outside, whenever possible it should be positioned with the:
+nose facing into the wind. ✅
+tail facing into the wind.
+anticipated upwind aileron into the wind and positioned downwards.
+=

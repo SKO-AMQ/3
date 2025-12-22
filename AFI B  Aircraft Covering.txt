@@ -1,0 +1,76 @@
+=
+Fabric testing using a mechanical punch tester should be done
+on a point of fabric on which all coating layers are intact.
+on a point of fabric where there is a crack or chip in the coatings. ✅
+on a point of fabric that was purposely left uncoated during the covering process to serve as a test point for this purpose.
+=
+Which type of fabric tape is used on protrusions such as a strut fitting to help prevent the base fabric from tearing?
+Reinforcing tape.✅
+Surface tape.
+Anti-chafe tape. 
+=
+A luminum-pigment in dope is used primarily to
+reflect ultraviolet from the fabric.
+aid in sealing out moisture from the fabric.
+provide a silver colour. ✅
+=
+Recovering an aircraft with worn fabric with a different type of fabric which has been approved for that aircraft by an STC is considered by FAA to be
+a major alteration. ✅
+a minor repair.
+a major repair.
+=
+When heat shrinking fabric on a wing, in order to get even tightness and a wrinkle free result, it is best to work
+from the root end of the wing outwards to the tips.
+from the center section first, then work outwards to the ends.
+from each end first, then work inwards to the center.✅
+=
+Finishing tape (surface tape) is used for what purpose?
+To help prevent "ripple formation" in covering fabric.
+To provide additional wear resistance over the edges of fabric forming structures. ✅
+To provide additional anti-rear resistance under reinforcement tape.
+=
+Prior to covering, wing ribs are anchored in place to prevent movement during the covering process by:
+braces placed at 8" intervals connecting one rib to the next.
+wrapping strips of fabric snugly from one rib to the next. ✅
+gussets placed at all points of attachment.
+=
+When a seam is required in an area of critical airflow such as a leading edge, the minimum amount of fabric overlap is:
+2-4 inches.✅
+4-6 inches.
+1-2 times twice the diameter of the leading edge structure to which it is wrapped.
+=
+When heat shrinking fabric on a wing, in order to get even tightness and a wrinkle free result, it is best to work:
+from the root end of the wing outwards to the tips.
+from the center section first, then work outwards to the ends.
+from each end first, then work inwards to the center. ✅
+=
+Fabric rejuvenator is used to:
+restore fabric strength and tautness to at least the minimum acceptable level.
+restore the condition of dope coatings. ✅
+penetrate the fabric and restore fungicidal resistance.
+=
+What is the purpose of a Selvedge edge woven into the edges of fabric or finishing tape?
+Prevents the woven fabric from unraveling. ✅
+Creates a smooth edge negating the need for additional finishing tape.
+Allows fabric to lay down smoothly around contoured shapes.
+=
+The determining factor(s) for the selection of the correct weight of textile fabric to be used in covering any type of aircraft is the:
+speed of the aircraft.
+maximum wing loading.
+speed of the aircraft and the maximum wing loading. ✅
+=
+Which type of fabric tape is used on protrusions such as a strut fitting to help prevent the base fabric from tearing?
+Reinforcing tape.
+Anti-chafe tape.✅
+Surface tape.
+=
+Because of the propeller slipstream, rib lace spacing is closer than outside the slipstream areThe size of the slipstream area is considered to be:
+the propeller width plus one additional rib. ✅
+twice the propeller width.
+the propeller width added to the distance from the propeller to the leading edge.
+=
+Fungus and mildew have no effect on:
+cotton fabric.
+linen fabric.
+polyester fabric.✅
+=

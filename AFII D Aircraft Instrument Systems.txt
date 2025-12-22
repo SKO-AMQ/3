@@ -1,0 +1,155 @@
+A Bourbon tube instrument maybe used to indicate: 
+*1. pressure. 
+*2. temperature. 
+*3. position.
+1.
+2 and 3.
+1 and 2. ✅ 
+=
+Which of the following conditions is most likely to cause the landing gear warning signal to sound?
+Landing gear locked down and throttles retarded.
+Landing gear not locked down and throttles retarded. ✅ 
+Landing gear locked down and throttle advanced.
+=
+Aircraft instruments should be marked and graduated in accordance with:
+both the aircraft and engine manufacturers' specifications.
+the instrument manufacturer's specifications.
+the specific aircraft maintenance or flight manual. ✅ 
+=
+Which of the following describes the principle upon which a ring laser gyro operates?
+A laser beam will speed up when traveling a longer distance.  
+The wavelength of a laser beam will compress or expand when traveling in a plane of rotation. ✅
+The frequency of a laser beam remains constant once generated.
+=
+Why are most static vents located on the side of the fuselage?
+To prevent hysteresis. 
+To prevent icing.
+To reduce position error.  ✅
+=
+Magnetic compass bowls are filled with a liquid to:
+dampen the oscillation of the float. ✅ 
+reduce deviation errors.
+retard precession of the float.
+=
+Data transmitted between components in an EFIS are converted into:
+digital signals. ✅ 
+analogue signals.
+carrier wave signals.
+=
+A direction indicating instrument that combines the use of a gyro and a magnetic compass is called:
+a ring gyro heading indicator.
+a flux gate compass. ✅ 
+a directional gyro.
+=
+Stall warning systems are generally designed to begin warning the pilot when a stall:
+is starting to occur.
+first affects the outboard portions of the wings.
+is imminent. ✅ 
+=
+Pressure switches:
+are used to drive a vacuum gauge.
+are electro-mechanical devices. ✅ 
+are rarely used on aircraft.
+=
+(1) Aircraft instruments are color-coded to direct attention to operational ranges and limitations. 
+*(2) Aircraft instruments range markings are not specified by Title 14 of the code of Federal Regulations but are standardized by aircraft manufacturers.
+only No. 1 is true. ✅ 
+both No.1 and No. 2 are true.
+only No. 2 is true.
+=
+How many of the following are controlled by gyroscopes? 
+*1. Attitude indicator. 
+*2. Heading indicator. 
+*3. Turn needle of the turn and slip indicator.
+Three. ✅
+One.
+Two.  
+=
+What is the fixed line mark attached to the compass bowl of a magnetic compass called?
+Reference line.
+Lubber line. ✅ 
+Reeder line.
+=
+What is BITE?
+Built-in test equipment. ✅ 
+Built-in test for engines.
+Built-in test envelope.
+=
+Who is authorized to repair an aircraft instrument? 
+*1. A certified mechanic with an airframe rating. 
+*2. A certified repairman with an airframe rating. 
+*3. A certified repair station approved for that class instrument. 
+*4. A certificated airframe repair station.
+3 and 4.
+3. ✅ 
+1, 2, 3 and 4.
+=
+Instrument panel shock mounts absorb:
+low frequency, high-amplitude shocks. ✅ 
+high G shock loads imposed by turbulent air.
+high energy impact shocks caused by hard landings.
+=
+How many of the following instruments will normally have range markings? 
+*1. Airspeed indicator. 
+*2. Altimeter. 
+*3. Cylinder head temperature gauge.
+Two. ✅
+One.  
+Three.
+=
+The method of mounting aircraft instruments in their respective panel depends on the:
+instrument manufacturer.
+design of the instrument panel.
+design of the instrument case. ✅ 
+=
+(1) An airspeed indicator measures the differential between pitot and static air pressures surrounding the aircraft at any moment of flight. 
+*(2) An airspeed indicator measures the differential between pitot and cabin air pressures at any moment of flight.
+both No.1 and No.2 are true
+only No. 2 is true.
+only No.1 is true. ✅ 
+=
+Solid-state pressure sensing units:
+change impedance when under pressure.
+are direct indicating instruments.
+create electricity or vary resistance when under pressure. ✅ 
+=
+How is a flangeless instrument case mounted in an instrument panel?
+By four machine screws which extend through the instrument panel.
+By an expanding type clamp secured to the back of the panel and tightened by a screw from the front of the instrument panel. ✅ 
+By a metal shelf separate from and located behind the instrument panel.
+=
+The maximum deviation (during level flight) permitted in a compensated magnetic direction indicator should normally be:
+10 degrees. ✅
+6 degrees.
+8 degrees.  
+=
+Which simple device is required on the flight deck of all IFR-certified aircraft?
+A flashlight.
+An AM radio.
+A clock. ✅
+=
+The primary purpose of a take-off warning system is to alert the crew that a monitored flight control is not properly set prior to take-off. The system is activated by:
+a thrust lever. ✅
+an 80 knot airspeed sensor.
+an ignition system switch not set for take-off.
+=
+A gyro spinning at high speed has a unique property called rigidity in space. This means:
+it will to spin indefinitely if all friction is removed.
+it cannot be moved if a force less than its mass acts upon it.
+the rotor of a free gyro will always point in the same direction regardless of the positioning of the base. ✅
+=
+Which procedure should you use if you find a vacuum operated instrument glass loose?
+Mark the case and glass with a slippage mark.
+Replace the glass.
+Install another instrument. ✅
+=
+When installing an instrument in an aircraft, who is responsible for making sure it is properly marked?
+The aircraft owner.
+The instrument installer. ✅
+The instrument manufacturer.
+=
+When swinging a magnetic compass, the compensators are adjusted to correct for
+magnetic influence deviation.✅
+compass card oscillations.
+magnetic variations.
+=
