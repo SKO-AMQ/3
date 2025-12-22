@@ -1,0 +1,161 @@
+=
+What is the main difference between an APU and a main aircraft engine ?
+The engine helps to start up the APU and then uses it to generate pneumatic and electricity power
+The APU helps to start the Aircraft engines
+The APU is designed for the start to be initiated and then it will run automatically ✅
+=
+What is the primary purpose of an APU 
+To generate the needed power for the instruments
+To allow the aircraft to be self-sufficient on the ground ✅
+To help the aircraft during emergencies
+=
+Many engine APU's hoist :
+Fasteners
+Bearings
+Fittings ✅
+=
+How may a person on the ground become aware of an APU fire warning ? 
+By the light and Sound ✅
+By the cockpit instruments
+By the smell
+=
+What is the purpose of a shroud around the APU fuel supply line ?
+To provide stability to the line
+To eliminate  vibrations
+The fuel supply line is shrouded if it passes through a pressurized area in case the line leaks ✅
+=
+Which of the following is a possible cause of APU auto shutdown ?
+Overspeed- Actual event or overspeed test ✅
+overheat-APU overheats after a period of time passes
+excessive vibration
+=
+When necessary, APU engine cooling before shutdown may be accomplished by
+unloading the generator (s)
+closing the bleed air valve ✅
+opening the bleed air valve
+=
+On APU's equipped with a free turbine and load compressor, the primary function of the load compressor is to
+provide bleed air for the aircraft pneumatic systems ✅
+provide air for combustion and cooling in the engine gas patch
+supply the turning force for operation of the APU generator(s)
+=
+Generally, when maximum APU shaft output power is being used in conjunction with pneumatic power
+electrical loading will be automatically modulated to maintain a safe EGT
+pneumatic loading will be automatically modulated to maintain a safe EGT ✅
+temperature limits and load must be carefully  monitored by the operator to maintain a safe EGT
+=
+Fuel is normally supplied to an APU from 
+the airplane's reserve fuel supply
+the airplane's main fuel supply ✅
+its own independent fuel supply
+=
+When in operation, the speed of an APU
+is controlled by a cockpit power lever
+remains at idle and automatically accelerates to rated speed when placed under load
+remains at or near rated speed regardless of the load condition ✅
+=
+frequently, an aircraft's auxiliary power unit (APU) generator 
+is identical to the engine-driven generators ✅
+supplements the aircraft's engine-driven generators during peak loads
+has a higher load capacity than the engine-driven generators
+=
+Usually, most of the load placed on an APU occurs when
+the bleed air valve is opened ✅
+the bleed air is closed
+an electrical load is placed on the generator(s)
+=
+The function of an APU air inlet plenum is to
+stabilize the pressure of the air before it enters the compressor ✅
+increase the velocity of the air before entering the compressor
+decrease the pressure of the air before entering the compressor
+=
+An APU is usually rotated during start by
+a turbine impingement system
+an electric starter ✅
+a pneumatic starter
+=
+Fuel scheduling during APU start and under varying pneumatic bleed and electrical loads is maintained
+automatically by the APU fuel control system ✅
+automatically by an aircraft main engine fuel control unit
+manually through power control lever position
+=
+When in operation, the speed of an APU
+is controlled by a cockpit power lever.
+remains at idle and automatically accelerates to rated speed when placed under load.
+remains at or near rated speed regardless of the load condition. ✅
+=
+Usually, most of the load placed on an APU occurs when
+an electrical load is placed on the generators).
+﻿﻿the bleed air valve is opened. ✅
+﻿﻿the bleed air valve is closed.
+=
+An APU is usually rotated during start by
+a turbine impingement system.
+a pneumatic starter.
+an electric starter.
+=
+Generally, when maximum APU shaft output power is being used in conjunction with pneumatic power pneumatic loading will be
+automatically modulated to maintain a safe EGT. ✅
+electrical loading will be automatically modulated to maintain a safe EGT.
+temperature limits and loads must be carefully monitored by the operator to maintain a safe EGT.
+=
+On APU's equipped with a free turbine and load compressor, the primary function of the load compressor is to
+provide air for combustion and cooling in the engine gas path.
+provide bleed air for aircraft pneumatic systems. ✅
+supply the turning force for operation of the APU generator(s).
+=
+Frequently, an aircraft's auxiliary power unit (APU) generator
+is identical to the engine-driven generators. ✅
+supplements the aircrafts engine-driven generators duringpeak loads.
+has a higher load capacity than the engine-driven generators.
+=
+When necessary, APU engine cooling before shutdown may be accomplished by
+﻿﻿unloading the generator(s).
+﻿﻿closing the bleed air valve. ✅
+opening the bleed air valve.
+=
+Fuel scheduling during APU start and under varying pneumatic bleed and electrical loads is maintained
+manually through power control lever position.
+automatically by the APU fuel control system. ✅
+automatically by an aircraft main engine fuel control unit.
+=
+The function of an APU air inlet plenum is to
+﻿﻿increase the velocity of the air before entering the compressor.
+﻿﻿decrease the pressure of the air before entering the compressor.
+stabilize the pressure of the air before it enters the compressor. ✅
+=
+Fuel is normally supplied to an APU from
+its own independent fuel supply.
+the airplane's reserve fuel supply.
+the airplane's main fuel supply. ✅
+=
+What is the primary purpose of an APU?
+To allow the aircraft to be start engine on the ground.
+To allow the aircraft to be self-sufficient on the ground. ✅
+To allow the aircraft to be move engine on the ground.
+=
+Many APU engine hoists:
+Fitting ✅
+Coupling
+Attaching
+=
+What is the main difference between an APU and a main aircraft engine?
+The APU is designed for the start to be automatic and then it will run under FADEC control only.
+The APU is designed for the start to be manual and then it will run with constant pilot input.
+The APU is designed for the start to be initiated and then it will run automatically. ✅
+=
+Which of the following is a possible cause of APU autoshutdown?
+Underspeed - actual event or low speed test.
+Overspeed - actual event or overspeed test. ✅
+Overheat - actual event or high temperature test.
+=
+What is the purpose of a shroud around an APU fuel supply line?
+The fuel supply line is shrouded if it passes through a pressurised area, in case the line leaks. ✅
+The fuel supply line is shrouded if it passes through an unpressurised area, in case the line leaks.
+The fuel supply line is shrouded if it passes through a high heat area, in case the line melt.
+=
+How may a person on the ground become aware of an APU fire warning?
+Bell & horn
+Light & Sound ✅
+Light & smoke
+=
