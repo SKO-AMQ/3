@@ -3,7 +3,7 @@ In what area of an aircraft would you find a carbon monoxide detector?
 Engine and/or nacelle.
 Surface combustion heater compartment.
 Cockpit and/or cabin.✅
-= 
+=
 What method is used to detect the thermal discharge of a built in fire extinguishing system?
 a discolouring of the yellow plastic disk in the thermal discharge line.
 a rupture of the red plastic disk in the thermal discharge line. ✅
