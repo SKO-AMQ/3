@@ -29,7 +29,7 @@ Kidde system and the Fenwal system. ✅
 thermocouple system and the Lindberg system.
 =
 Which of the following fire detection systems will detect a fire when an element is inoperative but will not test when the test circuit is energized?
-*Kidde system and Fenwal system ⭢ will detec
+*will detec ⭢ Kidde system and Fenwal system 
 The Kidde system and the thermocouple system.
 The Kidde system and the Fenwal system. ✅
 The thermocouple system and the Lindberg system.
