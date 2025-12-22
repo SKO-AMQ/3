@@ -175,3 +175,8 @@ Thermal switch system.
 435 - 605 PSIG.
 475 - 625 PSIG. ✅
 =
+What are the thermal switches sensitive units, that complete electrical circuits a certain temperature? 
+Heat sensitive unit. ✅
+Pressure/heat sensitive unit 
+Pressure sensitive unit.
+=
