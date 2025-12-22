@@ -73,7 +73,7 @@ A Class B fire involves?
 Petroleum products or combustible liquids.✅
 Energised electrical wiring
 Material such as wood, paper, upholstery, etc.
-= 
+=
 During starting of a turbine engine using a compressed air starter, a hung start occurred. Select the proper procedure:
 Advance power lever to increase RPM.
 Re-engage the starter.
