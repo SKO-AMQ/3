@@ -40,6 +40,11 @@ The thermocouple system and the Lindberg system. ✅
 The Kidde system and the Fenwal system.
 The thermocouple system and the Fenwal system.
 =
+A fire detection system operates on the principle of a buildup of gas pressure within a tube proportional to temperature. Which of the following systems does this statement define?
+Kidde continuous-loop system.
+Lindberg continuous-element system. ✅
+Thermal switch system.
+=
 The fire detection system that uses two wires imbedded in a ceramic core within a tube is the
 *two wires ⭢ Kidde system
 Fenwal system.
@@ -157,11 +162,6 @@ After a fire is extinguished, or overheat condition removed in aircraft equipped
 must be manually reset.
 automatically resets. ✅
 sensing component must be replaced.
-=
-A fire detection system operates on the principle of a buildup of gas pressure within a tube proportional to temperature. Which of the following systems does this statement define?
-Kidde continuous-loop system.
-Lindberg continuous-element system. ✅
-Thermal switch system.
 =
 (Refer to Figure 2.) Determine the fire-extinguisher container pressure limits when the temperature is 75°F. (Click to view figure/s)
 * مهم
