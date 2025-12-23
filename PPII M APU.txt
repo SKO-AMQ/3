@@ -129,20 +129,10 @@ its own independent fuel supply.
 the airplane's reserve fuel supply.
 the airplane's main fuel supply. ✅
 =
-What is the primary purpose of an APU?
-To allow the aircraft to be start engine on the ground.
-To allow the aircraft to be self-sufficient on the ground. ✅
-To allow the aircraft to be move engine on the ground.
-=
 Many APU engine hoists:
 Fitting ✅
 Coupling
 Attaching
-=
-What is the main difference between an APU and a main aircraft engine?
-The APU is designed for the start to be automatic and then it will run under FADEC control only.
-The APU is designed for the start to be manual and then it will run with constant pilot input.
-The APU is designed for the start to be initiated and then it will run automatically. ✅
 =
 Which of the following is a possible cause of APU autoshutdown?
 Underspeed - actual event or low speed test.
