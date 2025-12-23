@@ -83,3 +83,28 @@ Compass, Turn Coordinator, VSI
 Airspeed Indicator, Attitude Indicator, Altimeter ✅
 Radar Altimeter, VSI, Compass
 =
+What is a second name for an integrated circuit?
+A microprocessor
+A microchip ✅
+A micro-transistor
+=
+Why is an integrated circuit used in modern computers?
+To keep it miniaturized and use more electronics ✅
+To increase the size for better cooling
+To use fewer electronic components
+=
+What can be displayed on the auxiliary EICAS?
+Display only flight control surface positions
+Display weather radar and cabin pressure only
+Display primary, secondary engine data and maintenance time ✅
+=
+What does an integrated circuit contain?
+Motors, coils and switches
+Transistors, Resistors and Capacitors ✅
+Valves, pistons and hydraulic lines
+=
+What will illuminate if an SGU failure is detected?
+A fault light will illuminate ✅
+A green system ready light will illuminate
+A cabin seatbelt sign will illuminate
+=
