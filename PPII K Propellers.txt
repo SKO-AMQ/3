@@ -1,0 +1,92 @@
+=
+Which of the following best describes the blade movement of a feathering propeller that is in the HIGH RPM position when the feathering action is begun?
+*movement of a feathering propeller⭢Low pitch high pitch
+High pitch through low pitch to feather position.
+Low pitch through reverse pitch to feather position.
+Low pitch through high pitch to feather position. ✅
+=
+Which of the following best describes the blade movement of a propeller that is in the high RPM position when reversing action is begun?
+*movement of a propeller⭢Low pitch directly
+Low pitch directly to reverse pitch. ✅
+Low pitch through high pitch to reverse pitch.
+Low pitch through feather position to reverse pitch.
+=
+Which of the following best describes the blade movement of a full-feathering, constant-speed propeller that is in the LOW RPM position when the feathering action is begun?
+*movement of a full-feathering⭢High pitch directly
+High pitch through low pitch to feather position.
+High pitch directly to feather position. ✅
+Low pitch through high pitch to feather position.
+=
+What are the rotational speed and blade pitch angle requirements of a constant-speed propeller during takeoff?
+*rotational speed⭢High-speed low-pitch
+Low-speed and high-pitch angle.
+High-speed and low-pitch angle. ✅
+High-speed and high-pitch angle.
+=
+For takeoff, a constant-speed propeller is normally set in the
+*For takeoff⭢LOW PITCH,high RPM
+HIGH PITCH, high RPM position.
+HIGH PITCH, low RPM position.
+LOW PITCH, high RPM position. ✅
+=
+On aircraft equipped with hydraulically operated constant-speed propellers, all ignition and magneto checking is done with the propeller in which position?
+* مافي الا هي 
+High RPM.✅
+Low RPM.
+High pitch range
+=
+In what position is the constant-speed propeller control placed to check the magnetos?
+Full decrease, low propeller blade pitch angle.
+Full increase, high propeller blade pitch angle.
+Full increase, low propeller blade pitch angle. ✅
+=
+hat operational force tends to increase propeller blade angle?
+*blade angle⭢Aerodynamic
+Centrifugal twisting force.
+Aerodynamic twisting force. ✅
+Thrust bending force.
+=
+What operational force tends to bend the propeller blades forward at the tip?
+*forward at the tip⭢Thrust-bending
+Torque-bending force.
+Centrifugal-twisting force.
+Thrust-bending force. ✅
+=
+What operational force causes propeller blade tips to lag in the opposite direction of rotation?
+*direction of rotation⭢Torque-bending
+Thrust-bending force.
+Aerodynamic-twisting force.
+Torque-bending force. ✅
+=
+What operational force causes the greatest stress on a propeller?
+*stress on a propeller⭢Centrifugal
+Aerodynamic twisting force.
+Centrifugal force. ✅
+Thrust bending force.
+=
+A powerplant using a hydraulically controlled constant-speed propeller is operating within the propeller's constant-speed range at a fixed throttle setting. If the tension of the propeller governor control spring (speeder spring) is reduced by movement of the cockpit propeller control, the propeller blade angle will
+*increase⭢increase⭢decrease
+increase, engine manifold pressure will increase, and engine RPM will decrease. ✅
+decrease, engine manifold pressure will increase, and engine RPM will decrease.
+decrease, engine manifold pressure will decrease, and engine RPM will increase.
+=
+What will happen to the propeller blade angle and the engine RPM if the tension on the propeller governor control spring (speeder spring) is increased?
+*decrease⭢increase
+Blade angle will decrease and RPM will decrease.
+Blade angle will increase and RPM will decrease.
+Blade angle will decrease and RPM will increase.✅
+=
+*(1) A mechanic certificate with a powerplant rating authorizes the holder to repair deep scars, nicks, and dents on aluminum propeller blades.
+*(2) A mechanic certificate with a powerplant rating authorizes the holder to perform minor straightening of steel propeller blades.
+*Regarding the above statements,
+only No. 1 is true.
+both No. 1 and No. 2 are true.
+neither No. 1 nor No. 2 is true ✅
+=
+*(1) During takeoff, propeller thrust (pull) is greatest if the blade angle of attack is low and the engine power setting is high.
+*(2) With the aircraft stationary, propeller thrust is greatest if the blade angle of attack is high and the engine power setting is high.
+*Regarding the above statements,
+only No. 1 is true. ✅
+only No. 2 is true.
+both No. 1 and No. 2 are true.
+=
