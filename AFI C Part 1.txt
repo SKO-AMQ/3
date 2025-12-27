@@ -1,177 +1,148 @@
-
-
-If registration numbers are to be applied to an aircraft with a letter height of 12 inches, what is the minimum space required for the registration mark N16830? Note: • 2/3 x height = character width. • 1/6 x height = width for number 1. • 1/4 × 2/3 height = spacing. • 1/6 x height = stroke or line width.
-  A. 52 inches. ✅
-B. 48 inches.
-C. 57 inches.
-
 =
-
+If registration numbers are to be applied to an aircraft with a letter height of 12 inches, what is the minimum space required for the registration mark N16830? Note: 2/3 x height = character width. 1/6 x height = width for number 1. 1/4 × 2/3 height = spacing. 1/6 x height = stroke or line width.
+52 inches. ✅
+48 inches.
+57 inches.
+=
 What is the common cause of an unwanted Orange Peel finish on a painted surface?
-  A. Contaminates in the paint or air lines.
-B. Paint material is too thick (not enough reducer in the mixture). ✅
-C. Paint material is too thin (too much reducer in the mixture).
-
+Contaminates in the paint or air lines.
+Paint material is too thick (not enough reducer in the mixture). ✅
+Paint material is too thin (too much reducer in the mixture).
 =
-
 Which defect in aircraft finishes may be caused by humidity above 80% or incorrect temperature?
-  • A. Orange peel.
-• B. Pinholes.
-• C. Blushing.✅
+Orange peel.
+Pinholes.
+Blushing.✅
 =
-
 What is the most important aspect of ensuring a successful painting operation?
-  A. Temperature and viscosity are at the manufacturer's requirement.
-B. The skill of the painter when handling the spray gun.
-C. The preparation of the surface to be painted ✅
+Temperature and viscosity are at the manufacturer's requirement.
+The skill of the painter when handling the spray gun.
+The preparation of the surface to be painted ✅
 =
-
 For use with HVLP spray guns, the critical operating characteristic of the compressed air source is:
-  A. constant high pressure.
-B. air volume. ✅
-C. moisture elimination.
-
+constant high pressure.
+air volume. ✅
+moisture elimination.
 =
 What is not an advantage of airless spraying equipment compared to an air atomized system?
-  A. Reduction in overspray.
-B. Quality of the finish. ✅
-C. Increased transfer efficiency.
+Reduction in overspray.
+Quality of the finish. ✅
+Increased transfer efficiency.
 =
 What is the usual cause of runs and sags in aircraft finishes?
-  • A. Low atmospheric humidity.
-• B. Too much material applied in one coat. ✅
-• C. Material is being applied too fast
-
+Low atmospheric humidity.
+Too much material applied in one coat. ✅
+Material is being applied too fast
 =
-When planning a paint touch✅up project following a repair, how can it be determined if the existing topcoat is acrylic or epoxy based?
-  A. Apply a coating of engine oil; the acrylic finish will soften.
-B. Wipe with a wet rag of MEK; the MEK picks up the acrylic pigment from the finish. ✅
-C. Remove a small chip of the topcoat and immerse in isopropyl alcohol; within 3-5 minutes an acrylic chip will dissolve.
-
+When planning a paint touch-up project following a repair, how can it be determined if the existing topcoat is acrylic or epoxy based?
+Apply a coating of engine oil; the acrylic finish will soften.
+Wipe with a wet rag of MEK; the MEK picks up the acrylic pigment from the finish. ✅
+Remove a small chip of the topcoat and immerse in isopropyl alcohol; within 3-5 minutes an acrylic chip will dissolve.
 =
 Which properly applied coating is the most abrasion and chemial re sistant?
-  • A. Synthetic enamel.
-• B. Polyurethane. ✅
-• C. Acrylic lacquer
+Synthetic enamel.
+Polyurethane. ✅
+Acrylic lacquer
 =
-
 At what point should the masking paper be removed with all the trim painting completed?
-  A. Immediately following the spraying of the new color.
-B. As soon as the last trimmed area is dry to the touch. ✅
-C. When the new color paint is fully cured.
-
+Immediately following the spraying of the new color.
+As soon as the last trimmed area is dry to the touch. ✅
+When the new color paint is fully cured.
 =
 Which is not a benefit of epoxy primers?
-  A. Chipping resistance.
-B. Sandable. ✅
-C. Is less hazardous than other primer types.
-
+Chipping resistance.
+Sandable. ✅
+Is less hazardous than other primer types.
 =
 Which chemical paint stripper type is considered environmentally friendly?
-  • A. Methylene chloride systems.
-• B. EFS-2500 systems.✅
-• C. Benzyl alcohol systems.
+Methylene chloride systems.
+EFS-2500 systems.✅
+Benzyl alcohol systems.
 =
-
 What is used to slow the drying time of some finishes and to prevent blush?
-  A. Reducer.
-B. Retarder. ✅
-C. Rejuvenator.
-
+Reducer.
+Retarder. ✅
+Rejuvenator.
 =
 Which of the following solvents can be mixed to reduce the flammability of other substances?
-  A. Naptha.
-B. Methylene Chloride. ✅
-C. Acetone.
+Naptha.
+Methylene Chloride. ✅
+Acetone.
 =
-
 When measuring the viscosity of a primer or topcoat, it is important that the temperature of the material be:
-  A. equal to the room air temperature.
-B. equal to the surface temperature of what is being sprayed.
-C. approximately 73.5 degrees F (23 degrees C). ✅
+equal to the room air temperature.
+equal to the surface temperature of what is being sprayed.
+approximately 73.5 degrees F (23 degrees C). ✅
 =
-
 Which type of coating includes phosphoric acid as one of its components at the time of application?
-  • A. Wash primer ✅
-• B. Epoxy primer.
-• C. Zinc chromate primer.
-
+Wash primer ✅
+Epoxy primer.
+Zinc chromate primer.
 =
 What is the danger when using Linseed oil?
-  A. Linseed oil fumes are toxic.
-B. Spontaneous combustion. ✅
-C. Spillage on the exterior of the tube can dissolve some primers.
+Linseed oil fumes are toxic.
+Spontaneous combustion. ✅
+Spillage on the exterior of the tube can dissolve some primers.
 =
-
 Which statement is true regarding paint system compatibility?
-  A. Acrylic nitrocellulose lacquers may be used over old nitrocellulose finishes.
-B. Old type zinc chromate primer may not be used directly for touchup of bare metal surfaces.
-C. Old wash primer coats may be over coated directly with epoxy finishes. ✅
-
+Acrylic nitrocellulose lacquers may be used over old nitrocellulose finishes.
+Old type zinc chromate primer may not be used directly for touchup of bare metal surfaces.
+Old wash primer coats may be over coated directly with epoxy finishes. ✅
 =
 If a fisheye appearance occurs after painting, the typical cause is:
-  A. improper cleaning of the surface. ✅
-B. trapped solvents in the paint mixture.
-C. dirt or debris in the paint mixture or air lines
+improper cleaning of the surface. ✅
+trapped solvents in the paint mixture.
+dirt or debris in the paint mixture or air lines
 =
-
 What is the purpose of adding the Butyl alcohol to a wash coat primer?
-  A. Retards the evaporation rate. ✅
-B. Enhances the adhesion qualities of the primer.
-C. Quickens the drying time.
+Retards the evaporation rate. ✅
+Enhances the adhesion qualities of the primer.
+Quickens the drying time.
 =
-
 When spraying topcoat or primer, how far is the spray head held from the painted surface?
-  A. 8-10 inches. ✅
-B. 12-16 inches.
-C. Determined by product data sheet based on temperature and viscosity.
-
+8-10 inches. ✅
+12-16 inches.
+Determined by product data sheet based on temperature and viscosity.
 =
 Why are HVLP spray guns considered excellent for painting large aircraft? 
 *الاجابة جت بصيغه قريبه من ذي حاول تفهم
-  a) not require high air pressure ✅
-b) They do not require a designated spray booth
-c) They do not consume any paint materials
+not require high air pressure ✅
+They do not require a designated spray booth
+They do not consume any paint materials
 =
-
-  Polyurethane paint is used for what purpose?  
+Polyurethane paint is used for what purpose?  
 *السؤال جا بصيغة ثانيه بس  Polyurethane يستخدم لانه يقاوم الاشعه فوق البنفسجية UV
-  a) Reduces aircraft weight
-b) Provides natural resistance to the damaging effects of UV rays ✅
-c) Adds extra shine only to the outer layer
-
+Reduces aircraft weight
+Provides natural resistance to the damaging effects of UV rays ✅
+Adds extra shine only to the outer layer
 =
 When an aircraft surface is exposed to excessive heat and air, what happens to the paint?
 *جا بصغية قريبه من ذي بس الاجابه نفسها صعب ان البويه تنشال
-  a) Paint becomes tough to sand or refinish
-b) Paint appearance becomes uneven and dull
-c) Paint becomes hard and difficult to remove ✅
-
+Paint becomes tough to sand or refinish
+Paint appearance becomes uneven and dull
+Paint becomes hard and difficult to remove ✅
 =
 If you have an unpainted aluminum surface, what is the first thing you must do before painting?
 *برضو بصغيه قريبه بس الفكره وحده
-  a) It must be primed immediately
-b) It must be cleaned before painting ✅
-c) It must be sanded before applying paint
+It must be primed immediately
+It must be cleaned before painting ✅
+It must be sanded before applying paint
 =
-
 If you have an unpainted aluminum surface, what must NOT be done before painting?
 *جا بصيغه ثانيه بس الفكره الاساسيه ان  unpainted aluminum لازم ماتكون عليه اي اثار يد او اي شي 
-  a) Do not leave it with fingerprints or hand marks ✅
-b) Do not wipe it with clean solvent
-c) Do not dry it before priming
+Do not leave it with fingerprints or hand marks ✅
+Do not wipe it with clean solvent
+Do not dry it before priming
 =
-
- What is the first step before applying primer on a metal surface?
+What is the first step before applying primer on a metal surface?
 *جا بصيغة ثانيه بس نفس الفكره
-  a) Masking the edges
-b) Surface preparation (cleaning, etching, drying) ✅
-c) Applying thinner
+Masking the edges
+Surface preparation (cleaning, etching, drying) ✅
+Applying thinner
 =
-
- What measures the viscosity of paint?
+What measures the viscosity of paint?
 *بصيغه ثانيه
-  a) Paint filter
-b) Zahn cup ✅
-c) Pressure gauge
+Paint filter
+Zahn cup ✅
+Pressure gauge
 =
