@@ -89,16 +89,6 @@ Fitting ✅
 Coupling
 Attaching
 =
-Which of the following is a possible cause of APU autoshutdown?
-Underspeed - actual event or low speed test.
-Overspeed - actual event or overspeed test. ✅
-Overheat - actual event or high temperature test.
-=
-What is the purpose of a shroud around an APU fuel supply line?
-The fuel supply line is shrouded if it passes through a pressurised area, in case the line leaks. ✅
-The fuel supply line is shrouded if it passes through an unpressurised area, in case the line leaks.
-The fuel supply line is shrouded if it passes through a high heat area, in case the line melt.
-=
 How may a person on the ground become aware of an APU fire warning?
 Bell & horn
 Light & Sound ✅
