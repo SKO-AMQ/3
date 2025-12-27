@@ -325,6 +325,14 @@ Crowfoot weave
 Shaft weave
 Plain weave ✅
 =
+Which one is Plain weave
+whichweave.png
+* السؤال قريب من كذا احفظ الاسم والشكل
+1
+2 ✅
+3
+=
+=
 Which is the grip length of the flush rivet?
 grip.png
 1
