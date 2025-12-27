@@ -47,7 +47,7 @@ For easy installation
 What is the most significant design improvement for the Unducted Fan (UDF) blades compared to conventional propeller blade? 
 UDF blades are more robust and heavier than propeller blades 
 UDF blades operate subsonically, whereas prop blade tips are supersonic 
-The UDF blades can operate efficiently at airspeed up to Mach ✅
+The UDF blades can operate efficiently at airspeed up to Mach 0.08 ✅
 =
 What is a major restriction of fitting Unducted Fan (UDF) engines into existing airframes? 
 The UDF blades have a large diameter, so cannot be fitted into most under-wing engine pods ✅
