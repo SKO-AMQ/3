@@ -212,3 +212,6 @@ Initiating the arc in TIG welding (GTAW)
 Starting the arc in SMAW (Stick Welding) ✅
 Beginning the heat puddle in MIG welding (GMAW)
 =
+اذا جاك اختار  1and2
+1and2 ✅
+=
