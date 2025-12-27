@@ -1,131 +1,96 @@
 =
-Find the correct statement? 
-Propeller can be operated at high Mach Number 
-Propeller only used for high Mach number. 
-Propellers could not operate at high Mach number ✅
+What is the main difference between an APU and a main aircraft engine ?
+The engine helps to start up the APU and then uses it to generate pneumatic and electricity power
+The APU helps to start the Aircraft engines
+The APU is designed for the start to be initiated and then it will run automatically ✅
 =
-Choose the correct statement 
-UDF, thin blades and sweepback improved efficiency at Hypersonic speeds 
-UDF, thin blades and sweepback improved efficiency at transonic speeds ✅
-Thin and sweepback design only used on aircraft wings 
+What is the primary purpose of an APU 
+To generate the needed power for the instruments
+To allow the aircraft to be self-sufficient on the ground ✅
+To help the aircraft during emergencies
 =
-low-noise open rotor engine offers a due to reduced fuel burn alone. % reduction in overall exhaust emission 
-26% ✅
-50%
-0% 
+Many engine APU's hoist
+Fasteners
+Bearings
+Fittings ✅
 =
-The flight speed of an open rotor powered aircraft is limited by: 
-Propellar speed ✅
-Engine Speed 
-Electrical Motor speed 
+How may a person on the ground become aware of an APU fire warning ? 
+By the light and Sound ✅
+By the cockpit instruments
+By the smell
 =
-How UDF blades are powered? 
-Driven by an electrical Motor installed in engine. 
-Directly and gearlessly by a turbine, driven by hot gas from the engine ✅
-Driven by gearbox 
+What is the purpose of a shroud around the APU fuel supply line ?
+To provide stability to the line
+To eliminate  vibrations
+The fuel supply line is shrouded if it passes through a pressurized area in case the line leaks ✅
 =
-The biggest issue with the UDF, was to make it a simple engine and get the and the ? 
-Reliability up, Maintenance up 
-Reliability down, Maintenance up 
-Reliability up, Maintenance Down ✅
+Which of the following is a possible cause of APU auto shutdown ?
+Overspeed- Actual event or overspeed test ✅
+overheat-APU overheats after a period of time passes
+excessive vibration
 =
-What happen if a conventional turboprops blade tip exceeds the speed of the sound?
-No Effect
-Efficiency will be lost ✅
-Efficiency will be increased 
+When necessary, APU engine cooling before shutdown may be accomplished by
+﻿﻿unloading the generator(s).
+﻿﻿closing the bleed air valve. ✅
+opening the bleed air valve.
 =
-What is the purpose of propellers with two rows of blade spinning in opposite direction for unducted fan? 
-To reduce losses due to "swirt-energy wasted imparting spin to the air behind the airplane ✅
-To Increase losses due to "swirl -energy wasted imparting spin to the air behind the airplane. 
-Propellers with two rows are not used 
+On APU's equipped with a free turbine and load compressor, the primary function of the load compressor is to
+provide bleed air for the aircraft pneumatic systems ✅
+provide air for combustion and cooling in the engine gas patch
+supply the turning force for operation of the APU generator(s)
 =
-Why unducted fan propeller installed on the airplanes tail, no under the wings? 
-Keep noise out of the cabin ✅
-To Keep the cabin cool 
-For easy installation 
+Generally, when maximum APU shaft output power is being used in conjunction with pneumatic power
+electrical loading will be automatically modulated to maintain a safe EGT
+pneumatic loading will be automatically modulated to maintain a safe EGT ✅
+temperature limits and load must be carefully  monitored by the operator to maintain a safe EGT
 =
-What is the most significant design improvement for the Unducted Fan (UDF) blades compared to conventional propeller blade? 
-UDF blades are more robust and heavier than propeller blades 
-UDF blades operate subsonically, whereas prop blade tips are supersonic 
-The UDF blades can operate efficiently at airspeed up to Mach ✅
+Fuel is normally supplied to an APU from 
+the airplane's reserve fuel supply
+the airplane's main fuel supply ✅
+its own independent fuel supply
 =
-What is a major restriction of fitting Unducted Fan (UDF) engines into existing airframes? 
-The UDF blades have a large diameter, so cannot be fitted into most under-wing engine pods ✅
-The increased vibration from the fan blades cannot be tolerated by old-generation airframes. 
-The increased torque of the engine means that extra engine mount structure must fitted 
+frequently, an aircraft's auxiliary power unit (APU) generator 
+is identical to the engine-driven generators ✅
+supplements the aircraft's engine-driven generators during peak loads
+has a higher load capacity than the engine-driven generators
 =
-What are disadvantages of the Unducted Fan (UDF) blades being open, or outside a nacelle structure? 
-The blades are more susceptible to damage from bird strikes 
-The blades are noisier and blade containment is more difficult ✅
-Greater danger to airport workers due to huge volume of jet blast 
+Usually, most of the load placed on an APU occurs when
+an electrical load is placed on the generators).
+﻿﻿the bleed air valve is opened. ✅
+﻿﻿the bleed air valve is closed.
 =
-What is the main concern during research phase? 
-Noise ✅
-Cost 
-Blade something 
+An APU is usually rotated during start by
+a turbine impingement system
+an electric starter ✅
+a pneumatic starter
 =
-Disadvantages of UDF engines 
-1,2,5
-1,3,5 ✅
-1,3,4
+When in operation, the speed of an APU
+is controlled by a cockpit power lever.
+remains at idle and automatically accelerates to rated speed when placed under load.
+remains at or near rated speed regardless of the load condition. ✅
 =
-How to mitigate noise 
-1,2,3,4
-2,3
-2,3,4 ✅
+Frequently, an aircraft's auxiliary power unit (APU) generator
+is identical to the engine-driven generators. ✅
+supplements the aircrafts engine-driven generators duringpeak loads.
+has a higher load capacity than the engine-driven generators.
 =
-main reason for engine development? 
-Fuel effectiveness
-Fuel efficiency ✅
-Full efficiency
+Fuel scheduling during APU start and under varying pneumatic bleed and electrical loads is maintained
+manually through power control lever position.
+automatically by the APU fuel control system. ✅
+automatically by an aircraft main engine fuel control unit.
 =
-ﻓﯿﮫ ﺳﺆال ﻓﯿﮫ 2،1 / 3،1 / 3،2،1 
-1.3
-1.2 ✅
-1.2.3
+The function of an APU air inlet plenum is to
+﻿﻿increase the velocity of the air before entering the compressor.
+﻿﻿decrease the pressure of the air before entering the compressor.
+stabilize the pressure of the air before it enters the compressor. ✅
 =
-Disadvantage
-1.3.5
-1.2.3
-1.2.5 ✅
+Many APU engine hoists:
+Fitting ✅
+Coupling
+Attaching
 =
-اذا جاك السؤال two blade 
-* تحط الاجابه الطويله 
-تحط الاجابه الطويله  ✅
-=
-اذا جاك الجواب less more the seam
-* اختار more
-less
-more ✅
-the seam 
-=
-What is the most significant design improvement for the Unducted Fan (UDF) blades compared to conventional propeller blade? 
-The UDF blades can operate efficiently at airspeed up to Mach ✅
-UDF blades are more robust and heavier than propeller blades 
-UDF blades operate subsonically, whereas prop blade tips are supersoni
-=
-What is a major restriction of fitting Unducted Fan (UDF) engines into existing airframes? 
-The increased vibration from the fan blades cannot be tolerated by old-generation airframes. 
-The increased torque of the engine means that extra engine mount structure must fitted 
-The UDF blades have a large diameter, so cannot be fitted into most under-wing engine pods ✅
-=
-What are disadvantages of the Unducted Fan (UDF) blades being open, or outside a nacelle structure? 
-The blades are more susceptible to damage from bird strikes 
-The blades are noisier and blade containment is more difficult ✅
-Greater danger to airport workers due to huge volume of jet blast 
-=
-What is the main concern during research phase? 
-Cost 
-Noise ✅
-Blade something
-=
-What happen if a conventional turboprops blade tip exceeds the speed of the sound?
-No Effect
-Efficiency will be increased
-Efficiency will be lost ✅
-=
-Why none UDF is mounted in the tail section?
-Propeller have large diameters and cannot be fitted under the wing and landing gear ✅
-Propeller have wide diameters and cannot be placed near the tail assembly
-Propeller have large spans and cannot be located behind the rear fuselage
+How may a person on the ground become aware of an APU fire warning?
+Bell & horn
+Light & Sound ✅
+Light & smoke
 =
