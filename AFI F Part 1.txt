@@ -139,6 +139,3 @@ A. As horsepower decreases, torque increases.
 B. Torque direction is the opposite of rotor blade rotation. ✅
 C. Torque direction is the same as rotor blade rotation.
 =
-اذا جاك اختار  1and2
-1and2 ✅
-=
