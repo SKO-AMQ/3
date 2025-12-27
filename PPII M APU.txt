@@ -9,7 +9,7 @@ To generate the needed power for the instruments
 To allow the aircraft to be self-sufficient on the ground ✅
 To help the aircraft during emergencies
 =
-Many engine APU's hoist :
+Many engine APU's hoist
 Fasteners
 Bearings
 Fittings ✅
@@ -30,9 +30,9 @@ overheat-APU overheats after a period of time passes
 excessive vibration
 =
 When necessary, APU engine cooling before shutdown may be accomplished by
-unloading the generator (s)
-closing the bleed air valve ✅
-opening the bleed air valve
+﻿﻿unloading the generator(s).
+﻿﻿closing the bleed air valve. ✅
+opening the bleed air valve.
 =
 On APU's equipped with a free turbine and load compressor, the primary function of the load compressor is to
 provide bleed air for the aircraft pneumatic systems ✅
@@ -49,40 +49,10 @@ the airplane's reserve fuel supply
 the airplane's main fuel supply ✅
 its own independent fuel supply
 =
-When in operation, the speed of an APU
-is controlled by a cockpit power lever
-remains at idle and automatically accelerates to rated speed when placed under load
-remains at or near rated speed regardless of the load condition ✅
-=
 frequently, an aircraft's auxiliary power unit (APU) generator 
 is identical to the engine-driven generators ✅
 supplements the aircraft's engine-driven generators during peak loads
 has a higher load capacity than the engine-driven generators
-=
-Usually, most of the load placed on an APU occurs when
-the bleed air valve is opened ✅
-the bleed air is closed
-an electrical load is placed on the generator(s)
-=
-The function of an APU air inlet plenum is to
-stabilize the pressure of the air before it enters the compressor ✅
-increase the velocity of the air before entering the compressor
-decrease the pressure of the air before entering the compressor
-=
-An APU is usually rotated during start by
-a turbine impingement system
-an electric starter ✅
-a pneumatic starter
-=
-Fuel scheduling during APU start and under varying pneumatic bleed and electrical loads is maintained
-automatically by the APU fuel control system ✅
-automatically by an aircraft main engine fuel control unit
-manually through power control lever position
-=
-When in operation, the speed of an APU
-is controlled by a cockpit power lever.
-remains at idle and automatically accelerates to rated speed when placed under load.
-remains at or near rated speed regardless of the load condition. ✅
 =
 Usually, most of the load placed on an APU occurs when
 an electrical load is placed on the generators).
@@ -90,29 +60,19 @@ an electrical load is placed on the generators).
 ﻿﻿the bleed air valve is closed.
 =
 An APU is usually rotated during start by
-a turbine impingement system.
-a pneumatic starter.
-an electric starter.
+a turbine impingement system
+an electric starter ✅
+a pneumatic starter
 =
-Generally, when maximum APU shaft output power is being used in conjunction with pneumatic power pneumatic loading will be
-automatically modulated to maintain a safe EGT. ✅
-electrical loading will be automatically modulated to maintain a safe EGT.
-temperature limits and loads must be carefully monitored by the operator to maintain a safe EGT.
-=
-On APU's equipped with a free turbine and load compressor, the primary function of the load compressor is to
-provide air for combustion and cooling in the engine gas path.
-provide bleed air for aircraft pneumatic systems. ✅
-supply the turning force for operation of the APU generator(s).
+When in operation, the speed of an APU
+is controlled by a cockpit power lever.
+remains at idle and automatically accelerates to rated speed when placed under load.
+remains at or near rated speed regardless of the load condition. ✅
 =
 Frequently, an aircraft's auxiliary power unit (APU) generator
 is identical to the engine-driven generators. ✅
 supplements the aircrafts engine-driven generators duringpeak loads.
 has a higher load capacity than the engine-driven generators.
-=
-When necessary, APU engine cooling before shutdown may be accomplished by
-﻿﻿unloading the generator(s).
-﻿﻿closing the bleed air valve. ✅
-opening the bleed air valve.
 =
 Fuel scheduling during APU start and under varying pneumatic bleed and electrical loads is maintained
 manually through power control lever position.
@@ -123,11 +83,6 @@ The function of an APU air inlet plenum is to
 ﻿﻿increase the velocity of the air before entering the compressor.
 ﻿﻿decrease the pressure of the air before entering the compressor.
 stabilize the pressure of the air before it enters the compressor. ✅
-=
-Fuel is normally supplied to an APU from
-its own independent fuel supply.
-the airplane's reserve fuel supply.
-the airplane's main fuel supply. ✅
 =
 Many APU engine hoists:
 Fitting ✅
