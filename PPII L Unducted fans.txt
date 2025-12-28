@@ -190,9 +190,9 @@ Propeller diameter ✅
 Noise levels
 =
 What maintenance issue arises from mounting location of open rotors?
-Cooling problems ✅
+Cooling problems 
 No access to fuel system
-Difficult underwing access
+Difficult underwing access ✅
 =
 What cruise Mach number is optimal for open rotor efficiency?
 0.65
