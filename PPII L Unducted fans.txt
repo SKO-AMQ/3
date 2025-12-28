@@ -124,11 +124,6 @@ What bypass ratio does an ultra-efficient engine aim for?
 10:1
 Extreme (very high) ✅
 =
-What speed could the proposed advanced propeller achieve?
-Mach 0.8 ✅
-Mach 0.6
-Mach 0.5
-=
 Which configuration was used to reduce swirl losses?
 Gearboxes
 Counter-rotating blades ✅
@@ -148,6 +143,11 @@ What innovation allowed Adamson's turbine design to eliminate stators?
 Turbojet assist
 Interlaced counter-rotating turbine stages ✅
 Hybrid gears
+=
+What speed could the proposed advanced propeller achieve?
+Mach 0.8 ✅
+Mach 0.6
+Mach 0.5
 =
 When did the UDF first fly?
 1986 ✅
@@ -209,7 +209,11 @@ Approximate diameter of UDF propellers is:
 2 meters
 3 meters
 =
-j
+What speed could the proposed advanced propeller achieve?
+Mach 0.8 ✅
+Mach 0.6
+Mach 0.5
+=
 Which issue was not insurmountable but noted during flight testing?
 Weight
 Drag 
