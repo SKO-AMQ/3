@@ -239,3 +239,174 @@ Replace all jet engines
 Reduce airline ticket prices
 Achieve low-noise, high-efficiency propulsion ✅
 =
+
+Key of UDF engine
+High noise suppression through full ducted fan Increased blade containment using heavy casings
+Advanced turbine and compressor systems ✅
+=
+first fly in air show 
+1999
+1988✅
+1989
+=
+When developing speed of UDF
+1989
+1982
+1980 ✅
+=
+When was the first flight of a UDF-equipped aircraft?
+1985
+1986 ✅
+1988
+=
+What led to the cancellation of the UDF program in the 1980s?
+Flight failures
+Excessive noise
+Changing economic conditions ✅
+=
+who join GE? 
+GACA
+FAA
+NASA ✅
+=
+reduce wave drag ? 
+add more blades ✅
+less blades
+The same 
+=
+which is NOT an advantage of rotor blade? 
+make flight easier.
+make flight quicker. ✅
+make flight faster.
+=
+فيه سوال اجابتو 
+CAA ✅
+=
+why non mounted on the tail?
+because of dimensions of the wing and landing gear. ✅
+because of dimensions of the tail and landing gear.
+because of dimensions of the wing and tail.
+=
+سوال اجابتو ؟ 
+newer compressor and turbine✅
+=
+optimum fuel efficiency at ? 
+0.80
+0.75✅
+0.70
+=
+What was the main reason for the development of UDF engines in the 1980s?
+Lower emissions
+Improve sound quality
+Reduce fuel consumption ✅
+=
+Which organization led propulsion research in the United States?
+Boeing
+NASA Lewis Research Center ✅
+Airbus
+=
+What does the term "bypass ratio" refer to?
+Fuel efficiency
+Aircraft speed
+Ratio of cold airflow to hot gases ✅
+=
+One of the advantages of the UDF engine is:
+Heavy structure
+No maintenance needed
+High fuel efficiency ✅
+=
+What was unique about the counter-rotating turbine design?
+Better cooling
+No fan required
+No stator blades ✅
+=
+Approximate diameter of UDF propellers is:
+4 meters ✅
+2 meters
+3 meters
+=
+One major disadvantage of UDF engines is:
+Lightweight
+Increased noise ✅
+Fuel waste
+=
+Where were UDF engines typically mounted on the aircraft?
+A) Under the wing
+Inside the fuselage
+On the tail ✅
+=
+What is a key certification challenge for UDF engines?
+CO2 emissions
+Blade containment ✅
+Electrical power
+=
+Why can’t UDF engines be used on most existing aircraft?
+Blade diameter too large ✅
+Needs frequent refueling
+Blades too short
+=
+Which feature helps reduce UDF noise in modern designs?
+Metal-only blades
+Aeroacoustic blade design ✅
+Adding more fans
+=
+What maintenance challenge is posed by UDF mounting?
+Blade heating
+Weight reduction
+Accessibility issues ✅
+=
+What are UDF propeller blades commonly made of?
+Carbon fiber ✅
+Steel
+Aluminum
+=
+How much fuel savings did the Advanced Turboprop Project aim for?
+10%
+20%
+30–35% ✅
+=
+What speed can UDF-powered aircraft cruise at efficiently?
+Mach 0.6
+Mach 0.75–0.8 ✅
+Mach 0.5
+=
+What issue limits UDF speed performance?
+Shock waves at blade tips ✅
+Fan vibration
+Oil pressure
+=
+UDFs are considered more efficient than jets due to:
+Smaller size
+More fuel consumption
+Extreme bypass ratio ✅
+=
+Which part of the engine drives the UDF propellers in a gearless system?
+Electrical generator
+Turbine directly ✅
+Battery
+=
+What impact does UDF use have on flight times?
+Slightly longer flight times ✅
+Flights are faster
+No change in speed
+=
+What is one way designers aim to reduce UDF noise?
+Use of more gearboxes
+Rotor-to-rotor spacing optimization ✅
+Extra fuel injection
+=
+What is a safety concern in case of blade release?
+Oil leaks
+Vibration
+Passenger and system protection ✅
+=
+What modern tools are used to design quieter UDF blades?
+CFD and CAA software ✅
+Manual sketching
+Mechanical drilling
+=
+Which one is not a problem 
+Speed ✅
+Noise 
+Blade containment
+=
