@@ -154,15 +154,66 @@ When did the UDF first fly?
 1980
 1990
 =
-Which issue was not insurmountable but noted during flight testing?
-Weight
-Drag 
-Noise ✅
-=
 At what Mach number did the propeller tips reach in a helical path?
 1.1 ✅
 0.95
 0.8
+=
+What cruise Mach number is optimal for open rotor efficiency?
+0.65
+0.70
+0.75 ✅
+=
+On a 2-hour journey, what is the typical added time from using open rotors?
+1 minute
+5-10 minutes ✅
+15 minutes
+=
+first fly in air show 
+1999
+1988✅
+1989
+=
+When developing speed of UDF
+1989
+1982
+1980 ✅
+=
+When was the first flight of a UDF-equipped aircraft?
+1985
+1986 ✅
+1988
+=
+How much exhaust emission reduction is offered by low-noise open rotors?
+26% ✅
+20%
+10%
+=
+optimum fuel efficiency at ? 
+0.80
+0.75✅
+0.70
+=
+How much fuel savings did the Advanced Turboprop Project aim for?
+10%
+20%
+30–35% ✅
+=
+What speed can UDF-powered aircraft cruise at efficiently?
+Mach 0.6
+Mach 0.75–0.8 ✅
+Mach 0.5
+=
+Approximate diameter of UDF propellers is:
+4 meters ✅
+2 meters
+3 meters
+=
+j
+Which issue was not insurmountable but noted during flight testing?
+Weight
+Drag 
+Noise ✅
 =
 Which of the following is a challenge for open rotor engines?
 High emissions
@@ -179,11 +230,6 @@ Lack of nacelle ✅
 Higher RPM
 Smaller blades
 =
-How often must a blade failure occur to meet certification for open rotors?
-1 in 1,000 flying hours
-1 in 10,000 flying hours
-1 in 100,000,000 flying hours ✅
-=
 Why can't open rotors be installed on most existing aircraft?
 Weight limitations
 Propeller diameter ✅
@@ -194,16 +240,6 @@ Cooling problems
 No access to fuel system
 Difficult underwing access ✅
 =
-What cruise Mach number is optimal for open rotor efficiency?
-0.65
-0.70
-0.75 ✅
-=
-On a 2-hour journey, what is the typical added time from using open rotors?
-1 minute
-5-10 minutes ✅
-15 minutes
-=
 What is a key reason passengers might accept slower flights?
 Environmental benefits ✅
 Lower ticket prices
@@ -213,11 +249,6 @@ Which tools were used in recent blade design optimization?
 Laser cutters
 Fuel test beds
 Wind tunnel and CFD ✅
-=
-How much exhaust emission reduction is offered by low-noise open rotors?
-26% ✅
-20%
-10%
 =
 Which is not a focus of modern UDF blade research?
 Noise reduction
@@ -239,26 +270,10 @@ Replace all jet engines
 Reduce airline ticket prices
 Achieve low-noise, high-efficiency propulsion ✅
 =
-
 Key of UDF engine
 High noise suppression through full ducted fan 
 Increased blade containment using heavy casings
 Advanced turbine and compressor systems ✅
-=
-first fly in air show 
-1999
-1988✅
-1989
-=
-When developing speed of UDF
-1989
-1982
-1980 ✅
-=
-When was the first flight of a UDF-equipped aircraft?
-1985
-1986 ✅
-1988
 =
 What led to the cancellation of the UDF program in the 1980s?
 Flight failures
@@ -291,11 +306,6 @@ because of dimensions of the wing and tail.
 سوال اجابتو ؟ 
 newer compressor and turbine✅
 =
-optimum fuel efficiency at ? 
-0.80
-0.75✅
-0.70
-=
 What was the main reason for the development of UDF engines in the 1980s?
 Lower emissions
 Improve sound quality
@@ -320,11 +330,6 @@ What was unique about the counter-rotating turbine design?
 Better cooling
 No fan required
 No stator blades ✅
-=
-Approximate diameter of UDF propellers is:
-4 meters ✅
-2 meters
-3 meters
 =
 One major disadvantage of UDF engines is:
 Lightweight
@@ -360,16 +365,6 @@ What are UDF propeller blades commonly made of?
 Carbon fiber ✅
 Steel
 Aluminum
-=
-How much fuel savings did the Advanced Turboprop Project aim for?
-10%
-20%
-30–35% ✅
-=
-What speed can UDF-powered aircraft cruise at efficiently?
-Mach 0.6
-Mach 0.75–0.8 ✅
-Mach 0.5
 =
 What issue limits UDF speed performance?
 Shock waves at blade tips ✅
