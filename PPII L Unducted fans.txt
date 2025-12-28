@@ -410,3 +410,8 @@ Speed ✅
 Noise 
 Blade containment
 =
+What material were the UDF blades made from?
+Steel
+Aluminum alloy
+Carbon fiber composite ✅
+=
