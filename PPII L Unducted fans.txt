@@ -241,7 +241,8 @@ Achieve low-noise, high-efficiency propulsion ✅
 =
 
 Key of UDF engine
-High noise suppression through full ducted fan Increased blade containment using heavy casings
+High noise suppression through full ducted fan 
+Increased blade containment using heavy casings
 Advanced turbine and compressor systems ✅
 =
 first fly in air show 
@@ -331,7 +332,7 @@ Increased noise ✅
 Fuel waste
 =
 Where were UDF engines typically mounted on the aircraft?
-A) Under the wing
+Under the wing
 Inside the fuselage
 On the tail ✅
 =
