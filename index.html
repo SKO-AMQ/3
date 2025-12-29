@@ -138,7 +138,7 @@
       <div class="top-brand">
         <div class="name">Alqhtani.</div>
         <div class="sub">دعواتكم ❤️
-          <small>ابو مسفر 👑</small>
+          <small>ابو مسفر الغامدي 👑</small>
           <small>لاتنسى تذاكر البربوير واقرا مهم عشان تعرف وش تذاكر وانشرو الموقع للفائدة</small>
         </div>
       </div>
@@ -308,6 +308,7 @@
         "PPII I Cowl Flaps & Augmenters Part 1": "PPII I Cowl Flaps & Augmenters Part 1.txt",
         "PPII I Cowl Flaps & Augmenters Part 2": "PPII I Cowl Flaps & Augmenters Part 2.txt",
         "PPII L Unducted fans": "PPII L Unducted fans.txt",
+        "PPII L Unducted fans الملف المهم للمراجعه": "PPII L Unducted fans Important one.txt",
         "PPII M APU": "PPII M APU.txt",
         "PPII K Propellers اسئلة البرب المتشابهه": "PPII K Propellers.txt",
         "PPII b Engine Fire Protection": "PPII b Engine Fire Protection.txt",
@@ -474,12 +475,15 @@
       // Order:
       // GEN → (Gen I&K group) → (Gen B group) → others
       // AFI → simple list
-      // AFII / PPII → simple list
+      // AFII / PPII → (PPII I Cowl Flaps & Augmenters group) → (PPII L Unducted fans group) → (PPII b Engine Fire Protection group) → others
       if (currentTrack === "gen") {
         buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
-
-        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K") || n.startsWith("Gen B ")));
+        buildGroup(subs, n => n.startsWith("PPII I Cowl Flaps & Augmenter "), "PPII I Cowl Flaps & Augmenter", subjectList);
+        buildGroup(subs, n => n.startsWith("PPII L Unducted fans "), "PPII L Unducted fans", subjectList);
+        buildGroup(subs, n => n.startsWith("PPII b Engine Fire Protection "), "PPII b Engine Fire Protection", subjectList);
+		
+        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K") || n.startsWith("Gen B ") || n.startsWith("PPII I Cowl Flaps & Augmenters") || n.startsWith("PPII L Unducted fans") || n.startsWith("PPII b Engine Fire Protection") ));
         Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => addLeaf(subs, name));
 
       } else {
