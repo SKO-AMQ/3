@@ -476,14 +476,14 @@
       // GEN → (Gen I&K group) → (Gen B group) → others
       // AFI → simple list
       // AFII / PPII → (PPII I Cowl Flaps & Augmenters group) → (PPII L Unducted fans group) → (PPII b Engine Fire Protection group) → others
-      if (currentTrack === "gen") {
+      if (currentTrack === "gen"||"PPII") {
         buildGroup(subs, n => n.startsWith("Gen I&K"), "Gen I&K", subjectList);
         buildGroup(subs, n => n.startsWith("Gen B "), "Gen B", subjectList);
-        buildGroup(subs, n => n.startsWith("PPII I Cowl Flaps & Augmenter "), "PPII I Cowl Flaps & Augmenter", subjectList);
-        buildGroup(subs, n => n.startsWith("PPII L Unducted fans "), "PPII L Unducted fans", subjectList);
-        buildGroup(subs, n => n.startsWith("PPII b Engine Fire Protection "), "PPII b Engine Fire Protection", subjectList);
+        buildGroup(subs, n => n.startsWith("PPII I "), "PPII I ", subjectList);
+        buildGroup(subs, n => n.startsWith("PPII L "), "PPII L ", subjectList);
+        buildGroup(subs, n => n.startsWith("PPII b "), "PPII b ", subjectList);
 		
-        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K") || n.startsWith("Gen B ") || n.startsWith("PPII I Cowl Flaps & Augmenters") || n.startsWith("PPII L Unducted fans") || n.startsWith("PPII b Engine Fire Protection") ));
+        const grouped = new Set(Object.keys(subs).filter(n => n.startsWith("Gen I&K") || n.startsWith("Gen B ") || n.startsWith("PPII I") || n.startsWith("PPII L") || n.startsWith("PPII b") ));
         Object.keys(subs).filter(n => !grouped.has(n)).forEach(name => addLeaf(subs, name));
 
       } else {
