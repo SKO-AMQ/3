@@ -139,6 +139,55 @@ Turbojet assist
 Interlaced counter-rotating turbine stages ✅
 Hybrid gears
 =
+Key of UDF engine
+* التورباين هو نظام يميز الUDF بعكس الكومبرسر والخيارات الثانيه حاجه عاديه ماتميز النظام
+compressor systems
+blade containment 
+turbine systems ✅
+=
+who join GE? 
+GACA
+FAA
+NASA ✅
+=
+reduce wave drag ? 
+add more blades ✅
+less blades
+The same 
+=
+which is NOT an advantage of rotor blade? 
+make flight easier.
+make flight rapid. 
+make flight faster. ✅
+=
+فيه سوال اجابتو 
+CAA ✅
+=
+why non mounted on the tail?
+because of dimensions of the wing and landing gear. 
+because of dimensions of the tail and landing gear. ✅
+because of dimensions of the wing and tail.
+=
+سوال اجابتو ؟ 
+newer compressor and turbine✅
+=
+What led to the cancellation of the UDF program in the 1980s?
+Flight failures
+Excessive noise
+Changing economic conditions ✅
+=
+What was the main reason for the development of UDF engines in the 1980s?
+* السبب الرئيسي لتطوير النظام لتوفير الوقود
+Lower emissions
+Improve sound quality
+Reduce fuel consumption ✅
+=
+Which one is not a problem 
+* الصيغة جت مختلفه بس السرعه ماتعتبر مشكلة
+Speed ✅
+Noise 
+Blade containment
+=
 What speed could the proposed advanced propeller achieve?
 Mach 0.8 ✅
 Mach 0.6
@@ -269,47 +318,6 @@ Replace all jet engines
 Reduce airline ticket prices
 Achieve low-noise, high-efficiency propulsion ✅
 =
-Key of UDF engine
-High noise suppression through full ducted fan 
-Increased blade containment using heavy casings
-Advanced turbine and compressor systems ✅
-=
-What led to the cancellation of the UDF program in the 1980s?
-Flight failures
-Excessive noise
-Changing economic conditions ✅
-=
-who join GE? 
-GACA
-FAA
-NASA ✅
-=
-reduce wave drag ? 
-add more blades ✅
-less blades
-The same 
-=
-which is NOT an advantage of rotor blade? 
-make flight easier.
-make flight rapid. 
-make flight faster. ✅
-=
-فيه سوال اجابتو 
-CAA ✅
-=
-why non mounted on the tail?
-because of dimensions of the wing and landing gear. ✅
-because of dimensions of the tail and landing gear.
-because of dimensions of the wing and tail.
-=
-سوال اجابتو ؟ 
-newer compressor and turbine✅
-=
-What was the main reason for the development of UDF engines in the 1980s?
-Lower emissions
-Improve sound quality
-Reduce fuel consumption ✅
-=
 Which organization led propulsion research in the United States?
 Boeing
 NASA Lewis Research Center ✅
@@ -336,9 +344,9 @@ Increased noise ✅
 Fuel waste
 =
 Where were UDF engines typically mounted on the aircraft?
-Under the wing
+Under the wing ✅
 Inside the fuselage
-On the tail ✅
+On the tail 
 =
 What is a key certification challenge for UDF engines?
 CO2 emissions
@@ -399,11 +407,6 @@ What modern tools are used to design quieter UDF blades?
 CFD and CAA software ✅
 Manual sketching
 Mechanical drilling
-=
-Which one is not a problem 
-Speed ✅
-Noise 
-Blade containment
 =
 What material were the UDF blades made from?
 Steel
