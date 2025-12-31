@@ -619,26 +619,43 @@
     }
 
     function renderPager(visible) {
-      const total = visible.length; const current = state.current; jumpMenu.innerHTML = "";
-      const label = document.createElement("div"); label.className = "pager-label"; label.textContent = `QUESTION ${current + 1} OF ${total}`; jumpMenu.appendChild(label);
-      const groupSize = 5; const currentQ = current + 1;
-      const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
-      const end = Math.min(start + groupSize - 1, total);
-      const makeBtn = (text, targetIndex, active = false, bookmarked = false) => {
-        const b = document.createElement("button"); b.textContent = text;
-        if (active) b.classList.add("active");
-        if (bookmarked) b.classList.add("bookmark-page");
-        b.addEventListener("click", () => { state.current = targetIndex; render(); });
-        jumpMenu.appendChild(b);
-      };
-      for (let n = start; n <= end; n++) {
-        const realIdx = visible[n - 1];
-        const isBookmarked = state.bookmarks.includes(realIdx);
-        makeBtn(n, n - 1, n === currentQ, isBookmarked);
-      }
-      if (end < total) makeBtn("...", end, false, false);
-      makeBtn("LAST QUESTION", total - 1, false, state.bookmarks.includes(visible[total - 1]));
-    }
+  const total = visible.length;
+  const current = state.current;
+  jumpMenu.innerHTML = "";
+  
+  const label = document.createElement("div");
+  label.className = "pager-label";
+  label.textContent = `QUESTION ${current + 1} OF ${total}`;
+  jumpMenu.appendChild(label);
+  
+  const groupSize = 5;
+  const currentQ = current + 1;
+  const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
+  const end = Math.min(start + groupSize - 1, total);
+  
+  const makeBtn = (text, targetIndex, active = false, bookmarked = false) => {
+    const b = document.createElement("button");
+    b.textContent = text;
+    if (active) b.classList.add("active");
+    if (bookmarked) b.classList.add("bookmark-page");
+    b.addEventListener("click", () => {
+      state.current = targetIndex;
+      render();
+    });
+    jumpMenu.appendChild(b);
+  };
+  
+  for (let n = start; n <= end; n++) {
+    const realIdx = visible[n - 1];
+    const isBookmarked = state.bookmarks.includes(realIdx);
+    makeBtn(n, n - 1, n === currentQ, isBookmarked);
+  }
+  
+  if (end < total) makeBtn("...", end, false, false);
+  
+  // تغيير هذا السطر: استخدام "LAST QUESTION" بدلاً من "LAST"
+  makeBtn("LAST QUESTION", total - 1, false, state.bookmarks.includes(visible[total - 1]));
+}
 
     function renderJumpModal() {
       jumpList.innerHTML = "";
