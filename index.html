@@ -91,9 +91,24 @@
     .big-nav { min-width: 120px; background: #0f172a; border: 1px solid rgba(255,255,255,.05); border-radius: .6rem; padding: .45rem .9rem; font-size: .8rem; color: #fff; cursor: pointer; text-align: center; }
     .big-nav:disabled { opacity: .4; cursor: not-allowed; }
 
-    .pager { display: flex; gap: .3rem; flex-wrap: wrap; justify-content: center; }
-    .pager-label { background: #0f172a; padding: .28rem .6rem; border-radius: .4rem; font-size: .55rem; }
-    .pager button { background: #0f172a; border: 1px solid #0f172a; color: #fff; width: 34px; height: 34px; border-radius: .4rem; cursor: pointer; font-size: .7rem; }
+    .pager { display: flex; gap: .3rem; flex-wrap: wrap; justify-content: center; align-items: center; }
+    .pager-label { background: #0f172a; padding: .28rem .6rem; border-radius: .4rem; font-size: .55rem; white-space: nowrap; }
+    .pager button { 
+      background: #0f172a; 
+      border: 1px solid #0f172a; 
+      color: #fff; 
+      /* إزالة العرض الثابت والسماح بحجم الكلام */
+      padding: 0.35rem 0.7rem; 
+      height: 34px; 
+      border-radius: .4rem; 
+      cursor: pointer; 
+      font-size: .7rem; 
+      white-space: nowrap;
+      min-width: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .pager button.active { background: transparent; border: 1px solid #fff; }
     .pager button.bookmark-page { background: #854d0e; border-color: #eab308; color: #fff; }
 
@@ -127,6 +142,12 @@
       .badge-pill { order: 1; }
       .q-text { font-size: .95rem; }
       .big-nav { min-width: 110px; }
+      .pager button { padding: 0.25rem 0.5rem; height: 30px; font-size: 0.65rem; }
+    }
+    
+    @media (max-width: 480px) {
+      .pager button { padding: 0.2rem 0.4rem; height: 28px; font-size: 0.6rem; }
+      .pager-label { font-size: 0.5rem; padding: 0.2rem 0.4rem; }
     }
   </style>
 </head>
@@ -619,260 +640,9 @@
     }
 
     function renderPager(visible) {
-  const total = visible.length;
-  const current = state.current;
-  jumpMenu.innerHTML = "";
-  
-  const label = document.createElement("div");
-  label.className = "pager-label";
-  label.textContent = `QUESTION ${current + 1} OF ${total}`;
-  jumpMenu.appendChild(label);
-  
-  const groupSize = 5;
-  const currentQ = current + 1;
-  const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
-  const end = Math.min(start + groupSize - 1, total);
-  
-  const makeBtn = (text, targetIndex, active = false, bookmarked = false) => {
-    const b = document.createElement("button");
-    b.textContent = text;
-    if (active) b.classList.add("active");
-    if (bookmarked) b.classList.add("bookmark-page");
-    b.addEventListener("click", () => {
-      state.current = targetIndex;
-      render();
-    });
-    jumpMenu.appendChild(b);
-  };
-  
-  for (let n = start; n <= end; n++) {
-    const realIdx = visible[n - 1];
-    const isBookmarked = state.bookmarks.includes(realIdx);
-    makeBtn(n, n - 1, n === currentQ, isBookmarked);
-  }
-  
-  if (end < total) makeBtn("...", end, false, false);
-  
-  // تغيير هذا السطر: استخدام "LAST QUESTION" بدلاً من "LAST"
-  makeBtn("LAST QUESTION", total - 1, false, state.bookmarks.includes(visible[total - 1]));
-}
-
-    function renderJumpModal() {
-      jumpList.innerHTML = "";
-      const visible = getVisibleOrder();
-      visible.forEach((idx, i) => {
-        const b = document.createElement("button");
-        b.className = "btn" + (state.current === i ? "" : " secondary");
-        b.textContent = i + 1;
-        b.addEventListener("click", () => { state.current = i; jumpOverlay.style.display = "none"; render(); });
-        jumpList.appendChild(b);
-      });
-    }
-
-    function render() {
-      const visible = getVisibleOrder();
-      if (!visible.length) return;
-      if (state.current >= visible.length) state.current = 0;
-      const realIndex = visible[state.current];
-      const q = questions[realIndex];
-
-      qPill.textContent = `Question ${state.current + 1} of ${visible.length}`;
-      questionText.textContent = q.text;
-
-      if (q.images && q.images.length) {
-        questionImages.style.display = "block";
-        questionImages.innerHTML = "";
-        q.images.forEach(src => {
-          const img = document.createElement("img");
-          img.src = src; img.alt = "image";
-          questionImages.appendChild(img);
-        });
-      } else {
-        questionImages.style.display = "none"; questionImages.innerHTML = "";
-      }
-
-      const { correct, wrong, unanswered } = calcSummary();
-      infoChips.innerHTML = `
-        <div class="chip">Total: ${questions.length}</div>
-        <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
-        <div class="chip">Correct: ${correct}</div>
-      `;
-      progressBar.style.width = Math.round(((questions.length - unanswered) / questions.length) * 100) + "%";
-
-      choicesEl.innerHTML = "";
-      const saved = state.answers[realIndex] || {};
-      q.choices.forEach((choice, i) => {
-        const btn = document.createElement("button");
-        btn.className = "choice-btn";
-        btn.innerHTML = `<strong>${i+1}</strong> ${choice.text}`;
-        if (saved[i] === "correct") btn.classList.add("correct");
-        if (saved[i] === "wrong") btn.classList.add("wrong");
-        btn.addEventListener("click", () => {
-          if (!state.answers[realIndex]) state.answers[realIndex] = {};
-          state.answers[realIndex][i] = choice.correct ? "correct" : "wrong";
-          render();
-        });
-        choicesEl.appendChild(btn);
-      });
-
-      bookmarkBtn.classList.toggle("active", state.bookmarks.includes(realIndex));
-      filterBtn.classList.toggle("active", state.view === "bookmarked");
-      reviewBtn.classList.toggle("active", state.view === "wrong");
-
-      prevBtn.disabled = state.current === 0;
-      nextBtn.disabled = state.current === visible.length - 1;
-
-      renderPager(visible);
-      submitBtn.style.display = (state.current === visible.length - 1) ? "inline-block" : "none";
-      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
-      saveProgress();
-    }
-
-    prevBtn.addEventListener("click", () => { const v = getVisibleOrder(); if (state.current > 0) { state.current--; render(); }});
-    nextBtn.addEventListener("click", () => { const v = getVisibleOrder(); if (state.current < v.length - 1) { state.current++; render(); }});
-    submitBtn.addEventListener("click", showCompletion);
-
-    function showCompletion() {
-      const { correct } = calcSummary();
-      const percent = questions.length ? ((correct / questions.length) * 100).toFixed(2) : "0.00";
-      completionTitle.textContent = `Quiz Completed ${percent}%`;
-      completionText.textContent = "You have completed the quiz";
-      completionList.innerHTML = "";
-      questions.forEach((qq, idx) => {
-        const r = document.createElement("div");
-        r.textContent = `${idx + 1}. ${qq.text}`;
-        r.addEventListener("click", () => {
-          completionOverlay.style.display = "none";
-          state.view = "all"; state.current = idx; render();
-        });
-        completionList.appendChild(r);
-      });
-      completionOverlay.style.display = "flex";
-      saveProgress();
-    }
-
-    bookmarkBtn.addEventListener("click", () => {
-      const visible = getVisibleOrder();
-      const realIndex = visible[state.current];
-      const idx = state.bookmarks.indexOf(realIndex);
-      if (idx === -1) state.bookmarks.push(realIndex); else state.bookmarks.splice(idx, 1);
-      render();
-    });
-
-    filterBtn.addEventListener("click", () => {
-      if (state.view === "bookmarked") state.view = "all";
-      else {
-        const has = state.order.filter(i => state.bookmarks.includes(i));
-        if (!has.length) { alert("No bookmarked questions."); return; }
-        state.view = "bookmarked"; state.current = 0;
-      }
-      render();
-    });
-
-    reviewBtn.addEventListener("click", () => {
-      const wrongs = state.order.filter(i => {
-        const r = state.answers[i]; return r && Object.values(r).includes("wrong");
-      });
-      if (!wrongs.length) { alert("No wrong answers."); return; }
-      if (state.view === "wrong") state.view = "all";
-      else { state.view = "wrong"; state.current = 0; }
-      render();
-    });
-
-    document.getElementById("jumpBtn").addEventListener("click", () => { renderJumpModal(); jumpOverlay.style.display = "flex"; });
-    jumpClose.addEventListener("click", () => { jumpOverlay.style.display = "none"; });
-
-    jumpGo.addEventListener("click", () => {
-      const visible = getVisibleOrder();
-      const val = parseInt(jumpInput.value, 10);
-      if (!isNaN(val) && val >= 1 && val <= visible.length) { state.current = val - 1; render(); }
-    });
-
-    function shuffleArray(arr) {
-      for (let i = arr.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]];
-      }
-      return arr;
-    }
-
-    restartBtn.addEventListener("click", () => { restartOverlay.style.display = "flex"; });
-    restartCancel.addEventListener("click", () => { restartOverlay.style.display = "none"; });
-    restartSame.addEventListener("click", () => {
-      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
-      restartOverlay.style.display = "none"; render();
-    });
-    restartShuffle.addEventListener("click", () => {
-      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
-      state.order = shuffleArray([...questions.keys()]); restartOverlay.style.display = "none"; render();
-    });
-
-    againSameBtn.addEventListener("click", () => {
-      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
-      completionOverlay.style.display = "none"; render();
-    });
-    againShuffleBtn.addEventListener("click", () => {
-      state.answers = {}; state.bookmarks = []; state.view = "all"; state.current = 0;
-      state.order = shuffleArray([...questions.keys()]); completionOverlay.style.display = "none"; render();
-    });
-    completionClose.addEventListener("click", () => { completionOverlay.style.display = "none"; });
-
-    /* Totals for top buttons in required order */
-    async function computeHomeTotals() {
-      async function sumFor(prefixRe) {
-        const entries = Object.entries({ ...SUBJECT_FILES.associate, ...SUBJECT_FILES.diploma })
-          .filter(([name]) => prefixRe.test(name));
-        const counts = await Promise.all(entries.map(([, path]) => fetchCount(path)));
-        return counts.reduce((a,b)=>a+b,0);
-      }
-      document.getElementById("genBtn").textContent  = `Gen (${await sumFor(/^Gen\b/i)} q)`;
-      document.getElementById("afiBtn").textContent  = `AFI (${await sumFor(/^AFI\b/i)} q)`;
-      document.getElementById("afiiBtn").textContent = `AFII (${await sumFor(/^AFII\b/i)} q)`;
-      document.getElementById("ppiiBtn").textContent = `PPII (${await sumFor(/^PPII\b/i)} q)`;
-    }
-
-    function tryOpenFromURL() {
-      const url = new URL(window.location.href);
-      const q = url.searchParams.get("quiz");
-      if (!q) return;
-      // Try find it in REGISTRY
-      for (const key of ["gen","afi","afii","ppii"]) {
-        if (REGISTRY[key][q]) {
-          currentTrack = key;
-          showSubjects();
-          currentSubject = q;
-          loadSubjectFromText(REGISTRY[key][q], q);
-          return;
-        }
-      }
-    }
-
-    // IMPORTANT modal – load text (keeps new lines)
-    let importantLoaded = false;
-    importantBtn.addEventListener("click", async () => {
-      importantOverlay.style.display = "flex";
-      if (importantLoaded) return;
-      const tryFiles = ["important.txt", "important.html"];
-      for (const f of tryFiles) {
-        try {
-          const res = await fetch(f);
-          if (res.ok) {
-            const txt = await res.text();
-            importantBody.textContent = txt; // preserve line breaks
-            importantLoaded = true;
-            return;
-          }
-        } catch {}
-      }
-      importantBody.textContent = "ضع ملف important.txt (أو important.html) بجانب هذا الملف لعرض الملاحظات.";
-      importantLoaded = true;
-    });
-    importantClose.addEventListener("click", () => { importantOverlay.style.display = "none"; });
-
-    // init
-    showHome();
-    computeHomeTotals();
-    tryOpenFromURL();
-  </script>
-</body>
-</html>
+      const total = visible.length;
+      const current = state.current;
+      jumpMenu.innerHTML = "";
+      
+      // Label
+      const label = document.createElement("div
