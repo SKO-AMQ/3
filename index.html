@@ -95,7 +95,7 @@
     .pager-label { background: #0f172a; padding: .28rem .6rem; border-radius: .4rem; font-size: .55rem; }
     .pager button { background: #0f172a; border: 1px solid #0f172a; color: #fff; width: 34px; height: 34px; border-radius: .4rem; cursor: pointer; font-size: .7rem; }
     .pager button.active { background: transparent; border: 1px solid #fff; }
-    .pager button.bookmark-question { background: #854d0e; border-color: #eab308; color: #fff; }
+    .pager button.bookmark-page { background: #854d0e; border-color: #eab308; color: #fff; }
 
     .jump-input-wrap { display: flex; gap: .4rem; justify-content: center; align-items: center; font-size: .65rem; }
     .jump-input-wrap input { width: 60px; background: #0f172a; border: 1px solid rgba(255,255,255,.05); border-radius: .35rem; padding: .15rem .3rem; color: #fff; text-align: center; }
@@ -161,7 +161,7 @@
     </div>
 
     <div id="subject-screen" style="display:none">
-      <div class="select-title" id="subjectTitleText">Select quiz</div>
+      <div class="select-title" id="subjectTitleText">Select course</div>
       <div id="subjectList"></div>
     </div>
 
@@ -169,7 +169,6 @@
       <div class="quiz-title-block">
         <h1 id="quizTitle">Gen I&K Part 1</h1>
         <h2 id="quizSubtitle">لاتنسى تذاكر البربوير</h2>
-        <h3 id="quizSubtitle">ابوحمود اقوى ليدر</h3>
         <div class="info-chips" id="infoChips"></div>
       </div>
 
@@ -469,7 +468,7 @@
       setBreadcrumb("track");
 
       const label = currentTrack.toUpperCase();
-      subjectTitleText.textContent = `Select quiz (${label})`;
+      subjectTitleText.textContent = `Select course (${label})`;
       subjectList.innerHTML = "";
       const subs = REGISTRY[currentTrack] || {};
 
@@ -620,14 +619,14 @@
 
     function renderPager(visible) {
       const total = visible.length; const current = state.current; jumpMenu.innerHTML = "";
-      const label = document.createElement("div"); label.className = "pager-label"; label.textContent = `QUESTION ${current + 1} OF ${total}`; jumpMenu.appendChild(label);
+      const label = document.createElement("div"); label.className = "pager-label"; label.textContent = `PAGE ${current + 1} OF ${total}`; jumpMenu.appendChild(label);
       const groupSize = 5; const currentQ = current + 1;
       const start = Math.floor((currentQ - 1) / groupSize) * groupSize + 1;
       const end = Math.min(start + groupSize - 1, total);
       const makeBtn = (text, targetIndex, active = false, bookmarked = false) => {
         const b = document.createElement("button"); b.textContent = text;
         if (active) b.classList.add("active");
-        if (bookmarked) b.classList.add("bookmark-question");
+        if (bookmarked) b.classList.add("bookmark-page");
         b.addEventListener("click", () => { state.current = targetIndex; render(); });
         jumpMenu.appendChild(b);
       };
@@ -637,7 +636,7 @@
         makeBtn(n, n - 1, n === currentQ, isBookmarked);
       }
       if (end < total) makeBtn("...", end, false, false);
-      makeBtn("LAST QUESTION", total - 1, false, state.bookmarks.includes(visible[total - 1]));
+      makeBtn("LAST PAGE", total - 1, false, state.bookmarks.includes(visible[total - 1]));
     }
 
     function renderJumpModal() {
@@ -680,7 +679,7 @@
         <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
         <div class="chip">Correct: ${correct}</div>
       `;
-      progressBar.style.width = Math.round(((questions.length - unanswered - answered) / questions.length) * 100) + "%";
+      progressBar.style.width = Math.round(((questions.length - unanswered) / questions.length) * 100) + "%";
 
       choicesEl.innerHTML = "";
       const saved = state.answers[realIndex] || {};
