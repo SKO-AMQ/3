@@ -64,6 +64,141 @@ Noise ✅
 Cost 
 Blade something 
 =
+Key of UDF engine
+* التورباين هو نظام يميز الUDF بعكس الكومبرسر والخيارات الثانيه حاجه عاديه ماتميز النظام
+compressor systems
+blade containment 
+turbine systems ✅
+=
+who join GE? 
+GACA
+FAA
+NASA ✅
+=
+reduce wave drag ? 
+add more blades ✅
+less blades
+The same 
+=
+which is NOT an advantage of rotor blade? 
+* الاجابه الصح تسهيل الطيران
+make flight easier. ✅
+make flight rapid. 
+make flight quicker. 
+=
+فيه سوال اجابتو 
+CAA ✅
+=
+why non mounted on the tail?
+because of dimensions of the wing and landing gear. 
+because of dimensions of the tail and landing gear. ✅
+because of dimensions of the wing and tail.
+=
+سوال اجابتو ؟ 
+newer compressor and turbine✅
+=
+What led to the cancellation of the UDF program in the 1980s?
+Flight failures
+Excessive noise
+Changing economic conditions ✅
+=
+What was the main reason for the development of UDF engines in the 1980s?
+* السبب الرئيسي لتطوير النظام لتوفير الوقود
+Lower emissions
+Improve sound quality
+Reduce fuel consumption ✅
+=
+Which one is not a problem 
+* الصيغة جت مختلفه بس السرعه ماتعتبر مشكلة
+Speed ✅
+Noise 
+Blade containment
+=
+What speed could the proposed advanced propeller achieve?
+Mach 0.8 ✅
+Mach 0.6
+Mach 0.5
+=
+At what Mach number did the propeller tips reach in a helical path?
+1.1 ✅
+0.95
+0.8
+=
+What cruise Mach number is optimal for open rotor efficiency?
+0.65
+0.70
+0.75 ✅
+=
+On a 2-hour journey, what is the typical added time from using open rotors?
+1 minute
+5-10 minutes ✅
+15 minutes
+=
+When developing speed of UDF
+* تطوير السرعه كان في 1980
+1989
+1986
+1980 ✅
+=
+When was the first flight of a UDF-equipped aircraft?
+* الرحله الاولة كانت 1986
+1985
+1986 ✅
+1988
+=
+first fly in air show 
+* اول عرض جوي كان في 88
+1986
+1988✅
+1982
+=
+How much exhaust emission reduction is offered by low-noise open rotors?
+26% ✅
+20%
+10%
+=
+optimum fuel efficiency at ? 
+* UDF يعطي أفضل كفاءة عند 0.75
+0.80
+0.75✅
+0.70
+=
+What speed can UDF-powered aircraft cruise at efficiently?
+* UDF يعطي أفضل كفاءة عند 0.75
+Mach 0.8
+Mach 0.75 ✅
+Mach 0.7
+=
+What speed could the proposed advanced propeller achieve?
+Mach 0.8 ✅
+Mach 0.6
+Mach 0.5
+=
+How much fuel savings did the Advanced Turboprop Project aim for?
+10%
+20%
+30–35% ✅
+=
+Which of the following is a challenge for open rotor engines?
+High emissions
+Noise and blade containment ✅
+Low fuel efficiency
+=
+What is the overall goal of modern UDF development?
+Replace all jet engines
+Reduce airline ticket prices
+Achieve low-noise, high-efficiency propulsion ✅
+=
+Approximate diameter of UDF propellers is:
+4 meters ✅
+2 meters
+3 meters
+=
+Which issue was not insurmountable but noted during flight testing?
+Weight
+Drag 
+Noise ✅
+=
 Disadvantages of UDF engines 
 1,2,5
 1,3,5 ✅
@@ -139,135 +274,6 @@ Turbojet assist
 Interlaced counter-rotating turbine stages ✅
 Hybrid gears
 =
-Key of UDF engine
-* التورباين هو نظام يميز الUDF بعكس الكومبرسر والخيارات الثانيه حاجه عاديه ماتميز النظام
-compressor systems
-blade containment 
-turbine systems ✅
-=
-who join GE? 
-GACA
-FAA
-NASA ✅
-=
-reduce wave drag ? 
-add more blades ✅
-less blades
-The same 
-=
-which is NOT an advantage of rotor blade? 
-make flight easier.
-make flight rapid. 
-make flight faster. ✅
-=
-فيه سوال اجابتو 
-CAA ✅
-=
-why non mounted on the tail?
-because of dimensions of the wing and landing gear. 
-because of dimensions of the tail and landing gear. ✅
-because of dimensions of the wing and tail.
-=
-سوال اجابتو ؟ 
-newer compressor and turbine✅
-=
-What led to the cancellation of the UDF program in the 1980s?
-Flight failures
-Excessive noise
-Changing economic conditions ✅
-=
-What was the main reason for the development of UDF engines in the 1980s?
-* السبب الرئيسي لتطوير النظام لتوفير الوقود
-Lower emissions
-Improve sound quality
-Reduce fuel consumption ✅
-=
-Which one is not a problem 
-* الصيغة جت مختلفه بس السرعه ماتعتبر مشكلة
-Speed ✅
-Noise 
-Blade containment
-=
-What speed could the proposed advanced propeller achieve?
-Mach 0.8 ✅
-Mach 0.6
-Mach 0.5
-=
-When did the UDF first fly?
-1986 ✅
-1980
-1990
-=
-At what Mach number did the propeller tips reach in a helical path?
-1.1 ✅
-0.95
-0.8
-=
-What cruise Mach number is optimal for open rotor efficiency?
-0.65
-0.70
-0.75 ✅
-=
-On a 2-hour journey, what is the typical added time from using open rotors?
-1 minute
-5-10 minutes ✅
-15 minutes
-=
-first fly in air show 
-1999
-1988✅
-1989
-=
-When developing speed of UDF
-1989
-1982
-1980 ✅
-=
-When was the first flight of a UDF-equipped aircraft?
-1985
-1986 ✅
-1988
-=
-How much exhaust emission reduction is offered by low-noise open rotors?
-26% ✅
-20%
-10%
-=
-optimum fuel efficiency at ? 
-0.80
-0.75✅
-0.70
-=
-How much fuel savings did the Advanced Turboprop Project aim for?
-10%
-20%
-30–35% ✅
-=
-What speed can UDF-powered aircraft cruise at efficiently?
-Mach 0.6
-Mach 0.75–0.8 ✅
-Mach 0.5
-=
-Approximate diameter of UDF propellers is:
-4 meters ✅
-2 meters
-3 meters
-=
-What speed could the proposed advanced propeller achieve?
-Mach 0.8 ✅
-Mach 0.6
-Mach 0.5
-=
-Which issue was not insurmountable but noted during flight testing?
-Weight
-Drag 
-Noise ✅
-=
-Which of the following is a challenge for open rotor engines?
-High emissions
-Noise and blade containment ✅
-Low fuel efficiency
-=
 Which advantage is attributed to new combustor designs?
 Better flight control
 Increased drag 
@@ -312,16 +318,6 @@ Which design element helps with pylon wake mitigation?
 Shorter blades
 Rotor spacing optimization ✅
 Reduced fuel use
-=
-What is the overall goal of modern UDF development?
-Replace all jet engines
-Reduce airline ticket prices
-Achieve low-noise, high-efficiency propulsion ✅
-=
-Which organization led propulsion research in the United States?
-Boeing
-NASA Lewis Research Center ✅
-Airbus
 =
 What does the term "bypass ratio" refer to?
 Fuel efficiency
