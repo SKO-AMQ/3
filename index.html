@@ -615,7 +615,7 @@
         if (Object.values(ans).includes("correct")) correct++;
         else if (Object.values(ans).includes("wrong")) wrong++;
       }
-      return { correct, wrong, unanswered: questions.length - correct - wrong };
+      return { correct, wrong, answered, unanswered: questions.length - correct - wrong };
     }
 
     function renderPager(visible) {
@@ -674,7 +674,7 @@
         questionImages.style.display = "none"; questionImages.innerHTML = "";
       }
 
-      const { correct, wrong, unanswered } = calcSummary();
+      const { correct, wrong, answered, unanswered } = calcSummary();
       infoChips.innerHTML = `
         <div class="chip">Total: ${questions.length}</div>
         <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
@@ -707,7 +707,7 @@
 
       renderPager(visible);
       submitBtn.style.display = (state.current === visible.length - 1) ? "inline-block" : "none";
-      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
+      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${answered} answered, ${unanswered} unanswered`;
       saveProgress();
     }
 
