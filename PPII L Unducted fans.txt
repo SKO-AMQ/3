@@ -147,7 +147,7 @@ When was the first flight of a UDF-equipped aircraft?
 1988
 =
 first fly in air show 
-* اول عرض جوي كان في 88
+* اول عرض جوي كان في 1988
 1986
 1988✅
 1982
@@ -409,3 +409,4 @@ Steel
 Aluminum alloy
 Carbon fiber composite ✅
 =
+
