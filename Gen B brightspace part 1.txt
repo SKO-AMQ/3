@@ -9,16 +9,19 @@ List of draftsmen who assisted in fabrication or assembly of a component or syst
 List of drawing equipment's necessary for the fabrication or assembly of a component or system.
 =
 Which class of drawing is a description an object made up of two or more parts?
+* مهمم
 Detail Drawing.
 Installation Drawing.
 Assembly Drawing. ✅
 =
 What does a fuselage station 185 indicate?
+* مهمم
 A location 185 inches from the stabilizer.
 A location 185 inches from the datum. ✅
 A location 185 inches from the cockpit. 
 =
 Name the three classes of drawings.
+* مهمم
 Detail, Assembly, Installation ✅
 Installation, Complete, Accumulated.
 Detail, Narrow, Slight.
@@ -65,6 +68,7 @@ Revolved Section. ✅
 Full Section. 
 =
 What is used to illustrate a particular sequence, or flow of events?
+* مهمم
 Block Diagram.
 Fuselage Station.
 Flowchart. ✅
