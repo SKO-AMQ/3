@@ -9,6 +9,12 @@ Steel
 Wood
 Cast Iron ✅
 =
+Identify material symbol in the above figure
+steel.png
+Cast Iron
+Wood
+Steel ✅
+=
 Choose the correct statement.
 Purpose of drawing number is for quick identification. ✅
 Drawing number doesn't appear in a drawing.
@@ -49,12 +55,6 @@ The reference number that appear in title block usually refer to?
 Number of other prints. ✅
 Number of draftsman.
 Number of revision.
-=
-Identify material symbol in the above figure
-steel.png
-Cast Iron
-Wood
-Steel ✅
 =
 Which line indicates invisible edges or contours?
 Hidden lines ✅
@@ -123,5 +123,5 @@ How many digits are there in a universal drawing number system?
 * مهمم
 Six OR Seven ✅
 Four OR Five
- hree OR Four
+hree OR Four
 =
