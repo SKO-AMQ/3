@@ -674,7 +674,7 @@
         questionImages.style.display = "none"; questionImages.innerHTML = "";
       }
 
-      const { correct, wrong, answered, unanswered } = calcSummary();
+      const { correct, wrong, unanswered } = calcSummary();
       infoChips.innerHTML = `
         <div class="chip">Total: ${questions.length}</div>
         <div class="chip">Bookmarked: ${state.bookmarks.length}</div>
@@ -707,7 +707,7 @@
 
       renderPager(visible);
       submitBtn.style.display = (state.current === visible.length - 1) ? "inline-block" : "none";
-      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${answered} answered, ${unanswered} unanswered`;
+      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong,  ${unanswered} unanswered`;
       saveProgress();
     }
 
