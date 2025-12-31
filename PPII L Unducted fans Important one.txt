@@ -50,15 +50,15 @@ When developing speed of UDF
 =
 When was the first flight of a UDF-equipped aircraft?
 * الرحله الاولة كانت 1986
-1985
 1986 ✅
+1985
 1988
 =
 first fly in air show 
 * اول عرض جوي كان في 1988
 1986
-1988✅
 1982
+1988✅
 =
 Disadvantages of UDF engines 
 1,2,5
@@ -219,4 +219,5 @@ No Effect
 Efficiency will be lost ✅
 Efficiency will be increased 
 =
+
 
