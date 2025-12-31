@@ -161,7 +161,7 @@
     </div>
 
     <div id="subject-screen" style="display:none">
-      <div class="select-title" id="subjectTitleText">Select course</div>
+      <div class="select-title" id="subjectTitleText">Select Quiz</div>
       <div id="subjectList"></div>
     </div>
 
@@ -469,7 +469,7 @@
       setBreadcrumb("track");
 
       const label = currentTrack.toUpperCase();
-      subjectTitleText.textContent = `Select quiz (${label})`;
+      subjectTitleText.textContent = `Select course (${label})`;
       subjectList.innerHTML = "";
       const subs = REGISTRY[currentTrack] || {};
 
@@ -615,7 +615,7 @@
         if (Object.values(ans).includes("correct")) correct++;
         else if (Object.values(ans).includes("wrong")) wrong++;
       }
-      return { correct, wrong, answered, unanswered: questions.length - correct - wrong };
+      return { correct, wrong, unanswered: questions.length - correct - wrong };
     }
 
     function renderPager(visible) {
@@ -707,7 +707,7 @@
 
       renderPager(visible);
       submitBtn.style.display = (state.current === visible.length - 1) ? "inline-block" : "none";
-      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong,  ${unanswered} unanswered`;
+      summaryBox.textContent = `Progress: ${correct} correct, ${wrong} wrong, ${unanswered} unanswered`;
       saveProgress();
     }
 
