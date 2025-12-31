@@ -70,11 +70,6 @@ The amount of force applied to rope A to lift the weight is:
 15lb ✅
 20lb
 =
-If the volume of a confined gas is double (without the addition of more gas), assuming the temperature remains constant, the pressure will:
- increase in direct proportion to the volume increase.
- remain the same.
- be reduced to one-half it original value ✅
-=
 Potential energy is:
 * مهم
  energy in motion.
@@ -147,7 +142,14 @@ We need to calculate the acceleration of an airplane traveling at 300 mph. The p
 300 mph/s
 10 mph/s ✅
 =
+If the volume of a confined gas is double (without the addition of more gas), assuming the temperature remains constant, the pressure will:
+* مهم
+ increase in direct proportion to the volume increase.
+ remain the same.
+ be reduced to one-half it original value ✅
+=
 The elevator attached to the horizontal stabilizer is a type of flight control or directional control for the:
+* مهم
  vertical axis.
  lateral axis. ✅
  longitudinal axis.
