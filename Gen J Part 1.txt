@@ -4,21 +4,6 @@ An increase in the speed at which an aerofoil passes through the air, increases 
  the increased speed of the airflow creates a lesser pressure differential between the upper and lower surfaces.
  the increased velocity of the relative wind increases the angle of attack.
 =
-The elevator attached to the horizontal stabilizer is a type of flight control or directional control for the:
- vertical axis.
- lateral axis. ✅
- longitudinal axis.
-=
-The ailerons or the spoilers on a jet transport are types of flight controls or lateral control for the:
- Vertical axis.
- Lateral axis.
- Longitudinal axis. ✅
-=
-The rudder is a type of flight control or directional control for the:
- vertical axis. ✅
- lateral axis.
- longitudinal axis.
-=
 What type of stability for an airplane involves the tendency for the nose to pitch up or pitch down, rotating around the lateral axis?
 * مهم
 Lateral stability.
@@ -43,43 +28,8 @@ Relative humidity.
 Dewpoint.
 Absolute humidity. ✅
 =
-The type of stress that can cause an object to become distorted or change its shape is:
- Torsion ✅
- Strain
- Bending
-=
-The term that best describes the approach of the boundary layer to the centre of the wing that begins to lose speed due to skin friction and becomes thicker and turbulent is:
- transition point. ✅
- turbulent layer.
- laminar layer.
-=
-In physics, which of the following factors are necessary to determine power?
-*1 Force exerted
-*2 Distance moved
-*3 Time required
- 1 and 2.
- 2 and 3.
- 1,2 and 3. ✅
-=
-The purpose of an aircraft wind dihedral is to:
- increase lateral stability. ✅
- increase longitudinal stability
- increase lift coefficient of the wing.
-=
-Which statement concerning Bernoulli's principle is true?
- The pressure of a fluid increases at points where the velocity of the fluid increases.
- The pressure of a fluid decreases at pointes where the velocity of the fluid increases. ✅
- It applies only to gases.
-=
-Which type of tabs move in the opposite direction of the trailing edge?
-*1 Anti-servo ta
-*2 Servo ta
-*3 Balance ta
- 1 & 2.
- 1 & 3.
- 2 & 3. ✅
-=
 What is the acceleration due to gravity on Earth?
+* مهم
  32.2 ft/s² ✅
  22.2 ft/s²
  Doesn’t fall by gravity
@@ -95,16 +45,6 @@ If a double-acting actuating cylinder in a 3,000 PSI system has a piston with a 
  9000 lbs.
  6000 lbs. ✅
  3000 Ibs.
-=
-_______is the type of stress that triesto pull the object apart?
- Compression
- Shear
- Tension ✅
-=
-Identify which anti-torque system of a helicopter presents the least amount of risk to personnel on the ground and creates less drag in flight.
- NOTAR. ✅
- Fenestron
- Tail rotor
 =
 Which of the following is not a kind of friction?
 * مهم
@@ -124,17 +64,8 @@ Which of the following is not a characteristic of matter?
  Impenetrability
  Energy ✅
 =
-Which type of wave is not a shock wave?
- Expansion. ✅
- Oblique
- Normal
-=
-Decibels are a form of measurement for:
- Mach numbers
- Sound intensity ✅
- Wave motion 
-=
 The amount of force applied to rope A to lift the weight is:
+* مهم
 12lb
 15lb ✅
 20lb
@@ -156,57 +87,11 @@ How much work input is required to lower (not drop) a 120-pound weight from the 
  360 foot-pounds. ✅
  40 foot-pounds
 =
-Thermal expansion is very slight in:
-gases
-liquids
-solids ✅
-=
 Name four of the seven main components of a helicopter?
 * مهم
  Landing gear, transmission, tail rotor, stabilator.
  Cabin, tail boom, transmission, powerplant. ✅
  Blades, tail rotor, landing gear, tail boom.
-=
-All are methods of controlling boundary layer except:
- air suction through small holes on the wing's upper surface.
- wing leading edge slots.
- wing tip generators. ✅
-=
-Which term below is best described by: 'as the velocity of a fluid increases, the static pressure of that fluid will decrease, provided there is no energy added or energy taken away'?
- Bernoulli's Principle. ✅
- Newton's Third Law.
- Pascal's Law.
-=
-The rotor system on a helicopter that has blades which are rigidly attached to the hub with the blades and a hub able to teeter like a seesaw is the:
- rigid rotor system.
- fully articulated rotor system
- semi-rigid rotor system ✅
-=
-Which statement concerning heat and/or temperature is true?
- There is an inverse relationship between temperature and heat.
- Temperature is a measure of the kinetic energy of the molecules of any substance. ✅
- Temperature is a measure of the potential energy of the molecules of any substance.
-=
-Which of the following is Newton's First Law of Motion, generally termed the Law of Inertia?
- Every action has an equal and opposite reaction.
- Force is proportion alto the product of mass and acceleration.
- Objects at rest tend to remain at rest and objects in motion tend to remain in motion at the same speed and direction, unless acted on by an external force. ✅
-=
-The speed of sound in the atmosphere is affected by variations in which effect the following:
- Sound frequency (cps).
- Ambient temperature. ✅
- Barometric pressure.
-=
-Which stability term represents a small amount of oscillation around both the longitudinal and vertical axes?
- Static stability.
- Dutch Roll. ✅
- Dynamic stability.
-=
-The description below is describing which property of sound energy?
-* When two pieces of matter have the same natural frequency, and one starts to vibrate, that wave energy can be transferred to the other one and cause it to vibrate.
- Resonance. ✅
- Frequency of sound.
- Doppler effect.
 =
 Which of the following is NOT considered a method of heat transfer?
 * مهم
@@ -219,11 +104,6 @@ The speed of sound in the atmosphere
  varies according to the frequency of the sound
  changes with a change in temperature. ✅
  changes with a change in pressure
-=
-What is a hydrometer used for?
- For measuring specific gravity for both liquids, and gases
- For measuring specific gravity of gases.
- For measuring speafic gravity of liquids ✅
 =
 What is standard day atmospheric pressure equal to in pounds per squre inch (psi) and
 * مهم
@@ -267,6 +147,243 @@ We need to calculate the acceleration of an airplane traveling at 300 mph. The p
 300 mph/s
 10 mph/s ✅
 =
+The elevator attached to the horizontal stabilizer is a type of flight control or directional control for the:
+ vertical axis.
+ lateral axis. ✅
+ longitudinal axis.
+=
+What is the unit for measuring force in the English system of measurement?
+* مهم
+ Newton meters ✅
+ Pounds (Ibs) 
+ Newton-pounds
+=
+Newton's Third Law of motion is often called?
+* مهم لانه جا سؤالين عن قوانين نيوتين 
+Momentum.
+Objects at rest tend to stay at rest and objects in motion tend to stay
+The law of action and reaction. ✅
+=
+What formula is used to calculate power?
+* مهم
+ Power = Time X Distance divided by Force
+ Power = Force X Distance divided by Time. ✅
+ Power = Force divided by Distance X Time
+=
+both the volume and the absolute temperature of a confined gas are doubled, the pressure with
+* مهم
+not change ✅
+be halved
+become four times as great
+=
+Aspect ratio of a wing is defined as the ratio of the
+* مهم
+wingspan to the wing root
+square of the chord to the wingspan.
+wingspan to the mean chord ✅
+=
+What is torque?
+* مهم
+ The time rate of doing work.
+ A force that pulls you towards the earth
+ A twisting force that tries to make something rotate ✅
+=
+What are wingtip vortices?
+* مهم
+An airflow that is ahead of the wingtip.
+A spiral or vortex that trails behind the wingtip anytime lift is being produced. ✅
+The air on top of the wing, which is at the higher pressure.
+=
+Based on Newton's second law of motion, the formula to calculate the 
+* مهم
+F = W (Vf _ Vi) / Gt
+F = MA ✅
+F = (Vf _ Vi) / G
+=
+What is force?
+* مهم
+The intensity of an impetus, or the intensity of an input ✅
+The speed of an object in motion
+The volume of a space
+=
+What is matter?
+* مهم
+Matter is a substance that exists only in space
+Matter is a form of energy that powers machines
+Matter is what all things are made of. It's the foundation for any discussion of physics ✅
+=
+  What is mass?   
+* مهم  
+a measure of the object's weight
+a measure of the object's volume
+a measure of the quantity of matter in an object ✅
+=
+What is density?   
+* مهم
+the volume of a substance per unit of mass
+the weight of a substance per unit of volume ✅
+the pressure of a substance per unit of area
+=
+ If the fluid pressure is 800 PSI in a 1/2 inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
+ * مهم
+4,000 pounds.
+8,000 pounds. ✅
+800 pounds.
+=
+ The boiling point of a given liquid varies
+* مهم
+directly with pressure. ✅
+inversely with pressure.
+directly with density.
+=
+ An engine that weighs 350 pounds is removed from an aircraft by means of a mobile hoist. The engine is raised 3 feet above its attachment mount, and the entire assembly is then moved forward 12 feet. A constant force of 70 pounds is required to move the loaded hoist. What is the total work input required to move the hoist?
+* مهم
+840 foot pounds. ✅
+1,890 foot pounds.
+1,050 foot pounds.
+=
+The angle related to the atmosphere is:
+* مهم
+90 ✅
+60
+40
+=
+What is torque as applied to physics?   
+* مهم
+Torque is described as a force acting along a distance. Torque is something that creates twisting and tries to make something rotate. ✅
+Torque is a force acting vertically. Torque creates linear motion.
+Torque is a force acting in opposition to motion. Torque prevents rotation.
+=
+What is pressure?
+* مهم مهم مهم مهم احفظ الاجابة وافهمها لانها فالاخبار جت متشاهبهه
+the amount of energy exerted over time
+the force applied to an object's mass
+the amount of force acting on a specific amount of surface area  ✅
+=
+What are the four forces of tlight?
+* مهم
+Power, Lift, Gravity: and Drag
+Lift, Weight. Thrust, and Drag ✅
+Engine, Gravy, Power, and Lift
+=
+
+The ailerons or the spoilers on a jet transport are types of flight controls or lateral control for the:
+ Vertical axis.
+ Lateral axis.
+ Longitudinal axis. ✅
+=
+The rudder is a type of flight control or directional control for the:
+ vertical axis. ✅
+ lateral axis.
+ longitudinal axis.
+=
+The type of stress that can cause an object to become distorted or change its shape is:
+ Torsion ✅
+ Strain
+ Bending
+=
+The term that best describes the approach of the boundary layer to the centre of the wing that begins to lose speed due to skin friction and becomes thicker and turbulent is:
+ transition point. ✅
+ turbulent layer.
+ laminar layer.
+=
+In physics, which of the following factors are necessary to determine power?
+*1 Force exerted
+*2 Distance moved
+*3 Time required
+ 1 and 2.
+ 2 and 3.
+ 1,2 and 3. ✅
+=
+The purpose of an aircraft wind dihedral is to:
+ increase lateral stability. ✅
+ increase longitudinal stability
+ increase lift coefficient of the wing.
+=
+Which statement concerning Bernoulli's principle is true?
+ The pressure of a fluid increases at points where the velocity of the fluid increases.
+ The pressure of a fluid decreases at pointes where the velocity of the fluid increases. ✅
+ It applies only to gases.
+=
+Which type of tabs move in the opposite direction of the trailing edge?
+*1 Anti-servo ta
+*2 Servo ta
+*3 Balance ta
+ 1 & 2.
+ 1 & 3.
+ 2 & 3. ✅
+=
+_______is the type of stress that triesto pull the object apart?
+ Compression
+ Shear
+ Tension ✅
+=
+Identify which anti-torque system of a helicopter presents the least amount of risk to personnel on the ground and creates less drag in flight.
+ NOTAR. ✅
+ Fenestron
+ Tail rotor
+=
+Which type of wave is not a shock wave?
+ Expansion. ✅
+ Oblique
+ Normal
+=
+Decibels are a form of measurement for:
+ Mach numbers
+ Sound intensity ✅
+ Wave motion 
+=
+Thermal expansion is very slight in:
+gases
+liquids
+solids ✅
+=
+All are methods of controlling boundary layer except:
+ air suction through small holes on the wing's upper surface.
+ wing leading edge slots.
+ wing tip generators. ✅
+=
+Which term below is best described by: 'as the velocity of a fluid increases, the static pressure of that fluid will decrease, provided there is no energy added or energy taken away'?
+ Bernoulli's Principle. ✅
+ Newton's Third Law.
+ Pascal's Law.
+=
+The rotor system on a helicopter that has blades which are rigidly attached to the hub with the blades and a hub able to teeter like a seesaw is the:
+ rigid rotor system.
+ fully articulated rotor system
+ semi-rigid rotor system ✅
+=
+Which statement concerning heat and/or temperature is true?
+ There is an inverse relationship between temperature and heat.
+ Temperature is a measure of the kinetic energy of the molecules of any substance. ✅
+ Temperature is a measure of the potential energy of the molecules of any substance.
+=
+Which of the following is Newton's First Law of Motion, generally termed the Law of Inertia?
+ Every action has an equal and opposite reaction.
+ Force is proportion alto the product of mass and acceleration.
+ Objects at rest tend to remain at rest and objects in motion tend to remain in motion at the same speed and direction, unless acted on by an external force. ✅
+=
+The speed of sound in the atmosphere is affected by variations in which effect the following:
+ Sound frequency (cps).
+ Ambient temperature. ✅
+ Barometric pressure.
+=
+Which stability term represents a small amount of oscillation around both the longitudinal and vertical axes?
+ Static stability.
+ Dutch Roll. ✅
+ Dynamic stability.
+=
+The description below is describing which property of sound energy?
+* When two pieces of matter have the same natural frequency, and one starts to vibrate, that wave energy can be transferred to the other one and cause it to vibrate.
+ Resonance. ✅
+ Frequency of sound.
+ Doppler effect.
+=
+What is a hydrometer used for?
+ For measuring specific gravity for both liquids, and gases
+ For measuring specific gravity of gases.
+ For measuring speafic gravity of liquids ✅
+=
 The speed of sound in the atmosphere is most affected by variations in which of the following?”
     *1.    Sound frequency (cps)
     *2.    Ambient temperature
@@ -274,12 +391,6 @@ The speed of sound in the atmosphere is most affected by variations in which of 
 A 1
 B 2 ✅
 D 3
-=
-What is the unit for measuring force in the English system of measurement?
-* مهم
- Newton meters ✅
- Pounds (Ibs) 
- Newton-pounds
 =
 What is a sound source?
  The disturbances in matter that the human ear cannot detect
@@ -301,95 +412,17 @@ Landing gear, transmission, tail rotor, turrets
 Cabin, tail boorn, transmission, powerplant. ✅
 Fowler flaps, tail rotor, landing gear, tail boor
 =
-Newton's Third Law of motion is often called?
-* مهم لانه جا سؤالين عن قوانين نيوتين 
-Momentum.
-Objects at rest tend to stay at rest and objects in motion tend to stay
-The law of action and reaction. ✅
-=
 What are some examples of chemical energy?
  Frequencies produce heat when they are absorbed by the bodies they surke
  Heat energy from current flowing through any form of resistance
  Explosive effects of gunpowder, the burning of oil or wood ✅
-=
-What formula is used to calculate power?
-* مهم
- Power = Time X Distance divided by Force
- Power = Force X Distance divided by Time. ✅
- Power = Force divided by Distance X Time
-=
-both the volume and the absolute temperature of a confined gas are doubled, the pressure with
-* مهم
-not change ✅
-be halved
-become four times as great
-=
-Aspect ratio of a wing is defined as the ratio of the
-* مهم
-wingspan to the wing root
-square of the chord to the wingspan.
-wingspan to the mean chord ✅
-=
-What is torque?
- The time rate of doing work.
- A force that pulls you towards the earth
- A twisting force that tries to make something rotate ✅
-=
-What are wingtip vortices?
-* مهم
-An airflow that is ahead of the wingtip.
-A spiral or vortex that trails behind the wingtip anytime lift is being produced. ✅
-The air on top of the wing, which is at the higher pressure.
-=
-Based on Newton's second law of motion, the formula to calculate the
-F = W (Vf _ Vi) / Gt
-F = MA ✅
-F = (Vf _ Vi) / G
 =
 The Law of Conservation states:
  Mass cannor be created or destroyed, bue it not possible to change its physical stan O
  Matter can be created or destroyed, but it is not possible to change its physical stace
  Matter cannot be created or destroyed, but it is possible to change is physical state ✅
 =
-What is force?
-The intensity of an impetus, or the intensity of an input ✅
-The speed of an object in motion
-The volume of a space
-=
-What is matter?
-Matter is a substance that exists only in space
-Matter is a form of energy that powers machines
-Matter is what all things are made of. It's the foundation for any discussion of physics ✅
-=
-  What is mass?    
-a measure of the object's weight
-a measure of the object's volume
-a measure of the quantity of matter in an object ✅
-=
-What is density?   
-the volume of a substance per unit of mass
-the weight of a substance per unit of volume ✅
-the pressure of a substance per unit of area
-=
- If the fluid pressure is 800 PSI in a 1/2 inch line supplying an actuating cylinder with a piston area of 10 square inches, the force exerted on the piston will be
- * مهم
-4,000 pounds.
-8,000 pounds. ✅
-800 pounds.
-=
- The boiling point of a given liquid varies
-directly with pressure. ✅
-inversely with pressure.
-directly with density.
-=
- An engine that weighs 350 pounds is removed from an aircraft by means of a mobile hoist. The engine is raised 3 feet above its attachment mount, and the entire assembly is then moved forward 12 feet. A constant force of 70 pounds is required to move the loaded hoist. What is the total work input required to move the hoist?
-* مهم
-840 foot pounds. ✅
-1,890 foot pounds.
-1,050 foot pounds.
-=
 Which formula is used to find the specific gravity of gases?
-
  Specific Gravity = Weight of the gas divided by the weight of an equal volume of air or hydrogen ✅
  Specific Gravity = Weight of the gas divided by the weight of an equal volume of water
  Specific Gravity = Density of the gas divided by the density of nitrogen
@@ -398,12 +431,6 @@ If temperature changes, what changes with it?
 Gravity
 None
 Speed of sound ✅
-=
-The angle related to the atmosphere is:
-* مهم
-90 ✅
-60
-40
 =
 What determines the pitch of sound?
 By the frequency of the sound waves ✅
@@ -415,18 +442,6 @@ Weight=mass x gravity ✅
 Torque= Force x Distance
 Work=Force x Distance
 =
-What is torque as applied to physics?   
-* مهم
-Torque is described as a force acting along a distance. Torque is something that creates twisting and tries to make something rotate. ✅
-Torque is a force acting vertically. Torque creates linear motion.
-Torque is a force acting in opposition to motion. Torque prevents rotation.
-=
-What is pressure?
-* مهم مهم مهم مهم احفظ الاجابة وافهمها لانها فالاخبار جت متشاهبهه
-the amount of energy exerted over time
-the force applied to an object's mass
-the amount of force acting on a specific amount of surface area  ✅
-=
 What is upwash?
 Deflection of the airstream after it has passed over the wing and is leaving the trailing edge ✅
 Deflection for the oncoming airstream, causing it to flow up and over the wing
@@ -436,10 +451,4 @@ Pressure is defined as:
 Force acting on a unit area ✅
 Gravity
 None of the above
-=
-What are the four forces of tlight?
-* مهم
-Power, Lift, Gravity: and Drag
-Lift, Weight. Thrust, and Drag ✅
-Engine, Gravy, Power, and Lift
 =
