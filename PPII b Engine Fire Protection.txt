@@ -49,3 +49,23 @@ Discharge indicator only
 Temperature sensor and warning light
 Pressure indicator and pressure signal. ✅
 =
+How many sensors does the spot detector system use to monitor a fire zone?
+Dual sensors
+Individual sensor. ✅
+Multiple sensors
+=
+What is a complete fire protection system?
+A complete fire protection system includes both a fire detection and a fire extinguishing system. ✅
+A complete fire protection system consists of fire extinguishing and its controls.
+A complete fire protection system includes both fire bottles storage and a fire extinguishing.
+=
+What are the Optical Sensors often referred to as?
+Sensitive Detectors
+Thermocouple Detectors.
+Flame Detectors. ✅
+=
+What action is required by the crew after a single fire loop fault message alert in the cockpit?
+Use extinguish first fire bottle.
+Must shut down the engine.
+A cockpit selector switch disconnects that loop and allows the signal from the other loop alone to activate the fire warning. ✅
+=
