@@ -1,5 +1,6 @@
 =
 During preflight check, if one inoperative ?
+* اول عشر اسئلة فالاختبار الحقيقي كانت قريبه من الصغيه الي موجوده فالاختبار هذا عشان كذا ركز
 Unlike the inoperative one, let the other one trigger the fire. ✅
 Fire warning system will be disabled completely
 Both loops must fail to give warning
@@ -65,6 +66,7 @@ Thermocouple Detectors.
 Flame Detectors. ✅
 =
 What action is required by the crew after a single fire loop fault message alert in the cockpit?
+* اول عشر اسئلة فالاختبار الحقيقي كانت قريبه من الصغيه الي موجوده فالاختبار هذا عشان كذا ركز
 Use extinguish first fire bottle.
 Must shut down the engine.
 A cockpit selector switch disconnects that loop and allows the signal from the other loop alone to activate the fire warning. ✅
