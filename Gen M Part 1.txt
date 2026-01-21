@@ -30,8 +30,8 @@ B. Dirty Dozen Model.
 C. PEAR Model
 =
 The branch of human factors that studies an AMTs ability to quickly solve problems is called:
-A. Cognitive science.
-B. Safety engineering. ✅
+A. Cognitive science. ✅
+B. Safety engineering. 
 C. Clinical psychology.
 =
 Getting applicable training, keeping your knowledge current, using current manuals, asking questions, and asking someone who knows, are all behaviours or safety nets to reduce errors caused by:
