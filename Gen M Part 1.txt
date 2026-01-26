@@ -201,9 +201,9 @@ Experimental ✅
 Clinical
 =
 Which psychologists are concerned with relations between people and work?  
-Organizational Psychology
+Organizational Psychology ✅
 Cognitive Science
-Anthropometrics ✅
+Anthropometrics 
 =
 Which psychology can help individuals deal with stress, coping mechanisms for adverse situations, poor self-image, and accepting criticism from co-workers?
 Anthropometrics
