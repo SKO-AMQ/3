@@ -20,9 +20,9 @@ make in flight trim adjustments possible.
 assist the pilot in moving the control surfaces. ✅
 =
 A freewheeling unit is used in which form of helicopter flight?
-Forward flight. ✅
+Forward flight.
 Hovering flight.
-Autorotation.
+Autorotation. ✅
 =
 What helicopter flight condition is also known as the law of conservation of angular momentum?
 Ground effect.
@@ -80,9 +80,9 @@ Spring-backs. ✅
 Turnbuckles.
 =
 Movement about the longitudinal axis (roll) in a helicopter is effected by movement of the:
-cyclic pitch control.
+cyclic pitch control. ✅
 collective pitch control.
-tail rotor pitch control. ✅
+tail rotor pitch control.
 =
 When the lift of an airfoil increases, the drag will:
 increase while the lift is changing but will return to its original value.
@@ -96,8 +96,8 @@ Bell cranks.
 =
 Placing a piece of cloth around a stainless steel control cable and running it back and forth over the length of the cable is generally a satisfactory method of:
 applying par-al-ketene.
-inspecting for wear or corrosion.
-inspecting for broken wires ✅
+inspecting for wear or corrosion.✅
+inspecting for broken wires.
 =
 Identify the cable that is used in primary control systems and in other place where operation over pulleys is frequent:
 2 (7x7 cable).
@@ -136,6 +136,6 @@ obliquely into the wind.
 =
 Which statement is correct concerning torque effect on helicopters?
 As horsepower decreases, torque increases.
-Torque direction is the opposite of rotor blade rotation. ✅
-Torque direction is the same as rotor blade rotation.
+Torque direction is the opposite of rotor blade rotation. 
+Torque direction is the same as rotor blade rotation. ✅
 =
