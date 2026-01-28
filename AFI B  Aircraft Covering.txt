@@ -20,8 +20,8 @@ from the center section first, then work outwards to the ends.✅
 from each end first, then work inwards to the center.
 =
 Finishing tape (surface tape) is used for what purpose?
-To help prevent "ripple formation" in covering fabric. ✅
-To provide additional wear resistance over the edges of fabric forming structures. 
+To help prevent "ripple formation" in covering fabric. 
+To provide additional wear resistance over the edges of fabric forming structures. ✅
 To provide additional anti-rear resistance under reinforcement tape.
 =
 Prior to covering, wing ribs are anchored in place to prevent movement during the covering process by:
