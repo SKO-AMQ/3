@@ -1,7 +1,7 @@
 =
 Fabric testing using a mechanical punch tester should be done
-on a point of fabric on which all coating layers are intact.
-on a point of fabric where there is a crack or chip in the coatings. ✅
+on a point of fabric on which all coating layers are intact. ✅
+on a point of fabric where there is a crack or chip in the coatings. 
 on a point of fabric that was purposely left uncoated during the covering process to serve as a test point for this purpose.
 =
 A luminum-pigment in dope is used primarily to
