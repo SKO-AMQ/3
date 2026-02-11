@@ -105,8 +105,8 @@ When spraying topcoat or primer, how far is the spray head held from the painted
 Determined by product data sheet based on temperature and viscosity.
 =
 Why are HVLP spray guns considered excellent for painting large aircraft? 
-*الاجابة جت بصيغه قريبه من ذي حاول تفهم
-not require high air pressure ✅
+*الاجابة جت بصيغه قريبه من ذي حاول تفهم - مايحتاج ضغط عالي 
+not require high air pressure ( Low pressure ) ✅ 
 They do not require a designated spray booth
 They do not consume any paint materials
 =
