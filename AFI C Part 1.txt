@@ -146,7 +146,7 @@ Paint filter
 Zahn cup ✅
 Pressure gauge
 =
-When using blushing if humidity 
+Which condition is most likely to cause blushing in a paint finish?
 *بصيغه ثانيه قريبه
 High ✅
 Low 
@@ -154,7 +154,7 @@ Not important
 =
 correct locations for rotorcraft registration marks
 *بصيغه ثانيه قريبه - يتكلم عن موقع الشعار فالهيلكوبتر
-Tail
-Flat
-Body ✅
+Body, Tail ✅
+Wings, Elevator
+Doors, Landing Gear
 =
