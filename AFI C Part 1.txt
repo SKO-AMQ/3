@@ -154,7 +154,7 @@ Not important
 =
 correct locations for rotorcraft registration marks
 *بصيغه ثانيه قريبه - يتكلم عن موقع الشعار فالهيلكوبتر
-Body, Tail ✅
+Cabin, Body, Tail ✅
 Wings, Elevator
 Doors, Landing Gear
 =
