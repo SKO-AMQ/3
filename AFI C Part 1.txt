@@ -141,8 +141,14 @@ Surface preparation (cleaning, etching, drying) ✅
 Applying thinner
 =
 What measures the viscosity of paint?
-*بصيغه ثانيه
+*بصيغه ثانيه قريبه
 Paint filter
 Zahn cup ✅
 Pressure gauge
+=
+When using blushing if humidity 
+*بصيغه ثانيه قريبه
+High ✅
+Low 
+Not important
 =
