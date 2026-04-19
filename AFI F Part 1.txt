@@ -19,11 +19,6 @@ contribute to the static balance of the control surface.
 make in flight trim adjustments possible.
 assist the pilot in moving the control surfaces. ✅
 =
-A freewheeling unit is used in which form of helicopter flight?
-Forward flight.
-Hovering flight.
-Autorotation. ✅
-=
 What helicopter flight condition is also known as the law of conservation of angular momentum?
 Ground effect.
 Coriolis effect. ✅
