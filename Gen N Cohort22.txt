@@ -108,3 +108,8 @@ A fault light will illuminate ✅
 A green system ready light will illuminate
 A cabin seatbelt sign will illuminate
 =
+What is the advantage of RAM?
+You can change the program
+It allows quick access to data ✅
+It saves data when the computer is off
+=
