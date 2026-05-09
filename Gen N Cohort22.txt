@@ -113,3 +113,224 @@ You can change the program
 It allows quick access to data ✅
 It saves data when the computer is off
 =
+=
+How many bits are needed to build a computer system?
+8 or 16 bits
+32 or 64 bits ✅
+128 bits
+=
+Components of an electronic circuit?
+Resistors, capacitors, diodes, transistors ✅
+Screens, keyboards
+Wings and engines
+=
+Main benefit of computers in aircraft?
+Increase weight
+Replace pilot completely
+Improve safety and accuracy ✅
+=
+Meaning of “AI”?
+Attitude Indicator ✅
+Artificial Intelligence
+Air Intake
+=
+Which is correct about ROM?
+Loses data when power off
+Easy to change
+Keeps data when power is off ✅
+=
+Basic T top row instruments?
+Compass, VSI
+Radar only
+Airspeed, Attitude, Altimeter ✅
+=
+Which is replaced by PFD?
+Fuel gauge
+ADI, Altimeter, VSI ✅
+Clock
+=
+How many bytes in 1 KB?
+512
+1000
+1024 ✅
+=
+What does ND show?
+Terrain, weather, TCAS ✅
+Cabin crew
+Only speed
+=
+Bits in one byte?
+4
+8 ✅
+16
+=
+Transistors switch between?
+1/0
+HIGH/LOW
+ON/OFF ✅
+=
+8 bits represent how many values?
+64
+100
+256 ✅
+=
+Boeing alert system?
+EICAS ✅
+ECAM
+FMS
+=
+EFIS advantage?
+More mechanical parts
+Reduced cockpit clutter ✅
+No fuel needed
+=
+EFIS layout statement?
+Keeps Basic T layout ✅
+No pilot input
+No analog instruments
+=
+Why CRT not used?
+Too bright
+Big and unreliable ✅
+No GPS support
+=
+Another name for IC?
+Nano system
+Microchip ✅
+Microboard
+=
+Why IC used?
+Miniaturization and efficiency ✅
+Slow processing
+Increase size
+=
+Auxiliary EICAS shows?
+Cabin lights
+Fuel only
+Engine data + maintenance ✅
+=
+IC contains?
+Transistors, resistors, capacitors ✅
+Screens
+Engines
+=
+SGU failure causes?
+Sound only
+Fault light ✅
+Engine stop
+=
+IC disadvantage?
+Easy repair
+Not easily repairable ✅
+Infinite life
+=
+BIOS function?
+Internet
+Store files
+Boot system ✅
+=
+EPROM erased by?
+Heat ✅
+UV light
+Electric signal
+=
+Bits in nibble?
+2
+4 ✅
+8
+=
+EFIS stands for?
+Electronic Flight Instrument System ✅
+Engine Flight System
+Electrical Fuel System
+=
+ADC does what?
+Controls engine
+Converts pitot/static data ✅
+Shows maps
+=
+PFD vs ND?
+Engine vs fuel
+Same function
+Flight data vs navigation ✅
+=
+PROM is?
+Temporary memory
+Rewritable memory
+One-time programmable memory ✅
+=
+USB uses?
+Flash memory ✅
+RAM
+ROM
+=
+FCC role?
+Fuel control
+Flight control & stability ✅
+Cabin pressure
+=
+HDD vs SSD?
+Same
+SSD mechanical
+HDD mechanical, SSD electronic ✅
+=
+Difference RAM and ROM?
+RAM temporary, ROM permanent ✅
+ROM temporary
+Same
+=
+ADC converts data into?
+Engine power
+Fuel levels
+Airspeed, altitude, VSI, Mach ✅
+=
+In a modern large passenger aircraft, what is the purpose of computer systems?
+To control passengers
+To replace the pilot completely
+To help the pilot monitor and control systems ✅
+=
+What is another name for an integrated circuit?
+Nanoboard
+Microship
+Microchip ✅
+=
+Why are integrated circuits used in modern computers?
+To keep systems small and efficient ✅
+To make systems bigger
+To reduce speed
+=
+What can be displayed on the auxiliary EICAS?
+Passenger information
+Primary engine data only
+Secondary engine data and system information ✅
+=
+What is one effect of EFIS?
+Reduces analogue instruments ✅
+Increases analogue instruments
+Removes all electronics
+=
+What does an integrated circuit contain?
+Only wires
+Transistors, resistors, and capacitors ✅
+Fuel and oil
+=
+Which instruments were used first in daytime flight?
+Clock and compass ✅
+GPS and radar
+Autopilot
+=
+What will illuminate if an SGU failure is detected?
+Navigation light
+Cabin light
+Fault light ✅
+=
+What is displayed on the MFD?
+Navigation, weather radar, TCAS, and system data ✅
+Only fuel level
+Passenger seats
+=
+What is true about ROM?
+It can be easily changed anytime
+It deletes data when power is off ✅
+It is pre-programmed and not easily modified
+=
