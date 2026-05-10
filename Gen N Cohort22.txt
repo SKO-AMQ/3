@@ -331,6 +331,6 @@ Passenger seats
 =
 What is true about ROM?
 It can be easily changed anytime
-It deletes data when power is off ✅
-It is pre-programmed and not easily modified
+It deletes data when power is off 
+It is pre-programmed and not easily modified ✅
 =
