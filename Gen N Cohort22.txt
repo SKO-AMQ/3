@@ -230,8 +230,8 @@ Store files
 Boot system ✅
 =
 EPROM erased by?
-Heat ✅
-UV light
+Heat 
+UV light ✅
 Electric signal
 =
 Bits in nibble?
