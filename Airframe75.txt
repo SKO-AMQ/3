@@ -1,0 +1,376 @@
+=
+Airworthiness Directives (ADs) are designed to notify the
+aircraft owners and other interested persons of unsafe conditions and prescribes the condition under which the product may continue to be operated. ✅
+mechanic of an approved alternate method to perform a maintenance task other than specified in the aircraft maintenance manual.
+aircraft owners and operators of methods, techniques, and acceptable practices for inspection and alterations of aircraft.
+=
+The maximum time a 100-hour inspection may be extended is
+12 hours with a special flight permit.
+10 hours with a special flight permit.
+10 hours. ✅
+=
+Which statement about Airworthiness Directives (ADs) is true?
+Compliance with an applicable AD is mandatory and must be recorded in the maintenance records. ✅
+ADs are information alert bulletins issued by the airframe, powerplant, or component manufacturer.
+Compliance with an AD is not mandatory unless the aircraft affected is for hire.
+=
+Radio equipment installations made in accordance with Supplemental Type Certificate data require approval for return to service
+by an airframe and powerplant mechanic.
+by a field approval from the FAA.
+by the holder of an inspection authorization. ✅
+=
+An aircraft that is due an annual inspection may be flown
+if a special permit has been issued for the aircraft. ✅
+for the purpose of performing maintenance.
+for a period of time not to exceed 10 hours.
+=
+Which statement is correct regarding an aircraft that is found to be unairworthy after an annual inspection, due to an item requiring a major repair (assuming approved data is used to accomplish the repair)?
+Only the person who performed the annual inspection may approve the aircraft for return to service, after the major repair.
+An appropriately rated mechanic or repair station may repair the defect and approve the aircraft for return to service.
+An appropriately rated mechanic may accomplish the repair, and an IA may approve the aircraft for return to service. ✅
+=
+Large airplanes and turbine-powered multiengine airplanes operated under 14 CFR Part 91, General Operating and Flight Rules, must be inspected
+in accordance with the progressive inspection requirements of Section 91.409(d).
+in accordance with an inspection program authorized under Part 91, Subpart E. ✅
+in accordance with a continuous airworthiness maintenance program (CAMP program) authorized under Part 91, Subpart E.
+=
+What is the primary purpose of a special inspection?
+To address specific conditions or events that may affect airworthiness. ✅
+To perform routine maintenance tasks at scheduled intervals.
+To replace components based on manufacturer-recommended timelines.
+=
+An aircraft may be flown beyond the 100-hour inspection requirement to reach a place where the inspection can be accomplished, provided it
+has a special flight permit.
+does not exceed 15 flight hours.
+does not exceed 10 flight hours. ✅
+=
+Where would the aviation mechanic find the recommended statement for recording the approval or disapproval for return to service of an aircraft after a 100-hour or annual inspection?
+14 CFR Part 43. ✅
+14 CFR Part 65.
+14 CFR Part 91.
+=
+Which statement is correct when an aircraft has not been approved for return to service after an annual inspection because of several items requiring minor repair?
+An appropriately rated mechanic may repair the defects, but an IA must approve the aircraft for return to service.
+Only the person who performed the annual inspection may approve the aircraft for return to service.
+An appropriately rated mechanic may repair the defects and approve the aircraft for return to service. ✅
+=
+Where would the aviation mechanic find the operating conditions that make a 100-hour inspection mandatory?
+14 CFR Part 91. ✅
+14 CFR Part 43.
+AC 43.13-2.
+=
+The waste water tanks hold
+potable water.
+drinking water.
+gray water. ✅
+=
+When overhauling electrical equipment, all necessary information should be obtained from
+maintenance instructions published by the aircraft and/or equipment manufacturer. ✅
+illustrated parts manual for the aircraft.
+the aircraft maintenance manual.
+=
+For an individual (not a repair station) to conduct a complete 100-hour inspection on an aircraft and approve it for return to service requires a mechanic certificate with
+airframe and powerplant ratings with an inspection authorization.
+airframe and powerplant ratings. ✅
+an airframe rating only.
+=
+Movement about the longitudinal axis (roll) in a helicopter is effected by movement of the
+tail rotor pitch control.
+collective pitch control.
+cyclic pitch control. ✅
+=
+If a single-rotor helicopter is in forward horizontal flight, the angle of attack of the advancing blade is
+more than the retreating blade.
+less than the retreating blade. ✅
+equal to the retreating blade.
+=
+Movement about the lateral axis (pitch) in a helicopter is effected by movement of the
+cyclic pitch control. ✅
+collective pitch control.
+tail rotor pitch control.
+=
+Other than the manufacturer maintenance manual what other document could be used to determine the primary flight control surface deflection for an imported aircraft that is reassembled after shipment?
+Import manual for the aircraft.
+The certificate of airworthiness issued by the importing country.
+Aircraft Type Certificate Data Sheet. ✅
+=
+An aircraft that has experienced a hard landing is brought in for inspection. Which type of airframe inspection is required before the aircraft can be returned to service?
+A special inspection as defined by the manufacturer or FAA guidance. ✅
+A routine 100-hour inspection.
+An annual inspection only if required by the operator.
+=
+A reduction in anti-torque thrust will cause the
+anti-torque system to become more efficient in the hover mode.
+tail to pivot in the direction of torque rotation around the main rotor axis. ✅
+tail to pivot in the opposite direction of torque rotation around the main rotor axis.
+=
+Main rotor blades that do not cone by the same amount during rotation are said to be out of
+balance.
+collective pitch.
+track. ✅
+=
+Which of the following connects vacuum to the deicer boots when the system is not in operation, to hold the boots tightly against the leading edges in flight?
+Distributor valve. ✅
+Ejector.
+Vacuum relief valve.
+=
+The vertical flight of a helicopter is controlled by
+cyclic pitch changes.
+increasing or decreasing the RPM of the main rotor.
+collective pitch changes. ✅
+=
+What are the components used to heat water supply lines and waste water tanks?
+Heater boots and combustion heaters.
+Heater blankets and inline heaters. ✅
+Combustion heaters and fuel heaters.
+=
+One purpose of the freewheeling unit required between the engine and the helicopter transmission is to
+automatically disengage the rotor from the engine in case of an engine failure. ✅
+permit practice of autorotation landings.
+disconnect the rotor from the engine to relieve the starter load.
+=
+Wing dihedral, a rigging consideration on most airplanes of conventional design, contributes most to stability of the airplane about its
+lateral axis.
+longitudinal axis. ✅
+vertical axis.
+=
+Prior to installation of a pneumatic surface-bonded type deicer boots, on the leading edge of the wing, an aviation mechanic should
+rough the surface with a mild abrasive.
+clean the surface with MEK and apply adhesive to the back of the deicer boot and leading edge of the wing.
+remove all paint from the area to be covered by the deicer boot. ✅
+=
+Why are the tubes in deicer boots alternately inflated?
+Alternate inflation of deicer boot tubes does not disturb airflow.
+Alternate inflation of deicer boot tubes keeps disturbance of the airflow to a minimum. ✅
+Alternate inflation of deicer boot tubes relieves the load on the air pump.
+=
+Which of the following is the best means to use when removing wet snow from an aircraft?
+Warm water.
+Hot air.
+A brush or a squeegee. ✅
+=
+A carbon dioxide (CO2) hand-held fire extinguisher may be used on an electrical fire if the
+horn is nonmetallic. ✅
+horn is nonmagnetic.
+handle is insulated.
+=
+Which fire-extinguishing agent is considered to be the least toxic?
+Bromochloromethane (Halon 1011).
+Bromotrifluoromethane (Halon 1301). ✅
+Carbon dioxide.
+=
+What is one check for proper operation of a pitot-static tube heater after replacement?
+Ammeter reading. ✅
+Continuity check of system.
+Voltmeter reading.
+=
+What may be used to clean deicer boots?
+Naphtha.
+Soap and water. ✅
+Unleaded gasoline or Jet A fuel.
+=
+(Refer to Figure 21.) Using the chart, determine the temperature range for a fire-extinguishing agent storage container with a pressure of 330 psig. (Consider 330 psig for both minimum and maximum pressure.)
+47 to 71°F.
+47 to 73°F.
+45 to 73°F. ✅
+=
+Composite fabric material is considered to be the strongest in what direction?
+Fill.
+Warp. ✅
+Bias.
+=
+What is the purpose of a gusset or gusset plate used in the construction and repair of aircraft structures?
+To provide access for inspection of structural attachments.
+To hold structural members in position temporarily until the permanent attachment has been completed.
+To join and reinforce intersecting structural members. ✅
+=
+What is the minimum spacing for a single row of aircraft rivets?
+Three times the diameter of the rivet shank. ✅
+Two times the diameter of the rivet shank.
+Three times the length of the rivet shank.
+=
+A helicopter in forward flight, cruise configuration, changes direction by
+changing rotor RPM.
+tilting the main rotor disk in the desired direction. ✅
+varying the pitch of the main rotor blades.
+=
+Which seals are used with petroleum-base hydraulic fluids?
+Polyester.
+Butyl rubber.
+Buna-N. ✅
+=
+Turbine engine exhaust gas temperatures are measured by using
+ratiometer electrical resistance thermometers.
+chromel/alumel thermocouples. ✅
+iron/constantan thermocouples.
+=
+What is the source of pressure for inflating deicer boots on reciprocating engine aircraft?
+Vane-type pump. ✅
+Piston-type pump.
+Gear-type pump.
+=
+What maintains normal windshield temperature control in an electrically heated windshield system?
+Manually-controlled rheostat.
+Thermal overheat switches.
+Thermistors. ✅
+=
+What system component aids in the prevention of carburetor icing?
+Alcohol injection nozzle.
+Air diverter butterfly. ✅
+Bleed air valve.
+=
+Why should a chemical rain repellant not be used on a dry windshield?
+It will restrict visibility. ✅
+It will etch the glass.
+It will cause glass crazing.
+=
+In what areas of aircraft would the aviation mechanic find a carbon monoxide detector?
+Cargo and baggage compartment.
+Lavatory and engine nacelle.
+Cabin and cockpit. ✅
+=
+The types of fire-extinguishing agents for aircraft interior fires are
+water, dry chemical, methyl bromide, and chlorobromomethane.
+water, carbon dioxide, dry chemical, and halogenated hydrocarbons. ✅
+water, carbon tetrachloride, carbon dioxide, and dry chemical.
+=
+Smoke in the cargo and/or baggage compartment of an aircraft is commonly detected by which instrument?
+Chemical reactor.
+Sniffer.
+Photoelectric cell. ✅
+=
+Built-in aircraft fire-extinguishing systems are ordinarily charged with
+halogenated hydrocarbons and nitrogen ✅
+carbon dioxide and nitrogen.
+sodium bicarbonate and nitrogen.
+=
+If a fire extinguisher cartridge is removed from a discharge valve, it should be
+pressure checked.
+used only on the original discharge valve assembly. ✅
+replaced with a new cartridge.
+=
+If a new safety belt is to be installed in an aircraft, the belt must conform to the strength requirements in which document?
+14 CFR Part 39.
+STC 1282.
+TSO C22. ✅
+=
+Which rivet is used for riveting magnesium alloy structures?
+Monel.
+5056 aluminum. ✅
+Mild steel.
+=
+The auxiliary (tail) rotor of a helicopter permits the pilot to compensate for and/or accomplish which of the following?
+Torque and directional control. ✅
+Altitude and pitch oscillation.
+Airspeed and trimmed flight.
+=
+In rotorcraft external-loading, the ideal location of the cargo release is where the line of action passes
+forward of the center of gravity at all times.
+aft of the center of gravity at all times.
+through the center of gravity at all times. ✅
+=
+The purpose in checking main rotor blade tracking is to determine the
+relative position of the blades during rotation. ✅
+flight path of the blades during rotation.
+extent of an out of balance condition during rotation.
+=
+As the angle of attack of an airfoil increases, the center of pressure will
+remain stationary because both lift and drag components increase proportionally to increased angle of attack.
+move toward the leading edge. ✅
+move toward the trailing edge.
+=
+What physical factors are involved in the aspect ratio of airplane wings?
+Dihedral and angle of attack.
+Thickness and chord.
+Span and chord. ✅
+=
+Buffeting is the intermittent application of forces to a part of an airplane. It is caused by
+incorrect rigging of flaps.
+an unsteady flow from turbulence. ✅
+incorrect rigging of ailerons.
+=
+Fairleads should never deflect the alignment of a cable more than
+3°, ✅
+12°.
+8°.
+=
+(Refer to Figure 9.) When the outside air temperature is 80°F, select the acceptable 3/16 cable tension range.
+130 pounds minimum, 140 pounds maximum.
+117 pounds minimum, 143 pounds maximum. ✅
+120 pounds minimum, 140 pounds maximum.
+=
+What component of an autopilot system applies torque to the control surfaces of an aircraft?
+Controller.
+Gyro.
+Servo. ✅
+=
+Which of the following are found in a laminated integral electrically heated windshield system?
+Autotransformer, heat control relay, heat control toggle switch, and indicating light. ✅
+Autotransformer, heat control relay, heat control toggle switch, 115V DC power supply, and indicating light.
+Heat control relay, heat control toggle switch, 24V DC power supply, and indicating light.
+=
+Which of the following indications occur during a normal operational check of a pneumatic deicer system?
+Relatively steady readings on the pressure gauge and fluctuating readings on the vacuum gauge.
+Pressure and vacuum gauges will fluctuate as the deicer boots inflate and deflate.
+Fluctuating readings on the pressure gauge and relatively steady readings on the vacuum gauge. ✅
+=
+How do deicer boots help remove ice accumulations?
+By allowing only a thin layer of ice to build up.
+By breaking up ice formations. ✅
+By preventing the formation of ice.
+=
+A contaminated carbon monoxide portable test unit may be returned to service by
+cleaning the indicating element with soap and water.
+removing the indicating element from the exposed area for 24 hours.
+removing the indicating element and installing a new indicating element. ✅
+=
+Which of the following conditions will determine acceptance of wood with mineral streaks?
+Local irregularities do not exceed limitations specified for spiral and diagonal grain.
+Careful inspection fails to reveal any decay. ✅
+They produce only a small effect on grain direction.
+=
+Which of the following are benefits of using microballoons when making repairs to laminated honeycomb panels?
+Less density and improved strength-to-weight ratio.
+Greater concentrations of resin in edges and corners.
+Improved strength-to-weight ratio, less density, and lower stress concentrations. ✅
+=
+The strength and stiffness of a properly constructed composite buildup depends primarily on
+the orientation of the plies to the load direction. ✅
+the ability of the fibers to transfer stress to the matrix.
+a 60 percent matrix to 40 percent fiber ratio.
+=
+Fiberglass laminate damage that extends completely through one facing and into the core
+can be repaired by using a typical metal facing patch.
+requires the replacement of the damaged core and facing. ✅
+cannot be repaired.
+=
+Repairing advanced composites using materials and techniques traditionally used for fiberglass repairs is likely to result in
+slightly stronger strength-to-weight ratio.
+restored strength and flexibility.
+an unairworthy repair. ✅
+=
+Which of the following are generally characteristic of aramid fiber (Kevlar) composites?
+Corrosive effect in contact with aluminum and ability to conduct electricity.
+High tensile strength and flexibility. ✅
+High tensile strength and stiffness.
+=
+If no scratches are visible after transparent plastic enclosure materials have been cleaned, their surfaces should be
+covered with a thin coat of wax. ✅
+buffed with a clean, soft, dry cloth.
+polished with rubbing compound applied with a damp cloth.
+=
+When repairing a small hole on a metal stressed skin, the major consideration in the design of the patch should be
+to use rivet spacing similar to a seam in the skin.
+the shear strength of the riveted joint. ✅
+that the bond between the patch and the skin is sufficient to prevent dissimilar metal corrosion.
+=
+Under certain conditions, type A rivets are not used because of their
+tendency toward embrittlement when subjected to vibration.
+unique design that causes crazing or cracking.
+low strength characteristics. ✅
+=
+In a hovering helicopter equipped with a tail rotor, directional control is maintained by
+varying the pitch of the tail rotor blades. ✅
+changing the tail rotor RPM.
+tilting the main rotor disk in the desired direction.
+=
